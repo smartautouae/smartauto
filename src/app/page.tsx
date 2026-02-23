@@ -2,6 +2,7 @@
 
 import { useRef, useState, useEffect } from "react";
 import { motion, useInView, AnimatePresence } from "framer-motion";
+import type { Variants } from "framer-motion";
 import {
   ChevronDown, Star, Shield, Droplets, Sun, Sparkles,
   Car, Award, Users, Clock, ThumbsUp,
@@ -157,15 +158,43 @@ const faqs = [
 
 // ── ANIMATION VARIANTS ─────────────────────────────────────────────────────
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 40 },
-  show: (i = 0) => ({
-    opacity: 1, y: 0,
-    transition: { delay: i * 0.1, duration: 0.6, ease: "easeOut" },
+  show: (i: number = 0) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: i * 0.1,
+      duration: 0.6,
+      ease: [0.25, 0.1, 0.25, 1] as const,
+    },
   }),
 };
-const fadeLeft  = { hidden: { opacity: 0, x: -40 }, show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: "easeOut" } } };
-const fadeRight = { hidden: { opacity: 0, x:  40 }, show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: "easeOut" } } };
+
+const fadeLeft: Variants = {
+  hidden: { opacity: 0, x: -40 },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 0.7,
+      ease: [0.25, 0.1, 0.25, 1] as const,
+    },
+  },
+};
+
+const fadeRight: Variants = {
+  hidden: { opacity: 0, x: 40 },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 0.7,
+      ease: [0.25, 0.1, 0.25, 1] as const,
+    },
+  },
+};
+
 
 // ── UAE OPEN STATUS HOOK ───────────────────────────────────────────────────
 
