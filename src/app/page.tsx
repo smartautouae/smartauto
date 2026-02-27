@@ -611,7 +611,7 @@ export default function Home() {
     style={{ right: "8%", background: "linear-gradient(to bottom,transparent,rgba(201,168,76,0.12),transparent)" }} />
 
   {/* ── CONTENT ── */}
-  <div className="relative z-10 max-w-3xl mx-auto px-6 flex flex-col items-center">
+  <div className="relative z-10 max-w-3xl mx-auto px-6 flex flex-col items-center pt-24">
 
     {/* Badge */}
     <motion.div
