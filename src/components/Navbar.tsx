@@ -7,15 +7,16 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const serviceLinks = [
-  { label: "Car Window Tinting",        href: "/car-window-tinting-dubai" },
-  { label: "Paint Protection Film",     href: "/paint-protection-film-dubai" },
-  { label: "Nano Ceramic Coating",      href: "/nano-ceramic-coating-dubai" },
-  { label: "Car Detailing & Polishing", href: "/car-detailing-dubai" },
-  { label: "Car Wrapping",              href: "/car-wrapping-dubai" },
-  { label: "Villa Window Tinting",      href: "/villa-window-tinting-dubai" },
-  { label: "Commercial Tinting",        href: "/commercial-window-tinting-dubai" },
-  { label: "Switchable Smart Film",     href: "/switchable-smart-glass-film-dubai" },
-  { label: "Surface Protection Film",   href: "/surface-protection-film-dubai" },
+  { label: "Car Window Tinting",        href: "/services/car-window-tinting-dubai-sharjah" },
+  { label: "Paint Protection Film",     href: "/services/paint-protection-film-dubai-sharjah" },
+  { label: "Colour PPF",                href: "/services/colour-ppf-dubai-sharjah" },
+  { label: "Nano Ceramic Coating",      href: "/services/nano-ceramic-coating-dubai-sharjah" },
+  { label: "Car Detailing & Polishing", href: "/services/car-detailing-polishing-dubai-sharjah" },
+  { label: "Car Wrapping",              href: "/services/car-wrapping-dubai-sharjah" },
+  { label: "Villa Window Tinting",      href: "/services/villa-window-tinting-dubai-sharjah" },
+  { label: "Commercial Tinting",        href: "/services/commercial-window-tinting-dubai-sharjah" },
+  { label: "Switchable Smart Film",     href: "/services/switchable-smart-glass-film-dubai-sharjah" },
+  { label: "Surface Protection Film",   href: "/services/surface-protection-film-dubai-sharjah" },
 ];
 
 const navLinks = [
@@ -33,7 +34,7 @@ export default function Navbar() {
   const [menuOpen,           setMenuOpen]            = useState(false);
   const [servicesOpen,       setServicesOpen]        = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen]  = useState(false);
-  const pathname   = usePathname();
+  const pathname    = usePathname();
   const dropdownRef = useRef<HTMLLIElement>(null);
 
   // Scroll listener
@@ -49,7 +50,7 @@ export default function Navbar() {
     setMobileServicesOpen(false);
   }, [pathname]);
 
-  // Hover via pointer events on the li ref — no JSX event handler props
+  // Hover via pointer events on the li ref
   useEffect(() => {
     const el = dropdownRef.current;
     if (!el) return;
@@ -101,7 +102,6 @@ export default function Navbar() {
           {navLinks.map((link) =>
             link.hasDropdown ? (
 
-              // Services dropdown — hover handled via useEffect ref, no JSX handlers
               <li key={link.label} ref={dropdownRef} className="relative">
                 <button
                   className="flex items-center gap-1 text-[13px] tracking-wide transition-colors duration-300 relative cursor-pointer h-20"
@@ -125,7 +125,7 @@ export default function Navbar() {
                 <AnimatePresence>
                   {servicesOpen && (
                     <motion.div
-                      className="absolute top-full left-1/2 -translate-x-1/2 w-64 rounded-2xl overflow-hidden border"
+                      className="absolute top-full left-1/2 -translate-x-1/2 w-72 rounded-2xl overflow-hidden border"
                       style={{
                         background: "rgba(10,10,10,0.97)",
                         backdropFilter: "blur(20px)",
@@ -176,7 +176,6 @@ export default function Navbar() {
 
             ) : (
 
-              // Regular link
               <li key={link.label}>
                 <Link
                   href={link.href}
@@ -226,7 +225,6 @@ export default function Navbar() {
               {navLinks.map((link) =>
                 link.hasDropdown ? (
 
-                  // Mobile services accordion
                   <div key={link.label}>
                     <button
                       className="w-full flex items-center justify-between py-3 text-[15px] transition-colors duration-300 cursor-pointer"
@@ -279,7 +277,6 @@ export default function Navbar() {
 
                 ) : (
 
-                  // Regular mobile link
                   <Link
                     key={link.label}
                     href={link.href}

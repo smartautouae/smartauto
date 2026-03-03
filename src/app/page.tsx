@@ -17,90 +17,99 @@ import Footer from "@/components/Footer";
 const services = [
   {
     icon: Sun,
-    title: "Car Window Tinting",
+    title: "Car Window Tinting Dubai & Sharjah",
     href: "/car-window-tinting-dubai/",
     image: "https://images.unsplash.com/photo-1614026480418-bd11fdb9fa0e?w=600&q=80",
-    description: "Advanced heat-reducing, UV-blocking nano ceramic & carbon tints for superior comfort, privacy, and style. UAE traffic law compliant VLT levels. 5-year warranty.",
-    features: ["Nano ceramic films", "UAE law compliant VLT", "99% UV & heat rejection", "5-year warranty"],
+    description:
+      "Premium nano ceramic & carbon window tints for Dubai & Sharjah — blocks 99% UV rays and heat, keeping your car cool in UAE's extreme climate. 3M, Llumar & SunTek films. UAE RTA law compliant. 5-year warranty.",
+    features: ["Nano ceramic & carbon films", "UAE RTA compliant VLT", "99% UV & heat rejection", "3M · Llumar · SunTek"],
   },
   {
     icon: Building2,
-    title: "Villa Window Tinting",
+    title: "Villa Window Tinting Dubai & Sharjah",
     href: "/villa-window-tinting/",
     image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&q=80",
-    description: "Premium window tinting for villas — enhanced privacy, reduced heat and glare, blocks harmful UV rays, all while adding a sleek and stylish look to your home.",
-    features: ["Maximum privacy films", "Heat & glare reduction", "UV protection", "Aesthetic enhancement"],
+    description:
+      "Residential window tinting for villas and apartments in Dubai & Sharjah — heat control window film that enhances privacy, blocks UV rays, and adds a sleek modern aesthetic to your home.",
+    features: ["Privacy window film", "Heat control window film", "UV & glare reduction", "Dubai & Sharjah villas"],
   },
   {
     icon: Building2,
-    title: "Office & Commercial Tinting",
+    title: "Office & Commercial Window Tinting",
     href: "/commercial/",
     image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80",
-    description: "Advanced window tinting for offices and commercial buildings — reduces heat, blocks UV rays, enhances privacy, and improves energy efficiency and comfort.",
-    features: ["Energy efficiency", "UV & heat blocking", "Enhanced privacy", "Large-scale installation"],
+    description:
+      "Commercial window tinting for offices and buildings across Dubai & Sharjah — energy saving window film that reduces cooling costs, blocks UV, enhances privacy, and improves workplace comfort.",
+    features: ["Energy saving window film", "UV & heat blocking", "Office privacy tinting", "Building-scale install"],
   },
   {
     icon: Shield,
-    title: "Paint Protection Film (PPF)",
+    title: "Paint Protection Film (PPF) Dubai",
     href: "/paint-protection-films/",
     image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600&q=80",
-    description: "An invisible self-healing shield that protects against scratches, chips, and harsh elements — preserving your car's factory finish for years in UAE conditions.",
-    features: ["Self-healing TPU film", "XPEL, SunTek, TotalGard", "Gloss or matte finish", "10-year warranty"],
+    description:
+      "Self-healing PPF in Dubai & Sharjah — invisible TPU film that shields your car from scratches, stone chips, and UAE road hazards. Authorised XPEL PPF, TotalGard & SunTek installer. 10-year warranty.",
+    features: ["XPEL PPF · TotalGard · SunTek", "Self-healing clear PPF", "Gloss & matte PPF Dubai", "10-year warranty"],
   },
   {
     icon: Droplets,
-    title: "Nano Ceramic Coating",
+    title: "Nano Ceramic Coating Dubai & Sharjah",
     href: "/nano-ceramic-coating/",
     image: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80",
-    description: "Ultra-glossy 9H hardness ceramic coating — repels dirt, water, and contaminants while enhancing your car's shine. Built for UAE's extreme heat and UV exposure.",
-    features: ["9H hardness rating", "Hydrophobic surface", "Mirror-like gloss", "2–5 year protection"],
+    description:
+      "9H nano ceramic coating in Dubai & Sharjah — hydrophobic, scratch-resistant shield built for UAE's intense heat, sand, and UV exposure. Gyeon, Gtechniq & IGL coatings. Ideal for luxury cars.",
+    features: ["9H hardness ceramic coating", "Hydrophobic mirror gloss", "Gyeon · Gtechniq · IGL", "2–5 year protection"],
   },
   {
     icon: Sparkles,
-    title: "Car Detailing & Polishing",
+    title: "Car Detailing & Polishing Dubai",
     href: "/car-detailing/",
     image: "https://images.unsplash.com/photo-1616455579100-2ceaa4ec2d50?w=600&q=80",
-    description: "Precision interior and exterior detailing for a spotless, showroom-quality appearance. Paint correction, deep cleaning, engine bay, and full odor elimination.",
-    features: ["Interior deep clean", "Paint correction", "Engine bay cleaning", "Odor elimination"],
+    description:
+      "Professional car detailing in Dubai & Sharjah — interior deep clean, exterior polishing, paint correction, engine bay wash, and odor elimination for a showroom-quality finish at all 4 branches.",
+    features: ["Interior deep clean", "Paint correction Dubai", "Engine bay cleaning", "Full car detailing"],
   },
   {
     icon: Car,
-    title: "Car Wrapping",
+    title: "Car Wrapping Dubai & Sharjah",
     href: "/car-wrapping/",
     image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&q=80",
-    description: "Custom colour-change wraps and finishes for a unique, head-turning look with added paint protection. Matte, gloss, satin, chrome, and bespoke designs.",
-    features: ["Matte, gloss & satin", "Full & partial wraps", "Colour change wraps", "Paint-safe removal"],
+    description:
+      "Vinyl car wrapping in Dubai & Sharjah — colour change car wrap, matte, gloss, satin, chrome wrap, and bespoke custom designs. Full & partial wraps with paint-safe removal guaranteed.",
+    features: ["Colour change car wrap", "Matte & chrome wrap Dubai", "Full & partial vinyl wrap", "Paint-safe removal"],
   },
   {
     icon: Zap,
-    title: "Switchable Smart Film",
+    title: "Switchable Smart Glass Film Dubai",
     href: "/switchable-smart-glass-film/",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-    description: "Innovative switchable smart glass film that lets you control light and privacy dynamically at the touch of a button. Ideal for offices, villas, and luxury vehicles.",
-    features: ["Instant privacy control", "Electric on/off switch", "Energy efficient", "Villas & offices"],
+    description:
+      "Electric smart film for offices, villas, and luxury vehicles in Dubai & Sharjah — switchable smart glass that switches from transparent to fully private at a touch. Energy efficient privacy glass UAE.",
+    features: ["Electric privacy glass UAE", "Instant on/off control", "Smart film for offices", "Smart film for villas"],
   },
   {
     icon: Film,
-    title: "Marble Protection Film",
+    title: "Marble & Surface Protection Film Dubai",
     href: "/stone-protection-film/",
     image: "https://img.kwcdn.com/product/fancy/df615e07-b68c-4e53-8476-814ebe037342.jpg?imageView2/2/w/800/q/70/format/avif",
-    description: "Transparent protective film for surfaces, panels, and stone — guards against chips, scratches, and environmental damage while remaining completely invisible.",
-    features: ["Crystal clear finish", "Stone & panel guard", "Impact resistant", "Easy removal"],
+    description:
+      "Invisible marble protection film and surface protection film for Dubai & Sharjah — guards stone, panels, door edges, and trims from chips, scratches, and daily wear. Crystal clear finish.",
+    features: ["Marble protection film Dubai", "Stone protection film UAE", "Door edge & panel guard", "Impact resistant · Easy removal"],
   },
 ];
 
 const whyFeatures = [
-  { icon: Award,    title: "Expert Services",       description: "Skilled professionals with 10+ years of certified experience in premium car care across UAE." },
-  { icon: Users,    title: "Quality Materials",      description: "Premium coatings, films, and products from world-class brands like XPEL, 3M, Gyeon & TotalGard." },
-  { icon: Clock,    title: "Tailored Solutions",     description: "Custom services for each vehicle and property — no one-size-fits-all approach here." },
-  { icon: ThumbsUp, title: "4 Convenient Branches",  description: "MotorCity, Al Quoz, Mirdif (Dubai) & Sharjah — always a Smart Auto near you." },
+  { icon: Award,    title: "Authorised Installers",    description: "Official installer for XPEL, TotalGard, 3M, Llumar & SunTek — trusted by UAE car owners since 2014." },
+  { icon: Users,    title: "World-Class Products",     description: "Premium PPF, ceramic coatings & window films from globally certified brands — zero compromise on quality." },
+  { icon: Clock,    title: "Free Inspection",          description: "Every service starts with a complimentary vehicle inspection. No hidden charges. Warranty on all work." },
+  { icon: ThumbsUp, title: "4 Branches — Always Near", description: "MotorCity, Al Quoz, Mirdif (Dubai) & Sharjah Central Mall — open every day 11AM to 9PM." },
 ];
 
 const steps = [
-  { num: "01", title: "Book Appointment",  desc: "Call, WhatsApp, or walk into any of our 4 branches in Dubai & Sharjah." },
-  { num: "02", title: "Free Inspection",   desc: "Our certified experts inspect your vehicle and recommend the ideal treatment plan." },
-  { num: "03", title: "Premium Service",   desc: "We apply using top-grade materials with precision — craftsmanship you can see." },
-  { num: "04", title: "Drive Away Happy",  desc: "Leave with a warranty certificate and a car that turns heads everywhere." },
+  { num: "01", title: "Book Your Appointment",  desc: "Call, WhatsApp, or walk into any of our 4 branches in Dubai & Sharjah. No appointment needed for walk-ins." },
+  { num: "02", title: "Free Vehicle Inspection", desc: "Our certified professionals inspect your car and recommend the best window tinting, PPF, or coating plan." },
+  { num: "03", title: "Premium Service Applied", desc: "We use only world-class brands — XPEL, 3M, Llumar, Gyeon — applied with precision by trained technicians." },
+  { num: "04", title: "Drive Away Protected",    desc: "Leave with a manufacturer warranty certificate and a car that looks exceptional — and stays that way." },
 ];
 
 const testimonials = [
@@ -112,48 +121,73 @@ const testimonials = [
   { name: "Jesto Joseph",            role: "Verified Google Review", date: "Oct 2025", rating: 5, text: "Excellent work in tinting — it's crystal clear from inside. I can drive my car now with much more safety and comfort. Highly recommended!" },
 ];
 
-const brands = ["TotalGard", "3M", "XPEL"];
+const brands = ["TotalGard", "3M", "Llumar"];
 
 const branches = [
-  { city: "MotorCity Branch", address: "Detroit Line, Uptown Buildings Foxhill Parking 5, Spinneys Exit, Behind KFC — Dubai, UAE",        mapHref: "https://maps.app.goo.gl/smd7UDESbcqYXq4h7", phone: "+971 55 782 3731" },
-  { city: "Al Quoz Branch",   address: "D16 Road, Al Quoz 4, Warehouse No. 6 / Behind JOTUN Warehouse — Dubai, UAE",                     mapHref: "https://maps.app.goo.gl/iTvk9uV3U27XbzUd7", phone: "+971 54 701 1800" },
-  { city: "Mirdif Branch",    address: "Uptown Mall, Algeria 47 Street Basement Parking, Near Spinneys Apple Parking — Dubai, UAE",       mapHref: "https://maps.app.goo.gl/kcZJj1x3t3wyMRoy9", phone: "+971 55 555 9424" },
-  { city: "Sharjah Branch",   address: "Central Mall, Basement Level 1, Samnan, Halwan — Sharjah, UAE",                                  mapHref: "https://maps.app.goo.gl/un6Gnywt5TdPJSbk7", phone: "+971 55 555 9424" },
+  { city: "MotorCity Branch",  address: "Detroit Line, Uptown Buildings Foxhill Parking 5, Spinneys Exit, Behind KFC — Dubai, UAE",       mapHref: "https://maps.app.goo.gl/smd7UDESbcqYXq4h7", phone: "+971 55 782 3731" },
+  { city: "Al Quoz Branch",    address: "D16 Road, Al Quoz 4, Warehouse No. 6 / Behind JOTUN Warehouse — Dubai, UAE",                    mapHref: "https://maps.app.goo.gl/iTvk9uV3U27XbzUd7", phone: "+971 54 701 1800" },
+  { city: "Mirdif Branch",     address: "Uptown Mall, Algeria 47 Street Basement Parking, Near Spinneys Apple Parking — Dubai, UAE",      mapHref: "https://maps.app.goo.gl/kcZJj1x3t3wyMRoy9", phone: "+971 55 555 9424" },
+  { city: "Sharjah Branch",    address: "Central Mall, Basement Level 1, Samnan, Halwan — Sharjah, UAE",                                 mapHref: "https://maps.app.goo.gl/un6Gnywt5TdPJSbk7", phone: "+971 55 555 9424" },
 ];
 
 const contactItems = [
-  { icon: Phone,     label: "Phone / WhatsApp", value: "+971 55 555 9424",      href: "tel:+971555559424" },
-  { icon: Phone,     label: "Phone 2",          value: "+971 55 782 3731",      href: "tel:+971557823731" },
-  { icon: Mail,      label: "Email",            value: "info@smartautouae.ae",  href: "mailto:info@smartautouae.ae" },
+  { icon: Phone,     label: "Phone / WhatsApp", value: "+971 55 555 9424",     href: "tel:+971555559424" },
+  { icon: Phone,     label: "Phone 2",          value: "+971 55 782 3731",     href: "tel:+971557823731" },
+  { icon: Mail,      label: "Email",            value: "info@smartautouae.ae", href: "mailto:info@smartautouae.ae" },
   { icon: MapPin,    label: "Branches",         value: "4 Locations — Dubai & Sharjah", href: "#branches" },
-  { icon: Instagram, label: "Instagram",        value: "@smartautouae",         href: "https://instagram.com/smartautouae" },
+  { icon: Instagram, label: "Instagram",        value: "@smartautouae",        href: "https://instagram.com/smartautouae" },
 ];
 
 const stripItems = [
   "Car Window Tinting Dubai", "PPF Dubai", "Nano Ceramic Coating UAE",
-  "Car Detailing Dubai", "Villa Tinting Dubai", "Car Wrapping UAE",
-  "Smart Film Dubai", "Commercial Tinting", "Marble Protection Film",
+  "Car Detailing Dubai", "Villa Tinting Sharjah", "Car Wrapping Dubai",
+  "Smart Film Dubai", "Commercial Tinting Sharjah", "Marble Protection Film UAE",
   "Al Quoz · MotorCity · Mirdif · Sharjah",
 ];
 
 const galleryItems = [
-  { category: "Ceramic Coating", before: "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&q=80",  after: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=800&q=80",  label: "BMW 5 Series — Nano Ceramic Coating · Al Quoz" },
-  { category: "PPF",             before: "https://images.unsplash.com/photo-1567449303183-ae0d6ed1498e?w=800&q=80",  after: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=80",  label: "Range Rover — Totalgard PPF · MotorCity Dubai" },
-  { category: "Window Tinting",  before: "https://images.unsplash.com/photo-1548538713-3e1d57b6e562?w=800&q=80",    after: "https://images.unsplash.com/photo-1614026480418-bd11fdb9fa0e?w=800&q=80",    label: "Mercedes C-Class — Nano Ceramic Tint · Mirdif" },
+  { category: "Ceramic Coating", before: "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&q=80",  after: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=800&q=80",  label: "BMW 5 Series — Nano Ceramic Coating · Al Quoz Dubai" },
+  { category: "PPF",             before: "https://images.unsplash.com/photo-1567449303183-ae0d6ed1498e?w=800&q=80",  after: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=80",  label: "Range Rover — TotalGard PPF · MotorCity Dubai" },
+  { category: "Window Tinting",  before: "https://images.unsplash.com/photo-1548538713-3e1d57b6e562?w=800&q=80",    after: "https://images.unsplash.com/photo-1614026480418-bd11fdb9fa0e?w=800&q=80",    label: "Mercedes C-Class — Nano Ceramic Tint · Mirdif Dubai" },
   { category: "Car Wrap",        before: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80",  after: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80",  label: "Porsche Cayenne — Matte Black Wrap · Dubai" },
-  { category: "Detailing",       before: "https://images.unsplash.com/photo-1520390138845-fd2d229dd553?w=800&q=80", after: "https://images.unsplash.com/photo-1616455579100-2ceaa4ec2d50?w=800&q=80", label: "Toyota Camry — Full Detailing · Sharjah Branch" },
+  { category: "Detailing",       before: "https://images.unsplash.com/photo-1520390138845-fd2d229dd553?w=800&q=80", after: "https://images.unsplash.com/photo-1616455579100-2ceaa4ec2d50?w=800&q=80", label: "Toyota Camry — Full Detailing & Polishing · Sharjah Branch" },
 ];
 
 const allCategories = ["All", ...Array.from(new Set(galleryItems.map((g) => g.category)))];
 
 const faqs = [
-  { q: "How much does window tinting cost in Dubai?",       a: "Car window tinting in Dubai starts from AED 299 depending on film type and vehicle size. We offer nano ceramic, carbon, and dyed films — all UAE traffic law compliant. All tints come with a 5-year warranty." },
-  { q: "What is the best PPF for cars in UAE?",             a: "For UAE's extreme heat and harsh roads, self-healing TPU-based films like XPEL, SunTek, and TotalGard are the top choices. Smart Auto UAE is an authorised installer across all 4 branches." },
-  { q: "How long does nano ceramic coating last in Dubai?", a: "A professional nano ceramic coating in Dubai lasts 2–5 years depending on product tier and maintenance. We use 9H hardness coatings from Gyeon, Gtechniq, and IGL — ideal for UAE's harsh climate." },
-  { q: "How many branches does Smart Auto UAE have?",       a: "Smart Auto UAE has 4 branches — MotorCity, Al Quoz, and Mirdif in Dubai, plus a Sharjah branch at Central Mall. All branches are open every day 11AM – 9PM." },
-  { q: "Do you offer villa and commercial window tinting?", a: "Yes! In addition to car tinting, Smart Auto UAE offers premium villa window tinting and commercial/office building tinting across Dubai and Sharjah. We also install switchable smart film for dynamic privacy control." },
-  { q: "How long does a full car wrap take?",               a: "A full vinyl wrap typically takes 2–4 days depending on vehicle size. Partial wraps and accent pieces can be done in 1 day at any of our Dubai or Sharjah branches." },
-  { q: "Is ceramic coating worth it in UAE?",               a: "Absolutely. UAE's intense UV, sandstorms, and extreme heat make ceramic coating one of the best investments for your car. It protects paint, repels water and dust, and keeps your car looking new year-round." },
+  {
+    q: "How much does car window tinting cost in Dubai?",
+    a: "Car window tinting in Dubai starts from AED 299 depending on film type and vehicle size. We offer nano ceramic, carbon, and 3M / Llumar films — all UAE RTA traffic law compliant with legal VLT levels. All tints come with a 5-year warranty at all 4 Dubai & Sharjah branches.",
+  },
+  {
+    q: "What is the best PPF for cars in UAE?",
+    a: "For UAE's extreme heat and harsh roads, self-healing TPU films — XPEL PPF, SunTek, and TotalGard — are the top choices. Smart Auto UAE is an authorised PPF installer in Dubai (MotorCity, Al Quoz, Mirdif) and Sharjah. We offer both clear PPF and matte PPF in Dubai.",
+  },
+  {
+    q: "Is ceramic coating worth it in UAE?",
+    a: "Absolutely. UAE's intense UV, sandstorms, and extreme heat make nano ceramic coating one of the best investments for your car. It provides a 9H hardness shield, repels water, dust, and sand — and keeps your car looking showroom-new year-round. We use Gyeon, Gtechniq, and IGL coatings.",
+  },
+  {
+    q: "How long does nano ceramic coating last in Dubai?",
+    a: "A professional nano ceramic coating in Dubai lasts 2–5 years depending on product tier and maintenance. Our 9H coatings from Gyeon, Gtechniq, and IGL are specifically chosen for UAE's harsh climate conditions.",
+  },
+  {
+    q: "What is the legal window tint percentage in Dubai?",
+    a: "UAE traffic law requires a minimum of 30% VLT (Visible Light Transmission) for front side windows and 50% for the windshield. All Smart Auto window tint films are RTA law compliant across Dubai and Sharjah branches.",
+  },
+  {
+    q: "Do you offer villa and commercial window tinting?",
+    a: "Yes. Smart Auto UAE offers premium villa window tinting and commercial/office building tinting across Dubai and Sharjah. We also install switchable smart glass film for offices and villas — instant electric privacy control at the touch of a button.",
+  },
+  {
+    q: "How long does a full car wrap take in Dubai?",
+    a: "A full vinyl wrap typically takes 2–4 days depending on vehicle size. Partial wraps and colour accents can be done in 1 day at any of our Dubai (MotorCity, Al Quoz, Mirdif) or Sharjah branches.",
+  },
+  {
+    q: "PPF vs ceramic coating — which is better for UAE?",
+    a: "They serve different purposes. PPF (paint protection film) physically shields against stone chips, scratches, and road debris — ideal for front bumpers and bonnets. Ceramic coating provides a chemical hydrophobic layer for gloss, UV protection, and easy cleaning. Many UAE car owners use both for maximum protection.",
+  },
 ];
 
 // ── ANIMATION VARIANTS ─────────────────────────────────────────────────────
@@ -161,51 +195,25 @@ const faqs = [
 const fadeUp: Variants = {
   hidden: { opacity: 0, y: 40 },
   show: (i: number = 0) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: i * 0.1,
-      duration: 0.6,
-      ease: [0.25, 0.1, 0.25, 1] as const,
-    },
+    opacity: 1, y: 0,
+    transition: { delay: i * 0.1, duration: 0.6, ease: [0.25, 0.1, 0.25, 1] as const },
   }),
 };
 
 const fadeLeft: Variants = {
   hidden: { opacity: 0, x: -40 },
-  show: {
-    opacity: 1,
-    x: 0,
-    transition: {
-      duration: 0.7,
-      ease: [0.25, 0.1, 0.25, 1] as const,
-    },
-  },
+  show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] as const } },
 };
 
 const fadeRight: Variants = {
   hidden: { opacity: 0, x: 40 },
-  show: {
-    opacity: 1,
-    x: 0,
-    transition: {
-      duration: 0.7,
-      ease: [0.25, 0.1, 0.25, 1] as const,
-    },
-  },
+  show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] as const } },
 };
 
-
-// ── UAE OPEN STATUS HOOK ───────────────────────────────────────────────────
+// ── OPEN STATUS HOOK ───────────────────────────────────────────────────────
 
 function useOpenStatus() {
-  const [status, setStatus] = useState({
-    isOpen: false,
-    label: "Open Now",
-    sublabel: "",
-    timeStr: "",
-  });
-
+  const [status, setStatus] = useState({ isOpen: false, label: "Open Now", sublabel: "", timeStr: "" });
   useEffect(() => {
     const compute = () => {
       const now   = new Date();
@@ -213,36 +221,27 @@ function useOpenStatus() {
       const hours = uae.getHours();
       const mins  = uae.getMinutes();
       const total = hours * 60 + mins;
-
-      const OPEN  = 11 * 60; // 660  → 11:00 AM
-      const CLOSE = 21 * 60; // 1260 → 09:00 PM
-
+      const OPEN  = 11 * 60;
+      const CLOSE = 21 * 60;
       const isOpen = total >= OPEN && total < CLOSE;
-
       let sublabel = "";
       if (isOpen) {
-        const minsLeft  = CLOSE - total;
-        const hLeft     = Math.floor(minsLeft / 60);
-        const mLeft     = minsLeft % 60;
-        sublabel = hLeft > 0
-          ? `Closes in ${hLeft}h${mLeft > 0 ? ` ${mLeft}m` : ""}`
-          : `Closes in ${mLeft}m`;
+        const minsLeft = CLOSE - total;
+        const hLeft = Math.floor(minsLeft / 60);
+        const mLeft = minsLeft % 60;
+        sublabel = hLeft > 0 ? `Closes in ${hLeft}h${mLeft > 0 ? ` ${mLeft}m` : ""}` : `Closes in ${mLeft}m`;
       } else {
         sublabel = "Reopens tomorrow at 11:00 AM";
       }
-
-      const h    = hours % 12 || 12;
-      const m    = String(mins).padStart(2, "0");
+      const h = hours % 12 || 12;
+      const m = String(mins).padStart(2, "0");
       const ampm = hours >= 12 ? "PM" : "AM";
-
       setStatus({ isOpen, label: isOpen ? "Open Now" : "Closed", sublabel, timeStr: `${h}:${m} ${ampm} UAE` });
     };
-
     compute();
     const id = setInterval(compute, 60_000);
     return () => clearInterval(id);
   }, []);
-
   return status;
 }
 
@@ -266,8 +265,7 @@ const GoldBtn = ({ href, children, className = "" }: { href: string; children: R
     className={`inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm tracking-wide text-black no-underline ${className}`}
     style={{ background: "linear-gradient(135deg,#C9A84C,#E8C96A)", boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}
     whileHover={{ scale: 1.05, boxShadow: "0 8px 30px rgba(201,168,76,0.5)" }}
-    whileTap={{ scale: 0.95 }}
-  >
+    whileTap={{ scale: 0.95 }}>
     {children}
   </motion.a>
 );
@@ -277,8 +275,7 @@ const OutlineBtn = ({ href, children }: { href: string; children: React.ReactNod
     href={href}
     className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm tracking-wide text-gold border border-gold/40 bg-gold/5 backdrop-blur-sm no-underline"
     whileHover={{ scale: 1.05, backgroundColor: "rgba(201,168,76,0.15)" }}
-    whileTap={{ scale: 0.95 }}
-  >
+    whileTap={{ scale: 0.95 }}>
     {children}
   </motion.a>
 );
@@ -288,8 +285,7 @@ const GlassCard = ({ children, className = "", ...props }: React.HTMLAttributes<
     className={`relative rounded-2xl border border-white/8 bg-white/[0.03] backdrop-blur-xl overflow-hidden ${className}`}
     whileHover={{ y: -6, borderColor: "rgba(201,168,76,0.35)", boxShadow: "0 20px 60px rgba(0,0,0,0.4)" }}
     transition={{ duration: 0.3 }}
-    {...(props as object)}
-  >
+    {...(props as object)}>
     {children}
   </motion.div>
 );
@@ -300,28 +296,20 @@ function StatusBadge({ size = "md" }: { size?: "sm" | "md" }) {
   const { isOpen, label, sublabel } = useOpenStatus();
   const hex = isOpen ? "#4ade80" : "#f87171";
   const col = isOpen ? "rgba(74,222,128," : "rgba(248,113,113,";
-
   return (
     <div
       className={`inline-flex items-center gap-2 rounded-full border backdrop-blur-sm font-semibold
         ${size === "sm" ? "px-3 py-1 text-[11px]" : "px-5 py-2.5 text-[13px]"}`}
-      style={{ borderColor: `${col}0.4)`, background: `${col}0.08)`, color: hex }}
-    >
+      style={{ borderColor: `${col}0.4)`, background: `${col}0.08)`, color: hex }}>
       <span className="relative flex" style={{ width: "10px", height: "10px" }}>
-        {isOpen && (
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"
-            style={{ backgroundColor: hex }} />
-        )}
-        <span className="relative inline-flex rounded-full h-full w-full"
-          style={{ backgroundColor: hex }} />
+        {isOpen && <span className="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75" style={{ backgroundColor: hex }} />}
+        <span className="relative inline-flex rounded-full h-full w-full" style={{ backgroundColor: hex }} />
       </span>
       {label}
       {sublabel && (
         <>
           <span style={{ color: "rgba(255,255,255,0.2)" }}>·</span>
-          <span className="font-normal" style={{ color: "rgba(255,255,255,0.45)", fontSize: "11px" }}>
-            {sublabel}
-          </span>
+          <span className="font-normal" style={{ color: "rgba(255,255,255,0.45)", fontSize: "11px" }}>{sublabel}</span>
         </>
       )}
     </div>
@@ -334,40 +322,27 @@ function BranchCard({ branch }: { branch: (typeof branches)[0] }) {
   const { isOpen, label, sublabel } = useOpenStatus();
   const hex = isOpen ? "#4ade80" : "#f87171";
   const col = isOpen ? "rgba(74,222,128," : "rgba(248,113,113,";
-
   return (
     <GlassCard className="p-8">
       <div className="flex items-start justify-between mb-5">
         <div>
-          <h3 className="text-white font-bold text-lg mb-1"
-            style={{ fontFamily: "var(--font-playfair),serif" }}>
+          <h3 className="text-white font-bold text-lg mb-1" style={{ fontFamily: "var(--font-playfair),serif" }}>
             {branch.city}
           </h3>
           <p className="text-white/40 text-[13px] leading-relaxed">{branch.address}</p>
         </div>
-
-        {/* Dynamic badge */}
         <div className="flex flex-col items-end gap-1 ml-4 flex-shrink-0">
-          <span
-            className="px-3 py-1 rounded-full text-[11px] font-semibold border flex items-center gap-1.5"
-            style={{ borderColor: `${col}0.4)`, background: `${col}0.08)`, color: hex }}
-          >
+          <span className="px-3 py-1 rounded-full text-[11px] font-semibold border flex items-center gap-1.5"
+            style={{ borderColor: `${col}0.4)`, background: `${col}0.08)`, color: hex }}>
             <span className="relative flex" style={{ width: "7px", height: "7px" }}>
-              {isOpen && (
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"
-                  style={{ backgroundColor: hex }} />
-              )}
-              <span className="relative inline-flex rounded-full h-full w-full"
-                style={{ backgroundColor: hex }} />
+              {isOpen && <span className="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75" style={{ backgroundColor: hex }} />}
+              <span className="relative inline-flex rounded-full h-full w-full" style={{ backgroundColor: hex }} />
             </span>
             {label}
           </span>
-          <span className="text-[10px]" style={{ color: "rgba(255,255,255,0.3)" }}>
-            {sublabel}
-          </span>
+          <span className="text-[10px]" style={{ color: "rgba(255,255,255,0.3)" }}>{sublabel}</span>
         </div>
       </div>
-
       <div className="flex flex-col gap-3 mb-6">
         <div className="flex items-center gap-3 text-sm text-white/50">
           <Clock size={14} className="text-gold flex-shrink-0" />
@@ -375,13 +350,11 @@ function BranchCard({ branch }: { branch: (typeof branches)[0] }) {
         </div>
         <div className="flex items-center gap-3 text-sm text-white/50">
           <Phone size={14} className="text-gold flex-shrink-0" />
-          <a href={`tel:${branch.phone.replace(/\s/g, "")}`}
-            className="hover:text-gold transition-colors no-underline">
+          <a href={`tel:${branch.phone.replace(/\s/g, "")}`} className="hover:text-gold transition-colors no-underline">
             {branch.phone}
           </a>
         </div>
       </div>
-
       <a href={branch.mapHref} target="_blank" rel="noopener noreferrer"
         className="inline-flex items-center gap-2 text-gold text-sm font-semibold no-underline hover:underline transition-all">
         <MapPin size={14} /> Get Directions <ArrowRight size={14} />
@@ -397,8 +370,7 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
   return (
     <motion.div variants={fadeUp} custom={index} initial="hidden" whileInView="show" viewport={{ once: true }}>
       <GlassCard className={`transition-all duration-300 ${open ? "border-gold/30" : ""}`}>
-        <button
-          className="w-full flex items-center justify-between p-6 text-left cursor-pointer"
+        <button className="w-full flex items-center justify-between p-6 text-left cursor-pointer"
           onClick={() => setOpen(!open)}>
           <span className="text-white font-semibold text-[15px] pr-4 leading-snug">{question}</span>
           <motion.div animate={{ rotate: open ? 45 : 0 }} transition={{ duration: 0.3 }} className="text-gold flex-shrink-0">
@@ -409,10 +381,8 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
         </button>
         <AnimatePresence>
           {open && (
-            <motion.div
-              initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.3 }}
-              className="overflow-hidden">
+            <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.3 }} className="overflow-hidden">
               <p className="px-6 pb-6 text-white/50 text-sm leading-[1.8]">{answer}</p>
             </motion.div>
           )}
@@ -449,13 +419,12 @@ function BeforeAfterGallery() {
     <section id="gallery" className="py-24" style={{ background: "linear-gradient(180deg,#060606 0%,#0A0A0A 100%)" }}>
       <div className="w-full max-w-7xl mx-auto px-6">
         <motion.div ref={ref} variants={fadeUp} initial="hidden" animate={isInView ? "show" : "hidden"}>
-          <SectionHeader eyebrow="Before & After" title="Our" highlight="Results Speak" />
+          <SectionHeader eyebrow="Before & After Results" title="Real Work Done in" highlight="Dubai & Sharjah" />
           <p className="text-center text-white/35 text-[13px] -mt-10 mb-12">
-            Drag the slider to reveal the transformation ✦
+            Drag the slider to reveal the transformation — PPF, ceramic coating, window tinting & more
           </p>
         </motion.div>
 
-        {/* Category tabs */}
         <motion.div className="flex items-center justify-center gap-2.5 mb-12 flex-wrap"
           initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.2 }}>
           {allCategories.map((tab) => (
@@ -472,7 +441,6 @@ function BeforeAfterGallery() {
         </motion.div>
 
         <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.3 }}>
-          {/* Slider */}
           <div ref={containerRef}
             className="relative rounded-2xl overflow-hidden cursor-ew-resize select-none border border-gold/15"
             style={{ boxShadow: "0 20px 60px rgba(0,0,0,0.5)" }}
@@ -485,7 +453,6 @@ function BeforeAfterGallery() {
               <img src={current.before} alt="Before" draggable={false} className="absolute inset-0 w-full h-full object-cover" />
               <img src={current.after}  alt="After"  draggable={false} className="absolute inset-0 w-full h-full object-cover"
                 style={{ clipPath: `inset(0 0 0 ${sliderPos}%)` }} />
-              {/* Divider */}
               <div className="absolute top-0 bottom-0 w-0.5 z-10 pointer-events-none"
                 style={{ left: `${sliderPos}%`, background: "#C9A84C", boxShadow: "0 0 12px rgba(201,168,76,0.6)", transform: "translateX(-50%)" }}>
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-11 h-11 rounded-full flex items-center justify-center"
@@ -503,7 +470,6 @@ function BeforeAfterGallery() {
             </div>
           </div>
 
-          {/* Thumbnails */}
           <div className="flex gap-3 mt-5 justify-center flex-wrap">
             {filtered.map((item, i) => (
               <div key={i} onClick={() => { setActiveIndex(i); setSliderPos(50); }}
@@ -518,7 +484,6 @@ function BeforeAfterGallery() {
             ))}
           </div>
 
-          {/* Nav */}
           <div className="flex items-center justify-center gap-4 mt-8">
             <button onClick={prev}
               className="w-12 h-12 rounded-full flex items-center justify-center text-gold border border-gold/20 bg-white/[0.04] hover:bg-gold/12 hover:border-gold/50 transition-all duration-300 cursor-pointer">
@@ -558,150 +523,141 @@ export default function Home() {
   const ctaRef          = useRef(null);
   const contactRef      = useRef(null);
 
-  const sInView   = useInView(servicesRef,     { once: true, margin: "-80px" });
-  const wInView   = useInView(whyUsRef,         { once: true, margin: "-80px" });
-  const pInView   = useInView(processRef,       { once: true, margin: "-80px" });
-  const tInView   = useInView(testimonialsRef,  { once: true, margin: "-80px" });
-  const bInView   = useInView(brandsRef,        { once: true, margin: "-80px" });
-  const brInView  = useInView(branchesRef,      { once: true, margin: "-80px" });
-  const ctaInView = useInView(ctaRef,           { once: true, margin: "-80px" });
-  const cInView   = useInView(contactRef,       { once: true, margin: "-80px" });
+  const sInView   = useInView(servicesRef,    { once: true, margin: "-80px" });
+  const wInView   = useInView(whyUsRef,        { once: true, margin: "-80px" });
+  const pInView   = useInView(processRef,      { once: true, margin: "-80px" });
+  const tInView   = useInView(testimonialsRef, { once: true, margin: "-80px" });
+  const bInView   = useInView(brandsRef,       { once: true, margin: "-80px" });
+  const brInView  = useInView(branchesRef,     { once: true, margin: "-80px" });
+  const ctaInView = useInView(ctaRef,          { once: true, margin: "-80px" });
+  const cInView   = useInView(contactRef,      { once: true, margin: "-80px" });
 
   return (
     <main>
       <Navbar />
 
-{/* ── HERO ────────────────────────────────────────────────────────── */}
-<section
-  id="home"
-  className="relative min-h-screen flex items-center justify-center text-center overflow-hidden"
-  style={{ background: "#050505" }}
->
-  {/* Full background image */}
-  <div
-    className="absolute inset-0 bg-cover bg-center pointer-events-none"
-    style={{
-      backgroundImage: "url('https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1800&q=85')",
-      opacity: 0.18,
-    }}
-  />
+      {/* ── HERO ──────────────────────────────────────────────────────────── */}
+      <section id="home" className="relative min-h-screen flex items-center justify-center text-center overflow-hidden"
+        style={{ background: "#050505" }}>
 
-  {/* Dark vignette overlay */}
-  <div className="absolute inset-0 pointer-events-none"
-    style={{ background: "radial-gradient(ellipse at center,transparent 20%,rgba(0,0,0,0.85) 100%)" }} />
+        <div className="absolute inset-0 bg-cover bg-center pointer-events-none"
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1800&q=85')", opacity: 0.18 }} />
+        <div className="absolute inset-0 pointer-events-none"
+          style={{ background: "radial-gradient(ellipse at center,transparent 20%,rgba(0,0,0,0.85) 100%)" }} />
+        <div className="absolute inset-0 pointer-events-none"
+          style={{ background: "radial-gradient(ellipse at center,rgba(201,168,76,0.07) 0%,transparent 65%)" }} />
+        <div className="absolute top-0 left-0 right-0 h-px pointer-events-none"
+          style={{ background: "linear-gradient(to right,transparent,rgba(201,168,76,0.25),transparent)" }} />
+        <div className="absolute bottom-0 left-0 right-0 h-px pointer-events-none"
+          style={{ background: "linear-gradient(to right,transparent,rgba(201,168,76,0.12),transparent)" }} />
+        <div className="absolute top-0 bottom-0 w-px pointer-events-none"
+          style={{ left: "8%", background: "linear-gradient(to bottom,transparent,rgba(201,168,76,0.12),transparent)" }} />
+        <div className="absolute top-0 bottom-0 w-px pointer-events-none"
+          style={{ right: "8%", background: "linear-gradient(to bottom,transparent,rgba(201,168,76,0.12),transparent)" }} />
 
-  {/* Gold radial glow */}
-  <div className="absolute inset-0 pointer-events-none"
-    style={{ background: "radial-gradient(ellipse at center,rgba(201,168,76,0.07) 0%,transparent 65%)" }} />
+        <div className="relative z-10 max-w-3xl mx-auto px-6 flex flex-col items-center pt-24">
 
-  {/* Top rule */}
-  <div className="absolute top-0 left-0 right-0 h-px pointer-events-none"
-    style={{ background: "linear-gradient(to right,transparent,rgba(201,168,76,0.25),transparent)" }} />
+          {/* Badge */}
+          <motion.div
+            className="inline-flex items-center gap-2 border border-gold/30 rounded-full px-4 py-1.5 mb-10 bg-gold/[0.06] backdrop-blur-sm text-gold text-[10px] tracking-[0.25em] uppercase"
+            initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}>
+            <Star size={11} fill="#C9A84C" />
+            168+ Google Reviews · 4 Branches in Dubai &amp; Sharjah
+            <Star size={11} fill="#C9A84C" />
+          </motion.div>
 
-  {/* Bottom rule */}
-  <div className="absolute bottom-0 left-0 right-0 h-px pointer-events-none"
-    style={{ background: "linear-gradient(to right,transparent,rgba(201,168,76,0.12),transparent)" }} />
+          {/* H1 — Primary keyword in heading */}
+          <motion.h1
+            className="font-bold text-white leading-[1.05] mb-4"
+            style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(3.5rem,8vw,7rem)" }}
+            initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.9 }}>
+            Premium Car Care
+            <span className="gold-text block">Dubai & Sharjah</span>
+          </motion.h1>
 
-  {/* Left vertical accent */}
-  <div className="absolute top-0 bottom-0 w-px pointer-events-none"
-    style={{ left: "8%", background: "linear-gradient(to bottom,transparent,rgba(201,168,76,0.12),transparent)" }} />
+          {/* H2-level keyword divider */}
+          <motion.div className="flex items-center gap-4 mb-6 w-full justify-center"
+            initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.55 }}>
+            <div className="h-px flex-1 max-w-[80px]" style={{ background: "linear-gradient(to right,transparent,rgba(201,168,76,0.5))" }} />
+            <span className="text-gold/60 text-[10px] tracking-[0.2em] uppercase text-center">
+              Window Tinting · PPF · Ceramic Coating · Detailing · Car Wrapping
+            </span>
+            <div className="h-px flex-1 max-w-[80px]" style={{ background: "linear-gradient(to left,transparent,rgba(201,168,76,0.5))" }} />
+          </motion.div>
 
-  {/* Right vertical accent */}
-  <div className="absolute top-0 bottom-0 w-px pointer-events-none"
-    style={{ right: "8%", background: "linear-gradient(to bottom,transparent,rgba(201,168,76,0.12),transparent)" }} />
+          {/* Description — rich with natural keywords */}
+          <motion.p
+            className="text-white/50 leading-[1.9] mb-8 max-w-xl"
+            style={{ fontSize: "clamp(0.95rem,1.4vw,1.1rem)" }}
+            initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.65 }}>
+            Smart Auto UAE is the trusted car care centre for{" "}
+            <strong className="text-white/75 font-medium">window tinting in Dubai</strong>,{" "}
+            <strong className="text-white/75 font-medium">PPF</strong>,{" "}
+            <strong className="text-white/75 font-medium">nano ceramic coating</strong>, car detailing, and car
+            wrapping — serving car owners across{" "}
+            <strong className="text-white/75 font-medium">MotorCity, Al Quoz, Mirdif</strong> and{" "}
+            <strong className="text-white/75 font-medium">Sharjah</strong> since 2014.
+          </motion.p>
 
-  {/* ── CONTENT ── */}
-  <div className="relative z-10 max-w-3xl mx-auto px-6 flex flex-col items-center pt-24">
+          {/* Trust signals */}
+          <motion.div className="flex items-center justify-center gap-6 mb-8 flex-wrap"
+            initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.75 }}>
+            {[
+              "XPEL Authorised",
+              "3M · Llumar Dealer",
+              "5-Year Warranty",
+              "RTA Law Compliant",
+            ].map((t) => (
+              <div key={t} className="flex items-center gap-1.5">
+                <CheckCircle size={13} style={{ color: "#C9A84C" }} />
+                <span className="text-[11px] text-white/50 tracking-wide">{t}</span>
+              </div>
+            ))}
+          </motion.div>
 
-    {/* Badge */}
-    <motion.div
-      className="inline-flex items-center gap-2 border border-gold/30 rounded-full px-4 py-1.5 mb-10 bg-gold/[0.06] backdrop-blur-sm text-gold text-[10px] tracking-[0.25em] uppercase"
-      initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}>
-      <Star size={11} fill="#C9A84C" />
-      168+ Google Reviews · 4 Branches in Dubai &amp; Sharjah
-      <Star size={11} fill="#C9A84C" />
-    </motion.div>
+          {/* Branch names */}
+          <motion.p className="text-gold/55 text-[12px] tracking-[0.18em] uppercase mb-10"
+            initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.78 }}>
+            MotorCity · Al Quoz · Mirdif · Sharjah Central Mall
+          </motion.p>
 
-    {/* H1 */}
-    <motion.h1
-      className="font-bold text-white leading-[1.05] mb-6"
-      style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(3.5rem,8vw,7rem)" }}
-      initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.9 }}>
-      Expert Car Care
-      <span className="gold-text block">&amp; Protection</span>
-    </motion.h1>
+          {/* CTAs */}
+          <motion.div className="flex items-center justify-center gap-4 flex-wrap mb-16"
+            initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.9 }}>
+            <GoldBtn href="#services">Explore Services <ArrowRight size={15} /></GoldBtn>
+            <OutlineBtn href="https://wa.me/971555559424">
+              <Phone size={14} /> WhatsApp Us
+            </OutlineBtn>
+          </motion.div>
 
-    {/* Divider line */}
-    <motion.div
-      className="flex items-center gap-4 mb-6 w-full justify-center"
-      initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.55 }}>
-      <div className="h-px flex-1 max-w-[80px]" style={{ background: "linear-gradient(to right,transparent,rgba(201,168,76,0.5))" }} />
-      <span className="text-gold/60 text-[10px] tracking-[0.25em] uppercase">
-        Window Tinting · PPF · Ceramic Coating · Detailing · Wrapping
-      </span>
-      <div className="h-px flex-1 max-w-[80px]" style={{ background: "linear-gradient(to left,transparent,rgba(201,168,76,0.5))" }} />
-    </motion.div>
-
-    {/* Description */}
-    <motion.p
-      className="text-white/50 leading-[1.9] mb-10 max-w-xl"
-      style={{ fontSize: "clamp(0.95rem,1.4vw,1.1rem)" }}
-      initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.65 }}>
-      At Smart Auto, we redefine excellence in automotive detailing and window protection —
-      combining cutting-edge technology with a commitment to perfection across
-      4 branches in Dubai &amp; Sharjah.
-    </motion.p>
-
-    {/* Branch names */}
-    <motion.p
-      className="text-gold/55 text-[12px] tracking-[0.18em] uppercase mb-10"
-      initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.78 }}>
-      MotorCity · Al Quoz · Mirdif · Sharjah Central Mall
-    </motion.p>
-
-    {/* CTAs */}
-    <motion.div
-      className="flex items-center justify-center gap-4 flex-wrap mb-16"
-      initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.9 }}>
-      <GoldBtn href="#services">Explore Services <ArrowRight size={15} /></GoldBtn>
-      <OutlineBtn href="https://wa.me/971555559424">
-        <Phone size={14} /> WhatsApp Us
-      </OutlineBtn>
-    </motion.div>
-
-    {/* Stats */}
-    <motion.div
-      className="grid grid-cols-4 border-t border-gold/15 pt-8 w-full max-w-md"
-      initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.05 }}>
-      {[
-        { value: "168+", label: "Google Reviews" },
-        { value: "4",    label: "Branches" },
-        { value: "10+",  label: "Years in UAE" },
-        { value: "5★",   label: "Avg Rating" },
-      ].map((s, i) => (
-        <div key={s.label}
-          className={`text-center px-3 ${i !== 3 ? "border-r border-gold/15" : ""}`}>
-          <div className="gold-text font-bold leading-none mb-1.5"
-            style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.4rem,2.5vw,2rem)" }}>
-            {s.value}
-          </div>
-          <div className="text-white/35 text-[9px] tracking-[0.12em] uppercase">{s.label}</div>
+          {/* Stats */}
+          <motion.div className="grid grid-cols-4 border-t border-gold/15 pt-8 w-full max-w-md"
+            initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.05 }}>
+            {[
+              { value: "168+", label: "Google Reviews" },
+              { value: "4",    label: "Branches" },
+              { value: "10+",  label: "Years in UAE" },
+              { value: "5★",   label: "Avg Rating" },
+            ].map((s, i) => (
+              <div key={s.label} className={`text-center px-3 ${i !== 3 ? "border-r border-gold/15" : ""}`}>
+                <div className="gold-text font-bold leading-none mb-1.5"
+                  style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.4rem,2.5vw,2rem)" }}>
+                  {s.value}
+                </div>
+                <div className="text-white/35 text-[9px] tracking-[0.12em] uppercase">{s.label}</div>
+              </div>
+            ))}
+          </motion.div>
         </div>
-      ))}
-    </motion.div>
-  </div>
 
-  {/* Scroll indicator */}
-  <motion.div
-    className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5"
-    animate={{ y: [0, 8, 0] }} transition={{ repeat: Infinity, duration: 2.5 }}>
-    <span className="text-[9px] tracking-[0.2em] uppercase text-gold/40">Scroll</span>
-    <ChevronDown size={22} className="text-gold/45" />
-  </motion.div>
-</section>
+        <motion.div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5"
+          animate={{ y: [0, 8, 0] }} transition={{ repeat: Infinity, duration: 2.5 }}>
+          <span className="text-[9px] tracking-[0.2em] uppercase text-gold/40">Scroll</span>
+          <ChevronDown size={22} className="text-gold/45" />
+        </motion.div>
+      </section>
 
-
-      {/* ── MARQUEE STRIP ───────────────────────────────────────────────── */}
+      {/* ── MARQUEE STRIP ──────────────────────────────────────────────────── */}
       <div className="overflow-hidden py-4 border-t border-b border-gold/8 bg-gold/[0.03]">
         <div className="flex gap-12 whitespace-nowrap animate-marquee">
           {[...stripItems, ...stripItems, ...stripItems].map((item, i) => (
@@ -713,14 +669,15 @@ export default function Home() {
         </div>
       </div>
 
-      {/* ── SERVICES ────────────────────────────────────────────────────── */}
+      {/* ── SERVICES ───────────────────────────────────────────────────────── */}
       <section id="services" className="py-24" style={{ background: "linear-gradient(180deg,#080808 0%,#0A0A0A 100%)" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <motion.div ref={servicesRef} variants={fadeUp} initial="hidden" animate={sInView ? "show" : "hidden"}>
-            <SectionHeader eyebrow="Elevate · Protect · Personalise" title="All Our" highlight="Services" />
+            <SectionHeader eyebrow="Window Tinting · PPF · Ceramic Coating · Detailing · Wrapping" title="Premium Car Care" highlight="Services in UAE" />
             <p className="text-center text-white/40 text-sm -mt-10 mb-14 max-w-2xl mx-auto leading-relaxed">
-              Premium automotive care and window tinting solutions designed to protect, enhance, and elevate
-              your vehicle and property — available across all 4 branches.
+              From car window tinting and paint protection film to nano ceramic coating and car detailing —
+              all 9 services available across our 4 branches in <strong className="text-white/60 font-medium">Dubai</strong> and{" "}
+              <strong className="text-white/60 font-medium">Sharjah</strong>.
             </p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -733,7 +690,7 @@ export default function Home() {
                   <div className="w-14 h-14 rounded-xl bg-gold/8 border border-gold/20 flex items-center justify-center mb-5 text-gold transition-all duration-300 group-hover:bg-gold/18 group-hover:border-gold/50">
                     <s.icon size={24} />
                   </div>
-                  <h3 className="text-white font-semibold text-lg mb-2.5 transition-colors duration-300 group-hover:text-gold">{s.title}</h3>
+                  <h3 className="text-white font-semibold text-lg mb-2.5 transition-colors duration-300 group-hover:text-gold leading-snug">{s.title}</h3>
                   <p className="text-white/45 text-[13px] leading-[1.7] mb-4">{s.description}</p>
                   <ul className="flex flex-col gap-2 mb-5">
                     {s.features.map((f) => (
@@ -744,7 +701,7 @@ export default function Home() {
                     ))}
                   </ul>
                   <a href={s.href} className="inline-flex items-center gap-1.5 text-gold text-[13px] font-semibold no-underline hover:gap-3 transition-all duration-300">
-                    Explore <ArrowRight size={14} />
+                    Learn More <ArrowRight size={14} />
                   </a>
                   <div className="absolute bottom-0 left-0 h-0.5 w-0 group-hover:w-full transition-all duration-500 rounded-full"
                     style={{ background: "linear-gradient(to right,#C9A84C,#E8C96A)" }} />
@@ -755,28 +712,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── WHY CHOOSE US ───────────────────────────────────────────────── */}
+      {/* ── WHY CHOOSE US ──────────────────────────────────────────────────── */}
       <section id="why-us" className="py-24" style={{ backgroundColor: "#060606" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <div ref={whyUsRef} className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <motion.div variants={fadeLeft} initial="hidden" animate={wInView ? "show" : "hidden"}>
-              <span className="text-gold text-[11px] tracking-[0.35em] uppercase mb-4 block">Why Choose Smart Auto</span>
+              <span className="text-gold text-[11px] tracking-[0.35em] uppercase mb-4 block">Why Choose Smart Auto UAE</span>
               <h2 className="text-white font-bold mb-5 leading-[1.2]"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2rem,3.5vw,2.8rem)" }}>
-                Comprehensive Automotive<br /><span className="gold-text">&amp; Tinting Solutions</span>
+                The Best Car Care Centre<br /><span className="gold-text">in Dubai &amp; Sharjah</span>
               </h2>
               <p className="text-white/50 text-base leading-[1.8] mb-7">
-                At Smart Auto UAE, we specialise in delivering professional car care and protection
-                for every need — from luxury vehicles to everyday cars, and residential to commercial
-                properties. Our goal is to enhance both the aesthetics and durability of your vehicle and property.
+                Smart Auto UAE has been the trusted car care near me for thousands of vehicle
+                owners across Dubai and Sharjah since 2014. Whether you need the{" "}
+                <strong className="text-white/70 font-medium">best PPF installer in Dubai</strong>,{" "}
+                professional <strong className="text-white/70 font-medium">ceramic coating for luxury cars</strong>, or
+                affordable <strong className="text-white/70 font-medium">window tinting</strong> — we deliver
+                premium results with manufacturer-backed warranties.
               </p>
               <div className="flex flex-col gap-3.5 mb-9">
                 {[
-                  "Authorised installers for XPEL, TotalGard, 3M & Llumar",
-                  "All works backed by manufacturer warranty",
+                  "Authorised XPEL, TotalGard, 3M & Llumar installer in UAE",
+                  "Ceramic coating price Dubai — competitive & transparent",
+                  "All PPF, tinting & coating work backed by warranty",
                   "4 branches — MotorCity, Al Quoz, Mirdif & Sharjah",
-                  "Free inspection & no hidden charges",
-                  "Open every day 11AM – 9PM",
+                  "Free inspection · No hidden charges · Open every day",
                 ].map((p) => (
                   <div key={p} className="flex items-center gap-3">
                     <CheckCircle size={16} className="text-gold flex-shrink-0" />
@@ -793,16 +753,16 @@ export default function Home() {
             <motion.div variants={fadeRight} initial="hidden" animate={wInView ? "show" : "hidden"}>
               <div className="grid grid-cols-2 gap-3.5" style={{ gridTemplateRows: "260px 260px" }}>
                 <div className="rounded-2xl overflow-hidden border border-gold/10 relative row-span-2 group">
-                  <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=80" alt="XPEL PPF installation Dubai" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                  <span className="absolute bottom-3.5 left-3.5 text-[10px] tracking-[0.15em] uppercase text-gold px-3 py-1 rounded-md border border-gold/20 bg-black/80 backdrop-blur-sm">Totalgard PPF</span>
+                  <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=80" alt="Best PPF installer Dubai — XPEL TotalGard" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <span className="absolute bottom-3.5 left-3.5 text-[10px] tracking-[0.15em] uppercase text-gold px-3 py-1 rounded-md border border-gold/20 bg-black/80 backdrop-blur-sm">TotalGard PPF Dubai</span>
                 </div>
                 <div className="rounded-2xl overflow-hidden border border-gold/10 relative group">
-                  <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80" alt="Nano ceramic coating UAE" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                  <span className="absolute bottom-3.5 left-3.5 text-[10px] tracking-[0.15em] uppercase text-gold px-3 py-1 rounded-md border border-gold/20 bg-black/80 backdrop-blur-sm">Ceramic Coating</span>
+                  <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80" alt="9H nano ceramic coating Dubai Sharjah" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <span className="absolute bottom-3.5 left-3.5 text-[10px] tracking-[0.15em] uppercase text-gold px-3 py-1 rounded-md border border-gold/20 bg-black/80 backdrop-blur-sm">Ceramic Coating UAE</span>
                 </div>
                 <div className="rounded-2xl overflow-hidden border border-gold/10 relative group">
-                  <img src="https://images.unsplash.com/photo-1617531653332-bd46c16f7d5e?w=600&q=80" alt="Car window tinting Dubai Sharjah" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                  <span className="absolute bottom-3.5 left-3.5 text-[10px] tracking-[0.15em] uppercase text-gold px-3 py-1 rounded-md border border-gold/20 bg-black/80 backdrop-blur-sm">Window Tinting</span>
+                  <img src="https://images.unsplash.com/photo-1617531653332-bd46c16f7d5e?w=600&q=80" alt="Car window tinting Dubai — 3M Llumar SunTek" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <span className="absolute bottom-3.5 left-3.5 text-[10px] tracking-[0.15em] uppercase text-gold px-3 py-1 rounded-md border border-gold/20 bg-black/80 backdrop-blur-sm">Window Tinting Dubai</span>
                 </div>
               </div>
             </motion.div>
@@ -824,11 +784,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── HOW IT WORKS ────────────────────────────────────────────────── */}
+      {/* ── HOW IT WORKS ───────────────────────────────────────────────────── */}
       <section id="process" className="py-24" style={{ background: "linear-gradient(180deg,#080808 0%,#0A0A0A 100%)" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <motion.div ref={processRef} variants={fadeUp} initial="hidden" animate={pInView ? "show" : "hidden"}>
-            <SectionHeader eyebrow="Simple Process" title="How It" highlight="Works" />
+            <SectionHeader eyebrow="Simple 4-Step Process" title="How to Book Your" highlight="Car Care Service" />
+            <p className="text-center text-white/40 text-sm -mt-10 mb-14 max-w-xl mx-auto leading-relaxed">
+              Booking car detailing, PPF, window tinting, or ceramic coating in Dubai & Sharjah is simple.
+            </p>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative">
             <div className="absolute top-9 left-[12%] w-[76%] h-px pointer-events-none hidden lg:block"
@@ -849,11 +812,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── BRANDS ──────────────────────────────────────────────────────── */}
+      {/* ── BRANDS ─────────────────────────────────────────────────────────── */}
       <section className="py-16" style={{ backgroundColor: "#060606" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <motion.div ref={brandsRef} variants={fadeUp} initial="hidden" animate={bInView ? "show" : "hidden"}>
-            <SectionHeader eyebrow="Trusted Products" title="Brands We" highlight="Work With" />
+            <SectionHeader eyebrow="Authorised UAE Installer" title="Premium Brands We" highlight="Install in Dubai & Sharjah" />
+            <p className="text-center text-white/40 text-sm -mt-10 mb-12 max-w-xl mx-auto">
+              We are authorised dealers and certified installers for the world's leading PPF,
+              window film, and ceramic coating brands in UAE.
+            </p>
           </motion.div>
           <div className="flex items-center justify-center flex-wrap gap-3">
             {brands.map((brand, i) => (
@@ -868,11 +835,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── TESTIMONIALS ────────────────────────────────────────────────── */}
+      {/* ── TESTIMONIALS ───────────────────────────────────────────────────── */}
       <section id="testimonials" className="py-24" style={{ backgroundColor: "#080808" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <motion.div ref={testimonialsRef} variants={fadeUp} initial="hidden" animate={tInView ? "show" : "hidden"}>
-            <SectionHeader eyebrow="168+ Google Reviews" title="What Our" highlight="Clients Say" />
+            <SectionHeader eyebrow="168+ Verified Google Reviews" title="Trusted Car Care in" highlight="Dubai & Sharjah" />
             <div className="flex items-center justify-center gap-2 -mt-10 mb-14">
               {[...Array(5)].map((_, i) => <Star key={i} size={20} fill="#C9A84C" className="text-gold" />)}
               <span className="text-white/50 text-sm ml-2">4.9 / 5 · Smart Auto UAE</span>
@@ -896,8 +863,7 @@ export default function Home() {
               </motion.div>
             ))}
           </div>
-          <motion.div className="text-center mt-10"
-            variants={fadeUp} initial="hidden" animate={tInView ? "show" : "hidden"}>
+          <motion.div className="text-center mt-10" variants={fadeUp} initial="hidden" animate={tInView ? "show" : "hidden"}>
             <a href="https://admin.trustindex.io/api/googleWriteReview?place-id=ChIJCdS_zpdgXz4RQnybWU1inTA"
               target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-gold text-sm font-semibold border border-gold/25 px-6 py-2.5 rounded-full bg-gold/5 hover:bg-gold/12 transition-all duration-300 no-underline">
@@ -907,17 +873,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── GALLERY ─────────────────────────────────────────────────────── */}
+      {/* ── GALLERY ────────────────────────────────────────────────────────── */}
       <BeforeAfterGallery />
 
-      {/* ── BRANCHES ────────────────────────────────────────────────────── */}
+      {/* ── BRANCHES ───────────────────────────────────────────────────────── */}
       <section id="branches" className="py-24" style={{ background: "linear-gradient(180deg,#060606 0%,#0A0A0A 100%)" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <motion.div ref={branchesRef} variants={fadeUp} initial="hidden" animate={brInView ? "show" : "hidden"}>
-            <SectionHeader eyebrow="4 Convenient Locations" title="Find Us in" highlight="Dubai & Sharjah" />
+            <SectionHeader eyebrow="Car Tinting & Car Care Near Me" title="4 Branches Across" highlight="Dubai & Sharjah" />
+            <p className="text-center text-white/40 text-sm -mt-10 mb-10 max-w-xl mx-auto">
+              Car window tinting in Al Quoz, PPF in MotorCity, ceramic coating in Mirdif, or car care in
+              Sharjah — Smart Auto UAE is always near you.
+            </p>
           </motion.div>
 
-          {/* Global live status bar */}
           <motion.div className="flex justify-center mb-10"
             initial={{ opacity: 0, y: 10 }} animate={brInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.2 }}>
             <StatusBadge size="md" />
@@ -933,11 +902,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── FAQ ─────────────────────────────────────────────────────────── */}
+      {/* ── FAQ ────────────────────────────────────────────────────────────── */}
       <section id="faq" className="py-24" style={{ backgroundColor: "#0A0A0A" }}>
         <div className="w-full max-w-4xl mx-auto px-6">
           <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}>
-            <SectionHeader eyebrow="FAQ" title="Frequently Asked" highlight="Questions" />
+            <SectionHeader eyebrow="Common Questions" title="FAQs About Car Care in" highlight="Dubai & Sharjah" />
+            <p className="text-center text-white/40 text-sm -mt-10 mb-12 max-w-xl mx-auto">
+              Everything you need to know about window tinting, PPF cost, ceramic coating, and car detailing in UAE.
+            </p>
           </motion.div>
           <div className="flex flex-col gap-3">
             {faqs.map((faq, i) => (
@@ -947,7 +919,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── CTA ─────────────────────────────────────────────────────────── */}
+      {/* ── CTA ────────────────────────────────────────────────────────────── */}
       <section className="py-24" style={{ backgroundColor: "#060606" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <motion.div ref={ctaRef}
@@ -957,15 +929,15 @@ export default function Home() {
             <div className="absolute inset-0 pointer-events-none"
               style={{ background: "radial-gradient(ellipse at center,rgba(201,168,76,0.06) 0%,transparent 60%)" }} />
             <p className="text-gold text-[11px] tracking-[0.3em] uppercase mb-4 relative z-10">
-              4 Branches · Open Every Day 11AM – 9PM
+              Premium Car Care · Dubai &amp; Sharjah · Open Every Day 11AM – 9PM
             </p>
             <h2 className="text-white font-bold mb-4 relative z-10"
               style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2rem,4vw,3rem)" }}>
-              Ready to Transform<br /><span className="gold-text">Your Car?</span>
+              Book Your Car Care Service<br /><span className="gold-text">in Dubai or Sharjah Today</span>
             </h2>
             <p className="text-white/50 text-base mb-6 max-w-lg mx-auto relative z-10">
-              Book at any of our 4 branches — MotorCity, Al Quoz, Mirdif (Dubai) or Sharjah Central Mall.
-              Free inspection with every service. No hidden charges.
+              Window tinting, PPF, ceramic coating, detailing, car wrapping — book at any of our
+              4 branches across Dubai &amp; Sharjah. Free inspection. No hidden charges.
             </p>
             <div className="flex justify-center mb-9 relative z-10">
               <StatusBadge size="md" />
@@ -978,17 +950,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── CONTACT ─────────────────────────────────────────────────────── */}
+      {/* ── CONTACT ────────────────────────────────────────────────────────── */}
       <section id="contact" className="py-24" style={{ backgroundColor: "#0A0A0A" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <motion.div ref={contactRef} variants={fadeUp} initial="hidden" animate={cInView ? "show" : "hidden"}>
-            <SectionHeader eyebrow="Get In Touch" title="Book Your" highlight="Appointment" />
+            <SectionHeader eyebrow="Get In Touch" title="Book Your Car Care" highlight="Appointment Today" />
+            <p className="text-center text-white/40 text-sm -mt-10 mb-12 max-w-xl mx-auto">
+              Call, WhatsApp, or fill the form — our team at any Dubai or Sharjah branch responds within the hour.
+            </p>
           </motion.div>
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.3fr] gap-12 items-start">
-            {/* Info column */}
             <motion.div variants={fadeLeft} initial="hidden" animate={cInView ? "show" : "hidden"}>
               <p className="text-white/50 text-base leading-[1.8] mb-8">
-                Reach out via any channel — our team responds within the hour. Walk-ins welcome at all 4 branches.
+                Reach out via any channel — walk-ins welcome at all 4 branches across Dubai & Sharjah.
+                No appointment needed.
               </p>
               <div className="flex flex-col gap-3.5">
                 {contactItems.map((item) => (
@@ -1007,7 +982,6 @@ export default function Home() {
               </div>
             </motion.div>
 
-            {/* Form column */}
             <motion.form
               className="rounded-2xl border border-white/8 bg-white/[0.03] backdrop-blur-xl p-10"
               onSubmit={(e) => e.preventDefault()}
@@ -1023,7 +997,7 @@ export default function Home() {
               </div>
               {[
                 { label: "Email Address",  type: "email", placeholder: "your@email.com" },
-                { label: "Your Car Model", type: "text",  placeholder: "e.g. Toyota Camry 2023" },
+                { label: "Your Car Model", type: "text",  placeholder: "e.g. Toyota Camry 2024" },
               ].map((f) => (
                 <div key={f.label} className="mb-5">
                   <label className="block text-[10px] uppercase tracking-[0.12em] text-white/35 mb-2">{f.label}</label>
