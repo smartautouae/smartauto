@@ -16,24 +16,24 @@ const serviceLinks = [
   { label: "Villa Window Tinting",      href: "/services/villa-window-tinting-dubai-sharjah" },
   { label: "Commercial Tinting",        href: "/services/commercial-window-tinting-dubai-sharjah" },
   { label: "Switchable Smart Film",     href: "/services/switchable-smart-glass-film-dubai-sharjah" },
-  { label: "Surface Protection Film",   href: "/services/surface-protection-film-dubai-sharjah" },
+  { label: "Surface Protection Film",   href: "/services/surface-protection-films-dubai-sharjah" },
 ];
 
 const navLinks = [
   { label: "Home",         href: "/" },
-  { label: "Services",     href: "/services",  hasDropdown: true },
-  { label: "Why Us",       href: "/#why-us" },
-  { label: "Gallery",      href: "/#gallery" },
-  { label: "Testimonials", href: "/#testimonials" },
-  { label: "Branches",     href: "/#branches" },
-  { label: "Contact",      href: "/#contact" },
+  { label: "Services",     href: "/services",      hasDropdown: true },
+  { label: "Why Us",       href: "/why-us" },
+  { label: "Gallery",      href: "/gallery" },
+  { label: "Testimonials", href: "/testimonials" },
+  { label: "Branches",     href: "/branches" },
+  { label: "Contact",      href: "/contact" },
 ];
 
 export default function Navbar() {
-  const [scrolled,           setScrolled]           = useState(false);
-  const [menuOpen,           setMenuOpen]            = useState(false);
-  const [servicesOpen,       setServicesOpen]        = useState(false);
-  const [mobileServicesOpen, setMobileServicesOpen]  = useState(false);
+  const [scrolled,           setScrolled]          = useState(false);
+  const [menuOpen,           setMenuOpen]           = useState(false);
+  const [servicesOpen,       setServicesOpen]       = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const pathname    = usePathname();
   const dropdownRef = useRef<HTMLLIElement>(null);
 
@@ -87,11 +87,13 @@ export default function Navbar() {
 
         {/* ── LOGO ── */}
         <Link href="/" className="no-underline flex-shrink-0">
-          <span className="gold-text block font-bold"
+          <span
+            className="gold-text block font-bold"
             style={{ fontFamily: "var(--font-playfair),serif", fontSize: "20px" }}>
             SMART AUTO
           </span>
-          <span className="block text-[9px] tracking-[0.4em] uppercase mt-0.5"
+          <span
+            className="block text-[9px] tracking-[0.4em] uppercase mt-0.5"
             style={{ color: "rgba(201,168,76,0.6)" }}>
             UAE
           </span>
@@ -118,7 +120,8 @@ export default function Navbar() {
                   </motion.div>
                   <span
                     className="absolute bottom-4 left-0 h-px bg-gold transition-all duration-300"
-                    style={{ width: isActive(link.href) ? "100%" : "0" }} />
+                    style={{ width: isActive(link.href) ? "100%" : "0" }}
+                  />
                 </button>
 
                 {/* Dropdown panel */}
@@ -138,14 +141,17 @@ export default function Navbar() {
                       transition={{ duration: 0.18 }}>
 
                       {/* Header */}
-                      <div className="px-4 py-3 border-b"
+                      <div
+                        className="px-4 py-3 border-b"
                         style={{ borderColor: "rgba(201,168,76,0.1)" }}>
                         <Link
                           href="/services"
                           className="text-[11px] tracking-[0.2em] uppercase font-semibold no-underline flex items-center justify-between"
                           style={{ color: "#C9A84C" }}>
                           All Services
-                          <span style={{ color: "rgba(201,168,76,0.5)", fontSize: "10px" }}>View All →</span>
+                          <span style={{ color: "rgba(201,168,76,0.5)", fontSize: "10px" }}>
+                            View All →
+                          </span>
                         </Link>
                       </div>
 
@@ -163,7 +169,9 @@ export default function Navbar() {
                               }`}>
                             <span
                               className={`w-1 h-1 rounded-full flex-shrink-0 transition-colors duration-200
-                                ${pathname === s.href ? "bg-[#C9A84C]" : "bg-[rgba(201,168,76,0.4)]"}`}
+                                ${pathname === s.href
+                                  ? "bg-[#C9A84C]"
+                                  : "bg-[rgba(201,168,76,0.4)]"}`}
                             />
                             {s.label}
                           </Link>
@@ -184,7 +192,8 @@ export default function Navbar() {
                   {link.label}
                   <span
                     className="absolute bottom-0 left-0 h-px bg-gold transition-all duration-300 group-hover:w-full"
-                    style={{ width: isActive(link.href) ? "100%" : "0" }} />
+                    style={{ width: isActive(link.href) ? "100%" : "0" }}
+                  />
                 </Link>
               </li>
 
@@ -216,7 +225,11 @@ export default function Navbar() {
         {menuOpen && (
           <motion.div
             className="md:hidden border-t overflow-hidden"
-            style={{ background: "rgba(10,10,10,0.97)", backdropFilter: "blur(20px)", borderColor: "rgba(201,168,76,0.1)" }}
+            style={{
+              background: "rgba(10,10,10,0.97)",
+              backdropFilter: "blur(20px)",
+              borderColor: "rgba(201,168,76,0.1)",
+            }}
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}>
@@ -264,7 +277,11 @@ export default function Navbar() {
                                 key={s.href}
                                 href={s.href}
                                 className="py-2 text-[13px] no-underline transition-colors duration-200"
-                                style={{ color: pathname === s.href ? "#C9A84C" : "rgba(255,255,255,0.5)" }}
+                                style={{
+                                  color: pathname === s.href
+                                    ? "#C9A84C"
+                                    : "rgba(255,255,255,0.5)",
+                                }}
                                 onClick={() => setMenuOpen(false)}>
                                 {s.label}
                               </Link>
