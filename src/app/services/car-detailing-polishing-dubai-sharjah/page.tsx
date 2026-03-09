@@ -15,7 +15,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Car Detailing & Polishing Dubai & Sharjah | 3M, SIRIUS, Polytop | Smart Auto UAE",
   description:
-    "Professional car detailing and polishing in Dubai & Sharjah using 3M, SIRIUS USA & Polytop Germany products. Silver from AED 299, Gold AED 450, Diamond AED 600, Premium AED 1000. Interior detailing, exterior detailing, 6-step polishing, swirl mark removal, engine bay cleaning & headlight restoration. 4 branches — MotorCity, Al Quoz, Mirdif & Sharjah.",
+    "Professional car detailing and polishing in Dubai & Sharjah using 3M, SIRIUS USA & Polytop Germany products. Silver from AED 299, Gold AED 450, Diamond AED 600, Premium AED 1000. Interior detailing, exterior detailing, 6-step polishing, swirl mark removal, engine bay cleaning & headlight restoration. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
   keywords: [
     "car detailing Dubai",
     "car detailing Sharjah",
@@ -85,7 +85,7 @@ const detailingBrands = [
     tag: "Premium Brand",
     tagColor: "#a78bfa",
     origin: "SIRIUS USA",
-    desc: "SIRIUS USA brings advanced American-engineered detailing chemistry to every job — delivering superior surface preparation, deep gloss enhancement, and long-lasting paint protection across all detailing packages.",
+    desc: "SIRIUS USA brings advanced American-engineered detailing chemistry to every job - delivering superior surface preparation, deep gloss enhancement, and long-lasting paint protection across all detailing packages.",
     features: [
       "Advanced USA detailing formula",
       "Deep gloss enhancement",
@@ -117,7 +117,7 @@ const services = [
     icon: Car,
     id: "exterior",
     title: "Exterior Detailing",
-    desc: "A thorough exterior treatment using 3M, SIRIUS USA & Polytop Germany products — removing oxidation, road grime, and contaminants, restoring your car's original paint finish and deep gloss.",
+    desc: "A thorough exterior treatment using 3M, SIRIUS USA & Polytop Germany products - removing oxidation, road grime, and contaminants, restoring your car's original paint finish and deep gloss.",
     points: [
       "Paint decontamination & clay bar",
       "6-step machine polishing",
@@ -131,7 +131,7 @@ const services = [
     icon: Sparkles,
     id: "interior",
     title: "Interior Detailing",
-    desc: "A complete deep clean of your car's entire interior — eliminating dust, stains, odours, and grime from every surface. Leaves your cabin spotless, fresh, and looking showroom-new.",
+    desc: "A complete deep clean of your car's entire interior - eliminating dust, stains, odours, and grime from every surface. Leaves your cabin spotless, fresh, and looking showroom-new.",
     points: [
       "Seats cleaning & stain removal",
       "Dashboard & centre console cleaning",
@@ -145,7 +145,7 @@ const services = [
     icon: Wind,
     id: "engine",
     title: "Engine Bay Cleaning",
-    desc: "Professional engine bay decontamination and steam cleaning — safely removing years of grease, oil residue, and dirt build-up, leaving your engine bay looking immaculate and well-maintained.",
+    desc: "Professional engine bay decontamination and steam cleaning - safely removing years of grease, oil residue, and dirt build-up, leaving your engine bay looking immaculate and well-maintained.",
     points: [
       "Full engine bay decontamination",
       "Steam cleaning process",
@@ -159,7 +159,7 @@ const services = [
     icon: Lightbulb,
     id: "headlight",
     title: "Headlight Restoration",
-    desc: "Professional restoration of yellowed, cloudy, or scratched headlight lenses — restoring full light projection and visibility, improving safety and enhancing your car's appearance.",
+    desc: "Professional restoration of yellowed, cloudy, or scratched headlight lenses - restoring full light projection and visibility, improving safety and enhancing your car's appearance.",
     points: [
       "Yellowing & cloudiness removal",
       "Scratch removal (surface level)",
@@ -285,7 +285,7 @@ const benefits = [
   {
     icon: Sparkles,
     title: "Showroom Finish Restored",
-    desc: "Our 6-step machine polishing process using 3M and Polytop Germany compounds removes microscopic scratches, swirl marks, and oxidation — revealing the original paint surface and restoring a deep, permanent showroom shine.",
+    desc: "Our 6-step machine polishing process using 3M and Polytop Germany compounds removes microscopic scratches, swirl marks, and oxidation - revealing the original paint surface and restoring a deep, permanent showroom shine.",
   },
   {
     icon: Shield,
@@ -295,22 +295,22 @@ const benefits = [
   {
     icon: Wind,
     title: "Healthier Interior",
-    desc: "A professionally cleaned interior eliminates dust, allergens, bacteria, and odour-causing contaminants — giving you a healthier, fresher driving environment every day.",
+    desc: "A professionally cleaned interior eliminates dust, allergens, bacteria, and odour-causing contaminants - giving you a healthier, fresher driving environment every day.",
   },
   {
     icon: Lightbulb,
     title: "Improved Visibility & Safety",
-    desc: "Headlight restoration dramatically improves nighttime light projection and road visibility — a critical safety upgrade for UAE roads that costs a fraction of headlight replacement.",
+    desc: "Headlight restoration dramatically improves nighttime light projection and road visibility - a critical safety upgrade for UAE roads that costs a fraction of headlight replacement.",
   },
   {
     icon: Award,
     title: "Higher Resale Value",
-    desc: "A well-detailed car commands significantly more at resale. Buyers immediately notice a clean, polished, well-maintained exterior and interior — translating directly into better offers.",
+    desc: "A well-detailed car commands significantly more at resale. Buyers immediately notice a clean, polished, well-maintained exterior and interior - translating directly into better offers.",
   },
   {
     icon: Layers,
     title: "Long-Lasting Results",
-    desc: "Unlike a basic car wash, professional detailing with premium 3M, SIRIUS, and Polytop products produces results that last months — especially with our Premium package's ceramic sealant for extended paint protection.",
+    desc: "Unlike a basic car wash, professional detailing with premium 3M, SIRIUS, and Polytop products produces results that last months - especially with our Premium package's ceramic sealant for extended paint protection.",
   },
 ];
 
@@ -318,12 +318,12 @@ const process = [
   {
     num: "01",
     title: "Assessment",
-    desc: "We inspect your car's interior and exterior condition — identifying paint defects, staining, oxidation, and contamination to determine the right treatment for your chosen package.",
+    desc: "We inspect your car's interior and exterior condition - identifying paint defects, staining, oxidation, and contamination to determine the right treatment for your chosen package.",
   },
   {
     num: "02",
     title: "Interior Deep Clean",
-    desc: "A thorough interior clean from roof to floor — seats, carpets, dashboard, door panels, AC vents, and all trim surfaces using premium foam-based cleaning products.",
+    desc: "A thorough interior clean from roof to floor - seats, carpets, dashboard, door panels, AC vents, and all trim surfaces using premium foam-based cleaning products.",
   },
   {
     num: "03",
@@ -333,31 +333,31 @@ const process = [
   {
     num: "04",
     title: "Machine Polishing",
-    desc: "Our certified detailers perform a 6-step machine polishing process using 3M and Polytop Germany compounds — progressively removing scratches, swirl marks, and oxidation to reveal a flawless, deep-gloss paint surface.",
+    desc: "Our certified detailers perform a 6-step machine polishing process using 3M and Polytop Germany compounds - progressively removing scratches, swirl marks, and oxidation to reveal a flawless, deep-gloss paint surface.",
   },
   {
     num: "05",
     title: "Protection & Finish",
-    desc: "We apply your chosen protective finish — exterior wax, SIRIUS ceramic sealant (Premium), or tyre dressing — before a final quality inspection and handover of your fully detailed car.",
+    desc: "We apply your chosen protective finish - exterior wax, SIRIUS ceramic sealant (Premium), or tyre dressing - before a final quality inspection and handover of your fully detailed car.",
   },
 ];
 
 const faqs = [
   {
     q: "What detailing product brands does Smart Auto UAE use?",
-    a: "We use three premium professional-grade detailing brands: 3M — the world's most trusted polishing compound brand; SIRIUS USA — advanced American detailing chemistry for surface preparation and gloss enhancement; and Polytop Germany — premium German compounds used in our 6-step polishing process, especially in the Premium package. Together these brands deliver the highest quality detailing results in Dubai and Sharjah.",
+    a: "We use three premium professional-grade detailing brands: 3M - the world's most trusted polishing compound brand; SIRIUS USA - advanced American detailing chemistry for surface preparation and gloss enhancement; and Polytop Germany - premium German compounds used in our 6-step polishing process, especially in the Premium package. Together these brands deliver the highest quality detailing results in Dubai and Sharjah.",
   },
   {
     q: "What is the difference between car detailing and a regular car wash?",
-    a: "A regular car wash removes surface dirt and dust. Car detailing is a comprehensive process that deep cleans the entire interior, decontaminates and polishes the paintwork using professional-grade 3M, SIRIUS, and Polytop products, removes swirl marks and scratches, and applies protective treatments — restoring your car to a showroom-level finish that lasts months, not days.",
+    a: "A regular car wash removes surface dirt and dust. Car detailing is a comprehensive process that deep cleans the entire interior, decontaminates and polishes the paintwork using professional-grade 3M, SIRIUS, and Polytop products, removes swirl marks and scratches, and applies protective treatments - restoring your car to a showroom-level finish that lasts months, not days.",
   },
   {
     q: "What is included in the Silver car detailing package?",
-    a: "The Silver package (AED 299–349) covers a full interior deep clean — seats, seat belts, dashboard, centre console, door panels, roof, carpets, floor mats, and AC vents — plus an exterior wax finish. It is our essential detailing package ideal for regular maintenance.",
+    a: "The Silver package (AED 299–349) covers a full interior deep clean - seats, seat belts, dashboard, centre console, door panels, roof, carpets, floor mats, and AC vents - plus an exterior wax finish. It is our essential detailing package ideal for regular maintenance.",
   },
   {
     q: "What is included in the Gold car detailing package?",
-    a: "The Gold package (AED 450–500) includes everything in Silver plus a full exterior upgrade — washing and clay application, wheel rim and brake caliper cleaning, 6-step body polishing using 3M products, and swirl mark removal. It is our most popular package for a thorough inside-and-out transformation.",
+    a: "The Gold package (AED 450–500) includes everything in Silver plus a full exterior upgrade - washing and clay application, wheel rim and brake caliper cleaning, 6-step body polishing using 3M products, and swirl mark removal. It is our most popular package for a thorough inside-and-out transformation.",
   },
   {
     q: "What is included in the Diamond package?",
@@ -369,11 +369,11 @@ const faqs = [
   },
   {
     q: "What is headlight restoration?",
-    a: "Headlight restoration is the professional process of removing yellowing, cloudiness, and surface scratches from plastic headlight lenses — restoring full clarity, light projection, and appearance. At Smart Auto UAE, full restoration takes 24 hours and includes one free follow-up service after one year.",
+    a: "Headlight restoration is the professional process of removing yellowing, cloudiness, and surface scratches from plastic headlight lenses - restoring full clarity, light projection, and appearance. At Smart Auto UAE, full restoration takes 24 hours and includes one free follow-up service after one year.",
   },
   {
     q: "Where can I get car detailing near me in Dubai or Sharjah?",
-    a: "Smart Auto UAE has 4 branches — MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All branches are open every day from 11AM to 9PM. Walk-ins are welcome, or contact us on WhatsApp to book.",
+    a: "Smart Auto UAE has 4 branches - MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All branches are open every day from 11AM to 9PM. Walk-ins are welcome, or contact us on WhatsApp to book.",
   },
 ];
 
@@ -469,7 +469,7 @@ export default function CarDetailingPage() {
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>3M, SIRIUS USA</strong> and{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Polytop Germany</strong> products.
                   Interior deep clean, exterior polish, 6-step paint correction, engine bay cleaning,
-                  and headlight restoration — all under one roof at{" "}
+                  and headlight restoration - all under one roof at{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>4 branches</strong> across the UAE.
                 </p>
 
@@ -509,7 +509,7 @@ export default function CarDetailingPage() {
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
                     src="https://images.unsplash.com/photo-1620060710473-b3d9a8d778c3?w=900&q=80"
-                    alt="Car detailing and polishing Dubai Sharjah — 3M SIRIUS Polytop — Smart Auto UAE"
+                    alt="Car detailing and polishing Dubai Sharjah - 3M SIRIUS Polytop - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0"
@@ -629,7 +629,7 @@ export default function CarDetailingPage() {
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                Four tiers of car detailing using 3M, SIRIUS USA, and Polytop Germany products —
+                Four tiers of car detailing using 3M, SIRIUS USA, and Polytop Germany products -
                 from essential interior and exterior cleaning to our ultimate Premium package with
                 German compound polishing and ceramic sealant.
               </p>
@@ -757,7 +757,7 @@ export default function CarDetailingPage() {
                 </span>
               </h2>
               <p className="max-w-2xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                We use only professional-grade detailing products from three globally trusted brands —
+                We use only professional-grade detailing products from three globally trusted brands -
                 ensuring every car leaves our branches with a flawless, long-lasting finish.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -901,7 +901,7 @@ export default function CarDetailingPage() {
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
                   src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=900&q=80"
-                  alt="Smart Auto UAE — best car detailing near me Dubai Sharjah 3M SIRIUS Polytop"
+                  alt="Smart Auto UAE - best car detailing near me Dubai Sharjah 3M SIRIUS Polytop"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0"
@@ -940,13 +940,13 @@ export default function CarDetailingPage() {
                   UAE delivers professional car detailing using{" "}
                   <strong style={{ color: "rgba(255,255,255,0.75)" }}>3M, SIRIUS USA, and Polytop Germany</strong>{" "}
                   products. From a Silver interior refresh to our full Premium package with German compound
-                  polishing and ceramic sealant — every job is completed by certified detailers at all 4 branches.
+                  polishing and ceramic sealant - every job is completed by certified detailers at all 4 branches.
                 </p>
                 <div className="flex flex-col gap-4 mb-9">
                   {[
                     { icon: Award,       text: "3M, SIRIUS USA & Polytop Germany detailing products" },
                     { icon: ShieldCheck, text: "6-step polishing with Polytop Germany compounds (Premium)" },
-                    { icon: MapPin,      text: "4 branches — MotorCity, Al Quoz, Mirdif & Sharjah" },
+                    { icon: MapPin,      text: "4 branches - MotorCity, Al Quoz, Mirdif & Sharjah" },
                     { icon: Clock,       text: "Open every day 11AM – 9PM, walk-ins welcome" },
                   ].map((item) => (
                     <div key={item.text} className="flex items-center gap-3.5">
@@ -990,7 +990,7 @@ export default function CarDetailingPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.6rem)", color: "#fff" }}>
-                FAQs — Car Detailing{" "}
+                FAQs - Car Detailing{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   Dubai &amp; Sharjah
                 </span>

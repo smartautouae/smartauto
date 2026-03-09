@@ -14,7 +14,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Car Wrapping Dubai & Sharjah | 400+ Colours, Chrome, Matte, Carbon | Smart Auto UAE",
   description:
-    "Professional car wrapping in Dubai & Sharjah. 400+ vinyl colours and finishes — full body wraps, colour change, chrome, matte, carbon fibre, chameleon & custom designs. Vinyl wraps protect original paint. Removable, residue-free. Boats, bikes & commercial vehicles. 4 branches — MotorCity, Al Quoz, Mirdif & Sharjah.",
+    "Professional car wrapping in Dubai & Sharjah. 400+ vinyl colours and finishes - full body wraps, colour change, chrome, matte, carbon fibre, chameleon & custom designs. Vinyl wraps protect original paint. Removable, residue-free. Boats, bikes & commercial vehicles. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
   keywords: [
     "car wrapping Dubai",
     "car wrapping Sharjah",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Car Wrapping Dubai & Sharjah | 400+ Colours, Chrome, Matte, Carbon | Smart Auto UAE",
     description:
-      "Professional car wrapping in Dubai & Sharjah. 400+ vinyl colours — full body wraps, colour change, chrome, matte, carbon, chameleon & custom designs. Removable, residue-free. 4 branches.",
+      "Professional car wrapping in Dubai & Sharjah. 400+ vinyl colours - full body wraps, colour change, chrome, matte, carbon, chameleon & custom designs. Removable, residue-free. 4 branches.",
     url: "https://smartautouae.ae/services/car-wrapping-dubai-sharjah",
     siteName: "Smart Auto UAE",
     type: "website",
@@ -64,7 +64,7 @@ const cardBdr  = "rgba(255,255,255,0.06)";
 const wrapTypes = [
   {
     name: "Colour Change Wrap",
-    desc: "Transform your car into any colour imaginable — from subtle satin whites to bold metallic reds. Choose from 400+ premium vinyl colours with clean, residue-free removal whenever you want a change.",
+    desc: "Transform your car into any colour imaginable - from subtle satin whites to bold metallic reds. Choose from 400+ premium vinyl colours with clean, residue-free removal whenever you want a change.",
     colors: ["Solid", "Satin", "Metallic", "Pearl"],
     color: gold,
   },
@@ -82,13 +82,13 @@ const wrapTypes = [
   },
   {
     name: "Carbon Fibre Wrap",
-    desc: "The sporty, high-performance look of carbon fibre at a fraction of the cost — applied to full panels or as accents. Available in 3D and 4D carbon fibre texture films.",
+    desc: "The sporty, high-performance look of carbon fibre at a fraction of the cost - applied to full panels or as accents. Available in 3D and 4D carbon fibre texture films.",
     colors: ["3D Carbon", "4D Carbon", "Gloss Carbon", "Matte Carbon"],
     color: "#94a3b8",
   },
   {
     name: "Chameleon / Colour Shift",
-    desc: "One of the most striking wrap effects available — chameleon films shift between multiple colours depending on viewing angle and lighting, creating a truly unique appearance.",
+    desc: "One of the most striking wrap effects available - chameleon films shift between multiple colours depending on viewing angle and lighting, creating a truly unique appearance.",
     colors: ["Blue-Purple", "Green-Gold", "Red-Blue", "Custom Shift"],
     color: "#a78bfa",
   },
@@ -104,32 +104,32 @@ const benefits = [
   {
     icon: Palette,
     title: "400+ Colour & Finish Options",
-    desc: "With over 400 vinyl colours and finishes available — pearl, metallic, matte, gloss, chrome, 3D carbon, and chameleon — the possibilities for your car are virtually limitless. Custom colours and designs are available through digital printing.",
+    desc: "With over 400 vinyl colours and finishes available - pearl, metallic, matte, gloss, chrome, 3D carbon, and chameleon - the possibilities for your car are virtually limitless. Custom colours and designs are available through digital printing.",
   },
   {
     icon: Shield,
     title: "Protects Original Paint",
-    desc: "Vinyl wrap acts as a second skin over your factory paint — protecting it from everyday scratches, stone chips, and UV exposure. Remove the wrap at any time to reveal perfect original paint underneath.",
+    desc: "Vinyl wrap acts as a second skin over your factory paint - protecting it from everyday scratches, stone chips, and UV exposure. Remove the wrap at any time to reveal perfect original paint underneath.",
   },
   {
     icon: Award,
     title: "Preserves Resale Value",
-    desc: "Repainting your car permanently reduces its value. Wrapping preserves the original paint and can be completely removed at resale — leaving your car in factory-original condition for the highest possible value.",
+    desc: "Repainting your car permanently reduces its value. Wrapping preserves the original paint and can be completely removed at resale - leaving your car in factory-original condition for the highest possible value.",
   },
   {
     icon: Sparkles,
     title: "Residue-Free Removal",
-    desc: "All our premium PVC vinyl films are designed for clean removal — leaving absolutely no adhesive residue or damage to the original paintwork, no matter how long the wrap has been applied.",
+    desc: "All our premium PVC vinyl films are designed for clean removal - leaving absolutely no adhesive residue or damage to the original paintwork, no matter how long the wrap has been applied.",
   },
   {
     icon: Layers,
     title: "Cost-Effective vs Paint",
-    desc: "A full body wrap achieves the same dramatic colour transformation as a full respray at significantly lower cost — with the added benefit of being reversible and not permanently altering your car.",
+    desc: "A full body wrap achieves the same dramatic colour transformation as a full respray at significantly lower cost - with the added benefit of being reversible and not permanently altering your car.",
   },
   {
     icon: ShieldCheck,
     title: "Wash & Weather Resistant",
-    desc: "Our vinyl wrap films are wash-street resistant and fully weather-proof — suitable for UAE's intense heat, sun, and occasional rain. They can be polished, waxed, or sealed for additional protection.",
+    desc: "Our vinyl wrap films are wash-street resistant and fully weather-proof - suitable for UAE's intense heat, sun, and occasional rain. They can be polished, waxed, or sealed for additional protection.",
   },
 ];
 
@@ -145,22 +145,22 @@ const vehicleTypes = [
 const wrapVsPaint = [
   {
     aspect: "Reversibility",
-    wrap: "Fully reversible — remove anytime with no damage",
-    paint: "Permanent — cannot be undone",
+    wrap: "Fully reversible - remove anytime with no damage",
+    paint: "Permanent - cannot be undone",
   },
   {
     aspect: "Original Paint",
     wrap: "Protected and preserved underneath",
-    paint: "Replaced — reduces factory originality",
+    paint: "Replaced - reduces factory originality",
   },
   {
     aspect: "Resale Value",
-    wrap: "Preserved — remove before sale",
-    paint: "Reduced — especially non-standard colours",
+    wrap: "Preserved - remove before sale",
+    paint: "Reduced - especially non-standard colours",
   },
   {
     aspect: "Colour Options",
-    wrap: "400+ options — chrome, matte, carbon, chameleon",
+    wrap: "400+ options - chrome, matte, carbon, chameleon",
     paint: "Limited to standard automotive paints",
   },
   {
@@ -179,7 +179,7 @@ const process = [
   {
     num: "01",
     title: "Consultation",
-    desc: "Discuss your desired colour, finish, and scope — full body, partial, or accents. Choose from 400+ vinyl films and finishes. We help you select the perfect look for your car and budget.",
+    desc: "Discuss your desired colour, finish, and scope - full body, partial, or accents. Choose from 400+ vinyl films and finishes. We help you select the perfect look for your car and budget.",
   },
   {
     num: "02",
@@ -189,12 +189,12 @@ const process = [
   {
     num: "03",
     title: "Panel Preparation",
-    desc: "Where possible, handles, mirrors, and add-on parts are removed to allow seamless wrapping with minimal seams — ensuring a flawless, virtually paint-like finish on all panels.",
+    desc: "Where possible, handles, mirrors, and add-on parts are removed to allow seamless wrapping with minimal seams - ensuring a flawless, virtually paint-like finish on all panels.",
   },
   {
     num: "04",
     title: "Vinyl Application",
-    desc: "Our expert wrap technicians apply the premium PVC vinyl film panel by panel — using heat forming techniques to achieve perfect coverage on curves, edges, and complex body shapes.",
+    desc: "Our expert wrap technicians apply the premium PVC vinyl film panel by panel - using heat forming techniques to achieve perfect coverage on curves, edges, and complex body shapes.",
   },
   {
     num: "05",
@@ -206,11 +206,11 @@ const process = [
 const faqs = [
   {
     q: "What is car wrapping?",
-    a: "Car wrapping is the process of applying a premium vinyl film over your car's original paintwork — completely changing its colour, finish, or adding custom designs. The wrap acts as a protective second skin that can be removed cleanly at any time without damaging the original paint underneath.",
+    a: "Car wrapping is the process of applying a premium vinyl film over your car's original paintwork - completely changing its colour, finish, or adding custom designs. The wrap acts as a protective second skin that can be removed cleanly at any time without damaging the original paint underneath.",
   },
   {
     q: "How many colours are available for car wrapping at Smart Auto UAE?",
-    a: "We stock over 400 vinyl wrap colours and finishes — including solid colours, satin, metallic, pearl, matte, gloss, chrome (silver, gold, rose gold, black chrome), 3D and 4D carbon fibre, chameleon colour-shift films, and fully custom digital print designs. If you have a specific colour in mind, we can match it through our colour match system.",
+    a: "We stock over 400 vinyl wrap colours and finishes - including solid colours, satin, metallic, pearl, matte, gloss, chrome (silver, gold, rose gold, black chrome), 3D and 4D carbon fibre, chameleon colour-shift films, and fully custom digital print designs. If you have a specific colour in mind, we can match it through our colour match system.",
   },
   {
     q: "How long does a car wrap last in Dubai?",
@@ -218,23 +218,23 @@ const faqs = [
   },
   {
     q: "Does car wrapping damage the original paint?",
-    a: "No — when professionally applied and removed, car wrapping does not damage original paint. Our premium PVC vinyl films are specifically designed for residue-free removal. In fact, wrapping protects your original paint from scratches, UV damage, and everyday wear.",
+    a: "No - when professionally applied and removed, car wrapping does not damage original paint. Our premium PVC vinyl films are specifically designed for residue-free removal. In fact, wrapping protects your original paint from scratches, UV damage, and everyday wear.",
   },
   {
     q: "Is car wrapping better than repainting?",
-    a: "For most car owners in UAE, wrapping is the superior choice. It is reversible, preserves the original factory paint, maintains your car's resale value, offers 400+ colour and finish options (matte, chrome, carbon, chameleon), and can be completely removed at resale — making the original paint shine like new.",
+    a: "For most car owners in UAE, wrapping is the superior choice. It is reversible, preserves the original factory paint, maintains your car's resale value, offers 400+ colour and finish options (matte, chrome, carbon, chameleon), and can be completely removed at resale - making the original paint shine like new.",
   },
   {
     q: "Can I change my car colour legally with a wrap in Dubai?",
-    a: "Yes — colour change car wraps are legal in the UAE, but you must update your vehicle registration documents to reflect the new colour. Smart Auto UAE can advise you on the procedure for updating your RTA vehicle records.",
+    a: "Yes - colour change car wraps are legal in the UAE, but you must update your vehicle registration documents to reflect the new colour. Smart Auto UAE can advise you on the procedure for updating your RTA vehicle records.",
   },
   {
     q: "Do you wrap vehicles other than cars?",
-    a: "Yes — Smart Auto UAE wraps a wide range of vehicles including cars, SUVs, luxury and supercars, motorcycles and bikes, commercial fleet vehicles, boats and marine craft, and helicopters. Contact us to discuss your specific vehicle wrapping requirements.",
+    a: "Yes - Smart Auto UAE wraps a wide range of vehicles including cars, SUVs, luxury and supercars, motorcycles and bikes, commercial fleet vehicles, boats and marine craft, and helicopters. Contact us to discuss your specific vehicle wrapping requirements.",
   },
   {
     q: "Where can I get my car wrapped near me in Dubai or Sharjah?",
-    a: "Smart Auto UAE has 4 branches — MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All are open every day from 11AM to 9PM. Contact us on WhatsApp or walk in for a free wrapping consultation.",
+    a: "Smart Auto UAE has 4 branches - MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All are open every day from 11AM to 9PM. Contact us on WhatsApp or walk in for a free wrapping consultation.",
   },
 ];
 
@@ -332,8 +332,8 @@ export default function CarWrappingPage() {
                   Professional car wrapping across{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Dubai</strong> and{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah</strong>. Choose from{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>400+ vinyl colours and finishes</strong> —
-                  chrome, matte, carbon fibre, chameleon, pearl, metallic, and custom digital print designs —
+                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>400+ vinyl colours and finishes</strong> -
+                  chrome, matte, carbon fibre, chameleon, pearl, metallic, and custom digital print designs -
                   protecting your original paint with a removable, residue-free premium vinyl film.
                 </p>
 
@@ -373,7 +373,7 @@ export default function CarWrappingPage() {
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
                     src="https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=900&q=80"
-                    alt="Car wrapping Dubai Sharjah — 400+ colours chrome matte carbon — Smart Auto UAE"
+                    alt="Car wrapping Dubai Sharjah - 400+ colours chrome matte carbon - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0"
@@ -397,7 +397,7 @@ export default function CarWrappingPage() {
                   </div>
                 </div>
 
-                {/* Floating stat — Residue Free */}
+                {/* Floating stat - Residue Free */}
                 <div className="absolute -top-5 -right-5 rounded-2xl px-5 py-4 border text-center"
                   style={{ background: "#0A0A0A", border: "1px solid rgba(201,168,76,0.2)", minWidth: "120px" }}>
                   <div className="font-bold text-[13px] leading-tight mb-1"
@@ -413,7 +413,7 @@ export default function CarWrappingPage() {
                   </div>
                 </div>
 
-                {/* Floating stat — 400+ Colours */}
+                {/* Floating stat - 400+ Colours */}
                 <div className="absolute -bottom-5 -left-5 rounded-2xl px-5 py-4 border text-center"
                   style={{ background: "#0A0A0A", border: "1px solid rgba(201,168,76,0.2)", minWidth: "110px" }}>
                   <div className="font-bold text-[26px] leading-none mb-0.5"
@@ -449,8 +449,8 @@ export default function CarWrappingPage() {
                 </span>
               </h2>
               <p className="max-w-2xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                With over 400 colours and finishes to choose from — pearl, metallic, matte, gloss, chrome,
-                carbon fibre, chameleon and custom digital print — there is no limit to what we can create for your car.
+                With over 400 colours and finishes to choose from - pearl, metallic, matte, gloss, chrome,
+                carbon fibre, chameleon and custom digital print - there is no limit to what we can create for your car.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
@@ -553,7 +553,7 @@ export default function CarWrappingPage() {
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm" style={{ color: "rgba(255,255,255,0.4)" }}>
-                For most UAE car owners, wrapping is the smarter choice — here's why.
+                For most UAE car owners, wrapping is the smarter choice - here's why.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
@@ -665,7 +665,7 @@ export default function CarWrappingPage() {
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
                   src="https://images.unsplash.com/photo-1600706432502-77a0e2e32790?w=900&q=80"
-                  alt="Smart Auto UAE — best car wrapping near me Dubai Sharjah 400 colours"
+                  alt="Smart Auto UAE - best car wrapping near me Dubai Sharjah 400 colours"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0"
@@ -704,14 +704,14 @@ export default function CarWrappingPage() {
                   <strong style={{ color: "rgba(255,255,255,0.75)" }}>400+ vinyl colours and finishes</strong>{" "}
                   available across our 4 Dubai and Sharjah branches, Smart Auto UAE delivers flawless vinyl
                   wrap installations with premium PVC films, precision panel removal, and heat-formed
-                  seam-free edges — from colour change wraps to full custom digital designs.
+                  seam-free edges - from colour change wraps to full custom digital designs.
                 </p>
                 <div className="flex flex-col gap-4 mb-9">
                   {[
-                    { icon: Palette,     text: "400+ colours — colour change, chrome, matte, carbon, chameleon, custom print" },
-                    { icon: ShieldCheck, text: "Premium PVC vinyl films — residue-free, wash & weather resistant" },
-                    { icon: MapPin,      text: "4 branches — MotorCity, Al Quoz, Mirdif & Sharjah" },
-                    { icon: Clock,       text: "Open every day 11AM – 9PM — walk-ins & bookings welcome" },
+                    { icon: Palette,     text: "400+ colours - colour change, chrome, matte, carbon, chameleon, custom print" },
+                    { icon: ShieldCheck, text: "Premium PVC vinyl films - residue-free, wash & weather resistant" },
+                    { icon: MapPin,      text: "4 branches - MotorCity, Al Quoz, Mirdif & Sharjah" },
+                    { icon: Clock,       text: "Open every day 11AM – 9PM - walk-ins & bookings welcome" },
                   ].map((item) => (
                     <div key={item.text} className="flex items-center gap-3.5">
                       <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0"
@@ -754,7 +754,7 @@ export default function CarWrappingPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.6rem)", color: "#fff" }}>
-                FAQs — Car Wrapping{" "}
+                FAQs - Car Wrapping{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   Dubai &amp; Sharjah
                 </span>

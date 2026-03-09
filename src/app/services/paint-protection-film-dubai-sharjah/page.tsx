@@ -14,7 +14,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Paint Protection Film Dubai & Sharjah | PPF TotalGard, 3M, SIRIUS, GLOBAL | Smart Auto UAE",
   description:
-    "Professional Paint Protection Film (PPF) installation in Dubai & Sharjah. TotalGard, SIRIUS USA, GLOBAL USA, 3M & Smart Pro PPF. Self-healing, scratch-proof, UV resistant. Full body & partial PPF available. 5-year warranty. 4 branches — MotorCity, Al Quoz, Mirdif & Sharjah.",
+    "Professional Paint Protection Film (PPF) installation in Dubai & Sharjah. TotalGard, SIRIUS USA, GLOBAL USA, 3M & Smart Pro PPF. Self-healing, scratch-proof, UV resistant. Full body & partial PPF available. 5-year warranty. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
   keywords: [
     "paint protection film Dubai",
     "paint protection film Sharjah",
@@ -66,17 +66,17 @@ const benefits = [
   {
     icon: Shield,
     title: "Scratch & Chip Protection",
-    desc: "PPF acts as an invisible armour on your car's paintwork — absorbing rock chips, road debris, minor scratches, and swirl marks before they can damage your original paint.",
+    desc: "PPF acts as an invisible armour on your car's paintwork - absorbing rock chips, road debris, minor scratches, and swirl marks before they can damage your original paint.",
   },
   {
     icon: Sparkles,
     title: "Self-Healing Technology",
-    desc: "Our premium PPF films feature self-healing properties — minor surface scratches and swirl marks disappear on their own with heat from the sun or warm water, keeping your car looking flawless.",
+    desc: "Our premium PPF films feature self-healing properties - minor surface scratches and swirl marks disappear on their own with heat from the sun or warm water, keeping your car looking flawless.",
   },
   {
     icon: Droplets,
     title: "Hydrophobic & Easy to Clean",
-    desc: "PPF creates a hydrophobic surface that repels water, dirt, bird droppings, and bug splatter — making your car dramatically easier to maintain and keep clean in Dubai and Sharjah's dusty conditions.",
+    desc: "PPF creates a hydrophobic surface that repels water, dirt, bird droppings, and bug splatter - making your car dramatically easier to maintain and keep clean in Dubai and Sharjah's dusty conditions.",
   },
   {
     icon: Zap,
@@ -91,7 +91,7 @@ const benefits = [
   {
     icon: ShieldCheck,
     title: "Invisible Protection",
-    desc: "Our PPF films are optically clear and virtually invisible once installed — your car looks exactly as intended from the factory, with zero change in colour, gloss, or appearance.",
+    desc: "Our PPF films are optically clear and virtually invisible once installed - your car looks exactly as intended from the factory, with zero change in colour, gloss, or appearance.",
   },
 ];
 
@@ -109,7 +109,7 @@ const ppfBrands = [
       "UAE climate tested",
       "5-year Smart Auto warranty",
     ],
-    desc: "TotalGard PPF is our most popular paint protection film across Dubai and Sharjah. It delivers outstanding clarity, self-healing capability, and long-term durability — engineered to withstand UAE's extreme heat, sand, and UV conditions.",
+    desc: "TotalGard PPF is our most popular paint protection film across Dubai and Sharjah. It delivers outstanding clarity, self-healing capability, and long-term durability - engineered to withstand UAE's extreme heat, sand, and UV conditions.",
   },
   {
     name: "SIRIUS PPF",
@@ -169,24 +169,24 @@ const ppfBrands = [
       "Exceptional value",
       "Full Smart Auto warranty",
     ],
-    desc: "Smart Pro is Smart Auto UAE's exclusive in-house PPF brand — developed and tested specifically for the UAE climate. It delivers premium self-healing protection at exceptional value, backed by our full Smart Auto warranty across all 4 branches.",
+    desc: "Smart Pro is Smart Auto UAE's exclusive in-house PPF brand - developed and tested specifically for the UAE climate. It delivers premium self-healing protection at exceptional value, backed by our full Smart Auto warranty across all 4 branches.",
   },
 ];
 
 const coverageOptions = [
   {
     title: "Full Body PPF",
-    desc: "Complete paint protection coverage for the entire car — hood, bumpers, fenders, doors, roof, pillars, and rear. Maximum protection for car owners who want their entire vehicle shielded.",
+    desc: "Complete paint protection coverage for the entire car - hood, bumpers, fenders, doors, roof, pillars, and rear. Maximum protection for car owners who want their entire vehicle shielded.",
     ideal: "New cars, luxury vehicles, daily drivers",
   },
   {
     title: "Front End Package",
-    desc: "Covers the most vulnerable areas — full hood, front bumper, front fenders, and side mirrors. The most common package for protection against highway rock chips and road debris.",
+    desc: "Covers the most vulnerable areas - full hood, front bumper, front fenders, and side mirrors. The most common package for protection against highway rock chips and road debris.",
     ideal: "Highway drivers, sports cars, SUVs",
   },
   {
     title: "Partial / Custom PPF",
-    desc: "Targeted protection on specific panels you want covered — door edges, door cups, rocker panels, or any area prone to damage. Fully customised to your needs and budget.",
+    desc: "Targeted protection on specific panels you want covered - door edges, door cups, rocker panels, or any area prone to damage. Fully customised to your needs and budget.",
     ideal: "Budget-conscious owners, specific damage-prone areas",
   },
 ];
@@ -195,12 +195,12 @@ const process = [
   {
     num: "01",
     title: "Vehicle Inspection",
-    desc: "We thoroughly inspect your car's current paint condition — identifying any existing chips, scratches, or defects that need addressing before PPF installation.",
+    desc: "We thoroughly inspect your car's current paint condition - identifying any existing chips, scratches, or defects that need addressing before PPF installation.",
   },
   {
     num: "02",
     title: "Paint Decontamination",
-    desc: "Your car undergoes a full decontamination wash to remove all surface contaminants, bonded particles, and residues — ensuring the PPF bonds cleanly to the paint.",
+    desc: "Your car undergoes a full decontamination wash to remove all surface contaminants, bonded particles, and residues - ensuring the PPF bonds cleanly to the paint.",
   },
   {
     num: "03",
@@ -210,7 +210,7 @@ const process = [
   {
     num: "04",
     title: "Professional Installation",
-    desc: "Our certified PPF installers apply the film with zero air bubbles, zero lifting edges, and invisible seams — ensuring a factory-fresh invisible finish on every panel.",
+    desc: "Our certified PPF installers apply the film with zero air bubbles, zero lifting edges, and invisible seams - ensuring a factory-fresh invisible finish on every panel.",
   },
   {
     num: "05",
@@ -222,15 +222,15 @@ const process = [
 const faqs = [
   {
     q: "What is Paint Protection Film (PPF)?",
-    a: "Paint Protection Film (PPF) is a thick, optically clear polyurethane film applied directly to your car's painted surfaces. It acts as an invisible shield protecting your paint from rock chips, scratches, road debris, UV rays, bird droppings, and environmental contaminants — while preserving your car's original factory finish.",
+    a: "Paint Protection Film (PPF) is a thick, optically clear polyurethane film applied directly to your car's painted surfaces. It acts as an invisible shield protecting your paint from rock chips, scratches, road debris, UV rays, bird droppings, and environmental contaminants - while preserving your car's original factory finish.",
   },
   {
     q: "Is PPF worth it in Dubai and Sharjah?",
-    a: "Absolutely. Dubai and Sharjah's road conditions — including highway gravel, sand, and extreme UV exposure — make PPF one of the best investments for car owners in the UAE. PPF protects your paint from daily damage, prevents UV-related fading and oxidation, and preserves your car's resale value significantly.",
+    a: "Absolutely. Dubai and Sharjah's road conditions - including highway gravel, sand, and extreme UV exposure - make PPF one of the best investments for car owners in the UAE. PPF protects your paint from daily damage, prevents UV-related fading and oxidation, and preserves your car's resale value significantly.",
   },
   {
     q: "What is self-healing PPF?",
-    a: "Self-healing PPF contains a special elastomeric top coat that allows minor surface scratches and swirl marks to 'heal' and disappear automatically when exposed to heat — either from sunlight or warm water. All our premium brands including TotalGard, SIRIUS, GLOBAL, 3M, and Smart Pro feature self-healing technology.",
+    a: "Self-healing PPF contains a special elastomeric top coat that allows minor surface scratches and swirl marks to 'heal' and disappear automatically when exposed to heat - either from sunlight or warm water. All our premium brands including TotalGard, SIRIUS, GLOBAL, 3M, and Smart Pro feature self-healing technology.",
   },
   {
     q: "What is the difference between TotalGard, SIRIUS, GLOBAL, 3M and Smart Pro PPF?",
@@ -246,11 +246,11 @@ const faqs = [
   },
   {
     q: "Can PPF be applied on a new car?",
-    a: "Yes — in fact, new cars are the ideal candidate for PPF. Applying paint protection film on a new vehicle locks in the factory-perfect paint condition from day one, ensuring it stays in that condition for years. It is one of the first things we recommend for new car owners in Dubai and Sharjah.",
+    a: "Yes - in fact, new cars are the ideal candidate for PPF. Applying paint protection film on a new vehicle locks in the factory-perfect paint condition from day one, ensuring it stays in that condition for years. It is one of the first things we recommend for new car owners in Dubai and Sharjah.",
   },
   {
     q: "Where can I get PPF installed near me in Dubai or Sharjah?",
-    a: "Smart Auto UAE has 4 branches — MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All are open every day from 11AM to 9PM. Contact us on WhatsApp or call to book your PPF consultation.",
+    a: "Smart Auto UAE has 4 branches - MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All are open every day from 11AM to 9PM. Contact us on WhatsApp or call to book your PPF consultation.",
   },
 ];
 
@@ -322,7 +322,7 @@ export default function PPFPage() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-              {/* Left — Copy */}
+              {/* Left - Copy */}
               <div>
                 <div className="inline-flex items-center gap-2.5 border rounded-full px-4 py-1.5 mb-8 text-[10px] tracking-[0.3em] uppercase"
                   style={{ borderColor: "rgba(201,168,76,0.25)", background: "rgba(201,168,76,0.05)", color: gold }}>
@@ -334,7 +334,7 @@ export default function PPFPage() {
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2.4rem,5vw,4.2rem)", color: "#fff" }}>
                   Paint Protection Film{" "}
                   <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                    Dubai &amp; Sharjah
+                    (PPF) in the UAE
                   </span>
                 </h1>
 
@@ -355,7 +355,7 @@ export default function PPFPage() {
                     "UV & oxidation resistant",
                     "Invisible on your car",
                     "Full body & partial options",
-                    "4 branches — Dubai & Sharjah",
+                    "4 branches - Dubai & Sharjah",
                   ].map((f) => (
                     <div key={f} className="flex items-center gap-2.5">
                       <CheckCircle size={14} style={{ color: gold, flexShrink: 0 }} />
@@ -378,13 +378,13 @@ export default function PPFPage() {
                 </div>
               </div>
 
-              {/* Right — Image card */}
+              {/* Right - Image card */}
               <div className="relative hidden lg:block">
                 <div className="relative rounded-3xl overflow-hidden border"
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
                     src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&q=80"
-                    alt="Paint protection film PPF installation Dubai Sharjah — Smart Auto UAE"
+                    alt="Paint protection film PPF installation Dubai Sharjah - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0"
@@ -452,7 +452,7 @@ export default function PPFPage() {
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
                 Benefits of Paint Protection Film in{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  Dubai &amp; Sharjah
+                  the UAE
                 </span>
               </h2>
               <p className="max-w-2xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
@@ -493,13 +493,13 @@ export default function PPFPage() {
                 </span>
               </h2>
               <p className="max-w-2xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                We carry the widest range of premium PPF brands in UAE — from global leaders to our own
+                We carry the widest range of premium PPF brands in UAE - from global leaders to our own
                 exclusive Smart Pro brand. Every film is genuine and every installation is certified.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
 
-            {/* 5 brand cards — 3 + 2 layout */}
+            {/* 5 brand cards - 3 + 2 layout */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-5">
               {ppfBrands.slice(0, 3).map((brand) => (
                 <BrandCard key={brand.name} brand={brand} />
@@ -541,7 +541,7 @@ export default function PPFPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
-                Full Body or Partial —{" "}
+                Full Body or Partial -{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   You Choose
                 </span>
@@ -626,7 +626,7 @@ export default function PPFPage() {
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
                   src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=900&q=80"
-                  alt="Smart Auto UAE — best PPF installer near me Dubai Sharjah"
+                  alt="Smart Auto UAE - best PPF installer near me Dubai Sharjah"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0"
@@ -663,14 +663,14 @@ export default function PPFPage() {
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
                   With over 10 years of experience across Dubai and Sharjah, Smart Auto UAE is the most
                   trusted destination for professional PPF installation near you. We carry 5 premium brands
-                  including our own exclusive Smart Pro PPF — installed by certified technicians using
+                  including our own exclusive Smart Pro PPF - installed by certified technicians using
                   precision computer-cut templates at all 4 locations.
                 </p>
                 <div className="flex flex-col gap-4 mb-9">
                   {[
                     { icon: Award,       text: "5 premium PPF brands including exclusive Smart Pro" },
                     { icon: ShieldCheck, text: "5-year warranty on all PPF installations" },
-                    { icon: MapPin,      text: "4 branches — MotorCity, Al Quoz, Mirdif & Sharjah" },
+                    { icon: MapPin,      text: "4 branches - MotorCity, Al Quoz, Mirdif & Sharjah" },
                     { icon: Clock,       text: "Open every day 11AM – 9PM, walk-ins welcome" },
                   ].map((item) => (
                     <div key={item.text} className="flex items-center gap-3.5">
@@ -715,7 +715,7 @@ export default function PPFPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.6rem)", color: "#fff" }}>
-                FAQs — Paint Protection Film{" "}
+                FAQs - Paint Protection Film{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   Dubai &amp; Sharjah
                 </span>

@@ -14,7 +14,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Colour PPF Dubai & Sharjah | Coloured Paint Protection Film | Smart Auto UAE",
   description:
-    "Colour PPF in Dubai & Sharjah — coloured paint protection film that changes your car's colour while protecting the original paint. Self-healing, stone chip resistant, removable. 400+ colour options. MotorCity, Al Quoz, Mirdif & Sharjah branches. Smart Auto UAE.",
+    "Colour PPF in Dubai & Sharjah - coloured paint protection film that changes your car's colour while protecting the original paint. Self-healing, stone chip resistant, removable. 400+ colour options. MotorCity, Al Quoz, Mirdif & Sharjah branches. Smart Auto UAE.",
   keywords: [
     "colour PPF Dubai",
     "colour PPF Sharjah",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Colour PPF Dubai & Sharjah | Coloured Paint Protection Film | Smart Auto UAE",
     description:
-      "Colour PPF in Dubai & Sharjah — change your car's colour and protect the original paint simultaneously. Self-healing, stone chip resistant, removable. 400+ colour options. 4 branches.",
+      "Colour PPF in Dubai & Sharjah - change your car's colour and protect the original paint simultaneously. Self-healing, stone chip resistant, removable. 400+ colour options. 4 branches.",
     url: "https://smartautouae.ae/services/colour-ppf-dubai-sharjah",
     siteName: "Smart Auto UAE",
     type: "website",
@@ -72,13 +72,13 @@ const colourPpfTypes = [
   },
   {
     name: "Satin Colour PPF",
-    desc: "A mid-sheen satin finish PPF that sits between gloss and matte — delivering a refined, premium look with complete paint protection. One of the most sophisticated finishes available for UAE cars.",
+    desc: "A mid-sheen satin finish PPF that sits between gloss and matte - delivering a refined, premium look with complete paint protection. One of the most sophisticated finishes available for UAE cars.",
     tags: ["Satin Black", "Satin White", "Satin Grey", "Any Colour"],
     color: "#94a3b8",
   },
   {
     name: "Metallic Colour PPF",
-    desc: "Coloured PPF with metallic flake pigments embedded in the film — giving your car a stunning metallic colour change with the full protective benefits of PPF. A true alternative to expensive factory metallic paint.",
+    desc: "Coloured PPF with metallic flake pigments embedded in the film - giving your car a stunning metallic colour change with the full protective benefits of PPF. A true alternative to expensive factory metallic paint.",
     tags: ["Metallic Silver", "Metallic Blue", "Metallic Red", "Custom"],
     color: "#e2e8f0",
   },
@@ -90,7 +90,7 @@ const colourPpfTypes = [
   },
   {
     name: "Custom Colour PPF",
-    desc: "Looking for a specific colour or special effect not in our standard range? We offer custom-matched and special-effect coloured PPF films — including two-tone combinations and bespoke colour requests.",
+    desc: "Looking for a specific colour or special effect not in our standard range? We offer custom-matched and special-effect coloured PPF films - including two-tone combinations and bespoke colour requests.",
     tags: ["Colour Match", "Two-Tone", "Special Effect", "Bespoke"],
     color: "#a78bfa",
   },
@@ -100,22 +100,22 @@ const benefits = [
   {
     icon: Shield,
     title: "Colour Change + Protection in One",
-    desc: "Colour PPF is the ultimate upgrade — it changes your car's colour and simultaneously protects the original factory paint from stone chips, scratches, UV rays, and road debris. No other product offers both in a single application.",
+    desc: "Colour PPF is the ultimate upgrade - it changes your car's colour and simultaneously protects the original factory paint from stone chips, scratches, UV rays, and road debris. No other product offers both in a single application.",
   },
   {
     icon: Sparkles,
     title: "Self-Healing Technology",
-    desc: "Our colour PPF films feature advanced self-healing technology — minor surface scratches and swirl marks disappear with heat exposure (sunlight or warm water), keeping your car looking flawless year after year.",
+    desc: "Our colour PPF films feature advanced self-healing technology - minor surface scratches and swirl marks disappear with heat exposure (sunlight or warm water), keeping your car looking flawless year after year.",
   },
   {
     icon: Award,
     title: "Preserves Resale Value",
-    desc: "Unlike a colour respray, colour PPF is fully removable — revealing your original factory paint in perfect condition underneath. Remove at resale for the highest possible market value.",
+    desc: "Unlike a colour respray, colour PPF is fully removable - revealing your original factory paint in perfect condition underneath. Remove at resale for the highest possible market value.",
   },
   {
     icon: Palette,
     title: "400+ Colours & Finishes",
-    desc: "With over 400 colour options available — gloss, matte, satin, metallic, chrome, and custom — colour PPF gives you the same range of finish options as vinyl wrap, but with the added durability and protection of PPF.",
+    desc: "With over 400 colour options available - gloss, matte, satin, metallic, chrome, and custom - colour PPF gives you the same range of finish options as vinyl wrap, but with the added durability and protection of PPF.",
   },
   {
     icon: ShieldCheck,
@@ -125,30 +125,30 @@ const benefits = [
   {
     icon: Layers,
     title: "UV & Chemical Resistant",
-    desc: "Our colour PPF films are engineered to resist UV degradation, yellowing, bird drop etching, and harsh chemical exposure — critical protection in UAE's extreme heat and sun conditions.",
+    desc: "Our colour PPF films are engineered to resist UV degradation, yellowing, bird drop etching, and harsh chemical exposure - critical protection in UAE's extreme heat and sun conditions.",
   },
 ];
 
 const colourPpfVsWrap = [
   {
     aspect: "Paint Protection",
-    ppf: "Exceptional — thick film absorbs stone chips & impacts",
-    wrap: "Basic — thin film, limited impact protection",
+    ppf: "Exceptional - thick film absorbs stone chips & impacts",
+    wrap: "Basic - thin film, limited impact protection",
   },
   {
     aspect: "Self-Healing",
-    ppf: "Yes — scratches heal with heat",
-    wrap: "No — scratches are permanent",
+    ppf: "Yes - scratches heal with heat",
+    wrap: "No - scratches are permanent",
   },
   {
     aspect: "Colour Change",
-    ppf: "Yes — 400+ colour options available",
-    wrap: "Yes — 400+ colour options available",
+    ppf: "Yes - 400+ colour options available",
+    wrap: "Yes - 400+ colour options available",
   },
   {
     aspect: "Thickness",
-    ppf: "~200 microns — far superior protection",
-    wrap: "~100 microns — primarily cosmetic",
+    ppf: "~200 microns - far superior protection",
+    wrap: "~100 microns - primarily cosmetic",
   },
   {
     aspect: "Durability",
@@ -162,7 +162,7 @@ const colourPpfVsWrap = [
   },
   {
     aspect: "UV Resistance",
-    ppf: "Superior — no yellowing or degradation",
+    ppf: "Superior - no yellowing or degradation",
     wrap: "Standard UV resistance",
   },
   {
@@ -176,7 +176,7 @@ const process = [
   {
     num: "01",
     title: "Consultation",
-    desc: "Choose your colour, finish, and scope — full body, partial panels, or accents. We help you select from 400+ colour PPF options and advise on the best coverage for your car and budget.",
+    desc: "Choose your colour, finish, and scope - full body, partial panels, or accents. We help you select from 400+ colour PPF options and advise on the best coverage for your car and budget.",
   },
   {
     num: "02",
@@ -186,12 +186,12 @@ const process = [
   {
     num: "03",
     title: "Panel Preparation",
-    desc: "Handles, mirrors, and removable parts are taken off wherever possible to ensure seamless, edge-to-edge coverage — giving a factory-finish appearance with no visible seams.",
+    desc: "Handles, mirrors, and removable parts are taken off wherever possible to ensure seamless, edge-to-edge coverage - giving a factory-finish appearance with no visible seams.",
   },
   {
     num: "04",
     title: "PPF Application",
-    desc: "Our certified installers apply the coloured PPF film panel by panel using precision cutting software and heat-forming techniques — achieving perfect coverage on all body curves and edges.",
+    desc: "Our certified installers apply the coloured PPF film panel by panel using precision cutting software and heat-forming techniques - achieving perfect coverage on all body curves and edges.",
   },
   {
     num: "05",
@@ -203,35 +203,35 @@ const process = [
 const faqs = [
   {
     q: "What is Colour PPF?",
-    a: "Colour PPF (Coloured Paint Protection Film) is a premium, pigmented paint protection film that changes your car's colour while simultaneously protecting the original factory paint from stone chips, scratches, UV damage, and road debris. Unlike vinyl wrap — which is primarily cosmetic — colour PPF provides real, physical paint protection due to its superior thickness and self-healing properties.",
+    a: "Colour PPF (Coloured Paint Protection Film) is a premium, pigmented paint protection film that changes your car's colour while simultaneously protecting the original factory paint from stone chips, scratches, UV damage, and road debris. Unlike vinyl wrap - which is primarily cosmetic - colour PPF provides real, physical paint protection due to its superior thickness and self-healing properties.",
   },
   {
     q: "What is the difference between Colour PPF and vinyl wrap?",
-    a: "Both change your car's colour and are fully removable — but colour PPF is significantly superior in terms of protection. Colour PPF is approximately twice the thickness of vinyl wrap (~200 microns vs ~100 microns), features self-healing technology for minor scratches, offers superior UV and chemical resistance, and typically lasts 8–12 years versus 3–7 years for vinyl. Colour PPF is the premium choice for car owners who want colour change and maximum paint protection together.",
+    a: "Both change your car's colour and are fully removable - but colour PPF is significantly superior in terms of protection. Colour PPF is approximately twice the thickness of vinyl wrap (~200 microns vs ~100 microns), features self-healing technology for minor scratches, offers superior UV and chemical resistance, and typically lasts 8–12 years versus 3–7 years for vinyl. Colour PPF is the premium choice for car owners who want colour change and maximum paint protection together.",
   },
   {
     q: "What colour PPF finishes are available at Smart Auto UAE?",
-    a: "We offer over 400 colour PPF options including gloss, matte, satin, metallic, satin chrome, and custom colour-matched films. Whether you want a classic gloss black, a matte white, a premium satin grey, or a custom bespoke colour — we can fulfil your request across all 4 branches in Dubai and Sharjah.",
+    a: "We offer over 400 colour PPF options including gloss, matte, satin, metallic, satin chrome, and custom colour-matched films. Whether you want a classic gloss black, a matte white, a premium satin grey, or a custom bespoke colour - we can fulfil your request across all 4 branches in Dubai and Sharjah.",
   },
   {
     q: "Does colour PPF damage original paint?",
-    a: "No — colour PPF is specifically engineered for clean, residue-free removal without damaging the original paintwork underneath. In fact, the PPF acts as a protective layer over your factory paint — preserving it in perfect condition for the full duration of the film's life.",
+    a: "No - colour PPF is specifically engineered for clean, residue-free removal without damaging the original paintwork underneath. In fact, the PPF acts as a protective layer over your factory paint - preserving it in perfect condition for the full duration of the film's life.",
   },
   {
     q: "How long does colour PPF last in Dubai?",
-    a: "A professionally installed colour PPF using premium film typically lasts 8–12 years under UAE conditions. Our colour PPF films are UV-stabilised and engineered to resist yellowing, chemical etching, and degradation in extreme heat and sun — making them ideal for Dubai and Sharjah's climate.",
+    a: "A professionally installed colour PPF using premium film typically lasts 8–12 years under UAE conditions. Our colour PPF films are UV-stabilised and engineered to resist yellowing, chemical etching, and degradation in extreme heat and sun - making them ideal for Dubai and Sharjah's climate.",
   },
   {
     q: "Is colour PPF self-healing?",
-    a: "Yes — our colour PPF films feature self-healing technology. Minor surface scratches and swirl marks in the film disappear when exposed to heat — either from direct sunlight or warm water. This keeps your car looking flawless without any polishing or repair work.",
+    a: "Yes - our colour PPF films feature self-healing technology. Minor surface scratches and swirl marks in the film disappear when exposed to heat - either from direct sunlight or warm water. This keeps your car looking flawless without any polishing or repair work.",
   },
   {
     q: "Can I get a full body colour PPF in Dubai?",
-    a: "Yes — Smart Auto UAE offers full body colour PPF installations across all 4 UAE branches. Full body coverage includes all exterior painted panels, providing complete colour change and total paint protection in one application.",
+    a: "Yes - Smart Auto UAE offers full body colour PPF installations across all 4 UAE branches. Full body coverage includes all exterior painted panels, providing complete colour change and total paint protection in one application.",
   },
   {
     q: "Where can I get colour PPF near me in Dubai or Sharjah?",
-    a: "Smart Auto UAE has 4 branches — MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All are open every day from 11AM to 9PM. Contact us on WhatsApp or walk in for a free colour PPF consultation.",
+    a: "Smart Auto UAE has 4 branches - MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All are open every day from 11AM to 9PM. Contact us on WhatsApp or walk in for a free colour PPF consultation.",
   },
 ];
 
@@ -331,7 +331,7 @@ export default function ColourPpfPage() {
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah</strong>.{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Colour PPF</strong> changes
                   your car's colour and simultaneously protects the original paint from stone chips, scratches,
-                  and UV damage — with self-healing technology and{" "}
+                  and UV damage - with self-healing technology and{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>400+ colour options</strong>.
                 </p>
 
@@ -371,7 +371,7 @@ export default function ColourPpfPage() {
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
                     src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&q=80"
-                    alt="Colour PPF Dubai Sharjah — coloured paint protection film — Smart Auto UAE"
+                    alt="Colour PPF Dubai Sharjah - coloured paint protection film - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0"
@@ -395,7 +395,7 @@ export default function ColourPpfPage() {
                   </div>
                 </div>
 
-                {/* Floating stat — Self-Healing */}
+                {/* Floating stat - Self-Healing */}
                 <div className="absolute -top-5 -right-5 rounded-2xl px-5 py-4 border text-center"
                   style={{ background: "#0A0A0A", border: "1px solid rgba(201,168,76,0.2)", minWidth: "120px" }}>
                   <div className="font-bold text-[13px] leading-tight mb-1"
@@ -411,7 +411,7 @@ export default function ColourPpfPage() {
                   </div>
                 </div>
 
-                {/* Floating stat — 400+ Colours */}
+                {/* Floating stat - 400+ Colours */}
                 <div className="absolute -bottom-5 -left-5 rounded-2xl px-5 py-4 border text-center"
                   style={{ background: "#0A0A0A", border: "1px solid rgba(201,168,76,0.2)", minWidth: "110px" }}>
                   <div className="font-bold text-[26px] leading-none mb-0.5"
@@ -444,18 +444,18 @@ export default function ColourPpfPage() {
                 </span>
                 <h2 className="font-bold leading-snug mb-6"
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3vw,2.5rem)", color: "#fff" }}>
-                  Colour PPF — The Best of Both Worlds
+                  Colour PPF - The Best of Both Worlds
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
                     <p className="text-[14px] leading-[1.9] mb-4" style={{ color: "rgba(255,255,255,0.5)" }}>
                       <strong style={{ color: "rgba(255,255,255,0.8)" }}>Colour PPF</strong> is a pigmented paint
-                      protection film — it combines the colour-changing ability of vinyl wrap with the superior
+                      protection film - it combines the colour-changing ability of vinyl wrap with the superior
                       physical protection of PPF in a single premium film.
                     </p>
                     <p className="text-[14px] leading-[1.9]" style={{ color: "rgba(255,255,255,0.5)" }}>
                       Traditional clear PPF protects your paint but doesn't change its colour. Vinyl wrap changes
-                      colour but offers limited protection. Colour PPF does both — in one application.
+                      colour but offers limited protection. Colour PPF does both - in one application.
                     </p>
                   </div>
                   <div>
@@ -466,7 +466,7 @@ export default function ColourPpfPage() {
                       <strong style={{ color: "rgba(255,255,255,0.8)" }}>8–12 years</strong> in UAE conditions.
                     </p>
                     <p className="text-[14px] leading-[1.9]" style={{ color: "rgba(255,255,255,0.5)" }}>
-                      Like vinyl, it is fully removable and residue-free — preserving your car's original
+                      Like vinyl, it is fully removable and residue-free - preserving your car's original
                       factory paint in perfect condition throughout the film's life.
                     </p>
                   </div>
@@ -507,8 +507,8 @@ export default function ColourPpfPage() {
                 </span>
               </h2>
               <p className="max-w-2xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                With 400+ colour PPF options available — gloss, matte, satin, metallic, satin chrome, and
-                custom — there is no limit to what you can achieve for your car.
+                With 400+ colour PPF options available - gloss, matte, satin, metallic, satin chrome, and
+                custom - there is no limit to what you can achieve for your car.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
@@ -611,7 +611,7 @@ export default function ColourPpfPage() {
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm" style={{ color: "rgba(255,255,255,0.4)" }}>
-                Both change your car's colour — but Colour PPF offers far superior protection and longevity.
+                Both change your car's colour - but Colour PPF offers far superior protection and longevity.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
@@ -690,7 +690,7 @@ export default function ColourPpfPage() {
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
                   src="https://images.unsplash.com/photo-1600705722908-bbeb1e6c2e71?w=900&q=80"
-                  alt="Smart Auto UAE — best colour PPF near me Dubai Sharjah"
+                  alt="Smart Auto UAE - best colour PPF near me Dubai Sharjah"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0"
@@ -734,10 +734,10 @@ export default function ColourPpfPage() {
                 </p>
                 <div className="flex flex-col gap-4 mb-9">
                   {[
-                    { icon: Palette,     text: "400+ colour options — gloss, matte, satin, metallic, chrome, custom" },
-                    { icon: ShieldCheck, text: "Self-healing PPF — stone chip & scratch resistant, 8–12 yr lifespan" },
-                    { icon: MapPin,      text: "4 branches — MotorCity, Al Quoz, Mirdif & Sharjah" },
-                    { icon: Clock,       text: "Open every day 11AM – 9PM — walk-ins & bookings welcome" },
+                    { icon: Palette,     text: "400+ colour options - gloss, matte, satin, metallic, chrome, custom" },
+                    { icon: ShieldCheck, text: "Self-healing PPF - stone chip & scratch resistant, 8–12 yr lifespan" },
+                    { icon: MapPin,      text: "4 branches - MotorCity, Al Quoz, Mirdif & Sharjah" },
+                    { icon: Clock,       text: "Open every day 11AM – 9PM - walk-ins & bookings welcome" },
                   ].map((item) => (
                     <div key={item.text} className="flex items-center gap-3.5">
                       <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0"
@@ -780,7 +780,7 @@ export default function ColourPpfPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.6rem)", color: "#fff" }}>
-                FAQs — Colour PPF{" "}
+                FAQs - Colour PPF{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   Dubai &amp; Sharjah
                 </span>
@@ -811,7 +811,7 @@ export default function ColourPpfPage() {
                 </p>
                 <h2 className="font-bold mb-4"
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
-                  Change Your Car's Colour &amp; Protect It — Today
+                  Change Your Car's Colour &amp; Protect It - Today
                 </h2>
                 <p className="mb-8 max-w-lg mx-auto text-sm leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.4)" }}>

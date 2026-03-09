@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Car Care Services Dubai & Sharjah | Window Tinting, PPF, Ceramic Coating | Smart Auto UAE",
   description:
-    "Smart Auto UAE offers premium car care services in Dubai & Sharjah — Window Tinting, Paint Protection Film (PPF), Nano Ceramic Coating, Car Detailing, Car Wrapping, Villa Tinting & more. 4 branches across MotorCity, Al Quoz, Mirdif & Sharjah.",
+    "Smart Auto UAE offers premium car care services in Dubai & Sharjah - Window Tinting, Paint Protection Film (PPF), Nano Ceramic Coating, Car Detailing, Car Wrapping, Villa Tinting & more. 4 branches across MotorCity, Al Quoz, Mirdif & Sharjah.",
   keywords: [
     "car care services Dubai", "car care services Sharjah",
     "window tinting Dubai", "window tinting Sharjah",
@@ -50,7 +50,7 @@ const services = [
     tag: "Most Popular",
     tagColor: "#C9A84C",
     image: "https://images.unsplash.com/photo-1614026480418-bd11fdb9fa0e?w=800&q=80",
-    description: "Advanced nano ceramic & carbon window tints that block 99% UV rays and heat — available across all 4 branches in Dubai and Sharjah. UAE RTA traffic law compliant with a 5-year warranty on all films.",
+    description: "Advanced nano ceramic & carbon window tints that block 99% UV rays and heat - available across all 4 branches in Dubai and Sharjah. UAE RTA traffic law compliant with a 5-year warranty on all films.",
     features: ["Nano ceramic films", "UAE RTA compliant VLT", "99% UV & heat rejection", "5-year warranty", "Dubai & Sharjah branches"],
     price: "From AED 299",
   },
@@ -63,8 +63,8 @@ const services = [
     tag: "Premium",
     tagColor: "#a78bfa",
     image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=80",
-    description: "Self-healing TPU paint protection film shielding your car from scratches, stone chips, and harsh UAE road conditions. Authorised XPEL, SunTek & TotalGard installer in Dubai & Sharjah.",
-    features: ["Self-healing TPU film", "XPEL, SunTek, TotalGard", "Gloss or matte finish", "10-year warranty", "Full & partial coverage"],
+    description: "Self-healing TPU paint protection film shielding your car from scratches, stone chips, and harsh UAE road conditions. TotalGard installer in Dubai & Sharjah.",
+    features: ["Self-healing TPU film", "TotalGard", "Gloss or matte finish", "10-year warranty", "Full & partial coverage"],
     price: "From AED 1,499",
   },
   {
@@ -76,7 +76,7 @@ const services = [
     tag: "Best Value",
     tagColor: "#34d399",
     image: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=800&q=80",
-    description: "Professional 9H hardness ceramic coating creating a hydrophobic, scratch-resistant shield — ideal for UAE's extreme heat and sandstorms. Mirror-like gloss guaranteed in Dubai and Sharjah.",
+    description: "Professional 9H hardness ceramic coating creating a hydrophobic, scratch-resistant shield - ideal for UAE's extreme heat and sandstorms. Mirror-like gloss guaranteed in Dubai and Sharjah.",
     features: ["9H hardness rating", "Hydrophobic surface", "Mirror-like gloss", "2–5 year protection", "Gyeon, Gtechniq & IGL"],
     price: "From AED 799",
   },
@@ -89,7 +89,7 @@ const services = [
     tag: "Top Rated",
     tagColor: "#f472b6",
     image: "https://images.unsplash.com/photo-1616455579100-2ceaa4ec2d50?w=800&q=80",
-    description: "Complete interior and exterior car detailing — paint correction, deep cleaning, engine bay wash, and odor elimination for a showroom-quality finish across all Dubai & Sharjah branches.",
+    description: "Complete interior and exterior car detailing - paint correction, deep cleaning, engine bay wash, and odor elimination for a showroom-quality finish across all Dubai & Sharjah branches.",
     features: ["Interior deep clean", "Paint correction & polishing", "Engine bay cleaning", "Odor elimination", "All 4 branches"],
     price: "From AED 199",
   },
@@ -102,7 +102,7 @@ const services = [
     tag: "Custom",
     tagColor: "#60a5fa",
     image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80",
-    description: "Transform your car with a full or partial vinyl wrap — matte, gloss, satin, chrome, or fully custom designs. Available in Dubai and Sharjah with paint-safe removal guaranteed.",
+    description: "Transform your car with a full or partial vinyl wrap - matte, gloss, satin, chrome, or fully custom designs. Available in Dubai and Sharjah with paint-safe removal guaranteed.",
     features: ["Matte, gloss & satin", "Full & partial wraps", "Colour change wraps", "Chrome & metallic", "Paint-safe removal"],
     price: "From AED 2,499",
   },
@@ -115,7 +115,7 @@ const services = [
     tag: "Residential",
     tagColor: "#fb923c",
     image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
-    description: "Premium residential window tinting for villas and apartments across Dubai and Sharjah — reduces heat, blocks UV rays, enhances privacy with a sleek modern finish.",
+    description: "Premium residential window tinting for villas and apartments across Dubai and Sharjah - reduces heat, blocks UV rays, enhances privacy with a sleek modern finish.",
     features: ["Maximum privacy", "Heat & glare reduction", "UV protection", "Aesthetic enhancement", "Dubai & Sharjah villas"],
     price: "From AED 499",
   },
@@ -128,7 +128,7 @@ const services = [
     tag: "Commercial",
     tagColor: "#94a3b8",
     image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80",
-    description: "Professional window tinting for offices, retail stores, and commercial buildings across Dubai and Sharjah — reduces energy costs, blocks UV, and enhances workspace privacy.",
+    description: "Professional window tinting for offices, retail stores, and commercial buildings across Dubai and Sharjah - reduces energy costs, blocks UV, and enhances workspace privacy.",
     features: ["Energy cost reduction", "UV & heat blocking", "Enhanced privacy", "Large-scale install", "Dubai & Sharjah offices"],
     price: "Custom Quote",
   },
@@ -141,7 +141,7 @@ const services = [
     tag: "Smart Tech",
     tagColor: "#818cf8",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-    description: "Electric switchable smart film — go from transparent to fully private at the touch of a button. Installed in offices, villas, and luxury vehicles across Dubai and Sharjah.",
+    description: "Electric switchable smart film - go from transparent to fully private at the touch of a button. Installed in offices, villas, and luxury vehicles across Dubai and Sharjah.",
     features: ["Instant privacy control", "Electric on/off switch", "Energy efficient", "Offices & villas", "Dubai & Sharjah"],
     price: "Custom Quote",
   },
@@ -154,7 +154,7 @@ const services = [
     tag: "Invisible Guard",
     tagColor: "#C9A84C",
     image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80",
-    description: "Crystal-clear protective film for stone surfaces, door edges, panels, and interior trims — guards against chips and scratches while remaining completely invisible. Available across Dubai & Sharjah.",
+    description: "Crystal-clear protective film for stone surfaces, door edges, panels, and interior trims - guards against chips and scratches while remaining completely invisible. Available across Dubai & Sharjah.",
     features: ["Crystal clear finish", "Stone & panel guard", "Door edge protection", "Impact resistant", "Easy removal"],
     price: "From AED 199",
   },
@@ -168,8 +168,8 @@ const branches = [
 ];
 
 const whyItems = [
-  { icon: Award,       title: "Authorised Installers", desc: "Official installer for XPEL, TotalGard, 3M, Llumar & SunTek across Dubai and Sharjah." },
-  { icon: MapPin,      title: "4 Branches in UAE",     desc: "MotorCity, Al Quoz, Mirdif in Dubai & Central Mall in Sharjah — always nearby." },
+  { icon: Award,       title: "Authorised Installers", desc: "Official installer for TotalGard, 3M,  &  across Dubai and Sharjah." },
+  { icon: MapPin,      title: "4 Branches in UAE",     desc: "MotorCity, Al Quoz, Mirdif in Dubai & Central Mall in Sharjah - always nearby." },
   { icon: ShieldCheck, title: "Warranty on All Work",  desc: "Every service backed by manufacturer & Smart Auto warranty across all locations." },
   { icon: Gift,        title: "Free Inspection",       desc: "Complimentary vehicle inspection with every service in Dubai & Sharjah. No hidden charges." },
 ];
@@ -236,7 +236,7 @@ export default function ServicesPage() {
             <p className="mb-10 leading-[1.9] max-w-2xl"
               style={{ color: "rgba(255,255,255,0.45)", fontSize: "clamp(0.9rem,1.2vw,1.05rem)" }}>
               Smart Auto UAE is the trusted name for window tinting, paint protection film,
-              nano ceramic coating, car detailing, car wrapping and more — with branches across{" "}
+              nano ceramic coating, car detailing, car wrapping and more - with branches across{" "}
               <strong style={{ color: "rgba(255,255,255,0.75)", fontWeight: 600 }}>Dubai</strong> and{" "}
               <strong style={{ color: "rgba(255,255,255,0.75)", fontWeight: 600 }}>Sharjah</strong>.
               One standard of excellence across all 4 locations.
@@ -292,7 +292,7 @@ export default function ServicesPage() {
                 </span>
               </h2>
               <p className="max-w-2xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                All 9 services available across our 4 branches — MotorCity, Al Quoz &amp; Mirdif
+                All 9 services available across our 4 branches - MotorCity, Al Quoz &amp; Mirdif
                 in Dubai, and Central Mall in Sharjah. Certified professionals. World-class brands.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -316,7 +316,7 @@ export default function ServicesPage() {
                       style={{ minHeight: "360px" }}>
                       <img
                         src={service.image}
-                        alt={`${service.title} — Smart Auto UAE`}
+                        alt={`${service.title} - Smart Auto UAE`}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         style={{ position: "absolute", inset: 0 }}
                       />
@@ -467,7 +467,7 @@ export default function ServicesPage() {
                 </span>
               </h2>
               <p className="text-sm" style={{ color: "rgba(255,255,255,0.4)" }}>
-                Open every day — 11:00 AM to 9:00 PM &nbsp;·&nbsp; Dubai &amp; Sharjah
+                Open every day - 11:00 AM to 9:00 PM &nbsp;·&nbsp; Dubai &amp; Sharjah
               </p>
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
@@ -523,7 +523,7 @@ export default function ServicesPage() {
                 </h2>
                 <p className="mb-10 max-w-lg mx-auto text-sm leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.4)" }}>
-                  Walk in or book ahead at any of our 4 branches — MotorCity, Al Quoz &amp; Mirdif
+                  Walk in or book ahead at any of our 4 branches - MotorCity, Al Quoz &amp; Mirdif
                   in Dubai, and Central Mall in Sharjah. Free inspection. No hidden charges.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">

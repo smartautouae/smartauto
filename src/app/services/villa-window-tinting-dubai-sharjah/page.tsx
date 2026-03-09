@@ -14,7 +14,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Villa Window Tinting Dubai & Sharjah | Residential Window Tinting | Smart Auto UAE",
   description:
-    "Professional villa and residential window tinting in Dubai & Sharjah. 3M, Global USA & Totalgard films — block up to 90% heat, 99% UV rays, 95% glare. Heat rejection, privacy & decorative films. Home window tinting, flat glass tinting, villa glass tinting. 4 branches — MotorCity, Al Quoz, Mirdif & Sharjah. Free site visit. Get a quote.",
+    "Professional villa and residential window tinting in Dubai & Sharjah. 3M, Global USA & Totalgard films - block up to 90% heat, 99% UV rays, 95% glare. Heat rejection, privacy & decorative films. Home window tinting, flat glass tinting, villa glass tinting. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah. Free site visit. Get a quote.",
   keywords: [
     "villa window tinting Dubai",
     "villa window tinting Sharjah",
@@ -72,7 +72,7 @@ const filmBrands = [
     name: "3M",
     tag: "Global Leader",
     tagColor: "#60a5fa",
-    desc: "3M is the world's most recognised name in architectural window films. Their residential range offers industry-leading heat rejection, UV protection, and optical clarity — trusted by homeowners across Dubai and Sharjah for decades.",
+    desc: "3M is the world's most recognised name in architectural window films. Their residential range offers industry-leading heat rejection, UV protection, and optical clarity - trusted by homeowners across Dubai and Sharjah for decades.",
     features: [
       "Sun Control Window Films",
       "Safety & Security Films",
@@ -86,7 +86,7 @@ const filmBrands = [
     name: "Global USA",
     tag: "Premium Brand",
     tagColor: "#a78bfa",
-    desc: "Global USA window films are engineered with advanced nano-ceramic technology — delivering superior solar heat rejection, glare control, and long-term colour stability for residential applications in the UAE's extreme climate.",
+    desc: "Global USA window films are engineered with advanced nano-ceramic technology - delivering superior solar heat rejection, glare control, and long-term colour stability for residential applications in the UAE's extreme climate.",
     features: [
       "Nano-ceramic film technology",
       "Superior heat rejection",
@@ -100,7 +100,7 @@ const filmBrands = [
     name: "Totalgard",
     tag: "UAE Specialist",
     tagColor: "#34d399",
-    desc: "Totalgard is a specialist window film brand with a strong UAE presence — offering purpose-built sun control, safety, and decorative films specifically engineered for the GCC's high UV index and extreme solar radiation conditions.",
+    desc: "Totalgard is a specialist window film brand with a strong UAE presence - offering purpose-built sun control, safety, and decorative films specifically engineered for the GCC's high UV index and extreme solar radiation conditions.",
     features: [
       "GCC climate-engineered films",
       "Safety & security range",
@@ -117,7 +117,7 @@ const filmTypes = [
     icon: Sun,
     id: "heat",
     title: "Heat Rejection Films",
-    desc: "Our solar heat rejection films block up to 90% of infrared heat from penetrating your villa's windows — dramatically reducing indoor temperatures, lowering AC load, and cutting energy bills year-round in Dubai and Sharjah.",
+    desc: "Our solar heat rejection films block up to 90% of infrared heat from penetrating your villa's windows - dramatically reducing indoor temperatures, lowering AC load, and cutting energy bills year-round in Dubai and Sharjah.",
     points: [
       "Up to 90% solar heat rejected",
       "Keeps interiors significantly cooler",
@@ -131,7 +131,7 @@ const filmTypes = [
     icon: Eye,
     id: "privacy",
     title: "Privacy Films",
-    desc: "Our one-way privacy films are dark from the outside but crystal clear from the inside — giving your villa complete privacy from neighbours and passersby while fully preserving your natural light and outward view.",
+    desc: "Our one-way privacy films are dark from the outside but crystal clear from the inside - giving your villa complete privacy from neighbours and passersby while fully preserving your natural light and outward view.",
     points: [
       "Dark from outside, clear from inside",
       "Full privacy without blocking light",
@@ -145,7 +145,7 @@ const filmTypes = [
     icon: Shield,
     id: "safety",
     title: "Safety & Security Films",
-    desc: "Safety films hold shattered glass together in the event of breakage — protecting your family from injury, deterring forced entry, and providing an additional layer of security for all windows and glass doors in your villa.",
+    desc: "Safety films hold shattered glass together in the event of breakage - protecting your family from injury, deterring forced entry, and providing an additional layer of security for all windows and glass doors in your villa.",
     points: [
       "Holds glass together on impact",
       "Protects against forced entry",
@@ -159,7 +159,7 @@ const filmTypes = [
     icon: Sparkles,
     id: "decorative",
     title: "Decorative & Frosted Films",
-    desc: "Transform the appearance of your villa's glass surfaces with decorative and frosted films — creating elegant frosted, etched, or patterned effects on windows, glass partitions, bathroom doors, and balcony glazing.",
+    desc: "Transform the appearance of your villa's glass surfaces with decorative and frosted films - creating elegant frosted, etched, or patterned effects on windows, glass partitions, bathroom doors, and balcony glazing.",
     points: [
       "Frosted & etched glass effects",
       "Custom pattern options",
@@ -173,7 +173,7 @@ const filmTypes = [
 
 const keyStats = [
   { value: "90%",  label: "Heat Rejection",    desc: "Solar heat blocked from your villa's interior" },
-  { value: "99%",  label: "UV Protection",     desc: "Harmful UV rays blocked — protects skin & furnishings" },
+  { value: "99%",  label: "UV Protection",     desc: "Harmful UV rays blocked - protects skin & furnishings" },
   { value: "95%",  label: "Glare Reduction",   desc: "Solar glare eliminated for visual comfort" },
   { value: "30%",  label: "Energy Savings",    desc: "Reduction in cooling costs after installation" },
 ];
@@ -182,32 +182,32 @@ const benefits = [
   {
     icon: Sun,
     title: "Stay Cool Year-Round",
-    desc: "UAE's extreme heat means your villa can reach unbearable indoor temperatures through untreated glass. Our heat rejection films block up to 90% of infrared solar heat — keeping every room significantly cooler without heavy curtains or blinds.",
+    desc: "UAE's extreme heat means your villa can reach unbearable indoor temperatures through untreated glass. Our heat rejection films block up to 90% of infrared solar heat - keeping every room significantly cooler without heavy curtains or blinds.",
   },
   {
     icon: ShieldCheck,
     title: "99% UV Ray Protection",
-    desc: "Prolonged UV exposure fades furniture, flooring, curtains, artwork, and marble surfaces. Our window films block 99% of harmful UV rays — preserving the beauty of your villa's interiors for years without compromising natural light.",
+    desc: "Prolonged UV exposure fades furniture, flooring, curtains, artwork, and marble surfaces. Our window films block 99% of harmful UV rays - preserving the beauty of your villa's interiors for years without compromising natural light.",
   },
   {
     icon: Eye,
     title: "Complete Privacy",
-    desc: "Our one-way privacy films are dark from the outside and crystal clear from the inside — giving you full privacy from outside viewers while maintaining your natural outward view throughout the day.",
+    desc: "Our one-way privacy films are dark from the outside and crystal clear from the inside - giving you full privacy from outside viewers while maintaining your natural outward view throughout the day.",
   },
   {
     icon: Zap,
     title: "Lower Energy Bills",
-    desc: "By significantly reducing solar heat penetration, our window films reduce the demand on your villa's air conditioning — delivering proven energy savings of up to 30% on cooling costs. A long-term investment that pays for itself.",
+    desc: "By significantly reducing solar heat penetration, our window films reduce the demand on your villa's air conditioning - delivering proven energy savings of up to 30% on cooling costs. A long-term investment that pays for itself.",
   },
   {
     icon: Shield,
     title: "Glass Safety & Security",
-    desc: "Our safety films hold glass together on impact — protecting your family from injury due to accidental or forced glass breakage. An essential safety upgrade for ground-floor windows, large glass panels, and glass doors.",
+    desc: "Our safety films hold glass together on impact - protecting your family from injury due to accidental or forced glass breakage. An essential safety upgrade for ground-floor windows, large glass panels, and glass doors.",
   },
   {
     icon: Award,
     title: "Protects Interiors & Furnishings",
-    desc: "Marble countertops, hardwood floors, upholstery, and display items deteriorate rapidly under continuous UV and solar exposure. Window tinting creates a protective barrier — preserving the elegance and value of your villa's interiors.",
+    desc: "Marble countertops, hardwood floors, upholstery, and display items deteriorate rapidly under continuous UV and solar exposure. Window tinting creates a protective barrier - preserving the elegance and value of your villa's interiors.",
   },
 ];
 
@@ -215,12 +215,12 @@ const process = [
   {
     num: "01",
     title: "Free Site Visit",
-    desc: "Our team visits your villa in Dubai or Sharjah for a free consultation — assessing your windows, advising on the best film type for each area, and providing a full quote with no obligation.",
+    desc: "Our team visits your villa in Dubai or Sharjah for a free consultation - assessing your windows, advising on the best film type for each area, and providing a full quote with no obligation.",
   },
   {
     num: "02",
     title: "Film Selection",
-    desc: "Choose from our range of 3M, Global USA, and Totalgard films — heat rejection, privacy, safety, decorative, or a combination. We help you select the right film for each room and window type.",
+    desc: "Choose from our range of 3M, Global USA, and Totalgard films - heat rejection, privacy, safety, decorative, or a combination. We help you select the right film for each room and window type.",
   },
   {
     num: "03",
@@ -230,47 +230,47 @@ const process = [
   {
     num: "04",
     title: "Professional Installation",
-    desc: "Our certified installers apply the film panel by panel using precision cutting tools — ensuring seamless coverage on all window shapes and sizes with clean, invisible edges.",
+    desc: "Our certified installers apply the film panel by panel using precision cutting tools - ensuring seamless coverage on all window shapes and sizes with clean, invisible edges.",
   },
   {
     num: "05",
     title: "Final Inspection",
-    desc: "Every window is inspected under controlled lighting before we leave — checking for zero bubbles, lifts, or optical distortion. We leave only when you are completely satisfied.",
+    desc: "Every window is inspected under controlled lighting before we leave - checking for zero bubbles, lifts, or optical distortion. We leave only when you are completely satisfied.",
   },
 ];
 
 const faqs = [
   {
     q: "What window film brands do you use for villa tinting in Dubai?",
-    a: "We use three premium professional-grade window film brands for residential and villa tinting: 3M — the world's most trusted architectural window film brand with their Sun Control, Safety & Security, and All Seasons ranges; Global USA — featuring advanced nano-ceramic technology for superior heat rejection and clarity; and Totalgard — a UAE-specialist brand engineered specifically for the GCC's extreme UV index and solar radiation conditions.",
+    a: "We use three premium professional-grade window film brands for residential and villa tinting: 3M - the world's most trusted architectural window film brand with their Sun Control, Safety & Security, and All Seasons ranges; Global USA - featuring advanced nano-ceramic technology for superior heat rejection and clarity; and Totalgard - a UAE-specialist brand engineered specifically for the GCC's extreme UV index and solar radiation conditions.",
   },
   {
     q: "What is the difference between heat rejection film and privacy film?",
-    a: "Heat rejection films are primarily designed to block solar infrared heat and UV rays — keeping your villa cooler and reducing energy bills without significantly affecting the appearance of your glass. Privacy films are specifically designed to be dark from the outside while remaining clear from the inside — giving occupants full outward visibility while preventing outsiders from seeing in. Many of our privacy films also include heat rejection and UV protection properties, giving you both benefits in a single film.",
+    a: "Heat rejection films are primarily designed to block solar infrared heat and UV rays - keeping your villa cooler and reducing energy bills without significantly affecting the appearance of your glass. Privacy films are specifically designed to be dark from the outside while remaining clear from the inside - giving occupants full outward visibility while preventing outsiders from seeing in. Many of our privacy films also include heat rejection and UV protection properties, giving you both benefits in a single film.",
   },
   {
     q: "Will window tinting make my villa darker inside?",
-    a: "Not significantly. Our premium 3M, Global USA, and Totalgard films are engineered to reject heat and UV rays while maintaining excellent visible light transmission. Many films are virtually invisible from the inside — your rooms remain bright and naturally lit while solar heat and glare are dramatically reduced.",
+    a: "Not significantly. Our premium 3M, Global USA, and Totalgard films are engineered to reject heat and UV rays while maintaining excellent visible light transmission. Many films are virtually invisible from the inside - your rooms remain bright and naturally lit while solar heat and glare are dramatically reduced.",
   },
   {
     q: "How much heat does villa window tinting block?",
-    a: "Our premium heat rejection films block up to 90% of infrared solar heat penetrating through your villa's glass — resulting in noticeably cooler interiors, reduced reliance on air conditioning, and energy savings of up to 30% on cooling costs. The exact performance depends on the specific film selected.",
+    a: "Our premium heat rejection films block up to 90% of infrared solar heat penetrating through your villa's glass - resulting in noticeably cooler interiors, reduced reliance on air conditioning, and energy savings of up to 30% on cooling costs. The exact performance depends on the specific film selected.",
   },
   {
     q: "Does villa window tinting protect furniture and marble?",
-    a: "Yes — one of the most significant benefits of villa window tinting in Dubai is interior protection. Our films block 99% of UV rays — the primary cause of fading in furniture, flooring, curtains, marble countertops, artwork, and display items. Window tinting is a highly cost-effective way to preserve the beauty and value of your villa's interiors.",
+    a: "Yes - one of the most significant benefits of villa window tinting in Dubai is interior protection. Our films block 99% of UV rays - the primary cause of fading in furniture, flooring, curtains, marble countertops, artwork, and display items. Window tinting is a highly cost-effective way to preserve the beauty and value of your villa's interiors.",
   },
   {
     q: "Is villa window tinting permanent?",
-    a: "No — all our residential window films are removable. They are applied with a pressure-sensitive adhesive that bonds to the glass surface but can be professionally removed without damaging the glass. Films typically last 10–15 years under UAE conditions with proper care.",
+    a: "No - all our residential window films are removable. They are applied with a pressure-sensitive adhesive that bonds to the glass surface but can be professionally removed without damaging the glass. Films typically last 10–15 years under UAE conditions with proper care.",
   },
   {
     q: "Do you offer a free site visit for villa window tinting in Dubai?",
-    a: "Yes — Smart Auto UAE offers a free site visit and consultation for villa and residential window tinting across Dubai and Sharjah. Our team assesses your villa's windows, recommends the most suitable films for each area, and provides a full quote with no obligation.",
+    a: "Yes - Smart Auto UAE offers a free site visit and consultation for villa and residential window tinting across Dubai and Sharjah. Our team assesses your villa's windows, recommends the most suitable films for each area, and provides a full quote with no obligation.",
   },
   {
     q: "Where can I get villa window tinting near me in Dubai or Sharjah?",
-    a: "Smart Auto UAE has 4 branches — MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All are open every day from 11AM to 9PM. We also offer on-site villa visits across Dubai and Sharjah. Contact us on WhatsApp to book your free consultation.",
+    a: "Smart Auto UAE has 4 branches - MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All are open every day from 11AM to 9PM. We also offer on-site villa visits across Dubai and Sharjah. Contact us on WhatsApp to book your free consultation.",
   },
 ];
 
@@ -370,7 +370,7 @@ export default function VillaWindowTintingPage() {
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah</strong> using{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>3M, Global USA</strong> and{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Totalgard</strong> films.
-                  Block up to 90% of solar heat, 99% of UV rays, and achieve complete privacy —
+                  Block up to 90% of solar heat, 99% of UV rays, and achieve complete privacy -
                   while preserving full natural light and your outward view.
                 </p>
 
@@ -379,9 +379,9 @@ export default function VillaWindowTintingPage() {
                     "3M · Global USA · Totalgard",
                     "Up to 90% heat rejection",
                     "99% UV ray protection",
-                    "Privacy — dark outside, clear inside",
+                    "Privacy - dark outside, clear inside",
                     "Safety & security films available",
-                    "Free site visit — Dubai & Sharjah",
+                    "Free site visit - Dubai & Sharjah",
                   ].map((f) => (
                     <div key={f} className="flex items-center gap-2.5">
                       <CheckCircle size={14} style={{ color: gold, flexShrink: 0 }} />
@@ -410,7 +410,7 @@ export default function VillaWindowTintingPage() {
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
                     src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=900&q=80"
-                    alt="Villa window tinting Dubai Sharjah — residential window tinting — 3M Global Totalgard — Smart Auto UAE"
+                    alt="Villa window tinting Dubai Sharjah - residential window tinting - 3M Global Totalgard - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0"
@@ -434,7 +434,7 @@ export default function VillaWindowTintingPage() {
                   </div>
                 </div>
 
-                {/* Floating stat — 99% UV */}
+                {/* Floating stat - 99% UV */}
                 <div className="absolute -top-5 -right-5 rounded-2xl px-5 py-4 border text-center"
                   style={{ background: "#0A0A0A", border: "1px solid rgba(201,168,76,0.2)", minWidth: "110px" }}>
                   <div className="font-bold text-[26px] leading-none mb-0.5"
@@ -449,7 +449,7 @@ export default function VillaWindowTintingPage() {
                   </div>
                 </div>
 
-                {/* Floating stat — 90% Heat */}
+                {/* Floating stat - 90% Heat */}
                 <div className="absolute -bottom-5 -left-5 rounded-2xl px-5 py-4 border text-center"
                   style={{ background: "#0A0A0A", border: "1px solid rgba(201,168,76,0.2)", minWidth: "110px" }}>
                   <div className="font-bold text-[26px] leading-none mb-0.5"
@@ -503,7 +503,7 @@ export default function VillaWindowTintingPage() {
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                From solar heat rejection and one-way privacy to safety, security, and decorative films —
+                From solar heat rejection and one-way privacy to safety, security, and decorative films -
                 we offer the complete range of residential window film solutions for your Dubai or Sharjah villa.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -559,7 +559,7 @@ export default function VillaWindowTintingPage() {
                 </span>
               </h2>
               <p className="max-w-2xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                We install only professional-grade window films from globally trusted brands — ensuring
+                We install only professional-grade window films from globally trusted brands - ensuring
                 long-lasting performance, optical clarity, and real protection for your villa in the UAE's extreme climate.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -696,7 +696,7 @@ export default function VillaWindowTintingPage() {
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
                   src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80"
-                  alt="Smart Auto UAE — best villa window tinting near me Dubai Sharjah residential"
+                  alt="Smart Auto UAE - best villa window tinting near me Dubai Sharjah residential"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0"
@@ -734,15 +734,15 @@ export default function VillaWindowTintingPage() {
                   With over 10 years of professional window film installation experience across Dubai and
                   Sharjah, Smart Auto UAE installs only premium{" "}
                   <strong style={{ color: "rgba(255,255,255,0.75)" }}>3M, Global USA, and Totalgard</strong>{" "}
-                  films — ensuring maximum heat rejection, lasting UV protection, and flawless optical clarity
-                  for every villa and residential property we work on. We come to you — free site visit included.
+                  films - ensuring maximum heat rejection, lasting UV protection, and flawless optical clarity
+                  for every villa and residential property we work on. We come to you - free site visit included.
                 </p>
                 <div className="flex flex-col gap-4 mb-9">
                   {[
-                    { icon: Sun,        text: "3M, Global USA & Totalgard — premium residential window films" },
-                    { icon: ShieldCheck,text: "Block 90% heat · 99% UV · 95% glare — proven performance" },
-                    { icon: Eye,        text: "Privacy films — dark outside, crystal clear inside" },
-                    { icon: MapPin,     text: "4 branches — MotorCity, Al Quoz, Mirdif & Sharjah" },
+                    { icon: Sun,        text: "3M, Global USA & Totalgard - premium residential window films" },
+                    { icon: ShieldCheck,text: "Block 90% heat · 99% UV · 95% glare - proven performance" },
+                    { icon: Eye,        text: "Privacy films - dark outside, crystal clear inside" },
+                    { icon: MapPin,     text: "4 branches - MotorCity, Al Quoz, Mirdif & Sharjah" },
                     { icon: Clock,      text: "Open every day 11AM – 9PM · Free site visit available" },
                   ].map((item) => (
                     <div key={item.text} className="flex items-center gap-3.5">
@@ -786,7 +786,7 @@ export default function VillaWindowTintingPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.6rem)", color: "#fff" }}>
-                FAQs — Villa Window Tinting{" "}
+                FAQs - Villa Window Tinting{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   Dubai &amp; Sharjah
                 </span>
@@ -817,7 +817,7 @@ export default function VillaWindowTintingPage() {
                 </p>
                 <h2 className="font-bold mb-4"
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
-                  Stay Cool, Private &amp; Protected — Book Your Free Villa Tinting Consultation
+                  Stay Cool, Private &amp; Protected - Book Your Free Villa Tinting Consultation
                 </h2>
                 <p className="mb-8 max-w-lg mx-auto text-sm leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.4)" }}>

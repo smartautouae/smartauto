@@ -9,14 +9,14 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
-import SmartFilmDemo from "@/components/SmartFilmDemo";
+import SmartFilmDemo from "../../../components/SmartFilmDemo";
 
 // ── SEO METADATA ───────────────────────────────────────────────────────────
 
 export const metadata: Metadata = {
   title: "Switchable Smart Film Dubai & Sharjah | Smart Glass Film | PDLC Film | Smart Auto UAE",
   description:
-    "Switchable smart glass film installation in Dubai & Sharjah. PDLC smart film transforms any existing glass from clear to frosted instantly — at the touch of a button. Privacy on demand for offices, villas, hotels, meeting rooms & partitions. Remote, wall switch & smart home control. 4 branches — MotorCity, Al Quoz, Mirdif & Sharjah. Free site visit.",
+    "Switchable smart glass film installation in Dubai & Sharjah. PDLC smart film transforms any existing glass from clear to frosted instantly - at the touch of a button. Privacy on demand for offices, villas, hotels, meeting rooms & partitions. Remote, wall switch & smart home control. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah. Free site visit.",
   keywords: [
     "switchable smart film Dubai",
     "switchable smart film Sharjah",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Switchable Smart Film Dubai & Sharjah | Smart Glass Film | PDLC Film | Smart Auto UAE",
     description:
-      "PDLC switchable smart film in Dubai & Sharjah. Clear to frosted in milliseconds — at the touch of a button. Offices, villas, hotels, meeting rooms. Remote, wall switch & smart home control. Free site visit.",
+      "PDLC switchable smart film in Dubai & Sharjah. Clear to frosted in milliseconds - at the touch of a button. Offices, villas, hotels, meeting rooms. Remote, wall switch & smart home control. Free site visit.",
     url: "https://smartautouae.ae/services/switchable-smart-glass-film-dubai-sharjah",
     siteName: "Smart Auto UAE",
     type: "website",
@@ -71,29 +71,29 @@ const cardBdr  = "rgba(255,255,255,0.06)";
 
 const howItWorks = [
   {
-    state: "ON — Clear",
+    state: "ON - Clear",
     color: "#60a5fa",
     colorBg: "rgba(96,165,250,0.07)",
     colorBdr: "rgba(96,165,250,0.25)",
-    desc: "When powered ON, an electric current aligns the liquid crystal particles inside the PDLC film — making the glass crystal clear with up to 92% optical clarity.",
+    desc: "When powered ON, an electric current aligns the liquid crystal particles inside the PDLC film - making the glass crystal clear with up to 92% optical clarity.",
     icon: "○",
   },
   {
-    state: "OFF — Frosted",
+    state: "OFF - Frosted",
     color: gold,
     colorBg: "rgba(201,168,76,0.07)",
     colorBdr: "rgba(201,168,76,0.25)",
-    desc: "When powered OFF, the liquid crystal particles scatter randomly — instantly turning the glass opaque and frosted, providing complete privacy on demand.",
+    desc: "When powered OFF, the liquid crystal particles scatter randomly - instantly turning the glass opaque and frosted, providing complete privacy on demand.",
     icon: "●",
   },
 ];
 
 const controlMethods = [
   { label: "Remote Control",      desc: "Simple handheld remote for instant switching from anywhere in the room" },
-  { label: "Wall Switch",         desc: "Discreet, hardwired wall switch — like a standard light switch" },
+  { label: "Wall Switch",         desc: "Discreet, hardwired wall switch - like a standard light switch" },
   { label: "Smartphone App",      desc: "Control via mobile app for smart home integration" },
   { label: "Voice Command",       desc: "Compatible with Alexa, Google Home, and smart home automation systems" },
-  { label: "Timer & Schedule",    desc: "Automate privacy schedules — e.g. frosted during office hours" },
+  { label: "Timer & Schedule",    desc: "Automate privacy schedules - e.g. frosted during office hours" },
   { label: "Sensor Automation",   desc: "Motion and occupancy sensor triggers for hands-free control" },
 ];
 
@@ -101,31 +101,31 @@ const applications = [
   {
     icon: Building2,
     title: "Office Meeting Rooms",
-    desc: "Transform glass-walled meeting rooms and boardrooms into private spaces instantly — no blinds, no curtains, no fixed partitions. Open and transparent between meetings, completely private when needed.",
+    desc: "Transform glass-walled meeting rooms and boardrooms into private spaces instantly - no blinds, no curtains, no fixed partitions. Open and transparent between meetings, completely private when needed.",
     tags: ["Meeting rooms", "Boardrooms", "Office fronts", "Reception glass"],
   },
   {
     icon: Eye,
     title: "Office Partitions & Facades",
-    desc: "Replace static frosted partitions with switchable smart film — giving your office the flexibility to be open-plan or divided on demand. A premium, modern upgrade for any commercial workspace.",
+    desc: "Replace static frosted partitions with switchable smart film - giving your office the flexibility to be open-plan or divided on demand. A premium, modern upgrade for any commercial workspace.",
     tags: ["Open-plan offices", "Glass partitions", "Office facades", "Flex workspaces"],
   },
   {
     icon: Home,
     title: "Villas & Residences",
-    desc: "Bring smart home technology to your villa's windows, bathroom glass, bedroom partitions, and skylights. Instant privacy without curtains or blinds — controlled by remote, app, or voice.",
+    desc: "Bring smart home technology to your villa's windows, bathroom glass, bedroom partitions, and skylights. Instant privacy without curtains or blinds - controlled by remote, app, or voice.",
     tags: ["Bathroom windows", "Bedroom partitions", "Skylights", "Balcony glass"],
   },
   {
     icon: Sparkles,
     title: "Hotels & Hospitality",
-    desc: "Provide guests with instant, effortless privacy control in suites, bathrooms, and lobby glass. Switchable smart film is the ultimate luxury hotel upgrade — sleek, high-tech, and maintenance-free.",
+    desc: "Provide guests with instant, effortless privacy control in suites, bathrooms, and lobby glass. Switchable smart film is the ultimate luxury hotel upgrade - sleek, high-tech, and maintenance-free.",
     tags: ["Hotel suites", "Bathroom glass", "Lobby partitions", "Restaurant spaces"],
   },
   {
     icon: Shield,
     title: "Healthcare & Clinics",
-    desc: "Patient privacy on demand in consultation rooms, ward partitions, and clinical areas — without heavy curtains that harbour bacteria. Hygienic, instant, and fully controllable.",
+    desc: "Patient privacy on demand in consultation rooms, ward partitions, and clinical areas - without heavy curtains that harbour bacteria. Hygienic, instant, and fully controllable.",
     tags: ["Consultation rooms", "Ward partitions", "Waiting areas", "Clinics"],
   },
   {
@@ -140,22 +140,22 @@ const benefits = [
   {
     icon: Eye,
     title: "Instant Privacy On Demand",
-    desc: "Switch from fully transparent to completely frosted in milliseconds — at the touch of a button. No curtains, no blinds, no manual adjustments. Complete privacy exactly when you need it, full openness when you don't.",
+    desc: "Switch from fully transparent to completely frosted in milliseconds - at the touch of a button. No curtains, no blinds, no manual adjustments. Complete privacy exactly when you need it, full openness when you don't.",
   },
   {
     icon: Sparkles,
-    title: "Retrofit — No Glass Replacement",
-    desc: "Smart film applies directly to your existing glass surfaces as a self-adhesive film — no need to replace windows, doors, or partitions. A cost-effective smart glass upgrade for any space, new or existing.",
+    title: "Retrofit - No Glass Replacement",
+    desc: "Smart film applies directly to your existing glass surfaces as a self-adhesive film - no need to replace windows, doors, or partitions. A cost-effective smart glass upgrade for any space, new or existing.",
   },
   {
     icon: Zap,
     title: "Energy Efficient",
-    desc: "Switchable smart film reduces solar heat penetration and glare when frosted — lowering the demand on air conditioning and delivering measurable energy savings. Especially effective on south and west-facing glass in UAE's climate.",
+    desc: "Switchable smart film reduces solar heat penetration and glare when frosted - lowering the demand on air conditioning and delivering measurable energy savings. Especially effective on south and west-facing glass in UAE's climate.",
   },
   {
     icon: Award,
     title: "Modern, Premium Aesthetic",
-    desc: "Smart film eliminates the need for bulky blinds, curtains, or fixed partitions — giving your space a clean, minimal, high-tech appearance. A premium design upgrade that adds significant visual and monetary value to any property.",
+    desc: "Smart film eliminates the need for bulky blinds, curtains, or fixed partitions - giving your space a clean, minimal, high-tech appearance. A premium design upgrade that adds significant visual and monetary value to any property.",
   },
   {
     icon: ShieldCheck,
@@ -165,18 +165,18 @@ const benefits = [
   {
     icon: Shield,
     title: "UV & Glare Reduction",
-    desc: "In addition to privacy control, our smart film blocks harmful UV rays and reduces solar glare — protecting interiors, furnishings, and occupants from sun damage throughout the day, particularly in the frosted state.",
+    desc: "In addition to privacy control, our smart film blocks harmful UV rays and reduces solar glare - protecting interiors, furnishings, and occupants from sun damage throughout the day, particularly in the frosted state.",
   },
 ];
 
 const smartFilmVsAlternatives = [
-  { aspect: "Privacy",           smartFilm: "Instant on demand — clear or frosted",      blinds: "Manual adjustment only",         frostedGlass: "Permanent — cannot switch" },
-  { aspect: "Natural Light",     smartFilm: "Full light when clear, diffused when frosted", blinds: "Blocked when closed",          frostedGlass: "Diffused — always" },
+  { aspect: "Privacy",           smartFilm: "Instant on demand - clear or frosted",      blinds: "Manual adjustment only",         frostedGlass: "Permanent - cannot switch" },
+  { aspect: "Natural Light",     smartFilm: "Full light when clear, diffused when frosted", blinds: "Blocked when closed",          frostedGlass: "Diffused - always" },
   { aspect: "Aesthetics",        smartFilm: "Clean, minimal, high-tech",                  blinds: "Bulky, collects dust",           frostedGlass: "Static, cannot change" },
-  { aspect: "Installation",      smartFilm: "Film retrofit — no glass replacement",       blinds: "Requires frame & fixtures",      frostedGlass: "Full glass replacement" },
+  { aspect: "Installation",      smartFilm: "Film retrofit - no glass replacement",       blinds: "Requires frame & fixtures",      frostedGlass: "Full glass replacement" },
   { aspect: "Smart Control",     smartFilm: "Remote, app, voice, automation",             blinds: "Manual or basic motor",          frostedGlass: "None" },
-  { aspect: "UV Protection",     smartFilm: "Yes — blocks UV in both states",             blinds: "Only when closed",               frostedGlass: "Partial" },
-  { aspect: "Maintenance",       smartFilm: "Zero — no moving parts",                     blinds: "Regular cleaning required",      frostedGlass: "None needed" },
+  { aspect: "UV Protection",     smartFilm: "Yes - blocks UV in both states",             blinds: "Only when closed",               frostedGlass: "Partial" },
+  { aspect: "Maintenance",       smartFilm: "Zero - no moving parts",                     blinds: "Regular cleaning required",      frostedGlass: "None needed" },
   { aspect: "Best For",          smartFilm: "Offices, villas, hotels, healthcare",        blinds: "Budget-conscious settings",      frostedGlass: "Permanent fixed privacy" },
 ];
 
@@ -184,38 +184,38 @@ const process = [
   {
     num: "01",
     title: "Free Site Visit",
-    desc: "Our team visits your space — office, villa, or commercial property — to assess the glass areas, measure dimensions, and advise on the best smart film solution for each application.",
+    desc: "Our team visits your space - office, villa, or commercial property - to assess the glass areas, measure dimensions, and advise on the best smart film solution for each application.",
   },
   {
     num: "02",
     title: "Custom Measurement",
-    desc: "Every panel is precisely measured and the smart film is custom-cut to exact dimensions — ensuring seamless, edge-to-edge coverage on all glass shapes and sizes.",
+    desc: "Every panel is precisely measured and the smart film is custom-cut to exact dimensions - ensuring seamless, edge-to-edge coverage on all glass shapes and sizes.",
   },
   {
     num: "03",
     title: "Glass Preparation",
-    desc: "All glass surfaces are thoroughly cleaned and decontaminated before installation — ensuring perfect adhesion, no bubbles, and a crystal-clear optical finish.",
+    desc: "All glass surfaces are thoroughly cleaned and decontaminated before installation - ensuring perfect adhesion, no bubbles, and a crystal-clear optical finish.",
   },
   {
     num: "04",
     title: "Film Installation",
-    desc: "Our certified smart film installers apply the PDLC film panel by panel — connecting the electrical supply and ensuring flawless, bubble-free coverage on every glass surface.",
+    desc: "Our certified smart film installers apply the PDLC film panel by panel - connecting the electrical supply and ensuring flawless, bubble-free coverage on every glass surface.",
   },
   {
     num: "05",
     title: "Control Setup & Demo",
-    desc: "We install your chosen control method — remote, wall switch, or smart home integration — and walk you through full operation before handover. No technical knowledge required.",
+    desc: "We install your chosen control method - remote, wall switch, or smart home integration - and walk you through full operation before handover. No technical knowledge required.",
   },
 ];
 
 const faqs = [
   {
     q: "What is switchable smart film?",
-    a: "Switchable smart film — also called PDLC film (Polymer Dispersed Liquid Crystal film) — is a self-adhesive film that transforms any existing glass surface into smart glass. When powered ON, an electric current aligns the liquid crystals inside the film, making it completely transparent. When powered OFF, the crystals scatter randomly and the glass becomes instantly frosted and opaque — providing complete privacy on demand. It can be controlled by remote, wall switch, smartphone app, or voice command.",
+    a: "Switchable smart film - also called PDLC film (Polymer Dispersed Liquid Crystal film) - is a self-adhesive film that transforms any existing glass surface into smart glass. When powered ON, an electric current aligns the liquid crystals inside the film, making it completely transparent. When powered OFF, the crystals scatter randomly and the glass becomes instantly frosted and opaque - providing complete privacy on demand. It can be controlled by remote, wall switch, smartphone app, or voice command.",
   },
   {
     q: "What is the difference between smart film and smart glass?",
-    a: "Smart film is applied as a self-adhesive retrofit film directly onto your existing glass — no glass replacement required, making it significantly more cost-effective. Smart glass has the PDLC technology permanently laminated inside the glass panel during manufacturing, requiring full glass replacement. Both deliver the same instant clear-to-frosted switching functionality. Smart film is the ideal solution for existing spaces, renovations, and upgrades.",
+    a: "Smart film is applied as a self-adhesive retrofit film directly onto your existing glass - no glass replacement required, making it significantly more cost-effective. Smart glass has the PDLC technology permanently laminated inside the glass panel during manufacturing, requiring full glass replacement. Both deliver the same instant clear-to-frosted switching functionality. Smart film is the ideal solution for existing spaces, renovations, and upgrades.",
   },
   {
     q: "How is switchable smart film controlled?",
@@ -223,15 +223,15 @@ const faqs = [
   },
   {
     q: "Can smart film be applied to any glass?",
-    a: "Yes — our PDLC smart film can be applied to virtually any smooth, flat glass surface including windows, glass doors, glass partitions, shower screens, skylights, and glass facades. It is suitable for both residential and commercial installations. Our team assesses your specific glass type during the free site visit to confirm suitability.",
+    a: "Yes - our PDLC smart film can be applied to virtually any smooth, flat glass surface including windows, glass doors, glass partitions, shower screens, skylights, and glass facades. It is suitable for both residential and commercial installations. Our team assesses your specific glass type during the free site visit to confirm suitability.",
   },
   {
     q: "Does switchable smart film provide UV protection?",
-    a: "Yes — our smart film blocks harmful UV rays in both the clear and frosted states. In the frosted (powered off) state, it also significantly reduces solar glare and heat penetration — helping to maintain a comfortable indoor temperature and protect furniture, flooring, and interiors from sun damage.",
+    a: "Yes - our smart film blocks harmful UV rays in both the clear and frosted states. In the frosted (powered off) state, it also significantly reduces solar glare and heat penetration - helping to maintain a comfortable indoor temperature and protect furniture, flooring, and interiors from sun damage.",
   },
   {
     q: "Is smart film permanent? Can it be removed?",
-    a: "Smart film is a self-adhesive retrofit film and is therefore removable. It can be professionally removed without damaging the underlying glass surface. This makes it a flexible, future-proof solution — unlike frosted glass or fixed partitions which require full replacement to undo.",
+    a: "Smart film is a self-adhesive retrofit film and is therefore removable. It can be professionally removed without damaging the underlying glass surface. This makes it a flexible, future-proof solution - unlike frosted glass or fixed partitions which require full replacement to undo.",
   },
   {
     q: "What are the most common uses for switchable smart film in Dubai?",
@@ -239,7 +239,7 @@ const faqs = [
   },
   {
     q: "Where can I get switchable smart film installed near me in Dubai or Sharjah?",
-    a: "Smart Auto UAE has 4 branches — MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. We offer free on-site surveys and consultations for all smart film projects across Dubai and Sharjah. Contact us on WhatsApp or call us to book your free site visit.",
+    a: "Smart Auto UAE has 4 branches - MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. We offer free on-site surveys and consultations for all smart film projects across Dubai and Sharjah. Contact us on WhatsApp or call us to book your free site visit.",
   },
 ];
 
@@ -337,7 +337,7 @@ export default function SwitchableSmartFilmPage() {
                   Transform any existing glass in your{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Dubai</strong> or{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah</strong> office,
-                  villa, hotel, or commercial space into smart switchable glass —
+                  villa, hotel, or commercial space into smart switchable glass -
                   instantly switching from{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>crystal clear to fully frosted</strong>{" "}
                   in milliseconds. No glass replacement. No curtains. No blinds.
@@ -347,12 +347,12 @@ export default function SwitchableSmartFilmPage() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
                   {[
-                    "PDLC smart film — no glass replacement",
+                    "PDLC smart film - no glass replacement",
                     "Clear to frosted in milliseconds",
                     "Remote, wall switch & app control",
                     "Offices, villas, hotels & healthcare",
                     "UV blocking & glare reduction",
-                    "Free site visit — Dubai & Sharjah",
+                    "Free site visit - Dubai & Sharjah",
                   ].map((f) => (
                     <div key={f} className="flex items-center gap-2.5">
                       <CheckCircle size={14} style={{ color: gold, flexShrink: 0 }} />
@@ -381,7 +381,7 @@ export default function SwitchableSmartFilmPage() {
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
                     src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900&q=80"
-                    alt="Switchable smart film Dubai Sharjah — PDLC smart glass film — Smart Auto UAE"
+                    alt="Switchable smart film Dubai Sharjah - PDLC smart glass film - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0"
@@ -405,7 +405,7 @@ export default function SwitchableSmartFilmPage() {
                   </div>
                 </div>
 
-                {/* Floating — Instant Privacy */}
+                {/* Floating - Instant Privacy */}
                 <div className="absolute -top-5 -right-5 rounded-2xl px-5 py-4 border text-center"
                   style={{ background: "#0A0A0A", border: "1px solid rgba(201,168,76,0.2)", minWidth: "120px" }}>
                   <div className="font-bold text-[13px] leading-snug mb-0.5"
@@ -416,7 +416,7 @@ export default function SwitchableSmartFilmPage() {
                   <div className="text-[9px] tracking-[0.1em] uppercase" style={{ color: "rgba(255,255,255,0.35)" }}>On Demand</div>
                 </div>
 
-                {/* Floating — 92% Clarity */}
+                {/* Floating - 92% Clarity */}
                 <div className="absolute -bottom-5 -left-5 rounded-2xl px-5 py-4 border text-center"
                   style={{ background: "#0A0A0A", border: "1px solid rgba(201,168,76,0.2)", minWidth: "110px" }}>
                   <div className="font-bold text-[26px] leading-none mb-0.5"
@@ -446,7 +446,7 @@ export default function SwitchableSmartFilmPage() {
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                PDLC (Polymer Dispersed Liquid Crystal) technology — liquid crystal particles inside the film
+                PDLC (Polymer Dispersed Liquid Crystal) technology - liquid crystal particles inside the film
                 align or scatter in response to an electric current, switching glass between two states instantly.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -516,7 +516,7 @@ export default function SwitchableSmartFilmPage() {
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                Switchable smart film transforms any glass surface in any setting —
+                Switchable smart film transforms any glass surface in any setting -
                 from office meeting rooms and boardrooms to villa bathrooms and luxury hotel suites.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -676,7 +676,7 @@ export default function SwitchableSmartFilmPage() {
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
                   src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=900&q=80"
-                  alt="Smart Auto UAE — switchable smart glass film near me Dubai Sharjah"
+                  alt="Smart Auto UAE - switchable smart glass film near me Dubai Sharjah"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0"
@@ -714,13 +714,13 @@ export default function SwitchableSmartFilmPage() {
                   With over 10 years of professional window film installation experience, Smart Auto UAE
                   delivers flawless PDLC switchable smart film installations across offices, villas, hotels,
                   healthcare spaces, and commercial properties throughout Dubai and Sharjah. Our certified
-                  installers handle every project from free site visit to final control system setup —
+                  installers handle every project from free site visit to final control system setup -
                   ensuring a seamless, fully operational smart film installation every time.
                 </p>
                 <div className="flex flex-col gap-4 mb-9">
                   {[
-                    { icon: Zap,         text: "PDLC smart film — clear to frosted in milliseconds" },
-                    { icon: ShieldCheck, text: "No glass replacement — retrofit onto existing glass" },
+                    { icon: Zap,         text: "PDLC smart film - clear to frosted in milliseconds" },
+                    { icon: ShieldCheck, text: "No glass replacement - retrofit onto existing glass" },
                     { icon: Wifi,        text: "Remote, wall switch, app & voice control setup included" },
                     { icon: Building2,   text: "Offices, villas, hotels, healthcare & retail" },
                     { icon: Clock,       text: "Free site visit · Open every day 11AM – 9PM" },
@@ -763,7 +763,7 @@ export default function SwitchableSmartFilmPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.6rem)", color: "#fff" }}>
-                FAQs — Switchable Smart Film{" "}
+                FAQs - Switchable Smart Film{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   Dubai &amp; Sharjah
                 </span>
@@ -798,7 +798,7 @@ export default function SwitchableSmartFilmPage() {
                 </h2>
                 <p className="mb-8 max-w-lg mx-auto text-sm leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.4)" }}>
-                  PDLC switchable smart film — clear to frosted in milliseconds.
+                  PDLC switchable smart film - clear to frosted in milliseconds.
                   No glass replacement · No blinds · No curtains.
                   Remote · Wall switch · App · Voice · Smart home control.
                   Offices · Villas · Hotels · Healthcare · Retail.

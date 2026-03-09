@@ -14,7 +14,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Nano Ceramic Coating Dubai & Sharjah | SIRIUS, GYEON, JADE, ONYX | Smart Auto UAE",
   description:
-    "Professional nano ceramic coating in Dubai & Sharjah. Bronze, Silver & Diamond packages from AED 1000. SIRIUS USA, GYEON, JADE & ONYX ceramic coatings. 9H hardness, self-cleaning, UV resistant. Up to 5-year warranty. Free annual service. 4 branches — MotorCity, Al Quoz, Mirdif & Sharjah.",
+    "Professional nano ceramic coating in Dubai & Sharjah. Bronze, Silver & Diamond packages from AED 1000. SIRIUS USA, GYEON, JADE & ONYX ceramic coatings. 9H hardness, self-cleaning, UV resistant. Up to 5-year warranty. Free annual service. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
   keywords: [
     "nano ceramic coating Dubai",
     "ceramic coating Dubai",
@@ -64,12 +64,12 @@ const benefits = [
   {
     icon: Shield,
     title: "9H Scratch Resistance",
-    desc: "Nano ceramic coatings form an ultra-hard 9H-rated surface layer on your paint — providing outstanding resistance to light scratches, swirl marks, and surface abrasions that daily driving causes.",
+    desc: "Nano ceramic coatings form an ultra-hard 9H-rated surface layer on your paint - providing outstanding resistance to light scratches, swirl marks, and surface abrasions that daily driving causes.",
   },
   {
     icon: Droplets,
     title: "Super Hydrophobic Effect",
-    desc: "Water, mud, dust, and road grime simply bead up and roll off your coated paint — keeping your car dramatically cleaner for longer and making every wash faster and easier in Dubai's dusty conditions.",
+    desc: "Water, mud, dust, and road grime simply bead up and roll off your coated paint - keeping your car dramatically cleaner for longer and making every wash faster and easier in Dubai's dusty conditions.",
   },
   {
     icon: Zap,
@@ -79,7 +79,7 @@ const benefits = [
   {
     icon: Sparkles,
     title: "Permanent Showroom Gloss",
-    desc: "Unlike car wax that lasts months, ceramic coating bonds permanently to your paint at a molecular level — delivering a deep, wet-look gloss that makes your car look freshly detailed every single day.",
+    desc: "Unlike car wax that lasts months, ceramic coating bonds permanently to your paint at a molecular level - delivering a deep, wet-look gloss that makes your car look freshly detailed every single day.",
   },
   {
     icon: Award,
@@ -89,7 +89,7 @@ const benefits = [
   {
     icon: ShieldCheck,
     title: "Thermal Resistance up to 300°C",
-    desc: "Our nano ceramic coatings are engineered to withstand extreme heat — up to 300°C — making them perfectly suited to UAE's brutal summer temperatures and engine bay heat exposure.",
+    desc: "Our nano ceramic coatings are engineered to withstand extreme heat - up to 300°C - making them perfectly suited to UAE's brutal summer temperatures and engine bay heat exposure.",
   },
 ];
 
@@ -166,7 +166,7 @@ const brands = [
     tag: "Primary Brand",
     tagColor: "#60a5fa",
     origin: "SIRIUS USA",
-    desc: "SIRIUS USA is our primary ceramic coating brand — an advanced American-engineered nano ceramic formula delivering outstanding 9H hardness, deep gloss, and long-term durability. Proven in UAE's extreme climate conditions.",
+    desc: "SIRIUS USA is our primary ceramic coating brand - an advanced American-engineered nano ceramic formula delivering outstanding 9H hardness, deep gloss, and long-term durability. Proven in UAE's extreme climate conditions.",
     features: [
       "9H hardness rating",
       "Advanced hydrophobic formula",
@@ -227,22 +227,22 @@ const process = [
   {
     num: "01",
     title: "Paint Inspection",
-    desc: "We assess your car's current paint condition — checking for swirl marks, scratches, oxidation, and contamination to determine the correct preparation needed before ceramic coating.",
+    desc: "We assess your car's current paint condition - checking for swirl marks, scratches, oxidation, and contamination to determine the correct preparation needed before ceramic coating.",
   },
   {
     num: "02",
     title: "Decontamination Wash",
-    desc: "A thorough multi-stage decontamination process removes all bonded surface contaminants, iron particles, and residues — ensuring a perfectly clean base for the ceramic coating to bond to.",
+    desc: "A thorough multi-stage decontamination process removes all bonded surface contaminants, iron particles, and residues - ensuring a perfectly clean base for the ceramic coating to bond to.",
   },
   {
     num: "03",
     title: "Paint Correction",
-    desc: "Where needed, we perform machine polishing to remove swirl marks, light scratches, and oxidation — so the ceramic coating locks in a perfect, defect-free finish rather than sealing in imperfections.",
+    desc: "Where needed, we perform machine polishing to remove swirl marks, light scratches, and oxidation - so the ceramic coating locks in a perfect, defect-free finish rather than sealing in imperfections.",
   },
   {
     num: "04",
     title: "Ceramic Coating Application",
-    desc: "Our certified detailers apply your chosen ceramic coating brand and package — methodically panel by panel, ensuring full even coverage and proper bonding for maximum protection and gloss.",
+    desc: "Our certified detailers apply your chosen ceramic coating brand and package - methodically panel by panel, ensuring full even coverage and proper bonding for maximum protection and gloss.",
   },
   {
     num: "05",
@@ -254,23 +254,23 @@ const process = [
 const faqs = [
   {
     q: "What is nano ceramic coating?",
-    a: "Nano ceramic coating is a liquid polymer applied to a car's exterior that chemically bonds to the factory paint, creating a permanent protective layer. Based on silicon dioxide (SiO2) nano-technology, it delivers 9H hardness, super hydrophobic properties, UV resistance, chemical resistance, and a deep showroom gloss — far outlasting traditional car wax or paint sealants.",
+    a: "Nano ceramic coating is a liquid polymer applied to a car's exterior that chemically bonds to the factory paint, creating a permanent protective layer. Based on silicon dioxide (SiO2) nano-technology, it delivers 9H hardness, super hydrophobic properties, UV resistance, chemical resistance, and a deep showroom gloss - far outlasting traditional car wax or paint sealants.",
   },
   {
     q: "How long does nano ceramic coating last in Dubai?",
-    a: "Our nano ceramic coating packages are warrantied for 2 years (Bronze), 3 years (Silver), or 5 years (Diamond). With proper maintenance — including your free annual service — the coating can protect your car's paint for the full warranty period and beyond in UAE conditions.",
+    a: "Our nano ceramic coating packages are warrantied for 2 years (Bronze), 3 years (Silver), or 5 years (Diamond). With proper maintenance - including your free annual service - the coating can protect your car's paint for the full warranty period and beyond in UAE conditions.",
   },
   {
     q: "What is included in the free annual service?",
-    a: "All three packages — Bronze, Silver, and Diamond — include a free annual inspection and service visit at any Smart Auto UAE branch. Our team checks the coating condition, performs a maintenance decontamination, and addresses any areas that need attention to ensure your coating performs at its best throughout the warranty period.",
+    a: "All three packages - Bronze, Silver, and Diamond - include a free annual inspection and service visit at any Smart Auto UAE branch. Our team checks the coating condition, performs a maintenance decontamination, and addresses any areas that need attention to ensure your coating performs at its best throughout the warranty period.",
   },
   {
     q: "What is the difference between Bronze, Silver, and Diamond packages?",
-    a: "Bronze (from AED 1,000) is our essential package with a 2-year warranty — ideal for daily drivers. Silver (from AED 1,300) upgrades to a 3-year warranty and includes free door edge PPF. Diamond (from AED 1,800) is our ultimate package with a 5-year warranty plus free door edge PPF and headlight PPF — recommended for new or luxury vehicles.",
+    a: "Bronze (from AED 1,000) is our essential package with a 2-year warranty - ideal for daily drivers. Silver (from AED 1,300) upgrades to a 3-year warranty and includes free door edge PPF. Diamond (from AED 1,800) is our ultimate package with a 5-year warranty plus free door edge PPF and headlight PPF - recommended for new or luxury vehicles.",
   },
   {
     q: "What ceramic coating brands do you use?",
-    a: "We use four premium ceramic coating brands at Smart Auto UAE — SIRIUS USA (our primary brand), JADE, ONYX, and GYEON. All are professional-grade nano ceramic formulas delivering 9H hardness, hydrophobic protection, and long-term durability suited to UAE's extreme climate.",
+    a: "We use four premium ceramic coating brands at Smart Auto UAE - SIRIUS USA (our primary brand), JADE, ONYX, and GYEON. All are professional-grade nano ceramic formulas delivering 9H hardness, hydrophobic protection, and long-term durability suited to UAE's extreme climate.",
   },
   {
     q: "Is nano ceramic coating worth it in Dubai?",
@@ -278,11 +278,11 @@ const faqs = [
   },
   {
     q: "Does ceramic coating prevent scratches?",
-    a: "Ceramic coating provides 9H hardness and significant resistance to light surface scratches, swirl marks, and minor abrasions. However, it is not scratch-proof against deep or sharp impacts. For full scratch and chip protection, we recommend combining ceramic coating with Paint Protection Film (PPF) — our Silver and Diamond packages include door edge PPF as a starting point.",
+    a: "Ceramic coating provides 9H hardness and significant resistance to light surface scratches, swirl marks, and minor abrasions. However, it is not scratch-proof against deep or sharp impacts. For full scratch and chip protection, we recommend combining ceramic coating with Paint Protection Film (PPF) - our Silver and Diamond packages include door edge PPF as a starting point.",
   },
   {
     q: "Where can I get nano ceramic coating near me in Dubai or Sharjah?",
-    a: "Smart Auto UAE has 4 branches — MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All are open every day from 11AM to 9PM. Contact us on WhatsApp or walk in for a free consultation.",
+    a: "Smart Auto UAE has 4 branches - MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All are open every day from 11AM to 9PM. Contact us on WhatsApp or walk in for a free consultation.",
   },
 ];
 
@@ -377,7 +377,7 @@ export default function NanoCeramicCoatingPage() {
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah</strong> using{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>SIRIUS USA, GYEON, JADE</strong> and{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>ONYX</strong>. Permanent showroom gloss,
-                  9H scratch resistance, super hydrophobic protection — backed by up to a 5-year warranty.
+                  9H scratch resistance, super hydrophobic protection - backed by up to a 5-year warranty.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
@@ -387,7 +387,7 @@ export default function NanoCeramicCoatingPage() {
                     "Super hydrophobic surface",
                     "UV & chemical resistant",
                     "Bronze, Silver & Diamond packages",
-                    "4 branches — Dubai & Sharjah",
+                    "4 branches - Dubai & Sharjah",
                   ].map((f) => (
                     <div key={f} className="flex items-center gap-2.5">
                       <CheckCircle size={14} style={{ color: gold, flexShrink: 0 }} />
@@ -410,13 +410,13 @@ export default function NanoCeramicCoatingPage() {
                 </div>
               </div>
 
-              {/* Right — Image */}
+              {/* Right - Image */}
               <div className="relative hidden lg:block">
                 <div className="relative rounded-3xl overflow-hidden border"
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
                     src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=900&q=80"
-                    alt="Nano ceramic coating Dubai Sharjah — 9H hardness showroom gloss — SIRIUS GYEON — Smart Auto UAE"
+                    alt="Nano ceramic coating Dubai Sharjah - 9H hardness showroom gloss - SIRIUS GYEON - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0"
@@ -486,7 +486,7 @@ export default function NanoCeramicCoatingPage() {
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                Three tiers of nano ceramic coating protection — choose the package that fits your car,
+                Three tiers of nano ceramic coating protection - choose the package that fits your car,
                 your goals, and your budget. All include free annual service.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -626,7 +626,7 @@ export default function NanoCeramicCoatingPage() {
               </h2>
               <p className="max-w-2xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
                 In UAE's harsh climate, nano ceramic coating is the most advanced and long-lasting
-                form of paint protection available — outperforming wax and sealants by years.
+                form of paint protection available - outperforming wax and sealants by years.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
@@ -662,7 +662,7 @@ export default function NanoCeramicCoatingPage() {
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                We use four premium professional-grade ceramic coating brands — led by SIRIUS USA as
+                We use four premium professional-grade ceramic coating brands - led by SIRIUS USA as
                 our primary brand. All deliver 9H hardness and long-term nano protection.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -769,7 +769,7 @@ export default function NanoCeramicCoatingPage() {
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
                   src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=900&q=80"
-                  alt="Smart Auto UAE — best nano ceramic coating near me Dubai Sharjah"
+                  alt="Smart Auto UAE - best nano ceramic coating near me Dubai Sharjah"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0"
@@ -806,14 +806,14 @@ export default function NanoCeramicCoatingPage() {
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
                   With over 10 years of experience, Smart Auto UAE is the most trusted nano ceramic
                   coating centre in Dubai and Sharjah. Our certified detailers use SIRIUS USA, GYEON,
-                  JADE, and ONYX — applied with professional precision at all 4 branches, backed by
+                  JADE, and ONYX - applied with professional precision at all 4 branches, backed by
                   transparent package pricing and free annual service for every customer.
                 </p>
                 <div className="flex flex-col gap-4 mb-9">
                   {[
                     { icon: Award,       text: "SIRIUS USA, GYEON, JADE & ONYX ceramic coatings" },
                     { icon: ShieldCheck, text: "Bronze, Silver & Diamond packages from AED 1,000" },
-                    { icon: MapPin,      text: "4 branches — MotorCity, Al Quoz, Mirdif & Sharjah" },
+                    { icon: MapPin,      text: "4 branches - MotorCity, Al Quoz, Mirdif & Sharjah" },
                     { icon: Clock,       text: "Open every day 11AM – 9PM, walk-ins welcome" },
                   ].map((item) => (
                     <div key={item.text} className="flex items-center gap-3.5">
@@ -857,7 +857,7 @@ export default function NanoCeramicCoatingPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.6rem)", color: "#fff" }}>
-                FAQs — Nano Ceramic Coating{" "}
+                FAQs - Nano Ceramic Coating{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   Dubai &amp; Sharjah
                 </span>

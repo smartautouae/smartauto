@@ -15,7 +15,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Surface Protection Films Dubai & Sharjah | Marble, Glass & Floor Protection | Smart Auto UAE",
   description:
-    "Professional surface protection film installation in Dubai & Sharjah. Protect marble, granite, glass, floors, aluminium, wood, stainless steel & countertops from scratches, stains, dust & construction damage. Residential & commercial. 3M & premium films. 4 branches — MotorCity, Al Quoz, Mirdif & Sharjah. Free site visit. Get a quote.",
+    "Professional surface protection film installation in Dubai & Sharjah. Protect marble, granite, glass, floors, lifts, aluminium, wood, stainless steel & countertops from scratches, stains & damage. Residential & commercial. 3M & premium films. 4 branches — MotorCity, Al Quoz, Mirdif & Sharjah. Free site visit.",
   keywords: [
     "surface protection film Dubai",
     "surface protection film Sharjah",
@@ -26,13 +26,16 @@ export const metadata: Metadata = {
     "granite protection film Dubai",
     "countertop protection film Dubai",
     "surface protection film UAE",
-    "construction surface protection Dubai",
     "protective film for marble Dubai",
     "protective film for glass Dubai",
     "protective film for floors Dubai",
     "aluminium surface protection film UAE",
     "stainless steel protection film Dubai",
     "wood surface protection film Dubai",
+    "lift protection film Dubai",
+    "elevator cab protection film Dubai",
+    "lift interior protection film UAE",
+    "elevator surface protection film Dubai",
     "anti scratch film Dubai",
     "anti scratch film Sharjah",
     "surface protection film installation Dubai",
@@ -40,10 +43,8 @@ export const metadata: Metadata = {
     "Smart Auto UAE surface protection",
     "3M surface protection film Dubai",
     "Totalgard surface protection UAE",
-    "temporary surface protection film Dubai",
     "villa surface protection film Dubai",
     "commercial surface protection Dubai",
-    "renovation surface protection Dubai",
     "kitchen countertop protection film Dubai",
     "bathroom surface protection film Dubai",
     "surface protection film MotorCity Dubai",
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Surface Protection Films Dubai & Sharjah | Marble, Glass & Floor Protection | Smart Auto UAE",
     description:
-      "Surface protection film in Dubai & Sharjah. Protect marble, granite, glass, floors, aluminium & countertops from scratches, stains & damage. Residential & commercial. Free site visit.",
+      "Surface protection film in Dubai & Sharjah. Protect marble, granite, glass, floors, lifts, aluminium & countertops from scratches, stains & damage. Residential & commercial. Free site visit.",
     url: "https://smartautouae.ae/services/surface-protection-films-dubai-sharjah",
     siteName: "Smart Auto UAE",
     type: "website",
@@ -72,12 +73,12 @@ const surfaces = [
   {
     icon: Sparkles,
     title: "Marble & Granite",
-    desc: "Marble and granite surfaces are beautiful but highly susceptible to staining, etching, and scratching from daily use, cleaning products, and construction activity. Our protection film creates an invisible barrier — preserving the natural lustre of your stone surfaces for years.",
+    desc: "Marble and granite surfaces are beautiful but highly susceptible to staining, etching, and scratching from daily use, cleaning products, and renovation activity. Our protection film creates an invisible barrier — preserving the natural lustre of your stone surfaces for years.",
     points: [
       "Protects against stains & etching",
       "Shields from scratches & abrasion",
       "Preserves natural colour & finish",
-      "Ideal during construction & renovation",
+      "Ideal during renovation & fit-out",
       "Countertops, floors & wall cladding",
       "Removable without surface damage",
     ],
@@ -85,64 +86,77 @@ const surfaces = [
   {
     icon: Layers,
     title: "Glass & Mirrors",
-    desc: "Glass and mirror surfaces scratch easily during installation, construction, and daily use. Our glass protection films guard against abrasion, chemical splashes, paint and plaster contamination — protecting your glazing from the moment of installation through to final handover.",
+    desc: "Glass and mirror surfaces scratch easily during installation and daily use. Our glass protection films guard against abrasion, chemical splashes, and contamination — protecting your glazing from the moment of installation through to final handover.",
     points: [
       "Scratch & abrasion protection",
       "Paint & plaster splash resistance",
-      "Welding & grinding spark protection",
       "Window glass & glass doors",
       "Mirrors & decorative glass",
-      "Temporary construction protection",
+      "Shower enclosures & glass partitions",
+      "Temporary or long-term protection",
     ],
   },
   {
     icon: Home,
     title: "Floors & Tiles",
-    desc: "Flooring is one of the most expensive elements of any residential or commercial fit-out. Our floor protection films provide heavy-duty protection against foot traffic, tool impact, and material spillage — keeping tiles, hardwood, and polished floors pristine through construction and renovation.",
+    desc: "Flooring is one of the most expensive elements of any residential or commercial fit-out. Our floor protection films provide heavy-duty protection against foot traffic, tool impact, and material spillage — keeping tiles, hardwood, and polished floors pristine.",
     points: [
       "Heavy-duty floor traffic protection",
       "Tool drop & impact resistance",
       "Paint, plaster & chemical spillage",
       "Tiles, hardwood & polished stone",
-      "Heavy-duty variants for construction sites",
+      "Porcelain, marble & ceramic floors",
       "Peel-off clean after project completion",
+    ],
+  },
+  {
+    icon: Building2,
+    title: "Lifts & Elevator Cabs",
+    desc: "Elevator interiors — stainless steel walls, mirror panels, floor surfaces, and door frames — are highly exposed to daily scratches, trolley damage, and moving equipment. Our protection films keep lift finishes flawless through fit-out and handover.",
+    points: [
+      "Stainless steel elevator walls",
+      "Mirror panels & glass surfaces",
+      "Lift floor & threshold protection",
+      "Door frames & cab interiors",
+      "Protects during fit-out & moving",
+      "Clean removal — no residue",
     ],
   },
   {
     icon: Hammer,
     title: "Aluminium & Metal Profiles",
-    desc: "Aluminium window frames, door profiles, handrails, balustrades, and stainless steel fittings are vulnerable to scratches and contamination during installation and construction. Our metal surface protection films ensure profiles are delivered and installed in perfect condition.",
+    desc: "Aluminium window frames, door profiles, handrails, balustrades, and stainless steel fittings are vulnerable to scratches and contamination during installation. Our metal surface protection films ensure profiles are delivered and installed in perfect condition.",
     points: [
       "Aluminium window & door profiles",
       "Handrails & balustrades",
       "Stainless steel hardware & fixtures",
       "Ironmongery & bathroom fittings",
-      "Protection from grinding & welding",
+      "Protection during installation",
       "Removable after installation",
     ],
   },
   {
-    icon: Building2,
+    icon: Shield,
     title: "Wood & Joinery",
-    desc: "Wooden doors, kitchen cabinets, joinery, and fitted furniture are easily damaged during construction, transport, and fit-out. Our wood surface protection films shield lacquered and coated wooden surfaces from scratches, moisture, and contamination.",
+    desc: "Wooden doors, kitchen cabinets, joinery, and fitted furniture with lacquered or high-gloss finishes are easily scratched during fit-out and transport. Our films are specifically suited to glossy coated wood — shielding the finish without any risk of adhesive transfer or surface dulling.",
     points: [
       "Wooden doors & door frames",
       "Kitchen cabinets & joinery",
       "Fitted furniture & wardrobes",
-      "Lacquered & coated surfaces",
+      "Lacquered & high-gloss surfaces",
       "Fire-rated & specialist joinery",
       "Clean removal — no residue",
     ],
   },
   {
-    icon: Shield,
+    icon: Sparkles,
     title: "Bathroom & Kitchen Surfaces",
     desc: "Bathtubs, sinks, bathroom vanities, countertops, and kitchen worktops are among the most used surfaces in any property. Our protection films guard against scratches, stains, and daily wear — keeping these high-value surfaces looking new for longer.",
     points: [
       "Bathtubs & bathroom sinks",
       "Kitchen countertops & worktops",
       "Vanity tops & wet area surfaces",
-      "Protects during & after construction",
+      "Protects during & after fit-out",
       "Anti-scratch & stain-resistant",
       "Long-term or temporary application",
     ],
@@ -158,7 +172,7 @@ const whyProtect = [
   {
     icon: Clock,
     title: "Faster Project Handover",
-    desc: "In construction and fit-out projects, surface damage causes snagging, delays, and budget overruns. Protection films eliminate the need for repair and replacement — significantly reducing handover timelines.",
+    desc: "Surface damage causes snagging, delays, and budget overruns in fit-out projects. Protection films eliminate the need for repair and replacement — significantly reducing handover timelines.",
   },
   {
     icon: Layers,
@@ -185,18 +199,13 @@ const whyProtect = [
 const useCases = [
   {
     title: "Villas & Residences",
-    desc: "New-build and renovation projects across Dubai and Sharjah. Protect marble floors, granite countertops, glass shower enclosures, wooden doors, and bathroom fittings during construction through to completion.",
+    desc: "New-build and renovation projects across Dubai and Sharjah. Protect marble floors, granite countertops, glass shower enclosures, wooden doors, and bathroom fittings during fit-out through to completion.",
     tags: ["New build", "Renovation", "Marble floors", "Kitchen countertops", "Bathroom glass"],
   },
   {
     title: "Commercial Fit-Outs",
-    desc: "Office buildings, retail fit-outs, hotels, and hospitality projects. Protect high-specification surfaces — stone flooring, glass partitions, aluminium profiles, and joinery — during construction and handover.",
-    tags: ["Office fit-out", "Retail", "Hotels", "Hospitality", "Commercial floors"],
-  },
-  {
-    title: "Construction Sites",
-    desc: "Active construction, installation, and renovation sites require maximum protection across all installed surfaces. Our heavy-duty construction protection films guard against welding, grinding, paint, plaster, and workforce mishandling.",
-    tags: ["Active construction", "Welding protection", "Paint & plaster", "Site protection"],
+    desc: "Office buildings, retail fit-outs, hotels, and hospitality projects. Protect high-specification surfaces — stone flooring, glass partitions, aluminium profiles, lift cab interiors, and joinery — during installation and handover.",
+    tags: ["Office fit-out", "Retail", "Hotels", "Hospitality", "Lifts & Elevators"],
   },
   {
     title: "Property Staging & Handover",
@@ -209,7 +218,7 @@ const process = [
   {
     num: "01",
     title: "Site Assessment",
-    desc: "Our team visits your villa, commercial space, or construction site to assess all surfaces requiring protection — identifying the right film type, thickness, and adhesion level for each surface and application.",
+    desc: "Our team visits your villa or commercial space to assess all surfaces requiring protection — identifying the right film type, thickness, and adhesion level for each surface and application.",
   },
   {
     num: "02",
@@ -219,12 +228,12 @@ const process = [
   {
     num: "03",
     title: "Surface Preparation",
-    desc: "Surfaces are cleaned and assessed for contamination before film application — ensuring perfect adhesion, no trapped particles, and clean removal at the end of the protection period.",
+    desc: "Surfaces are cleaned and assessed before film application — ensuring perfect adhesion, no trapped particles, and clean removal at the end of the protection period.",
   },
   {
     num: "04",
     title: "Professional Application",
-    desc: "Films are precision-cut and applied by our trained installers — covering every surface area completely with clean, bubble-free coverage and sealed edges to prevent ingress during construction.",
+    desc: "Films are precision-cut and applied by our trained installers — covering every surface area completely with clean, bubble-free coverage and sealed edges.",
   },
   {
     num: "05",
@@ -236,19 +245,15 @@ const process = [
 const faqs = [
   {
     q: "What surfaces can surface protection film be applied to?",
-    a: "Our surface protection films can be applied to a wide range of surfaces including: marble, granite, and stone (countertops, floors, wall cladding); glass and mirrors; polished and tiled floors; aluminium window and door profiles, handrails, and balustrades; stainless steel hardware and bathroom fittings; wooden doors, cabinets, and joinery; kitchen countertops; bathtubs and bathroom vanities. Our team selects the appropriate film type and adhesion level for each specific surface during the site assessment.",
+    a: "Our surface protection films can be applied to marble, granite, and stone (countertops, floors, wall cladding); glass and mirrors; polished and tiled floors; lift and elevator cab interiors; aluminium window and door profiles, handrails, and balustrades; stainless steel hardware and bathroom fittings; wooden doors, cabinets, and joinery; kitchen countertops; and bathtubs and bathroom vanities. Our team selects the appropriate film type and adhesion level for each specific surface during the site assessment.",
   },
   {
     q: "Will surface protection film damage or mark my marble or stone?",
-    a: "No — our surface protection films are specifically engineered for use on delicate polished surfaces including marble, granite, and stone. They use a light-tack, pressure-sensitive adhesive that bonds securely to protect against damage but releases cleanly without leaving adhesive residue, marks, or etching on the surface when removed. We select the correct film specification for each surface type during our site assessment.",
+    a: "No — our surface protection films are specifically engineered for use on delicate polished surfaces including marble, granite, and stone. They use a light-tack, pressure-sensitive adhesive that bonds securely to protect against damage but releases cleanly without leaving adhesive residue, marks, or etching when removed. We select the correct film specification for each surface type during our site assessment.",
   },
   {
     q: "How long can surface protection film stay on?",
-    a: "The duration depends on the specific film and application. Temporary construction protection films are typically designed for use over periods of weeks to several months during construction and fit-out. Long-term residential protection films can remain in place for extended periods on surfaces like kitchen countertops and bathroom vanities. Our team advises on the correct film specification for your required protection duration during the site visit.",
-  },
-  {
-    q: "Can surface protection film be used during active construction?",
-    a: "Yes — this is one of the primary applications for our surface protection films. Our heavy-duty construction protection films are designed to withstand the demands of active construction sites — protecting glass, aluminium profiles, flooring, and stone surfaces from paint and plaster splashes, grinding and welding sparks, chemical contamination, and general site workforce mishandling. They are widely used across villa construction, commercial fit-outs, and renovation projects in Dubai and Sharjah.",
+    a: "The duration depends on the specific film and application. Temporary protection films are typically designed for use over periods of weeks to several months during fit-out. Long-term residential protection films can remain in place for extended periods on surfaces like kitchen countertops and bathroom vanities. Our team advises on the correct film specification for your required protection duration during the site visit.",
   },
   {
     q: "Do you supply and install surface protection films, or supply only?",
@@ -259,8 +264,12 @@ const faqs = [
     a: "Yes — marble countertop protection is one of our most in-demand residential services in Dubai. We supply and install clear, low-tack protection films on marble kitchen and bathroom countertops — guarding against staining, etching from cleaning products, and daily wear, while preserving the natural beauty and value of the marble surface.",
   },
   {
+    q: "Can you protect lift and elevator interiors?",
+    a: "Yes — lift cab interiors are one of the most frequently requested surface protection applications in commercial fit-outs. We apply protection films to stainless steel elevator walls, mirror panels, lift floors, door frames, and thresholds — protecting every surface from scratches, trolley damage, and mishandling during fit-out, move-in, and handover.",
+  },
+  {
     q: "Where can I get surface protection film near me in Dubai or Sharjah?",
-    a: "Smart Auto UAE has 4 branches — MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. We offer free site visits and consultations for all surface protection film projects across Dubai and Sharjah — residential, commercial, and construction. Contact us on WhatsApp or call to book.",
+    a: "Smart Auto UAE has 4 branches — MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. We offer free site visits and consultations for all surface protection film projects across Dubai and Sharjah — residential and commercial. Contact us on WhatsApp or call to book.",
   },
 ];
 
@@ -272,7 +281,9 @@ function FaqItem({ question, answer }: { question: string; answer: string }) {
       className="group rounded-2xl border overflow-hidden"
       style={{ border: `1px solid ${cardBdr}`, background: cardBg }}>
       <summary className="flex items-center justify-between px-6 py-5 cursor-pointer list-none">
-        <span className="font-semibold text-[15px] pr-4" style={{ color: "#fff" }}>{question}</span>
+        <span className="font-semibold text-[15px] pr-4" style={{ color: "#fff" }}>
+          {question}
+        </span>
         <span
           className="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center transition-transform duration-300 group-open:rotate-45"
           style={{ background: "rgba(201,168,76,0.1)", border: "1px solid rgba(201,168,76,0.2)", color: gold }}>
@@ -282,7 +293,9 @@ function FaqItem({ question, answer }: { question: string; answer: string }) {
         </span>
       </summary>
       <div className="px-6 pb-5">
-        <p className="text-[13px] leading-[1.8]" style={{ color: "rgba(255,255,255,0.45)" }}>{answer}</p>
+        <p className="text-[13px] leading-[1.8]" style={{ color: "rgba(255,255,255,0.45)" }}>
+          {answer}
+        </p>
       </div>
     </details>
   );
@@ -337,7 +350,7 @@ export default function SurfaceProtectionFilmsPage() {
                 <div className="inline-flex items-center gap-2.5 border rounded-full px-4 py-1.5 mb-8 text-[10px] tracking-[0.3em] uppercase"
                   style={{ borderColor: "rgba(201,168,76,0.25)", background: "rgba(201,168,76,0.05)", color: gold }}>
                   <Star size={10} fill={gold} strokeWidth={0} />
-                  Marble · Glass · Floors · Aluminium · Wood · Countertops
+                  Marble · Wood · Lifts · Glass · Granite · Countertops · Floors
                 </div>
 
                 <h1 className="font-bold leading-[1.05] mb-4"
@@ -350,17 +363,19 @@ export default function SurfaceProtectionFilmsPage() {
 
                 <p className="text-[13px] tracking-[0.2em] uppercase mb-6 font-medium"
                   style={{ color: "rgba(201,168,76,0.7)" }}>
-                  Protect Every Surface · Preserve Every Finish
+                  Protect Every Glossy Surface · Preserve Every Finish
                 </p>
 
                 <p className="mb-8 leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.5)", fontSize: "clamp(0.9rem,1.2vw,1.05rem)" }}>
                   Professional surface protection film supply and installation across{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Dubai</strong> and{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah</strong>.
+                  <strong style={{ color: "rgba(255,255,255,0.8)" }}>Dubai</strong> and{" "}
+                  <strong style={{ color: "rgba(255,255,255,0.8)" }}>Sharjah</strong>.
                   Shield your{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>marble, granite, glass, floors, aluminium profiles, wood, and countertops</strong>{" "}
-                  from scratches, stains, chemical damage, and construction mishandling —
+                  <strong style={{ color: "rgba(255,255,255,0.8)" }}>
+                    marble, granite, glass, floors, lifts, aluminium profiles, wood, and countertops
+                  </strong>{" "}
+                  from scratches, stains, and damage —
                   with clear, removable, residue-free protection films.
                 </p>
 
@@ -368,9 +383,9 @@ export default function SurfaceProtectionFilmsPage() {
                   {[
                     "Marble, granite & stone protection",
                     "Glass, mirror & floor protection",
+                    "Lifts & elevator cab interiors",
                     "Aluminium profiles & metal fittings",
                     "Wooden doors, joinery & cabinets",
-                    "Construction & renovation projects",
                     "Removable · Residue-free · Clear",
                   ].map((f) => (
                     <div key={f} className="flex items-center gap-2.5">
@@ -400,7 +415,7 @@ export default function SurfaceProtectionFilmsPage() {
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
                     src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80"
-                    alt="Surface protection film Dubai Sharjah — marble glass floor protection — Smart Auto UAE"
+                    alt="Surface protection film Dubai Sharjah — marble glass floor lift protection — Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0"
@@ -414,17 +429,17 @@ export default function SurfaceProtectionFilmsPage() {
                       </div>
                       <div>
                         <div className="font-semibold text-[14px]" style={{ color: "#fff" }}>
-                          Protect Every Surface from Day One
+                          Protect Every Glossy Surface from Day One
                         </div>
                         <div className="text-[11px] mt-0.5" style={{ color: "rgba(255,255,255,0.4)" }}>
-                          Marble · Glass · Floors · Aluminium · Wood · Countertops
+                          Marble · Wood · Lifts · Glass · Granite · Countertops
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                {/* Floating — Clear */}
+                {/* Floating — Invisible */}
                 <div className="absolute -top-5 -right-5 rounded-2xl px-5 py-4 border text-center"
                   style={{ background: "#0A0A0A", border: "1px solid rgba(201,168,76,0.2)", minWidth: "120px" }}>
                   <div className="font-bold text-[13px] leading-snug mb-0.5"
@@ -465,8 +480,9 @@ export default function SurfaceProtectionFilmsPage() {
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                From marble countertops and polished stone floors to glass partitions, aluminium profiles,
-                and wooden joinery — we supply and install the right protection film for every surface type.
+                From marble countertops and polished stone floors to glass partitions, lift interiors,
+                aluminium profiles, and high-gloss wooden joinery — we supply and install the right
+                protection film for every surface type.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
@@ -507,6 +523,7 @@ export default function SurfaceProtectionFilmsPage() {
                 "Ceramic Tiles", "Porcelain Floors", "Hardwood", "Polished Concrete",
                 "Aluminium Profiles", "Stainless Steel", "Wooden Doors",
                 "Kitchen Countertops", "Bathroom Vanities", "Bathtubs & Sinks",
+                "Lift Cab Interiors", "Elevator Floors", "Escalator Panels",
                 "Balustrades", "Handrails", "Fire-Rated Doors",
               ].map((t) => (
                 <span key={t}
@@ -534,8 +551,8 @@ export default function SurfaceProtectionFilmsPage() {
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                Dubai's high-value property market, active construction sector, and year-round renovation
-                activity make surface protection film one of the smartest investments in any project.
+                Dubai's high-value property market and year-round renovation activity make surface
+                protection film one of the smartest investments in any residential or commercial project.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
@@ -574,7 +591,7 @@ export default function SurfaceProtectionFilmsPage() {
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
               {useCases.map((uc) => (
                 <div key={uc.title}
                   className="rounded-2xl p-8 border transition-all duration-300 hover:border-[rgba(201,168,76,0.3)] hover:-translate-y-1"
@@ -617,6 +634,7 @@ export default function SurfaceProtectionFilmsPage() {
               </h2>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 relative">
               <div className="absolute top-10 left-[5%] w-[90%] h-px pointer-events-none hidden lg:block"
                 style={{ background: "linear-gradient(to right,transparent,rgba(201,168,76,0.2),transparent)" }} />
@@ -683,9 +701,9 @@ export default function SurfaceProtectionFilmsPage() {
                 </h2>
                 <p className="mb-8 max-w-lg mx-auto text-sm leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.4)" }}>
-                  Marble · Granite · Glass · Floors · Aluminium · Wood · Countertops.
-                  Clear, invisible protection. Removable & residue-free.
-                  Villas · Commercial fit-outs · Construction · Renovation.
+                  Marble · Granite · Glass · Lifts · Floors · Aluminium · Wood · Countertops.
+                  Clear, invisible protection. Removable &amp; residue-free.
+                  Villas · Commercial fit-outs · Property handover.
                   Free site visit across Dubai &amp; Sharjah.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
@@ -696,8 +714,8 @@ export default function SurfaceProtectionFilmsPage() {
                   </a>
                   <a href="tel:+971555559424"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
-                    style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
-                    <Phone size={15} /> +971 55 555 9424
+                    style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
+                    <Phone size={14} /> Call Now
                   </a>
                 </div>
               </div>
