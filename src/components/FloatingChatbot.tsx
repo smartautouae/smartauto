@@ -96,7 +96,7 @@ const GREETING: Message[] = [
     { label: "Find a Service",   value: "find_service" },
     { label: "Book an Appointment", value: "book" },
     { label: "Find a Branch",    value: "branch" },
-    { label: "Talk to a Human",  value: "human" },
+    { label: "Talk to our team",  value: "human" },
   ]),
 ];
 
@@ -234,7 +234,7 @@ export default function FloatingChatbot() {
         { label: "Find a Service",      value: "find_service" },
         { label: "Book an Appointment", value: "book" },
         { label: "Find a Branch",       value: "branch" },
-        { label: "Talk to a Human",     value: "human" },
+        { label: "Talk to our team",     value: "human" },
       ]);
       return;
     }

@@ -12,9 +12,9 @@ import { BRANCHES } from "@/constants/branches";
 // ── SEO METADATA ───────────────────────────────────────────────────────────
 
 export const metadata: Metadata = {
-  title: "Car Wrapping Dubai & Sharjah | 400+ Colours, Chrome, Matte, Carbon | Smart Auto UAE",
+  title: "Car Wrapping Dubai & Sharjah | 100+ Colours, Chrome, Matte, Carbon | Smart Auto UAE",
   description:
-    "Professional car wrapping in Dubai & Sharjah. 400+ vinyl colours and finishes - full body wraps, colour change, chrome, matte, carbon fibre, chameleon & custom designs. Vinyl wraps protect original paint. Removable, residue-free. Boats, bikes & commercial vehicles. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
+    "Professional car wrapping in Dubai & Sharjah. 100+ vinyl colours and finishes - full body wraps, colour change, chrome, matte, carbon fibre, chameleon & custom designs. Vinyl wraps protect original paint. Removable, residue-free. Boats, bikes & commercial vehicles. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
   keywords: [
     "car wrapping Dubai",
     "car wrapping Sharjah",
@@ -43,9 +43,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://smartautouae.ae/services/car-wrapping-dubai-sharjah" },
   openGraph: {
-    title: "Car Wrapping Dubai & Sharjah | 400+ Colours, Chrome, Matte, Carbon | Smart Auto UAE",
+    title: "Car Wrapping Dubai & Sharjah | 100+ Colours, Chrome, Matte, Carbon | Smart Auto UAE",
     description:
-      "Professional car wrapping in Dubai & Sharjah. 400+ vinyl colours - full body wraps, colour change, chrome, matte, carbon, chameleon & custom designs. Removable, residue-free. 4 branches.",
+      "Professional car wrapping in Dubai & Sharjah. 100+ vinyl colours - full body wraps, colour change, chrome, matte, carbon, chameleon & custom designs. Removable, residue-free. 4 branches.",
     url: "https://smartautouae.ae/services/car-wrapping-dubai-sharjah",
     siteName: "Smart Auto UAE",
     type: "website",
@@ -64,7 +64,7 @@ const cardBdr  = "rgba(255,255,255,0.06)";
 const wrapTypes = [
   {
     name: "Colour Change Wrap",
-    desc: "Transform your car into any colour imaginable - from subtle satin whites to bold metallic reds. Choose from 400+ premium vinyl colours with clean, residue-free removal whenever you want a change.",
+    desc: "Transform your car into any colour imaginable - from subtle satin whites to bold metallic reds. Choose from 100+ premium vinyl colours with clean, residue-free removal whenever you want a change.",
     colors: ["Solid", "Satin", "Metallic", "Pearl"],
     color: gold,
   },
@@ -103,7 +103,7 @@ const wrapTypes = [
 const benefits = [
   {
     icon: Palette,
-    title: "400+ Colour & Finish Options",
+    title: "100+ Colour & Finish Options",
     desc: "With over 400 vinyl colours and finishes available - pearl, metallic, matte, gloss, chrome, 3D carbon, and chameleon - the possibilities for your car are virtually limitless. Custom colours and designs are available through digital printing.",
   },
   {
@@ -160,12 +160,12 @@ const wrapVsPaint = [
   },
   {
     aspect: "Colour Options",
-    wrap: "400+ options - chrome, matte, carbon, chameleon",
+    wrap: "100+ options - chrome, matte, carbon, chameleon",
     paint: "Limited to standard automotive paints",
   },
   {
     aspect: "Time to Complete",
-    wrap: "1–5 days depending on scope",
+    wrap: "3–10 days depending on scope",
     paint: "1–2 weeks including preparation",
   },
   {
@@ -179,7 +179,7 @@ const process = [
   {
     num: "01",
     title: "Consultation",
-    desc: "Discuss your desired colour, finish, and scope - full body, partial, or accents. Choose from 400+ vinyl films and finishes. We help you select the perfect look for your car and budget.",
+    desc: "Discuss your desired colour, finish, and scope - full body, partial, or accents. Choose from 100+ vinyl films and finishes. We help you select the perfect look for your car and budget.",
   },
   {
     num: "02",
@@ -222,7 +222,7 @@ const faqs = [
   },
   {
     q: "Is car wrapping better than repainting?",
-    a: "For most car owners in UAE, wrapping is the superior choice. It is reversible, preserves the original factory paint, maintains your car's resale value, offers 400+ colour and finish options (matte, chrome, carbon, chameleon), and can be completely removed at resale - making the original paint shine like new.",
+    a: "For most car owners in UAE, wrapping is the superior choice. It is reversible, preserves the original factory paint, maintains your car's resale value, offers 100+ colour and finish options (matte, chrome, carbon, chameleon), and can be completely removed at resale - making the original paint shine like new.",
   },
   {
     q: "Can I change my car colour legally with a wrap in Dubai?",
@@ -311,14 +311,14 @@ export default function CarWrappingPage() {
                 <div className="inline-flex items-center gap-2.5 border rounded-full px-4 py-1.5 mb-8 text-[10px] tracking-[0.3em] uppercase"
                   style={{ borderColor: "rgba(201,168,76,0.25)", background: "rgba(201,168,76,0.05)", color: gold }}>
                   <Star size={10} fill={gold} strokeWidth={0} />
-                  400+ Colours · Chrome · Matte · Carbon · Chameleon · Custom
+                  100+ Colours · Chrome · Matte · Carbon · Chameleon · Custom
                 </div>
 
                 <h1 className="font-bold leading-[1.05] mb-4"
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2.4rem,5vw,4.2rem)", color: "#fff" }}>
                   Car Wrapping{" "}
                   <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                    Dubai &amp; Sharjah
+                    in UAE
                   </span>
                 </h1>
 
@@ -332,14 +332,14 @@ export default function CarWrappingPage() {
                   Professional car wrapping across{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Dubai</strong> and{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah</strong>. Choose from{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>400+ vinyl colours and finishes</strong> -
+                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>100+ vinyl colours and finishes</strong> -
                   chrome, matte, carbon fibre, chameleon, pearl, metallic, and custom digital print designs -
                   protecting your original paint with a removable, residue-free premium vinyl film.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
                   {[
-                    "400+ vinyl colours & finishes",
+                    "100+ vinyl colours & finishes",
                     "Chrome, matte & carbon options",
                     "Chameleon colour-shift films",
                     "Custom & digital print designs",
@@ -354,12 +354,12 @@ export default function CarWrappingPage() {
                 </div>
 
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Get a Quote <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Now
@@ -373,7 +373,7 @@ export default function CarWrappingPage() {
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
                     src="https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=900&q=80"
-                    alt="Car wrapping Dubai Sharjah - 400+ colours chrome matte carbon - Smart Auto UAE"
+                    alt="Car wrapping Dubai Sharjah - 100+ colours chrome matte carbon - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0"
@@ -390,7 +390,7 @@ export default function CarWrappingPage() {
                           Your Car · Your Style · Your Colour
                         </div>
                         <div className="text-[11px] mt-0.5" style={{ color: "rgba(255,255,255,0.4)" }}>
-                          400+ Colours · Chrome · Matte · Carbon · Chameleon
+                          100+ Colours · Chrome · Matte · Carbon · Chameleon
                         </div>
                       </div>
                     </div>
@@ -413,12 +413,12 @@ export default function CarWrappingPage() {
                   </div>
                 </div>
 
-                {/* Floating stat - 400+ Colours */}
+                {/* Floating stat - 100+ Colours */}
                 <div className="absolute -bottom-5 -left-5 rounded-2xl px-5 py-4 border text-center"
                   style={{ background: "#0A0A0A", border: "1px solid rgba(201,168,76,0.2)", minWidth: "110px" }}>
                   <div className="font-bold text-[26px] leading-none mb-0.5"
                     style={{ fontFamily: "var(--font-playfair),serif", background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                    400+
+                    100+
                   </div>
                   <div className="font-bold text-[12px] leading-tight mb-0.5"
                     style={{ color: "#fff" }}>
@@ -445,7 +445,7 @@ export default function CarWrappingPage() {
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
                 Car Wrap Types Available in{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  Dubai &amp; Sharjah
+                  Smart Auto
                 </span>
               </h2>
               <p className="max-w-2xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
@@ -484,19 +484,19 @@ export default function CarWrappingPage() {
               ))}
             </div>
 
-            {/* 400+ colour pill strip */}
+            {/* 100+ colour pill strip */}
             <div className="mt-12 rounded-2xl border px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-5"
               style={{ border: "1px solid rgba(201,168,76,0.2)", background: "rgba(201,168,76,0.03)" }}>
               <div>
                 <div className="font-bold text-[22px] mb-1"
                   style={{ fontFamily: "var(--font-playfair),serif", background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  400+ Vinyl Colours &amp; Finishes
+                  100+ Vinyl Colours &amp; Finishes
                 </div>
                 <p className="text-[13px]" style={{ color: "rgba(255,255,255,0.4)" }}>
                   Solid · Satin · Metallic · Pearl · Matte · Gloss · Chrome · Carbon · Chameleon · Custom Print
                 </p>
               </div>
-              <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+              <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                 className="flex-shrink-0 inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-sm text-black no-underline"
                 style={{ background: goldGrad }}>
                 View Colours <ArrowRight size={14} />
@@ -672,9 +672,9 @@ export default function CarWrappingPage() {
                   style={{ background: "linear-gradient(to right,rgba(0,0,0,0.4) 0%,transparent 70%)" }} />
                 <div className="absolute bottom-6 left-6 flex gap-3">
                   {[
-                    { val: "400+", label: "Colours" },
+                    { val: "100+", label: "Colours" },
                     { val: "4",    label: "Branches" },
-                    { val: "10+",  label: "Yrs Exp." },
+                    { val: "20+",  label: "Yrs Exp." },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -700,15 +700,15 @@ export default function CarWrappingPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 10 years of experience and{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.75)" }}>400+ vinyl colours and finishes</strong>{" "}
+                  With over 20 years of experience and{" "}
+                  <strong style={{ color: "rgba(255,255,255,0.75)" }}>100+ vinyl colours and finishes</strong>{" "}
                   available across our 4 Dubai and Sharjah branches, Smart Auto UAE delivers flawless vinyl
                   wrap installations with premium PVC films, precision panel removal, and heat-formed
                   seam-free edges - from colour change wraps to full custom digital designs.
                 </p>
                 <div className="flex flex-col gap-4 mb-9">
                   {[
-                    { icon: Palette,     text: "400+ colours - colour change, chrome, matte, carbon, chameleon, custom print" },
+                    { icon: Palette,     text: "100+ colours - colour change, chrome, matte, carbon, chameleon, custom print" },
                     { icon: ShieldCheck, text: "Premium PVC vinyl films - residue-free, wash & weather resistant" },
                     { icon: MapPin,      text: "4 branches - MotorCity, Al Quoz, Mirdif & Sharjah" },
                     { icon: Clock,       text: "Open every day 11AM – 9PM - walk-ins & bookings welcome" },
@@ -723,12 +723,12 @@ export default function CarWrappingPage() {
                   ))}
                 </div>
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Get a Quote <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Us
@@ -789,17 +789,17 @@ export default function CarWrappingPage() {
                 </h2>
                 <p className="mb-8 max-w-lg mx-auto text-sm leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.4)" }}>
-                  400+ colours &amp; finishes · Colour change · Chrome · Matte · Carbon · Chameleon · Custom digital print.
+                  100+ colours &amp; finishes · Colour change · Chrome · Matte · Carbon · Chameleon · Custom digital print.
                   Residue-free removal · Original paint protected · Cars, bikes, boats &amp; commercial.
                   4 branches across Dubai &amp; Sharjah.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Get a Quote on WhatsApp <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424

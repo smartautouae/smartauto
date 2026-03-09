@@ -100,7 +100,7 @@ const detailingBrands = [
     tag: "German Precision",
     tagColor: "#34d399",
     origin: "Polytop Germany",
-    desc: "Polytop is a premium German detailing brand renowned for its high-performance polishing compounds and car care products. Our Premium package uses Polytop Germany compounds for the most demanding 6-step paint correction jobs.",
+    desc: "Polytop is a premium German detailing brand renowned for its high-performance polishing compounds and Car Protection products. Our Premium package uses Polytop Germany compounds for the most demanding 6-step paint correction jobs.",
     features: [
       "Premium German compound range",
       "High-performance paint correction",
@@ -163,10 +163,7 @@ const services = [
     points: [
       "Yellowing & cloudiness removal",
       "Scratch removal (surface level)",
-      "Water & dust particle removal",
       "Restored light projection & clarity",
-      "Free service after 1 year",
-      "24hr full restoration process",
     ],
   },
 ];
@@ -490,12 +487,12 @@ export default function CarDetailingPage() {
                 </div>
 
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Book on WhatsApp <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Now
@@ -722,7 +719,7 @@ export default function CarDetailingPage() {
                   </div>
 
                   <div className="px-6 pb-6">
-                    <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                    <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl text-[13px] font-bold no-underline transition-all duration-300 hover:gap-4"
                       style={
                         pkg.tier === "Premium"
@@ -833,9 +830,9 @@ export default function CarDetailingPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
-                Benefits of Professional Car Detailing in{" "}
+                Benefits of Professional Car Detailing{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  Dubai &amp; Sharjah
+                  in UAE
                 </span>
               </h2>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -908,9 +905,9 @@ export default function CarDetailingPage() {
                   style={{ background: "linear-gradient(to right,rgba(0,0,0,0.4) 0%,transparent 70%)" }} />
                 <div className="absolute bottom-6 left-6 flex gap-3">
                   {[
-                    { val: "168+", label: "Reviews" },
+                    { val: "600+", label: "Reviews" },
                     { val: "4",    label: "Branches" },
-                    { val: "10+",  label: "Yrs Exp." },
+                    { val: "20+",  label: "Yrs Exp." },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -936,7 +933,7 @@ export default function CarDetailingPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 10 years of experience serving car owners across Dubai and Sharjah, Smart Auto
+                  With over 20 years of experience serving car owners across Dubai and Sharjah, Smart Auto
                   UAE delivers professional car detailing using{" "}
                   <strong style={{ color: "rgba(255,255,255,0.75)" }}>3M, SIRIUS USA, and Polytop Germany</strong>{" "}
                   products. From a Silver interior refresh to our full Premium package with German compound
@@ -959,12 +956,12 @@ export default function CarDetailingPage() {
                   ))}
                 </div>
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Book Now <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Us
@@ -1031,12 +1028,12 @@ export default function CarDetailingPage() {
                   4 branches across Dubai &amp; Sharjah. Walk-ins welcome.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Book on WhatsApp <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424

@@ -13,7 +13,7 @@ const carServices = [
 const propertyServices = [
   { label: "Villa Window Tinting",    href: "/services/villa-window-tinting-dubai-sharjah" },
   { label: "Commercial Tinting",      href: "/services/commercial-window-tinting-dubai-sharjah" },
-  { label: "Switchable Smart Film",   href: "/services/switchable-smart-glass-film-dubai-sharjah" },
+  { label: "Switchable Smart Film",   href: "/services/switchable-smart-film-dubai-sharjah" },
   { label: "Surface Protection Film", href: "/services/surface-protection-film-dubai-sharjah" },
 ];
 
@@ -101,7 +101,7 @@ export default function Footer() {
             </Link>
             <p className="text-[13px] leading-[1.8] mb-5 max-w-sm"
               style={{ color: "rgba(255,255,255,0.35)" }}>
-              Dubai &amp; Sharjah's most trusted premium car care centre.
+              Dubai &amp; Sharjah's most trusted Premium Car Protection  centre.
               Window tinting, PPF, ceramic coating, detailing &amp; more — all under one roof.
             </p>
 

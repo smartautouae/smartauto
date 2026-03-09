@@ -11,7 +11,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Customer Reviews & Testimonials | Smart Auto UAE | Window Tinting Dubai & Sharjah",
   description:
-    "168+ verified 5-star customer reviews for Smart Auto UAE. Trusted window tinting, smart film, PPF & surface protection services across Dubai & Sharjah. Read real reviews from real customers - car tinting, villa tinting, commercial tinting, smart film & more.",
+    "600+ verified 5-star customer reviews for Smart Auto UAE. Trusted window tinting, smart film, PPF & surface protection services across Dubai & Sharjah. Read real reviews from real customers - car tinting, villa tinting, commercial tinting, smart film & more.",
   keywords: [
     "Smart Auto UAE reviews",
     "Smart Auto UAE testimonials",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Customer Reviews & Testimonials | Smart Auto UAE",
     description:
-      "168+ verified 5-star Google reviews for Smart Auto UAE. Trusted window tinting, smart film & PPF in Dubai & Sharjah. Real reviews from real customers.",
+      "600+ verified 5-star Google reviews for Smart Auto UAE. Trusted window tinting, smart film & PPF in Dubai & Sharjah. Real reviews from real customers.",
     url: "https://smartautouae.ae/testimonials",
     siteName: "Smart Auto UAE",
     type: "website",
@@ -55,9 +55,9 @@ const cardBdr  = "rgba(255,255,255,0.06)";
 // ── DATA ───────────────────────────────────────────────────────────────────
 
 const overallStats = [
-  { value: "168+", label: "5-Star Reviews",    sub: "Verified on Google" },
+  { value: "600+", label: "5-Star Reviews",    sub: "Verified on Google" },
   { value: "4.9",  label: "Average Rating",    sub: "Out of 5 stars" },
-  { value: "10+",  label: "Years Trusted",     sub: "Dubai & Sharjah" },
+  { value: "20+",  label: "Years Trusted",     sub: "Dubai & Sharjah" },
   { value: "4",    label: "Branches",          sub: "MotorCity · Al Quoz · Mirdif · Sharjah" },
 ];
 
@@ -263,7 +263,7 @@ export default function TestimonialsPage() {
 
               <div className="inline-flex items-center gap-2.5 border rounded-full px-4 py-1.5 mb-8 text-[10px] tracking-[0.3em] uppercase"
                 style={{ borderColor: "rgba(201,168,76,0.25)", background: "rgba(201,168,76,0.05)", color: gold }}>
-                168+ Verified Google Reviews · 4.9 Star Rating · Dubai & Sharjah
+                600+ Verified Google Reviews · 4.9 Star Rating · Dubai & Sharjah
               </div>
 
               <h1 className="font-bold leading-[1.05] mb-5"
@@ -423,7 +423,7 @@ export default function TestimonialsPage() {
             </div>
             <h2 className="font-bold mb-3"
               style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.4rem,2.5vw,2rem)", color: "#fff" }}>
-              Join 168+ Happy Customers
+              Join 600+ Happy Customers
             </h2>
             <p className="text-sm mb-7 leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
               Read all our verified reviews on Google, or leave your own after your experience with Smart Auto UAE.
@@ -467,7 +467,7 @@ export default function TestimonialsPage() {
                 </div>
                 <p className="text-[10px] tracking-[0.35em] uppercase mb-5"
                   style={{ color: "rgba(201,168,76,0.6)" }}>
-                  168+ 5-Star Reviews · UAE Authorised · Dubai &amp; Sharjah
+                  600+ 5-Star Reviews · UAE Authorised · Dubai &amp; Sharjah
                 </p>
                 <h2 className="font-bold mb-4"
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
@@ -481,12 +481,12 @@ export default function TestimonialsPage() {
                   Open every day 11AM – 9PM.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Book a Free Consultation <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424

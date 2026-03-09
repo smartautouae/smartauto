@@ -15,7 +15,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Why Choose Smart Auto UAE | Best Window Tinting & Protection Films Dubai & Sharjah",
   description:
-    "Why Smart Auto UAE? UAE authorised distributor & applicator of 3M USA, Global USA & Totalgard. 10+ years experience. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah. 168+ 5-star reviews. Professional window tinting, smart film, surface protection & PPF in Dubai & Sharjah. Free consultation.",
+    "Why Smart Auto UAE? UAE authorised distributor & applicator of 3M USA, Global USA & Totalgard. 20+ years experience. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah. 600+ 5-star reviews. Professional window tinting, smart film, surface protection & PPF in Dubai & Sharjah. Free consultation.",
   keywords: [
     "why choose Smart Auto UAE",
     "best window tinting Dubai",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Why Choose Smart Auto UAE | Best Window Tinting Dubai & Sharjah",
     description:
-      "UAE authorised 3M, Global USA & Totalgard applicator. 10+ years. 4 branches. 168+ 5-star reviews. Dubai & Sharjah's most trusted window tinting and protection film experts.",
+      "UAE authorised 3M, Global USA & Totalgard applicator. 20+ years. 4 branches. 600+ 5-star reviews. Dubai & Sharjah's most trusted window tinting and protection film experts.",
     url: "https://smartautouae.ae/why-us",
     siteName: "Smart Auto UAE",
     type: "website",
@@ -61,9 +61,9 @@ const cardBdr  = "rgba(255,255,255,0.06)";
 // ── DATA ───────────────────────────────────────────────────────────────────
 
 const stats = [
-  { value: "10+",  label: "Years Experience",   desc: "Over a decade of professional installations across Dubai & Sharjah" },
+  { value: "20+",  label: "Years Experience",   desc: "Over a decade of professional installations across Dubai & Sharjah" },
   { value: "4",    label: "Branches",            desc: "MotorCity · Al Quoz · Mirdif · Sharjah - open every day" },
-  { value: "168+", label: "5-Star Reviews",      desc: "Verified Google reviews from real customers across the UAE" },
+  { value: "600+", label: "5-Star Reviews",      desc: "Verified Google reviews from real customers across the UAE" },
   { value: "3",    label: "Authorised Brands",   desc: "3M USA · Global USA · Totalgard - UAE authorised applicator" },
 ];
 
@@ -78,9 +78,9 @@ const reasons = [
   {
     icon: Award,
     number: "02",
-    title: "Over 10 Years of Professional Experience",
-    desc: "With more than 10 years of professional window film, smart film, surface protection, and PPF installation experience in the UAE market, our team has handled thousands of projects - from individual villa windows to full commercial building facades, construction fit-outs, and fleet vehicle tinting. Experience you can see in every installation.",
-    highlight: "10+ Years · Thousands of Projects",
+    title: "Over 20 years of Professional Experience",
+    desc: "With more than 20 years of professional window film, smart film, surface protection, and PPF installation experience in the UAE market, our team has handled thousands of projects - from individual villa windows to full commercial building facades, construction fit-outs, and fleet vehicle tinting. Experience you can see in every installation.",
+    highlight: "20+ Years · Thousands of Projects",
   },
   {
     icon: MapPin,
@@ -92,9 +92,9 @@ const reasons = [
   {
     icon: Star,
     number: "04",
-    title: "168+ Verified 5-Star Reviews",
+    title: "600+ Verified 5-Star Reviews",
     desc: "Over 168 verified 5-star Google reviews from real customers across Dubai and Sharjah. Our reviews reflect consistent feedback on three things: exceptional product quality, professional installation standards, and outstanding customer service. Every review is from a real person with a real experience - not curated or filtered.",
-    highlight: "168+ Google Reviews · Real Customers",
+    highlight: "600+ Google Reviews · Real Customers",
   },
   {
     icon: Users,
@@ -130,7 +130,7 @@ const services = [
   { name: "Automotive Window Tinting",    href: "/services/car-window-tinting-dubai-sharjah" },
   { name: "Villa Window Tinting",         href: "/services/villa-window-tinting-dubai-sharjah" },
   { name: "Commercial Window Tinting",    href: "/services/commercial-window-tinting-dubai-sharjah" },
-  { name: "Switchable Smart Film",        href: "/services/switchable-smart-glass-film-dubai-sharjah" },
+  { name: "Switchable Smart Film",        href: "/services/switchable-smart-film-dubai-sharjah" },
   { name: "Surface Protection Films",     href: "/services/surface-protection-films-dubai-sharjah" },
   { name: "Paint Protection Film (PPF)",  href: "/services/paint-protection-film-dubai-sharjah" },
 ];
@@ -218,14 +218,14 @@ export default function WhyUsPage() {
               <div className="inline-flex items-center gap-2.5 border rounded-full px-4 py-1.5 mb-8 text-[10px] tracking-[0.3em] uppercase"
                 style={{ borderColor: "rgba(201,168,76,0.25)", background: "rgba(201,168,76,0.05)", color: gold }}>
                 <Star size={10} fill={gold} strokeWidth={0} />
-                UAE Authorised · 10+ Years · 4 Branches · 168+ 5-Star Reviews
+                UAE Authorised · 20+ Years · 4 Branches · 600+ 5-Star Reviews
               </div>
 
               <h1 className="font-bold leading-[1.05] mb-5"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2.4rem,5.5vw,4.5rem)", color: "#fff" }}>
-                Why Dubai &amp; Sharjah Choose{" "}
+                Why UAE Choose{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  Smart Auto UAE
+                  Smart Auto
                 </span>
               </h1>
 
@@ -234,19 +234,19 @@ export default function WhyUsPage() {
                 UAE authorised distributor and certified applicator of{" "}
                 <strong style={{ color: "rgba(255,255,255,0.8)" }}>3M USA, Global USA &amp; Totalgard</strong>.
                 Over{" "}
-                <strong style={{ color: "rgba(255,255,255,0.8)" }}>10 years</strong> of professional window film,
+                <strong style={{ color: "rgba(255,255,255,0.8)" }}>20 years</strong> of professional window film,
                 smart film, surface protection, and PPF installation across{" "}
                 <strong style={{ color: "rgba(255,255,255,0.8)" }}>Dubai and Sharjah</strong>.
                 Trusted by thousands of homeowners, businesses, and fleet operators across the UAE.
               </p>
 
               <div className="flex items-center justify-center gap-4 flex-wrap">
-                <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                   style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                   Get a Free Consultation <ArrowRight size={15} />
                 </a>
-                <a href="tel:+971555559424"
+                <a href="tel:+971524403677"
                   className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                   style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                   <Phone size={14} /> Call Now
@@ -328,7 +328,7 @@ export default function WhyUsPage() {
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
                 From authorised brand partnerships and certified installation teams
-                to 4 convenient branches and 168+ verified reviews -
+                to 4 convenient branches and 600+ verified reviews -
                 here's exactly what sets us apart.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -391,7 +391,7 @@ export default function WhyUsPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
-                168+ Verified 5-Star{" "}
+                600+ Verified 5-Star{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   Reviews
                 </span>
@@ -526,17 +526,17 @@ export default function WhyUsPage() {
                 </h2>
                 <p className="mb-8 max-w-lg mx-auto text-sm leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.4)" }}>
-                  10+ years · 4 branches · 168+ 5-star reviews · UAE authorised applicator.
+                  20+ years · 4 branches · 600+ 5-star reviews · UAE authorised applicator.
                   Free consultation for all residential, commercial &amp; automotive services.
                   Open every day 11AM – 9PM across Dubai &amp; Sharjah.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Get a Free Consultation <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424

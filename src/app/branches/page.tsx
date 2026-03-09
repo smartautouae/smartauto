@@ -64,7 +64,7 @@ const branches = [
     city: "Dubai",
     tag: "Main Branch",
     address: "MotorCity, Dubai, UAE",
-    phone: "+971 55 555 9424",
+    phone: "+971 56 726 9666",
     hours: "11:00 AM – 9:00 PM · Every Day",
     mapsUrl: "https://maps.google.com/?q=Smart+Auto+UAE+MotorCity+Dubai",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.123!2d55.2376!3d25.0340!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zSmartAutoUAE!5e0!3m2!1sen!2sae!4v1234567890",
@@ -83,8 +83,8 @@ const branches = [
     city: "Dubai",
     tag: "Dubai",
     address: "Al Quoz, Dubai, UAE",
-    phone: "+971 55 555 9424",
-    hours: "11:00 AM – 9:00 PM · Every Day",
+    phone: "+971 56 726 9666",
+    hours: "11:00 AM – 9:30 PM · Every Day",
     mapsUrl: "https://maps.google.com/?q=Smart+Auto+UAE+Al+Quoz+Dubai",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.123!2d55.2376!3d25.0340",
     color: "#60a5fa",
@@ -102,8 +102,8 @@ const branches = [
     city: "Dubai",
     tag: "Dubai",
     address: "Uptown Mall, Mirdif, Dubai, UAE",
-    phone: "+971 55 555 9424",
-    hours: "11:00 AM – 9:00 PM · Every Day",
+    phone: "+971 55 782 3731",
+    hours: "11:00 AM – 10:00 PM · Every Day",
     mapsUrl: "https://maps.google.com/?q=Smart+Auto+UAE+Mirdif+Uptown+Mall+Dubai",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.123!2d55.2376!3d25.0340",
     color: "#a78bfa",
@@ -121,8 +121,8 @@ const branches = [
     city: "Sharjah",
     tag: "Sharjah",
     address: "Central Mall, Sharjah, UAE",
-    phone: "+971 55 555 9424",
-    hours: "11:00 AM – 9:00 PM · Every Day",
+    phone: "+971 56 425 5770",
+    hours: "10:00 AM – 10:00 PM · Every Day",
     mapsUrl: "https://maps.google.com/?q=Smart+Auto+UAE+Central+Mall+Sharjah",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.123!2d55.2376!3d25.0340",
     color: "#34d399",
@@ -139,7 +139,7 @@ const allServices = [
   { label: "Car Window Tinting",        href: "/services/car-window-tinting-dubai-sharjah" },
   { label: "Villa Window Tinting",      href: "/services/villa-window-tinting-dubai-sharjah" },
   { label: "Commercial Tinting",        href: "/services/commercial-window-tinting-dubai-sharjah" },
-  { label: "Switchable Smart Film",     href: "/services/switchable-smart-glass-film-dubai-sharjah" },
+  { label: "Switchable Smart Film",     href: "/services/switchable-smart-film-dubai-sharjah" },
   { label: "Surface Protection Films",  href: "/services/surface-protection-films-dubai-sharjah" },
 ];
 
@@ -225,7 +225,7 @@ export default function BranchesPage() {
                 { value: "4",    label: "Branches",        sub: "Dubai & Sharjah" },
                 { value: "7",    label: "Days a Week",     sub: "Always open" },
                 { value: "10h",  label: "Daily Hours",     sub: "11AM – 9PM" },
-                { value: "10+",  label: "Years Experience",sub: "Trusted since 2014" },
+                { value: "20+",  label: "Years Experience",sub: "Trusted since 2014" },
               ].map((stat) => (
                 <div key={stat.label}
                   className="rounded-2xl p-6 border text-center"
@@ -407,7 +407,7 @@ export default function BranchesPage() {
                       style={{ background: goldGrad, boxShadow: "0 4px 16px rgba(201,168,76,0.25)" }}>
                       <Navigation size={13} /> Get Directions
                     </a>
-                    <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                    <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm no-underline border"
                       style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                       <MessageCircle size={13} /> WhatsApp
@@ -479,12 +479,12 @@ export default function BranchesPage() {
                   Or contact us on WhatsApp for an instant response.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     <MessageCircle size={15} /> WhatsApp Us <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424

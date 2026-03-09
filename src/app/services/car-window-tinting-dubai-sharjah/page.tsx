@@ -64,17 +64,17 @@ const benefits = [
   {
     icon: Eye,
     title: "Dark Outside, Clear Inside",
-    desc: "Our nano ceramic films give your car a sleek, dark appearance from outside - while maintaining excellent outward visibility for the driver and passengers inside. No compromise on clarity.",
+    desc: "Our nano ceramic films give your car a sleek, dark appearance from outside - while maintaining better outward visibility for the driver and passengers inside. No compromise on clarity.",
   },
   {
     icon: Shield,
     title: "Maximum Privacy",
-    desc: "Keep your passengers, belongings, and interior away from outside eyes. Nano ceramic tinting provides strong privacy across all windows without making your car look suspicious or illegal on UAE roads.",
+    desc: "Keep your passengers, belongings, and interior away from outside eyes. Nano ceramic tinting provides strong privacy across all windows",
   },
   {
     icon: Thermometer,
     title: "Extreme Heat Rejection",
-    desc: "TotalGard and 3M nano ceramic films block up to 99% of infrared heat - drastically cooling your car interior in Dubai & Sharjah's brutal summer temperatures before you even switch on the A/C.",
+    desc: "TotalGard and 3M films block up to 99% of infrared heat - drastically cooling your car interior in UAE summer temperatures before you even switch on the A/C.",
   },
   {
     icon: Sun,
@@ -89,7 +89,7 @@ const benefits = [
   {
     icon: Award,
     title: "UAE RTA Compliant",
-    desc: "All our nano ceramic films are applied at legally compliant VLT levels - minimum 30% for side windows and 50% for windshields - so you drive with full privacy while staying within UAE traffic law.",
+    desc: "A per UAE law it is allowed to tint upto 50% in all sides and rear",
   },
 ];
 
@@ -104,23 +104,24 @@ const filmTypes = [
       "Maximum heat & UV rejection",
       "UAE RTA compliant VLT",
       "No GPS or mobile signal interference",
-      "5-year Smart Auto warranty",
+      "Upto 15-year warranty",
     ],
     desc: "TotalGard nano ceramic film is our most popular window tinting choice across Dubai and Sharjah. It delivers a premium dark exterior appearance with outstanding outward clarity - giving you full privacy without sacrificing driver visibility. Purpose-built for UAE's extreme heat.",
   },
   {
-    name: "3M Nano Ceramic Film",
+    name: "3M Automotive Film",
     tag: "Premium",
     tagColor: "#a78bfa",
-    brand: "3M",
     features: [
-      "Dark exterior, clear interior view",
+      "Dark exterior, clear interior view ",
       "High heat & UV rejection",
       "Non-metallic - signal safe",
-      "OEM-grade optical clarity",
-      "Manufacturer warranty included",
+      "3M Crystal line series Patent oriented innovation with 200 layers of nano technology film ",
+      "3M nano ceramic films provides the best in class clarity from inside",
+      "3M Colour stable films",
+      "3M FX Series",
     ],
-    desc: "3M nano ceramic films are globally recognised for their optical precision and durability. Achieve a deep, sleek tinted look from outside while retaining crystal-clear outward visibility from inside - a premium option for car owners in Dubai and Sharjah who want the best.",
+    desc: "3M automotive films are globally recognised for their optical precision and durability. Achieve a deep, sleek tinted look from outside while retaining crystal-clear outward visibility from inside - a premium option for car owners in Dubai and Sharjah who want the best.",
   },
 ];
 
@@ -170,11 +171,11 @@ const faqs = [
   },
   {
     q: "How long does nano ceramic window tinting last in UAE?",
-    a: "TotalGard and 3M nano ceramic window tints are engineered for long-term durability and typically last 7–10 years in UAE conditions. All Smart Auto UAE installations come with a 5-year warranty covering peeling, bubbling, and colour fade.",
+    a: "TotalGard and 3M nano ceramic window tints are engineered for long-term durability and typically last 7–20 years in UAE conditions. All Smart Auto UAE installations come with a 5-year warranty covering peeling, bubbling, and colour fade.",
   },
   {
     q: "Where can I get nano ceramic window tinting near me in Dubai or Sharjah?",
-    a: "Smart Auto UAE has 4 convenient branches - MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All branches are open every day from 11AM to 9PM. Walk-ins are welcome with no appointment needed.",
+    a: "Smart Auto UAE has 4 convenient branches - MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah. All branches are open every day from 10AM to 10PM. Walk-ins are welcome with no appointment needed.",
   },
 ];
 
@@ -265,11 +266,11 @@ export default function CarWindowTintingPage() {
                 <p className="mb-8 leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.5)", fontSize: "clamp(0.9rem,1.2vw,1.05rem)" }}>
                   Professional nano ceramic window tinting across{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Dubai</strong> and{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah</strong> using genuine{" "}
+                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Dubai,</strong>{" "}
+                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah & all over UAE</strong> using genuine{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>TotalGard</strong> and{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>3M</strong> films.{" "}
-                  Dark from outside. Crystal clear from inside. Maximum privacy - fully RTA compliant.
+                  Dark from outside. Crystal clear from inside. Maximum privacy - RTA compliant.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
@@ -278,8 +279,8 @@ export default function CarWindowTintingPage() {
                     "Maximum privacy",
                     "99% UV & heat rejection",
                     "UAE RTA compliant VLT",
-                    "TotalGard & 3M nano ceramic",
-                    "4 branches - Dubai & Sharjah",
+                    "TotalGard & 3M",
+                    "Premium nano ceramic films",
                   ].map((f) => (
                     <div key={f} className="flex items-center gap-2.5">
                       <CheckCircle size={14} style={{ color: gold, flexShrink: 0 }} />
@@ -289,12 +290,12 @@ export default function CarWindowTintingPage() {
                 </div>
 
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Book on WhatsApp <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Now
@@ -384,8 +385,8 @@ export default function CarWindowTintingPage() {
                     Dark From Outside
                   </h3>
                   <p className="text-[13px] leading-[1.7]" style={{ color: "rgba(255,255,255,0.4)" }}>
-                    A deep, sleek tinted appearance that blocks outside view - giving your car a premium look
-                    and keeping your passengers and belongings private on Dubai and Sharjah roads.
+                    A deep, sleek tinted appearance that gives you maximum privacy and optical clarity from inside to out and gives your car a premium look
+                    and keeping passengers private.
                   </p>
                 </div>
 
@@ -414,7 +415,7 @@ export default function CarWindowTintingPage() {
                     Clear From Inside
                   </h3>
                   <p className="text-[13px] leading-[1.7]" style={{ color: "rgba(255,255,255,0.4)" }}>
-                    Drivers and passengers maintain excellent outward visibility at all times - day and night.
+                    Drivers and passengers maintain better outward visibility at all times - day and night.
                     No distortion, no darkness. Just crystal clear vision through every window.
                   </p>
                 </div>
@@ -432,13 +433,13 @@ export default function CarWindowTintingPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
-                Benefits of Nano Ceramic Tinting in{" "}
+                Benefits of{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  Dubai &amp; Sharjah
+                Nano Ceramic Tinting
                 </span>
               </h2>
               <p className="max-w-2xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                In Dubai and Sharjah's extreme climate, nano ceramic window tinting is one of the most practical
+                In UAE's extreme climate, nano ceramic window tinting is one of the most practical
                 upgrades you can make - for privacy, comfort, and protection.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -465,17 +466,17 @@ export default function CarWindowTintingPage() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
               <span className="text-[11px] tracking-[0.35em] uppercase mb-4 block" style={{ color: gold }}>
-                TotalGard &amp; 3M Nano Ceramic
+                TotalGard &amp; 3M Films
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
                 Nano Ceramic Films Available in{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  Dubai &amp; Sharjah
+                  UAE
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-                We exclusively use genuine TotalGard and 3M nano ceramic window films - no generic substitutes.
+                We exclusively use genuine TotalGard and 3M window films.
                 Both deliver the signature dark-outside, clear-inside finish UAE drivers love.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -495,9 +496,6 @@ export default function CarWindowTintingPage() {
                       style={{ fontFamily: "var(--font-playfair),serif", color: "#fff" }}>
                       {film.name}
                     </h3>
-                    <p className="text-[11px] tracking-wide uppercase" style={{ color: "rgba(201,168,76,0.6)" }}>
-                      {film.brand} · Authorised Dealer UAE
-                    </p>
                   </div>
                   <div className="px-7 py-6 flex-1">
                     <p className="text-[13px] leading-[1.7] mb-5" style={{ color: "rgba(255,255,255,0.4)" }}>
@@ -513,7 +511,7 @@ export default function CarWindowTintingPage() {
                     </ul>
                   </div>
                   <div className="px-7 pb-7">
-                    <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                    <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-[13px] font-semibold no-underline transition-all duration-300 hover:gap-4"
                       style={{ background: "rgba(201,168,76,0.07)", border: "1px solid rgba(201,168,76,0.2)", color: gold }}>
                       Get a Quote <ArrowRight size={13} />
@@ -525,7 +523,7 @@ export default function CarWindowTintingPage() {
 
             <div className="flex items-center justify-center gap-6 mt-12 flex-wrap">
               <p className="text-[11px] tracking-[0.2em] uppercase" style={{ color: "rgba(255,255,255,0.25)" }}>
-                Authorised dealer for
+                Brands We Use
               </p>
               {["TotalGard", "3M"].map((brand) => (
                 <div key={brand}
@@ -588,9 +586,9 @@ export default function CarWindowTintingPage() {
                   style={{ background: "linear-gradient(to right,rgba(0,0,0,0.4) 0%,transparent 70%)" }} />
                 <div className="absolute bottom-6 left-6 flex gap-3">
                   {[
-                    { val: "168+", label: "Google Reviews" },
+                    { val: "600+", label: "Google Reviews" },
                     { val: "4",    label: "Branches UAE"   },
-                    { val: "10+",  label: "Years Exp."     },
+                    { val: "20+",  label: "Years Exp."     },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -616,17 +614,17 @@ export default function CarWindowTintingPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 10 years serving car owners across Dubai and Sharjah, Smart Auto UAE is the
+                  With over 20 years serving car owners across Dubai and Sharjah and all over UAE, Smart Auto is the
                   most trusted nano ceramic window tinting centre near you. We use only genuine TotalGard
                   and 3M films - delivering that signature dark-from-outside, clear-from-inside finish
                   our customers love, with full UAE RTA compliance guaranteed.
                 </p>
                 <div className="flex flex-col gap-4 mb-9">
                   {[
-                    { icon: Award,       text: "Authorised TotalGard & 3M nano ceramic dealer" },
-                    { icon: ShieldCheck, text: "5-year warranty on every window tinting job" },
+                    { icon: Award,       text: "Provides World class material for withstanding in UAE Temperature" },
+                    { icon: ShieldCheck, text: "Upto 15-year warranty on every window tinting job" },
                     { icon: MapPin,      text: "4 branches - MotorCity, Al Quoz, Mirdif & Sharjah" },
-                    { icon: Clock,       text: "Open every day 11AM – 9PM, walk-ins welcome" },
+                    { icon: Clock,       text: "Open every day 10AM – 10PM, walk-ins welcome" },
                   ].map((item) => (
                     <div key={item.text} className="flex items-center gap-3.5">
                       <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0"
@@ -638,12 +636,12 @@ export default function CarWindowTintingPage() {
                   ))}
                 </div>
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Book Now <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Us
@@ -709,12 +707,12 @@ export default function CarWindowTintingPage() {
                   RTA compliant. 5-year warranty.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Book on WhatsApp <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424

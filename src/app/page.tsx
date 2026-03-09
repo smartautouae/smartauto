@@ -21,8 +21,8 @@ const services = [
     href: "/car-window-tinting-dubai/",
     image: "https://images.unsplash.com/photo-1614026480418-bd11fdb9fa0e?w=600&q=80",
     description:
-      "Premium nano ceramic & carbon window tints for Dubai & Sharjah and across UAE - blocks 99% UV rays and heat, keeping your car cool in UAE's extreme climate. 3M,  &  films. UAE RTA law compliant. 5-year warranty.",
-    features: ["Nano ceramic & carbon films", "UAE RTA compliant VLT", "99% UV & heat rejection", "3M ·  · "],
+      "Premium nano ceramic & carbon window tints for Dubai & Sharjah and across UAE - blocks 99% UV rays and heat, keeping your car cool in UAE's extreme climate. 3M,  &  films. UAE RTA law compliant. upto 15-year warranty.",
+    features: ["Nano ceramic & carbon films", "UAE RTA compliant VLT", "99% UV & heat rejection", "3M, TotalGard & Global USA "],
   },
   {
     icon: Building2,
@@ -31,7 +31,7 @@ const services = [
     image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&q=80",
     description:
       "Residential window tinting for villas and apartments in Dubai & Sharjah and across UAE - heat control window film that enhances privacy, blocks UV rays, and adds a sleek modern aesthetic to your home.",
-    features: ["Privacy window film", "Heat control window film", "UV & glare reduction", "Dubai & Sharjah villas"],
+    features: ["Privacy window film", "Heat control window film", "UV & glare reduction", "Upto 99.9% Infrared rejection" ],
   },
   {
     icon: Building2,
@@ -40,7 +40,7 @@ const services = [
     image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80",
     description:
       "Commercial window tinting for offices and buildings across Dubai & Sharjah and across UAE - energy saving window film that reduces cooling costs, blocks UV, enhances privacy, and improves workplace comfort.",
-    features: ["Energy saving window film", "UV & heat blocking", "Office privacy tinting", "Building-scale install"],
+    features: ["Energy saving window film", "UV & heat blocking", "Office privacy tinting", "Glare reduction"],
   },
   {
     icon: Shield,
@@ -49,7 +49,7 @@ const services = [
     image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600&q=80",
     description:
       "Self-healing PPF in Dubai & Sharjah and across UAE - invisible TPU film that shields your car from scratches, stone chips, and UAE road hazards. TotalGard &  installer. 10-year warranty.",
-    features: ["3M · TotalGard · ", "Self-healing clear PPF", "Gloss & matte PPF Dubai", "10-year warranty"],
+    features: ["3M, TotalGard & Global USA ", "Self-healing clear PPF", "Gloss & matte PPF Dubai", "10-year warranty"],
   },
   {
     icon: Droplets,
@@ -57,8 +57,8 @@ const services = [
     href: "/nano-ceramic-coating/",
     image: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80",
     description:
-      "9H nano ceramic coating in Dubai & Sharjah and across UAE - hydrophobic, scratch-resistant shield built for UAE's intense heat, sand, and UV exposure. Gyeon, Gtechniq & IGL coatings. Ideal for luxury cars.",
-    features: ["9H hardness ceramic coating", "Hydrophobic mirror gloss", "Gyeon · Gtechniq · IGL", "2–5 year protection"],
+      "9H & 10H nano ceramic coating in Dubai & Sharjah and across UAE - hydrophobic, scratch-resistant shield built for UAE's intense heat, sand, and UV exposure. Gyeon, Gtechniq & IGL coatings. Ideal for luxury cars.",
+    features: ["9H hardness ceramic coating", "Hydrophobic mirror gloss", "Sirus USA, Gyeon, Jade, Puris", "2–5 year protection", "Free yearly maintenance"],
   },
   {
     icon: Sparkles,
@@ -66,8 +66,8 @@ const services = [
     href: "/car-detailing/",
     image: "https://images.unsplash.com/photo-1616455579100-2ceaa4ec2d50?w=600&q=80",
     description:
-      "Professional car detailing in Dubai & Sharjah and across UAE - interior deep clean, exterior polishing, paint correction, engine bay wash, and odor elimination for a showroom-quality finish at all 4 branches.",
-    features: ["Interior deep clean", "Paint correction Dubai", "Engine bay cleaning", "Full car detailing"],
+      "Professional car detailing in Dubai & Sharjah and across UAE - interior deep clean, exterior polishing, car interior deep clean, engine bay wash, and odor elimination for a showroom-quality finish at all 4 branches.",
+    features: ["Interior deep clean", "Engine bay cleaning", "Full car detailing","Odor removal", "Car polishing"],
   },
   {
     icon: Car,
@@ -80,12 +80,12 @@ const services = [
   },
   {
     icon: Zap,
-    title: "Switchable Smart Glass Film",
-    href: "/switchable-smart-glass-film/",
+    title: "Smart Film",
+    href: "/switchable-smart-film/",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
     description:
-      "Electric smart film for offices, villas, and luxury vehicles in Dubai & Sharjah and across UAE- switchable smart glass that switches from transparent to fully private at a touch. Energy efficient privacy glass UAE.",
-    features: ["Electric privacy glass UAE", "Instant on/off control", "Smart film for offices", "Smart film for villas"],
+      "Electric smart film for offices, villas in Dubai & Sharjah and across UAE- switchable smart glass that switches from transparent to fully private at a touch. Energy efficient privacy glass UAE.",
+    features: ["Instant on/off control", "Smart film for offices", "Smart film for villas"],
   },
   {
     icon: Film,
@@ -94,22 +94,22 @@ const services = [
     image: "https://img.kwcdn.com/product/fancy/df615e07-b68c-4e53-8476-814ebe037342.jpg?imageView2/2/w/800/q/70/format/avif",
     description:
       "Invisible marble protection film and surface protection film for Dubai & Sharjah and across UAE- guards stone, panels, door edges, and trims from chips, scratches, and daily wear. Crystal clear finish.",
-    features: ["Marble protection film Dubai", "Stone protection film UAE", "Door edge & panel guard", "Impact resistant · Easy removal"],
+    features: ["Marble protection film Dubai", "Stone protection film UAE", "Premium furniture protection", "Impact resistant · Easy removal"],
   },
 ];
 
 const whyFeatures = [
-  { icon: Award,    title: "Authorised Installers",    description: "Official installer for, TotalGard, 3M,  &  - trusted by UAE car owners since 2014." },
+  { icon: Award,    title: "Authorised Installers",    description: "Official installer for, TotalGard, 3M,  &  Global USA trusted by UAE car owners since 2014." },
   { icon: Users,    title: "World-Class Products",     description: "Premium PPF, ceramic coatings & window films from globally certified brands - zero compromise on quality." },
-  { icon: Clock,    title: "Free Inspection",          description: "Every service starts with a complimentary vehicle inspection. No hidden charges. Warranty on all work." },
+  { icon: Clock,    title: "20+ Years of Expertise",   description: "30+ trained technicians, 100k Above trusted customers" },
   { icon: ThumbsUp, title: "4 Branches - Always Near", description: "MotorCity, Al Quoz, Mirdif (Dubai) & Sharjah Central Mall - open every day 11AM to 9PM." },
 ];
 
 const steps = [
   { num: "01", title: "Book Your Appointment",  desc: "Call, WhatsApp, or walk into any of our 4 branches in Dubai & Sharjah. No appointment needed for walk-ins." },
   { num: "02", title: "Free Vehicle Inspection", desc: "Our certified professionals inspect your car and recommend the best window tinting, PPF, or coating plan." },
-  { num: "03", title: "Premium Service Applied", desc: "We use only world-class brands - 3M, TotalGard - applied with precision by trained technicians." },
-  { num: "04", title: "Drive Away Protected",    desc: "Leave with a manufacturer warranty certificate and a car that looks exceptional - and stays that way." },
+  { num: "03", title: "Premium Service Applied", desc: "We use only world-class brands - 3M, TotalGard, Global USA, Sirus USA, Jade, Gyeon - applied with precision by trained technicians." },
+  { num: "04", title: "Drive Away Protected",    desc: "Leave with a assured warranty and a car that looks exceptional - and stays that way." },
 ];
 
 const testimonials = [
@@ -121,7 +121,7 @@ const testimonials = [
   { name: "Jesto Joseph",            role: "Verified Google Review", date: "Oct 2025", rating: 5, text: "Excellent work in tinting - it's crystal clear from inside. I can drive my car now with much more safety and comfort. Highly recommended!" },
 ];
 
-const brands = ["TotalGard", "3M", ""];
+const brands = ["TotalGard", "3M", "Sirus USA", "Global USA"];
 
 const branches = [
   { city: "MotorCity Branch",  address: "Detroit Line, Uptown Buildings Foxhill Parking 5, Spinneys Exit, Behind KFC - Dubai, UAE",       mapHref: "https://maps.app.goo.gl/smd7UDESbcqYXq4h7", phone: "+971 55 782 3731" },
@@ -131,7 +131,7 @@ const branches = [
 ];
 
 const contactItems = [
-  { icon: Phone,     label: "Phone / WhatsApp", value: "+971 55 555 9424",     href: "tel:+971555559424" },
+  { icon: Phone,     label: "Phone / WhatsApp", value: "+971 55 555 9424",     href: "tel:+971524403677" },
   { icon: Phone,     label: "Phone 2",          value: "+971 55 782 3731",     href: "tel:+971557823731" },
   { icon: Mail,      label: "Email",            value: "info@smartautouae.ae", href: "mailto:info@smartautouae.ae" },
   { icon: MapPin,    label: "Branches",         value: "4 Locations - Dubai & Sharjah", href: "#branches" },
@@ -346,7 +346,7 @@ function BranchCard({ branch }: { branch: (typeof branches)[0] }) {
       <div className="flex flex-col gap-3 mb-6">
         <div className="flex items-center gap-3 text-sm text-white/50">
           <Clock size={14} className="text-gold flex-shrink-0" />
-          Every Day: 11:00 AM – 9:00 PM
+          Every Day: 11:00 AM – 9:30 PM
         </div>
         <div className="flex items-center gap-3 text-sm text-white/50">
           <Phone size={14} className="text-gold flex-shrink-0" />
@@ -562,7 +562,7 @@ export default function Home() {
             className="inline-flex items-center gap-2 border border-gold/30 rounded-full px-4 py-1.5 mb-10 bg-gold/[0.06] backdrop-blur-sm text-gold text-[10px] tracking-[0.25em] uppercase"
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}>
             <Star size={11} fill="#C9A84C" />
-            168+ Google Reviews · 4 Branches in Dubai &amp; Sharjah
+            600+ Google Reviews · 4 Branches in Dubai &amp; Sharjah
             <Star size={11} fill="#C9A84C" />
           </motion.div>
 
@@ -571,8 +571,8 @@ export default function Home() {
             className="font-bold text-white leading-[1.05] mb-3"
             style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2.5rem,8vw,7rem)" }}
             initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.9 }}>
-            Premium Car Care
-            <span className="gold-text block">in the UAE</span>
+            Premium Car Protection 
+            <span className="gold-text block">in UAE</span>
           </motion.h1>
 
           {/* H2-level keyword divider */}
@@ -590,8 +590,8 @@ export default function Home() {
             className="text-white/50 leading-[1.9] mb-8 max-w-xl"
             style={{ fontSize: "clamp(0.95rem,1.4vw,1.1rem)" }}
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.65 }}>
-            Smart Auto UAE is the trusted car care centre for{" "}
-            <strong className="text-white/75 font-medium">window tinting in Dubai</strong>,{" "}
+            Smart Auto UAE is the trusted Car Protection centre for{" "}
+            <strong className="text-white/75 font-medium">window tinting in the UAE</strong>,{" "}
             <strong className="text-white/75 font-medium">PPF</strong>,{" "}
             <strong className="text-white/75 font-medium">nano ceramic coating</strong>, car detailing, and car
             wrapping - serving car owners across{" "}
@@ -624,7 +624,7 @@ export default function Home() {
           <motion.div className="flex items-center justify-center gap-4 flex-wrap mb-16"
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.9 }}>
             <GoldBtn href="#services">Explore Services <ArrowRight size={15} /></GoldBtn>
-            <OutlineBtn href="https://wa.me/971555559424">
+            <OutlineBtn href="https://wa.me/971524403677">
               <Phone size={14} /> WhatsApp Us
             </OutlineBtn>
           </motion.div>
@@ -633,9 +633,9 @@ export default function Home() {
           <motion.div className="grid grid-cols-4 border-t border-gold/15 pt-8 w-full max-w-md"
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.05 }}>
             {[
-              { value: "168+", label: "Google Reviews" },
+              { value: "600+", label: "Google Reviews" },
               { value: "4",    label: "Branches" },
-              { value: "10+",  label: "Years in UAE" },
+              { value: "20+",  label: "Years in UAE" },
               { value: "5★",   label: "Avg Rating" },
             ].map((s, i) => (
               <div key={s.label} className={`text-center px-3 ${i !== 3 ? "border-r border-gold/15" : ""}`}>
@@ -672,7 +672,7 @@ export default function Home() {
       <section id="services" className="py-24" style={{ background: "linear-gradient(180deg,#080808 0%,#0A0A0A 100%)" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <motion.div ref={servicesRef} variants={fadeUp} initial="hidden" animate={sInView ? "show" : "hidden"}>
-            <SectionHeader eyebrow="Window Tinting · PPF · Ceramic Coating · Detailing · Wrapping" title="Premium Car Care" highlight="Services in UAE" />
+            <SectionHeader eyebrow="Window Tinting · PPF · Ceramic Coating · Detailing · Wrapping" title="Premium Car Protection " highlight="Services in UAE" />
             <p className="text-center text-white/40 text-sm -mt-10 mb-14 max-w-2xl mx-auto leading-relaxed">
               From car window tinting and paint protection film to nano ceramic coating and car detailing -
               all 9 services available across our 4 branches in <strong className="text-white/60 font-medium">Dubai</strong> and{" "}
@@ -683,7 +683,7 @@ export default function Home() {
             {services.map((s, i) => (
               <motion.div key={s.title} variants={fadeUp} custom={i} initial="hidden" animate={sInView ? "show" : "hidden"}>
                 <GlassCard className="p-8 h-full group">
-                  <div className="rounded-xl overflow-hidden h-44 mb-6">
+                  <div className="rounded-xl overflow-hidden h-65 mb-6">
                     <img src={s.image} alt={s.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   </div>
                   <div className="w-14 h-14 rounded-xl bg-gold/8 border border-gold/20 flex items-center justify-center mb-5 text-gold transition-all duration-300 group-hover:bg-gold/18 group-hover:border-gold/50">
@@ -719,10 +719,10 @@ export default function Home() {
               <span className="text-gold text-[11px] tracking-[0.35em] uppercase mb-4 block">Why Choose Smart Auto UAE</span>
               <h2 className="text-white font-bold mb-5 leading-[1.2]"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2rem,3.5vw,2.8rem)" }}>
-                The Best Car Care Centre<br /><span className="gold-text">in the UAE</span>
+                The Best Car Protection Centre<br /><span className="gold-text">in the UAE</span>
               </h2>
               <p className="text-white/50 text-base leading-[1.8] mb-7">
-                Smart Auto UAE has been the trusted car care near me for thousands of vehicle
+                Smart Auto has been the trusted Car Protection in UAE for thousands of vehicle
                 owners in Dubai, Sharjah and across the UAE since 2014. Whether you need the{" "}
                 <strong className="text-white/70 font-medium">best PPF installer in Dubai</strong>,{" "}
                 professional <strong className="text-white/70 font-medium">ceramic coating for luxury cars</strong>, or
@@ -735,7 +735,7 @@ export default function Home() {
                   "Ceramic coating price Dubai - competitive & transparent",
                   "All PPF, tinting & coating work backed by warranty",
                   "4 branches - MotorCity, Al Quoz, Mirdif & Sharjah",
-                  "Free inspection · No hidden charges · Open every day",
+                  "No hidden charges · Open every day",
                 ].map((p) => (
                   <div key={p} className="flex items-center gap-3">
                     <CheckCircle size={16} className="text-gold flex-shrink-0" />
@@ -745,7 +745,7 @@ export default function Home() {
               </div>
               <div className="flex gap-3 flex-wrap">
                 <GoldBtn href="/contact">Get a Free Quote <ArrowRight size={16} /></GoldBtn>
-                <OutlineBtn href="https://wa.me/971555559424"><Phone size={15} /> WhatsApp</OutlineBtn>
+                <OutlineBtn href="https://wa.me/971524403677"><Phone size={15} /> WhatsApp</OutlineBtn>
               </div>
             </motion.div>
 
@@ -787,7 +787,7 @@ export default function Home() {
       <section id="process" className="py-24" style={{ background: "linear-gradient(180deg,#080808 0%,#0A0A0A 100%)" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <motion.div ref={processRef} variants={fadeUp} initial="hidden" animate={pInView ? "show" : "hidden"}>
-            <SectionHeader eyebrow="Simple 4-Step Process" title="How to Book Your" highlight="Car Care Service" />
+            <SectionHeader eyebrow="Simple 4-Step Process" title="How to Book Your" highlight="Car Protection Service" />
             <p className="text-center text-white/40 text-sm -mt-10 mb-14 max-w-xl mx-auto leading-relaxed">
               Booking car detailing, PPF, window tinting, or ceramic coating in Dubai & Sharjah is simple.
             </p>
@@ -838,7 +838,7 @@ export default function Home() {
       <section id="testimonials" className="py-24" style={{ backgroundColor: "#080808" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <motion.div ref={testimonialsRef} variants={fadeUp} initial="hidden" animate={tInView ? "show" : "hidden"}>
-            <SectionHeader eyebrow="168+ Verified Google Reviews" title="Trusted Car Care in" highlight="the UAE" />
+            <SectionHeader eyebrow="600+ Verified Google Reviews" title="Trusted Car Protection in" highlight="the UAE" />
             <div className="flex items-center justify-center gap-2 -mt-10 mb-14">
               {[...Array(5)].map((_, i) => <Star key={i} size={20} fill="#C9A84C" className="text-gold" />)}
               <span className="text-white/50 text-sm ml-2">4.9 / 5 · Smart Auto UAE</span>
@@ -879,9 +879,9 @@ export default function Home() {
       <section id="branches" className="py-24" style={{ background: "linear-gradient(180deg,#060606 0%,#0A0A0A 100%)" }}>
         <div className="w-full max-w-7xl mx-auto px-6">
           <motion.div ref={branchesRef} variants={fadeUp} initial="hidden" animate={brInView ? "show" : "hidden"}>
-            <SectionHeader eyebrow="Car Tinting & Car Care Near Me" title="4 Branches Across" highlight="the UAE" />
+            <SectionHeader eyebrow="Searching For Car Tinting & Car Protection Near Me" title="4 Branches Across" highlight="the UAE" />
             <p className="text-center text-white/40 text-sm -mt-10 mb-10 max-w-xl mx-auto">
-              Car window tinting in Al Quoz, PPF in MotorCity, ceramic coating in Mirdif, or car care in
+              Car window tinting in Al Quoz, PPF in MotorCity, ceramic coating in Mirdif, or Car Protection in
               Sharjah - Smart Auto UAE is always near you.
             </p>
           </motion.div>
@@ -928,11 +928,11 @@ export default function Home() {
             <div className="absolute inset-0 pointer-events-none"
               style={{ background: "radial-gradient(ellipse at center,rgba(201,168,76,0.06) 0%,transparent 60%)" }} />
             <p className="text-gold text-[11px] tracking-[0.3em] uppercase mb-4 relative z-10">
-              Premium Car Care · Dubai &amp; Sharjah · Open Every Day 11AM – 9PM
+              Premium Car Protection  · Dubai &amp; Sharjah · Open Every Day 11AM – 9PM
             </p>
             <h2 className="text-white font-bold mb-4 relative z-10"
               style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2rem,4vw,3rem)" }}>
-              Book Your Car Care Service<br /><span className="gold-text">Today</span>
+              Book Your Car Protection Service<br /><span className="gold-text">Today</span>
             </h2>
             <p className="text-white/50 text-base mb-6 max-w-lg mx-auto relative z-10">
               Window tinting, PPF, ceramic coating, detailing, car wrapping - book at any of our
@@ -942,8 +942,8 @@ export default function Home() {
               <StatusBadge size="md" />
             </div>
             <div className="flex gap-4 justify-center flex-wrap relative z-10">
-              <GoldBtn href="https://wa.me/971555559424">Book on WhatsApp <ArrowRight size={16} /></GoldBtn>
-              <OutlineBtn href="tel:+971555559424"><Phone size={16} /> +971 55 555 9424</OutlineBtn>
+              <GoldBtn href="https://wa.me/971524403677">Book on WhatsApp <ArrowRight size={16} /></GoldBtn>
+              <OutlineBtn href="tel:+971524403677"><Phone size={16} /> +971 55 555 9424</OutlineBtn>
             </div>
           </motion.div>
         </div>

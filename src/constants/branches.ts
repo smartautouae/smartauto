@@ -2,8 +2,8 @@
 import type { Branch } from "@/components/BookingModal";
 
 export const BRANCHES: Branch[] = [
-  { name: "MotorCity", area: "Dubai",   phone: "+971 55 782 3731", whatsapp: "971557823731" },
-  { name: "Al Quoz",   area: "Dubai",   phone: "+971 54 701 1800", whatsapp: "971547011800" },
-  { name: "Mirdif",    area: "Dubai",   phone: "+971 55 555 9424", whatsapp: "971555559424" },
-  { name: "Sharjah",   area: "Sharjah", phone: "+971 55 555 9424", whatsapp: "971555559424" },
+  { name: "MotorCity", area: "Dubai",   phone: "+971 56 726 9666", whatsapp: "971567269666" },
+  { name: "Al Quoz",   area: "Dubai",   phone: "+971 56 726 9666", whatsapp: "971567269666" },
+  { name: "Mirdif",    area: "Dubai",   phone: "+971 55 782 3731", whatsapp: "971557823731" },
+  { name: "Sharjah",   area: "Sharjah", phone: "+971 56 425 5770", whatsapp: "971564255770" },
 ];

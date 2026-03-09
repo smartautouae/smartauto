@@ -58,7 +58,7 @@ const branches = [
     name: "MotorCity",
     city: "Dubai",
     address: "MotorCity, Dubai, UAE",
-    phone: "+971 55 555 9424",
+    phone: "+971 56 726 9666",
     hours: "11:00 AM – 9:00 PM · Every Day",
     mapsUrl: "https://maps.google.com/?q=Smart+Auto+UAE+MotorCity+Dubai",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614!2d55.2376!3d25.0340!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zSmartAutoUAE!5e0!3m2!1sen!2sae!4v1234567890",
@@ -72,8 +72,8 @@ const branches = [
     name: "Al Quoz",
     city: "Dubai",
     address: "Al Quoz, Dubai, UAE",
-    phone: "+971 55 555 9424",
-    hours: "11:00 AM – 9:00 PM · Every Day",
+    phone: "+971 56 726 9666",
+    hours: "11:00 AM – 9:30 PM · Every Day",
     mapsUrl: "https://maps.google.com/?q=Smart+Auto+UAE+Al+Quoz+Dubai",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614!2d55.2376!3d25.0340",
     color: "#34d399",
@@ -86,7 +86,7 @@ const branches = [
     name: "Mirdif · Uptown Mall",
     city: "Dubai",
     address: "Uptown Mall, Mirdif, Dubai, UAE",
-    phone: "+971 55 555 9424",
+    phone: "+971 55 782 3731",
     hours: "11:00 AM – 9:00 PM · Every Day",
     mapsUrl: "https://maps.google.com/?q=Smart+Auto+UAE+Mirdif+Uptown+Mall+Dubai",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614!2d55.2376!3d25.0340",
@@ -100,7 +100,7 @@ const branches = [
     name: "Central Mall",
     city: "Sharjah",
     address: "Central Mall, Sharjah, UAE",
-    phone: "+971 55 555 9424",
+    phone: "+971 56 425 5770",
     hours: "11:00 AM – 9:00 PM · Every Day",
     mapsUrl: "https://maps.google.com/?q=Smart+Auto+UAE+Central+Mall+Sharjah",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614!2d55.2376!3d25.0340",
@@ -115,9 +115,9 @@ const contactChannels = [
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "+971 55 555 9424",
+    value: "+971 52 440 3677",
     desc: "Chat with us instantly - fastest response",
-    href: "https://wa.me/971555559424",
+    href: "https://wa.me/971524403677",
     cta: "Message on WhatsApp",
     color: "#4ade80",
     colorBg: "rgba(74,222,128,0.06)",
@@ -126,9 +126,9 @@ const contactChannels = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+971 55 555 9424",
+    value: "++971 52 440 3677",
     desc: "Call us directly - any day 11AM–9PM",
-    href: "tel:+971555559424",
+    href: "tel:+971524403677",
     cta: "Call Now",
     color: "#60a5fa",
     colorBg: "rgba(96,165,250,0.06)",
@@ -244,12 +244,12 @@ export default function ContactPage() {
 
               {/* Quick contact pills */}
               <div className="flex flex-wrap items-center justify-center gap-3">
-                <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                <a href="https://wa.me/971567269666" target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-sm text-black no-underline"
                   style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                   <MessageCircle size={14} /> WhatsApp Us
                 </a>
-                <a href="tel:+971555559424"
+                <a href="tel:+971567269666"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm no-underline border"
                   style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                   <Phone size={14} /> +971 55 555 9424
@@ -306,7 +306,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <div className="font-bold text-[15px]" style={{ color: "#fff" }}>
-                    Open Every Day - 11:00 AM to 9:00 PM
+                    Open Every Day - 10:00 AM to 10:00 PM
                   </div>
                   <div className="text-[12px]" style={{ color: "rgba(255,255,255,0.4)" }}>
                     All 4 branches · 7 days a week · Including weekends & public holidays
@@ -338,7 +338,7 @@ export default function ContactPage() {
               </h2>
               <p className="max-w-xl mx-auto text-sm" style={{ color: "rgba(255,255,255,0.4)" }}>
                 Walk in, call ahead, or book a free on-site consultation.
-                All branches are open every day from 11AM to 9PM.
+                All branches are open every day from 10AM to 10PM.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
@@ -423,7 +423,7 @@ export default function ContactPage() {
                         style={{ background: goldGrad }}>
                         <Navigation size={13} /> Get Directions
                       </a>
-                      <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                      <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold text-sm no-underline border flex-1 justify-center"
                         style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                         <MessageCircle size={13} /> WhatsApp
@@ -456,7 +456,7 @@ export default function ContactPage() {
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
                   Fill in the form and our team will get back to you within a few hours -
                   or contact us directly on{" "}
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="no-underline font-semibold" style={{ color: gold }}>
                     WhatsApp
                   </a>{" "}
@@ -643,7 +643,7 @@ export default function ContactPage() {
 
                   <p className="text-center text-[11px]" style={{ color: "rgba(255,255,255,0.2)" }}>
                     Or contact us directly on{" "}
-                    <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                    <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                       className="no-underline" style={{ color: "rgba(201,168,76,0.6)" }}>
                       WhatsApp
                     </a>{" "}

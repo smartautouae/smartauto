@@ -357,8 +357,7 @@ export default function SurfaceProtectionFilmsPage() {
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2.2rem,5vw,4rem)", color: "#fff" }}>
                   Surface Protection Films{" "}
                   <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                    Dubai &amp; Sharjah
-                  </span>
+in UAE                  </span>
                 </h1>
 
                 <p className="text-[13px] tracking-[0.2em] uppercase mb-6 font-medium"
@@ -396,12 +395,12 @@ export default function SurfaceProtectionFilmsPage() {
                 </div>
 
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Get a Free Quote <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Now
@@ -707,12 +706,12 @@ export default function SurfaceProtectionFilmsPage() {
                   Free site visit across Dubai &amp; Sharjah.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Book Free Site Visit <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Now

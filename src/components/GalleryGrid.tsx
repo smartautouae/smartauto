@@ -341,9 +341,8 @@ function BeforeAfterSlider({
 
       {/* Handle */}
       <div
-        className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 z-20
-          w-9 h-9 rounded-full flex items-center justify-center"
-        style={{
+  className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 z-20 w-9 h-9 rounded-full flex items-center justify-center"
+  style={{
           left: `${sliderPos}%`,
           background: "#fff",
           border: "2px solid rgba(201,168,76,0.7)",

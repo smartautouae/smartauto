@@ -49,12 +49,12 @@ export const metadata: Metadata = {
     "smart home glass film Dubai",
     "smart film retrofit Dubai",
   ],
-  alternates: { canonical: "https://smartautouae.ae/services/switchable-smart-glass-film-dubai-sharjah" },
+  alternates: { canonical: "https://smartautouae.ae/services/switchable-smart-film-dubai-sharjah" },
   openGraph: {
     title: "Switchable Smart Film Dubai & Sharjah | Smart Glass Film | PDLC Film | Smart Auto UAE",
     description:
       "PDLC switchable smart film in Dubai & Sharjah. Clear to frosted in milliseconds - at the touch of a button. Offices, villas, hotels, meeting rooms. Remote, wall switch & smart home control. Free site visit.",
-    url: "https://smartautouae.ae/services/switchable-smart-glass-film-dubai-sharjah",
+    url: "https://smartautouae.ae/services/switchable-smart-film-dubai-sharjah",
     siteName: "Smart Auto UAE",
     type: "website",
   },
@@ -323,7 +323,7 @@ export default function SwitchableSmartFilmPage() {
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2.2rem,5vw,4rem)", color: "#fff" }}>
                   Switchable Smart Film{" "}
                   <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                    Dubai &amp; Sharjah
+                    in UAE
                   </span>
                 </h1>
 
@@ -352,7 +352,7 @@ export default function SwitchableSmartFilmPage() {
                     "Remote, wall switch & app control",
                     "Offices, villas, hotels & healthcare",
                     "UV blocking & glare reduction",
-                    "Free site visit - Dubai & Sharjah",
+                    "Privacy in Luxury",
                   ].map((f) => (
                     <div key={f} className="flex items-center gap-2.5">
                       <CheckCircle size={14} style={{ color: gold, flexShrink: 0 }} />
@@ -362,12 +362,12 @@ export default function SwitchableSmartFilmPage() {
                 </div>
 
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Get a Free Quote <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Now
@@ -512,7 +512,7 @@ export default function SwitchableSmartFilmPage() {
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
                 Smart Film Applications in{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  Dubai &amp; Sharjah
+                  Dubai, Sharjah and Across UAE
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
@@ -683,9 +683,9 @@ export default function SwitchableSmartFilmPage() {
                   style={{ background: "linear-gradient(to right,rgba(0,0,0,0.4) 0%,transparent 70%)" }} />
                 <div className="absolute bottom-6 left-6 flex gap-3">
                   {[
-                    { val: "10+",  label: "Yrs Exp." },
+                    { val: "20+",  label: "Yrs Exp." },
                     { val: "4",    label: "Branches" },
-                    { val: "168+", label: "Reviews" },
+                    { val: "600+", label: "Reviews" },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -711,7 +711,7 @@ export default function SwitchableSmartFilmPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 10 years of professional window film installation experience, Smart Auto UAE
+                  With over 20 years of professional window film installation experience, Smart Auto UAE
                   delivers flawless PDLC switchable smart film installations across offices, villas, hotels,
                   healthcare spaces, and commercial properties throughout Dubai and Sharjah. Our certified
                   installers handle every project from free site visit to final control system setup -
@@ -735,12 +735,12 @@ export default function SwitchableSmartFilmPage() {
                   ))}
                 </div>
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Get a Free Quote <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Us
@@ -805,12 +805,12 @@ export default function SwitchableSmartFilmPage() {
                   Free site visit across Dubai &amp; Sharjah.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Book Free Site Visit <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424

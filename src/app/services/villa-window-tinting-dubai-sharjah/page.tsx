@@ -354,7 +354,7 @@ export default function VillaWindowTintingPage() {
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2.4rem,5vw,4.2rem)", color: "#fff" }}>
                   Villa Window Tinting{" "}
                   <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                    Dubai &amp; Sharjah
+                    in UAE
                   </span>
                 </h1>
 
@@ -391,12 +391,12 @@ export default function VillaWindowTintingPage() {
                 </div>
 
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Get a Free Quote <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Now
@@ -552,7 +552,7 @@ export default function VillaWindowTintingPage() {
                 Premium Window Film Brands
               </span>
               <h2 className="font-bold leading-snug mb-4"
-                style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
+                style={{ fontFamily: "var(--font-figtree),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
                 3M · Global USA ·{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   Totalgard
@@ -630,7 +630,7 @@ export default function VillaWindowTintingPage() {
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
                 Benefits of Villa Window Tinting in{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  Dubai &amp; Sharjah
+                  in UAE
                 </span>
               </h2>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -703,9 +703,9 @@ export default function VillaWindowTintingPage() {
                   style={{ background: "linear-gradient(to right,rgba(0,0,0,0.4) 0%,transparent 70%)" }} />
                 <div className="absolute bottom-6 left-6 flex gap-3">
                   {[
-                    { val: "168+", label: "Reviews" },
+                    { val: "600+", label: "Reviews" },
                     { val: "4",    label: "Branches" },
-                    { val: "10+",  label: "Yrs Exp." },
+                    { val: "20+",  label: "Yrs Exp." },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -725,13 +725,13 @@ export default function VillaWindowTintingPage() {
                 </span>
                 <h2 className="font-bold leading-snug mb-5"
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3vw,2.5rem)", color: "#fff" }}>
-                  Dubai &amp; Sharjah's Trusted{" "}
+                  in UAE's Trusted{" "}
                   <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                     Villa Tinting Experts
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 10 years of professional window film installation experience across Dubai and
+                  With over 20 years of professional window film installation experience across Dubai and
                   Sharjah, Smart Auto UAE installs only premium{" "}
                   <strong style={{ color: "rgba(255,255,255,0.75)" }}>3M, Global USA, and Totalgard</strong>{" "}
                   films - ensuring maximum heat rejection, lasting UV protection, and flawless optical clarity
@@ -755,12 +755,12 @@ export default function VillaWindowTintingPage() {
                   ))}
                 </div>
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Get a Free Quote <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Us
@@ -788,7 +788,7 @@ export default function VillaWindowTintingPage() {
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.6rem)", color: "#fff" }}>
                 FAQs - Villa Window Tinting{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  Dubai &amp; Sharjah
+                  in UAE
                 </span>
               </h2>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -813,7 +813,7 @@ export default function VillaWindowTintingPage() {
               <div className="relative z-10">
                 <p className="text-[10px] tracking-[0.35em] uppercase mb-5"
                   style={{ color: "rgba(201,168,76,0.6)" }}>
-                  Villa &amp; Residential Window Tinting · Dubai &amp; Sharjah
+                  Villa &amp; Residential Window Tinting · in UAE
                 </p>
                 <h2 className="font-bold mb-4"
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
@@ -824,15 +824,15 @@ export default function VillaWindowTintingPage() {
                   3M · Global USA · Totalgard films.
                   Block 90% heat · 99% UV · 95% glare · Up to 30% energy savings.
                   Heat rejection · Privacy · Safety · Decorative films.
-                  Free site visit across Dubai &amp; Sharjah.
+                  Free site visit across in UAE.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Book Free Site Visit <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424

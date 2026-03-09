@@ -10,11 +10,11 @@ import Footer from "@/components/Footer";
 // ── SEO METADATA ───────────────────────────────────────────────────────────
 
 export const metadata: Metadata = {
-  title: "Car Care Services Dubai & Sharjah | Window Tinting, PPF, Ceramic Coating | Smart Auto UAE",
+  title: "Car Protection Services Dubai & Sharjah | Window Tinting, PPF, Ceramic Coating | Smart Auto UAE",
   description:
-    "Smart Auto UAE offers premium car care services in Dubai & Sharjah - Window Tinting, Paint Protection Film (PPF), Nano Ceramic Coating, Car Detailing, Car Wrapping, Villa Tinting & more. 4 branches across MotorCity, Al Quoz, Mirdif & Sharjah.",
+    "Smart Auto UAE offers Premium Car Protection  services in Dubai & Sharjah - Window Tinting, Paint Protection Film (PPF), Nano Ceramic Coating, Car Detailing, Car Wrapping, Villa Tinting & more. 4 branches across MotorCity, Al Quoz, Mirdif & Sharjah.",
   keywords: [
-    "car care services Dubai", "car care services Sharjah",
+    "Car Protection services Dubai", "Car Protection services Sharjah",
     "window tinting Dubai", "window tinting Sharjah",
     "PPF Dubai", "PPF Sharjah",
     "paint protection film Dubai", "paint protection film Sharjah",
@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     "commercial window tinting Dubai", "commercial window tinting Sharjah",
     "smart glass film Dubai", "surface protection film Dubai",
     "Smart Auto UAE", "auto care Dubai", "auto care Sharjah",
-    "car protection UAE", "best car care Dubai", "best car care Sharjah",
+    "Car Protection  UAE", "best Car Protection Dubai", "best Car Protection Sharjah",
     "car tinting near me Dubai", "ceramic coating near me Sharjah",
   ],
   alternates: { canonical: "https://smartautouae.ae/services" },
   openGraph: {
-    title: "Car Care Services Dubai & Sharjah | Smart Auto UAE",
+    title: "Car Protection Services Dubai & Sharjah | Smart Auto UAE",
     description: "Premium window tinting, PPF, ceramic coating, car detailing & wrapping across 4 branches in Dubai & Sharjah.",
     url: "https://smartautouae.ae/services",
     siteName: "Smart Auto UAE",
@@ -46,12 +46,12 @@ const services = [
     icon: Sun,
     title: "Car Window Tinting",
     location: "Dubai & Sharjah",
-    slug: "/car-window-tinting-dubai",
+    slug: "/services/car-window-tinting-dubai",
     tag: "Most Popular",
     tagColor: "#C9A84C",
     image: "https://images.unsplash.com/photo-1614026480418-bd11fdb9fa0e?w=800&q=80",
     description: "Advanced nano ceramic & carbon window tints that block 99% UV rays and heat - available across all 4 branches in Dubai and Sharjah. UAE RTA traffic law compliant with a 5-year warranty on all films.",
-    features: ["Nano ceramic films", "UAE RTA compliant VLT", "99% UV & heat rejection", "5-year warranty", "Dubai & Sharjah branches"],
+    features: ["Nano ceramic films", "3M window films", "99% UV & heat rejection", "Upto 15-year warranty", "Dark from outside, clear from inside"],
     price: "From AED 299",
   },
   {
@@ -63,9 +63,9 @@ const services = [
     tag: "Premium",
     tagColor: "#a78bfa",
     image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=80",
-    description: "Self-healing TPU paint protection film shielding your car from scratches, stone chips, and harsh UAE road conditions. TotalGard installer in Dubai & Sharjah.",
-    features: ["Self-healing TPU film", "TotalGard", "Gloss or matte finish", "10-year warranty", "Full & partial coverage"],
-    price: "From AED 1,499",
+    description: "Self-healing paint protection film (PPF) shielding your car from scratches, stone chips, and harsh UAE road conditions. Specialized PPF instllaller in Dubai & Sharjah.",
+    features: ["Self-healing PPF", "Hydrophobic finish", "Gloss or matte finish", "10-year warranty"],
+    price: "From AED 3,499",
   },
   {
     num: "03",
@@ -77,8 +77,8 @@ const services = [
     tagColor: "#34d399",
     image: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=800&q=80",
     description: "Professional 9H hardness ceramic coating creating a hydrophobic, scratch-resistant shield - ideal for UAE's extreme heat and sandstorms. Mirror-like gloss guaranteed in Dubai and Sharjah.",
-    features: ["9H hardness rating", "Hydrophobic surface", "Mirror-like gloss", "2–5 year protection", "Gyeon, Gtechniq & IGL"],
-    price: "From AED 799",
+    features: ["9H & 10H hardness rating", "Hydrophobic surface", "Mirror-like gloss", "2–5 year protection", "Sirus USA, Jade, Puris, Gyeon,", "Free yearly maintenance"],
+    price: "From AED 999",
   },
   {
     num: "04",
@@ -89,8 +89,8 @@ const services = [
     tag: "Top Rated",
     tagColor: "#f472b6",
     image: "https://images.unsplash.com/photo-1616455579100-2ceaa4ec2d50?w=800&q=80",
-    description: "Complete interior and exterior car detailing - paint correction, deep cleaning, engine bay wash, and odor elimination for a showroom-quality finish across all Dubai & Sharjah branches.",
-    features: ["Interior deep clean", "Paint correction & polishing", "Engine bay cleaning", "Odor elimination", "All 4 branches"],
+    description: "Complete interior and exterior car detailing, deep cleaning, engine bay wash, and odor elimination for a showroom-quality finish across all Dubai & Sharjah branches.",
+    features: ["Interior deep clean", "polishing", "Engine bay cleaning", "Odor elimination", "Car seat cleaning"],
     price: "From AED 199",
   },
   {
@@ -103,8 +103,8 @@ const services = [
     tagColor: "#60a5fa",
     image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80",
     description: "Transform your car with a full or partial vinyl wrap - matte, gloss, satin, chrome, or fully custom designs. Available in Dubai and Sharjah with paint-safe removal guaranteed.",
-    features: ["Matte, gloss & satin", "Full & partial wraps", "Colour change wraps", "Chrome & metallic", "Paint-safe removal"],
-    price: "From AED 2,499",
+    features: ["Matte, gloss & satin", "Full & partial wraps", "Colour change wraps", "Chrome & metallic", "Paint-safe removal","Car foiling"],
+    price: "From AED 3,499",
   },
   {
     num: "06",
@@ -115,9 +115,9 @@ const services = [
     tag: "Residential",
     tagColor: "#fb923c",
     image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
-    description: "Premium residential window tinting for villas and apartments across Dubai and Sharjah - reduces heat, blocks UV rays, enhances privacy with a sleek modern finish.",
-    features: ["Maximum privacy", "Heat & glare reduction", "UV protection", "Aesthetic enhancement", "Dubai & Sharjah villas"],
-    price: "From AED 499",
+    description: "Premium residential window tinting for villas and apartments across UAE - reduces heat, blocks UV rays, enhances privacy with a sleek modern finish.",
+    features: ["Maximum privacy", "Heat & glare reduction", "UV protection", "Aesthetic enhancement"],
+    price: "From AED 90/sqm",
   },
   {
     num: "07",
@@ -128,8 +128,8 @@ const services = [
     tag: "Commercial",
     tagColor: "#94a3b8",
     image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80",
-    description: "Professional window tinting for offices, retail stores, and commercial buildings across Dubai and Sharjah - reduces energy costs, blocks UV, and enhances workspace privacy.",
-    features: ["Energy cost reduction", "UV & heat blocking", "Enhanced privacy", "Large-scale install", "Dubai & Sharjah offices"],
+    description: "Professional window tinting for offices, retail stores, and commercial buildings across UAE - reduces energy costs, blocks UV, and enhances workspace privacy.",
+    features: ["Energy cost reduction", "UV & heat blocking", "Enhanced privacy", "Large-scale installation"],
     price: "Custom Quote",
   },
   {
@@ -137,25 +137,25 @@ const services = [
     icon: Zap,
     title: "Switchable Smart Glass Film",
     location: "Dubai & Sharjah",
-    slug: "/switchable-smart-glass-film-dubai",
+    slug: "/switchable-smart-film-dubai",
     tag: "Smart Tech",
     tagColor: "#818cf8",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-    description: "Electric switchable smart film - go from transparent to fully private at the touch of a button. Installed in offices, villas, and luxury vehicles across Dubai and Sharjah.",
-    features: ["Instant privacy control", "Electric on/off switch", "Energy efficient", "Offices & villas", "Dubai & Sharjah"],
+    description: "Electric switchable smart film - go from transparent to fully private at the touch of a button. Installed in offices, villas, and luxury vehicles across UAE",
+    features: ["Instant privacy control", "Electric on/off switch", "Energy efficient", "Offices & villas"],
     price: "Custom Quote",
   },
   {
     num: "09",
     icon: Film,
-    title: "Surface Protection Film",
-    location: "Dubai & Sharjah",
+    title: "Furniture Protection Film",
+    location: "Across UAE",
     slug: "/surface-protection-film-dubai",
     tag: "Invisible Guard",
     tagColor: "#C9A84C",
     image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80",
-    description: "Crystal-clear protective film for stone surfaces, door edges, panels, and interior trims - guards against chips and scratches while remaining completely invisible. Available across Dubai & Sharjah.",
-    features: ["Crystal clear finish", "Stone & panel guard", "Door edge protection", "Impact resistant", "Easy removal"],
+    description: "Crystal-clear protective film for stone surfaces, door edges, panels, and interior trims - guards against chips and scratches while remaining completely invisible. Available across Dubai & Sharjah and UAE.",
+    features: ["Crystal clear finish", "Kitchen marble protection", "Premium furniture protection","Dining table protection"],
     price: "From AED 199",
   },
 ];
@@ -226,7 +226,7 @@ export default function ServicesPage() {
             {/* H1 */}
             <h1 className="font-bold leading-[1.05] mb-6 max-w-3xl"
               style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2.8rem,5vw,5rem)", color: "#fff" }}>
-              Premium Car Care Services in{" "}
+              Premium Car Protection  Services in{" "}
               <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                 Dubai &amp; Sharjah
               </span>
@@ -261,12 +261,12 @@ export default function ServicesPage() {
 
             {/* CTAs */}
             <div className="flex items-center gap-4 flex-wrap">
-              <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+              <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                 style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                 Book on WhatsApp <ArrowRight size={15} />
               </a>
-              <a href="tel:+971555559424"
+              <a href="tel:+971524403677"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                 style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                 <Phone size={14} /> Call Now
@@ -435,7 +435,7 @@ export default function ServicesPage() {
               </h2>
               <p className="text-sm max-w-xl mx-auto" style={{ color: "rgba(255,255,255,0.4)" }}>
                 Thousands of happy customers across Dubai &amp; Sharjah trust Smart Auto UAE
-                for their car care and protection needs.
+                for their Car Protection and protection needs.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -527,12 +527,12 @@ export default function ServicesPage() {
                   in Dubai, and Central Mall in Sharjah. Free inspection. No hidden charges.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Book on WhatsApp <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424

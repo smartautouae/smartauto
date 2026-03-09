@@ -15,7 +15,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Commercial Window Tinting Dubai & Sharjah | Office Building Window Film | Smart Auto UAE",
   description:
-    "Professional commercial window tinting in Dubai & Sharjah. UAE authorised distributor & applicator of 3M USA, Global USA & Totalgard films. Office window tinting, building window tinting, shop window tinting, privacy films, safety films. Block 90% heat, 99% UV, 95% glare. Free site visit. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
+    "Professional commercial window tinting in Dubai & Sharjah. UAE's trusted applicator of 3M USA, Global USA & Totalgard films. Office window tinting, building window tinting, shop window tinting, privacy films, safety films. Block 90% heat, 99% UV, 95% glare. Free site visit. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
   keywords: [
     "commercial window tinting Dubai",
     "commercial window tinting Sharjah",
@@ -338,15 +338,12 @@ export default function CommercialWindowTintingPage() {
                 <div className="inline-flex items-center gap-2.5 border rounded-full px-4 py-1.5 mb-8 text-[10px] tracking-[0.3em] uppercase"
                   style={{ borderColor: "rgba(201,168,76,0.25)", background: "rgba(201,168,76,0.05)", color: gold }}>
                   <Star size={10} fill={gold} strokeWidth={0} />
-                  UAE Authorised Distributor & Applicator
+                  UAE's Trusted Applicator
                 </div>
 
                 <h1 className="font-bold leading-[1.05] mb-4"
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2.2rem,5vw,4rem)", color: "#fff" }}>
                   Commercial Window Tinting{" "}
-                  <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                    Dubai &amp; Sharjah
-                  </span>
                 </h1>
 
                 <p className="text-[13px] tracking-[0.2em] uppercase mb-6 font-medium"
@@ -356,9 +353,9 @@ export default function CommercialWindowTintingPage() {
 
                 <p className="mb-8 leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.5)", fontSize: "clamp(0.9rem,1.2vw,1.05rem)" }}>
-                  Professional commercial and office building window tinting across{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Dubai</strong> and{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah</strong>.
+                  Professional commercial and office building window tinting in{" "}
+                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Dubai,</strong>
+                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah and across UAE</strong>.
                   UAE authorised distributor and applicator of{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>3M USA, Global USA</strong> and{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Totalgard</strong> commercial
@@ -368,7 +365,7 @@ export default function CommercialWindowTintingPage() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
                   {[
-                    "UAE authorised distributor & applicator",
+                    "UAE's trusted applicator",
                     "3M USA · Global USA · Totalgard",
                     "Up to 90% heat rejection",
                     "Office, building & shop tinting",
@@ -383,12 +380,12 @@ export default function CommercialWindowTintingPage() {
                 </div>
 
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Get a Free Quote <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Now
@@ -416,7 +413,7 @@ export default function CommercialWindowTintingPage() {
                       </div>
                       <div>
                         <div className="font-semibold text-[14px]" style={{ color: "#fff" }}>
-                          UAE Authorised Distributor & Applicator
+                          UAE's Trusted Applicator
                         </div>
                         <div className="text-[11px] mt-0.5" style={{ color: "rgba(255,255,255,0.4)" }}>
                           3M USA · Global USA · Totalgard · Dubai & Sharjah
@@ -481,7 +478,7 @@ export default function CommercialWindowTintingPage() {
                 <div className="flex items-center gap-2.5 mb-2">
                   <ShieldCheck size={18} style={{ color: gold }} />
                   <span className="font-bold text-[16px]" style={{ color: "#fff" }}>
-                    UAE Authorised Distributor &amp; Applicator
+                    UAE's Trusted Applicator
                   </span>
                 </div>
                 <p className="text-[13px]" style={{ color: "rgba(255,255,255,0.4)" }}>
@@ -716,9 +713,9 @@ export default function CommercialWindowTintingPage() {
                   style={{ background: "linear-gradient(to right,rgba(0,0,0,0.4) 0%,transparent 70%)" }} />
                 <div className="absolute bottom-6 left-6 flex gap-3">
                   {[
-                    { val: "10+",  label: "Yrs Exp." },
+                    { val: "20+",  label: "Yrs Exp." },
                     { val: "4",    label: "Branches" },
-                    { val: "168+", label: "Reviews" },
+                    { val: "600+", label: "Reviews" },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -748,12 +745,12 @@ export default function CommercialWindowTintingPage() {
                   <strong style={{ color: "rgba(255,255,255,0.75)" }}>3M USA, Global USA, and Totalgard</strong>{" "}
                   commercial window films, Smart Auto UAE delivers precision commercial installations
                   across offices, buildings, retail spaces, hotels, and schools throughout Dubai and Sharjah.
-                  Over 10 years of experience. Minimal disruption to your business operations.
+                  Over 20 years of experience. Minimal disruption to your business operations.
                   Full compliance with UAE building codes and safety standards.
                 </p>
                 <div className="flex flex-col gap-4 mb-9">
                   {[
-                    { icon: ShieldCheck, text: "UAE authorised distributor & applicator - 3M, Global USA, Totalgard" },
+                    { icon: ShieldCheck, text: "UAE's trusted applicator - 3M, Global USA, Totalgard" },
                     { icon: Sun,         text: "Block 90% heat · 99% UV · 95% glare · 30% energy savings" },
                     { icon: Building2,   text: "Offices · Buildings · Shops · Hotels · Schools · Shopping malls" },
                     { icon: MapPin,      text: "4 branches - MotorCity, Al Quoz, Mirdif & Sharjah" },
@@ -769,12 +766,12 @@ export default function CommercialWindowTintingPage() {
                   ))}
                 </div>
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Get a Free Quote <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Us
@@ -839,12 +836,12 @@ export default function CommercialWindowTintingPage() {
                   Dubai &amp; Sharjah.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Book Free Site Survey <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424

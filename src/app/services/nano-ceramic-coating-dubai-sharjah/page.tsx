@@ -88,8 +88,8 @@ const benefits = [
   },
   {
     icon: ShieldCheck,
-    title: "Thermal Resistance up to 300°C",
-    desc: "Our nano ceramic coatings are engineered to withstand extreme heat - up to 300°C - making them perfectly suited to UAE's brutal summer temperatures and engine bay heat exposure.",
+    title: "Thermal Resistance ",
+    desc: "Our nano ceramic coatings are engineered to withstand extreme heat - making them perfectly suited to UAE's summer temperatures and engine bay heat exposure.",
   },
 ];
 
@@ -274,7 +274,7 @@ const faqs = [
   },
   {
     q: "Is nano ceramic coating worth it in Dubai?",
-    a: "Absolutely. Dubai's combination of intense UV, heat, sand, dust, and occasional salt air makes ceramic coating one of the most practical car care investments you can make. It replaces the need for regular waxing, keeps your car cleaner for longer, protects against paint fading and oxidation, and preserves your car's resale value significantly.",
+    a: "Absolutely. Dubai's combination of intense UV, heat, sand, dust, and occasional salt air makes ceramic coating one of the most practical Car Protection investments you can make. It replaces the need for regular waxing, keeps your car cleaner for longer, protects against paint fading and oxidation, and preserves your car's resale value significantly.",
   },
   {
     q: "Does ceramic coating prevent scratches?",
@@ -366,7 +366,7 @@ export default function NanoCeramicCoatingPage() {
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(2.4rem,5vw,4.2rem)", color: "#fff" }}>
                   Nano Ceramic Coating{" "}
                   <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                    Dubai &amp; Sharjah
+                    in UAE
                   </span>
                 </h1>
 
@@ -375,8 +375,7 @@ export default function NanoCeramicCoatingPage() {
                   Professional nano ceramic coating across{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Dubai</strong> and{" "}
                   <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>Sharjah</strong> using{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>SIRIUS USA, GYEON, JADE</strong> and{" "}
-                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>ONYX</strong>. Permanent showroom gloss,
+                  <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600 }}>SIRIUS USA, GYEON and JADE</strong> Permanent showroom gloss,
                   9H scratch resistance, super hydrophobic protection - backed by up to a 5-year warranty.
                 </p>
 
@@ -387,7 +386,7 @@ export default function NanoCeramicCoatingPage() {
                     "Super hydrophobic surface",
                     "UV & chemical resistant",
                     "Bronze, Silver & Diamond packages",
-                    "4 branches - Dubai & Sharjah",
+                    "Easy to wash",
                   ].map((f) => (
                     <div key={f} className="flex items-center gap-2.5">
                       <CheckCircle size={14} style={{ color: gold, flexShrink: 0 }} />
@@ -397,12 +396,12 @@ export default function NanoCeramicCoatingPage() {
                 </div>
 
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Book on WhatsApp <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Now
@@ -588,7 +587,7 @@ export default function NanoCeramicCoatingPage() {
 
                   {/* CTA */}
                   <div className="px-8 pb-8">
-                    <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                    <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl text-[13px] font-bold no-underline transition-all duration-300 hover:gap-4"
                       style={
                         pkg.tier === "Diamond"
@@ -656,9 +655,9 @@ export default function NanoCeramicCoatingPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
-                Ceramic Coating Brands in{" "}
+                Ceramic Coating Brands{" "}
                 <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  Dubai &amp; Sharjah
+                  in UAE
                 </span>
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
@@ -776,9 +775,9 @@ export default function NanoCeramicCoatingPage() {
                   style={{ background: "linear-gradient(to right,rgba(0,0,0,0.4) 0%,transparent 70%)" }} />
                 <div className="absolute bottom-6 left-6 flex gap-3">
                   {[
-                    { val: "168+", label: "Google Reviews" },
+                    { val: "600+", label: "Google Reviews" },
                     { val: "4",    label: "Branches UAE" },
-                    { val: "10+",  label: "Years Exp." },
+                    { val: "20+",  label: "Years Exp." },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -804,7 +803,7 @@ export default function NanoCeramicCoatingPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 10 years of experience, Smart Auto UAE is the most trusted nano ceramic
+                  With over 20 years of experience, Smart Auto UAE is the most trusted nano ceramic
                   coating centre in Dubai and Sharjah. Our certified detailers use SIRIUS USA, GYEON,
                   JADE, and ONYX - applied with professional precision at all 4 branches, backed by
                   transparent package pricing and free annual service for every customer.
@@ -826,12 +825,12 @@ export default function NanoCeramicCoatingPage() {
                   ))}
                 </div>
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Book Now <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Us
@@ -897,12 +896,12 @@ export default function NanoCeramicCoatingPage() {
                   4 branches across Dubai &amp; Sharjah.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Book on WhatsApp <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424

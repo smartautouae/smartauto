@@ -53,7 +53,7 @@ export default function BranchCards({ branches, serviceName }: Props) {
               at Any of Our 4 Branches
             </h2>
             <p className="text-sm" style={{ color: "rgba(255,255,255,0.4)" }}>
-              Open every day · 11AM – 9PM · Walk-ins welcome
+              Open every day · 10AM – 10PM · Walk-ins welcome
             </p>
           </div>
 

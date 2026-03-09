@@ -71,12 +71,12 @@ const benefits = [
   {
     icon: Sparkles,
     title: "Self-Healing Technology",
-    desc: "Our premium PPF films feature self-healing properties - minor surface scratches and swirl marks disappear on their own with heat from the sun or warm water, keeping your car looking flawless.",
+    desc: "Our premium PPF films feature self-healing properties - swirl marks disappear on their own with heat from the sun or warm water, keeping your car looking flawless and better than showroom condition.",
   },
   {
     icon: Droplets,
     title: "Hydrophobic & Easy to Clean",
-    desc: "PPF creates a hydrophobic surface that repels water, dirt, bird droppings, and bug splatter - making your car dramatically easier to maintain and keep clean in Dubai and Sharjah's dusty conditions.",
+    desc: "PPF creates a hydrophobic surface that repels water, dirt, bird droppings, and bug splatter - making your car dramatically easier to maintain and keep clean in regional dusty conditions.",
   },
   {
     icon: Zap,
@@ -91,7 +91,7 @@ const benefits = [
   {
     icon: ShieldCheck,
     title: "Invisible Protection",
-    desc: "Our PPF films are optically clear and virtually invisible once installed - your car looks exactly as intended from the factory, with zero change in colour, gloss, or appearance.",
+    desc: "We provide gloss and matte finish. Our PPF films are optically clear and virtually invisible once installed - your car looks exactly as intended from the factory, with zero change in colour, gloss, or appearance.",
   },
 ];
 
@@ -107,7 +107,7 @@ const ppfBrands = [
       "Scratch & chip protection",
       "Hydrophobic surface",
       "UAE climate tested",
-      "5-year Smart Auto warranty",
+      "Upto 5-year warranty",
     ],
     desc: "TotalGard PPF is our most popular paint protection film across Dubai and Sharjah. It delivers outstanding clarity, self-healing capability, and long-term durability - engineered to withstand UAE's extreme heat, sand, and UV conditions.",
   },
@@ -117,12 +117,12 @@ const ppfBrands = [
     tagColor: "#60a5fa",
     origin: "SIRIUS USA",
     features: [
-      "USA-made premium film",
+      "USA-origin premium film",
       "Advanced self-healing formula",
       "Crystal clear optical clarity",
       "Anti-yellowing technology",
       "High impact resistance",
-      "Manufacturer warranty",
+      "Upto 5-year warranty",
     ],
     desc: "SIRIUS is a premium American-made PPF brand renowned for its advanced self-healing technology and exceptional optical clarity. A top choice for prestige and luxury car owners in Dubai and Sharjah who demand the very best protection.",
   },
@@ -137,7 +137,7 @@ const ppfBrands = [
       "Self-healing top coat",
       "UV & yellowing resistant",
       "Flexible installation",
-      "Manufacturer warranty",
+      "Upto 10 year warranty",
     ],
     desc: "GLOBAL USA PPF offers outstanding stain resistance and impact protection with a premium USA-engineered formula. Trusted by car owners across Dubai and Sharjah for its long-term colour stability and durability in harsh UAE conditions.",
   },
@@ -152,7 +152,8 @@ const ppfBrands = [
       "Self-healing capability",
       "OEM-grade optical clarity",
       "Excellent UV protection",
-      "3M manufacturer warranty",
+      "10 year warranty",
+      "Available in gloss & matte finish"
     ],
     desc: "3M's Paint Protection Film range is globally trusted for its precision engineering and consistent performance. A reliable premium option for car owners across Dubai and Sharjah who want a proven international brand with decades of track record.",
   },
@@ -167,7 +168,7 @@ const ppfBrands = [
       "Self-healing top coat",
       "High gloss & matte options",
       "Exceptional value",
-      "Full Smart Auto warranty",
+      "Upto 10 year warranty",
     ],
     desc: "Smart Pro is Smart Auto UAE's exclusive in-house PPF brand - developed and tested specifically for the UAE climate. It delivers premium self-healing protection at exceptional value, backed by our full Smart Auto warranty across all 4 branches.",
   },
@@ -205,7 +206,7 @@ const process = [
   {
     num: "03",
     title: "Film Selection & Cut",
-    desc: "Choose your preferred PPF brand from TotalGard, SIRIUS, GLOBAL, 3M, or Smart Pro. Our team uses precision computer-cut templates tailored to your exact car model.",
+    desc: "Choose your preferred PPF brand from TotalGard, SIRIUS, GLOBAL, 3M, or Smart Pro. Our team uses precision cut tailored to your exact car model.",
   },
   {
     num: "04",
@@ -242,7 +243,7 @@ const faqs = [
   },
   {
     q: "How long does PPF last in UAE?",
-    a: "Premium PPF films from TotalGard, SIRIUS, GLOBAL, 3M, and Smart Pro typically last 5–10 years in UAE conditions when properly maintained. All Smart Auto UAE installations come with a 5-year warranty covering yellowing, peeling, bubbling, and delamination.",
+    a: "Premium PPF films from TotalGard, SIRIUS, GLOBAL, 3M, and Smart Pro typically last 5–20 years in UAE conditions when properly maintained. All Smart Auto UAE installations come with a 5-year warranty covering yellowing, peeling, bubbling, and delamination.",
   },
   {
     q: "Can PPF be applied on a new car?",
@@ -365,12 +366,12 @@ export default function PPFPage() {
                 </div>
 
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Book on WhatsApp <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Now
@@ -487,10 +488,7 @@ export default function PPFPage() {
               </span>
               <h2 className="font-bold leading-snug mb-4"
                 style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
-                PPF Brands Available in{" "}
-                <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                  Dubai &amp; Sharjah
-                </span>
+                PPF Brands Available{" "}
               </h2>
               <p className="max-w-2xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
                 We carry the widest range of premium PPF brands in UAE - from global leaders to our own
@@ -633,9 +631,9 @@ export default function PPFPage() {
                   style={{ background: "linear-gradient(to right,rgba(0,0,0,0.4) 0%,transparent 70%)" }} />
                 <div className="absolute bottom-6 left-6 flex gap-3">
                   {[
-                    { val: "168+", label: "Google Reviews" },
+                    { val: "600+", label: "Google Reviews" },
                     { val: "4",    label: "Branches UAE" },
-                    { val: "10+",  label: "Years Exp." },
+                    { val: "20+",  label: "Years Exp." },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -661,17 +659,17 @@ export default function PPFPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 10 years of experience across Dubai and Sharjah, Smart Auto UAE is the most
+                  With over 20 years of experience across Dubai and Sharjah, Smart Auto UAE is the most
                   trusted destination for professional PPF installation near you. We carry 5 premium brands
                   including our own exclusive Smart Pro PPF - installed by certified technicians using
-                  precision computer-cut templates at all 4 locations.
+                  precision cut at all 4 locations.
                 </p>
                 <div className="flex flex-col gap-4 mb-9">
                   {[
                     { icon: Award,       text: "5 premium PPF brands including exclusive Smart Pro" },
                     { icon: ShieldCheck, text: "5-year warranty on all PPF installations" },
                     { icon: MapPin,      text: "4 branches - MotorCity, Al Quoz, Mirdif & Sharjah" },
-                    { icon: Clock,       text: "Open every day 11AM – 9PM, walk-ins welcome" },
+                    { icon: Clock,       text: "Open every day 10AM – 10PM, walk-ins welcome" },
                   ].map((item) => (
                     <div key={item.text} className="flex items-center gap-3.5">
                       <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0"
@@ -683,12 +681,12 @@ export default function PPFPage() {
                   ))}
                 </div>
                 <div className="flex items-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}>
                     Book Now <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={14} /> Call Us
@@ -755,12 +753,12 @@ export default function PPFPage() {
                   Self-healing. Invisible. 5-year warranty.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: goldGrad, boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     Book on WhatsApp <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424
@@ -823,7 +821,7 @@ function BrandCard({ brand }: { brand: typeof ppfBrands[0] }) {
       </div>
 
       <div className="px-7 pb-7">
-        <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+        <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-[13px] font-semibold no-underline transition-all duration-300 hover:gap-4"
           style={{ background: "rgba(201,168,76,0.07)", border: "1px solid rgba(201,168,76,0.2)", color: gold }}>
           Get a Quote <ArrowRight size={13} />

@@ -104,8 +104,8 @@ export default function GalleryPage() {
               <div className="flex flex-wrap items-center justify-center gap-4">
                 {[
                   { v: "1000+", l: "Projects Completed" },
-                  { v: "168+",  l: "5-Star Reviews" },
-                  { v: "10+",   l: "Years Experience" },
+                  { v: "600+",  l: "5-Star Reviews" },
+                  { v: "20+",   l: "Years Experience" },
                   { v: "4",     l: "Branches" },
                 ].map((s) => (
                   <div key={s.l}
@@ -199,12 +199,12 @@ export default function GalleryPage() {
                   Open every day 11AM – 9PM across 4 branches in Dubai &amp; Sharjah.
                 </p>
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                  <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/971524403677" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-bold text-sm text-black no-underline"
                     style={{ background: "linear-gradient(135deg,#C9A84C,#E8C96A)", boxShadow: "0 4px 24px rgba(201,168,76,0.35)" }}>
                     <MessageCircle size={15} /> Book Free Consultation <ArrowRight size={15} />
                   </a>
-                  <a href="tel:+971555559424"
+                  <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: "#C9A84C", background: "rgba(201,168,76,0.04)" }}>
                     <Phone size={15} /> +971 55 555 9424
