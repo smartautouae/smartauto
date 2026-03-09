@@ -52,10 +52,10 @@ const items: GalleryItem[] = [
     size: "wide",
     before: "https://images.unsplash.com/photo-1542362567-b07e54358753?w=900&q=80",
     after:  "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&q=80",
-    beforeAlt: "Car window before tinting — clear glass — Smart Auto UAE",
-    afterAlt:  "Car window after tinting — 3M ceramic film — Smart Auto UAE",
+    beforeAlt: "Car window before tinting - clear glass - Smart Auto UAE",
+    afterAlt:  "Car window after tinting - 3M ceramic film - Smart Auto UAE",
     beforeLabel: "Before",
-    afterLabel:  "After — 3M Ceramic",
+    afterLabel:  "After - 3M Ceramic",
   },
   {
     id: 2,
@@ -67,9 +67,9 @@ const items: GalleryItem[] = [
     before: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80",
     after:  "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80",
     beforeAlt: "Sedan before tinting Dubai",
-    afterAlt:  "Sedan after tinting Dubai — Global USA film",
+    afterAlt:  "Sedan after tinting Dubai - Global USA film",
     beforeLabel: "Before",
-    afterLabel:  "After — Global USA",
+    afterLabel:  "After - Global USA",
   },
   {
     id: 3,
@@ -81,9 +81,9 @@ const items: GalleryItem[] = [
     before: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80",
     after:  "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80",
     beforeAlt: "SUV before tinting Sharjah",
-    afterAlt:  "SUV after tinting Sharjah — Smart Auto UAE",
+    afterAlt:  "SUV after tinting Sharjah - Smart Auto UAE",
     beforeLabel: "Before",
-    afterLabel:  "After — 3M FX",
+    afterLabel:  "After - 3M FX",
   },
   {
     id: 4,
@@ -97,7 +97,7 @@ const items: GalleryItem[] = [
     beforeAlt: "Coupe before tinting Mirdif Dubai",
     afterAlt:  "Coupe after tinting Mirdif Dubai",
     beforeLabel: "Before",
-    afterLabel:  "After — Totalgard",
+    afterLabel:  "After - Totalgard",
   },
 
   // ── VILLA TINTING ──────────────────────────────────────────────────────
@@ -111,9 +111,9 @@ const items: GalleryItem[] = [
     before: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&q=80",
     after:  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80",
     beforeAlt: "Villa windows before tinting Dubai",
-    afterAlt:  "Villa windows after tinting Dubai — 3M heat rejection",
-    beforeLabel: "Before — No Film",
-    afterLabel:  "After — 3M Heat Rejection",
+    afterAlt:  "Villa windows after tinting Dubai - 3M heat rejection",
+    beforeLabel: "Before - No Film",
+    afterLabel:  "After - 3M Heat Rejection",
   },
   {
     id: 6,
@@ -125,9 +125,9 @@ const items: GalleryItem[] = [
     before: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80",
     after:  "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
     beforeAlt: "Villa before window film JVC Dubai",
-    afterAlt:  "Villa after window film JVC Dubai — privacy tinting",
+    afterAlt:  "Villa after window film JVC Dubai - privacy tinting",
     beforeLabel: "Before",
-    afterLabel:  "After — Privacy Film",
+    afterLabel:  "After - Privacy Film",
   },
   {
     id: 7,
@@ -139,9 +139,9 @@ const items: GalleryItem[] = [
     before: "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80",
     after:  "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
     beforeAlt: "Villa window before tinting Jumeirah",
-    afterAlt:  "Villa window after tinting Jumeirah — Totalgard",
+    afterAlt:  "Villa window after tinting Jumeirah - Totalgard",
     beforeLabel: "Before",
-    afterLabel:  "After — Totalgard",
+    afterLabel:  "After - Totalgard",
   },
 
   // ── COMMERCIAL ────────────────────────────────────────────────────────
@@ -155,9 +155,9 @@ const items: GalleryItem[] = [
     before: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900&q=80",
     after:  "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=80",
     beforeAlt: "Office building before window tinting Dubai",
-    afterAlt:  "Office building after window tinting Dubai — solar control",
-    beforeLabel: "Before — No Film",
-    afterLabel:  "After — Solar Control",
+    afterAlt:  "Office building after window tinting Dubai - solar control",
+    beforeLabel: "Before - No Film",
+    afterLabel:  "After - Solar Control",
   },
   {
     id: 9,
@@ -169,9 +169,9 @@ const items: GalleryItem[] = [
     before: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=80",
     after:  "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80",
     beforeAlt: "Commercial office before film installation",
-    afterAlt:  "Commercial office after film installation — glare control",
+    afterAlt:  "Commercial office after film installation - glare control",
     beforeLabel: "Before",
-    afterLabel:  "After — Glare Control",
+    afterLabel:  "After - Glare Control",
   },
   {
     id: 10,
@@ -185,7 +185,7 @@ const items: GalleryItem[] = [
     beforeAlt: "Commercial building before tinting DIFC",
     afterAlt:  "Commercial building after tinting DIFC",
     beforeLabel: "Before",
-    afterLabel:  "After — 3M Commercial",
+    afterLabel:  "After - 3M Commercial",
   },
 
   // ── SMART FILM ────────────────────────────────────────────────────────
@@ -198,8 +198,8 @@ const items: GalleryItem[] = [
     size: "wide",
     onSrc:  "https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80",
     offSrc: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80",
-    onAlt:  "Smart film ON — clear glass — office Dubai",
-    offAlt: "Smart film OFF — frosted glass — office Dubai",
+    onAlt:  "Smart film ON - clear glass - office Dubai",
+    offAlt: "Smart film OFF - frosted glass - office Dubai",
   },
   {
     id: 12,
@@ -312,7 +312,7 @@ function BeforeAfterSlider({
       onTouchMove={onTouchMove}
       onTouchStart={(e) => calcPos(e.touches[0].clientX)}>
 
-      {/* AFTER — base layer */}
+      {/* AFTER - base layer */}
       <img
         src={item.after}
         alt={item.afterAlt}
@@ -320,7 +320,7 @@ function BeforeAfterSlider({
         draggable={false}
       />
 
-      {/* BEFORE — clipped */}
+      {/* BEFORE - clipped */}
       <div
         className="absolute inset-0 overflow-hidden pointer-events-none"
         style={{ width: `${sliderPos}%` }}>
@@ -398,7 +398,7 @@ function SmartFilmToggle({ item }: { item: SmartFilmItem }) {
         draggable={false}
       />
 
-      {/* OFF — frosted */}
+      {/* OFF - frosted */}
       <motion.div
         className="absolute inset-0"
         animate={{ opacity: isOn ? 0 : 1 }}
@@ -438,7 +438,7 @@ function SmartFilmToggle({ item }: { item: SmartFilmItem }) {
       </div>
 
       {/* Toggle button */}
-      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-10">
+      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-10">
         <button
           onClick={(e) => { e.stopPropagation(); setIsOn((v) => !v); }}
           className="flex items-center gap-1.5 px-4 py-2 rounded-full font-bold text-[11px] cursor-pointer transition-all duration-200 hover:scale-105 active:scale-95"
@@ -535,7 +535,7 @@ function Lightbox({ item, onClose }: { item: GalleryItem; onClose: () => void })
   );
 }
 
-// ── GRID CARD — with live slider/toggle inline ─────────────────────────────
+// ── GRID CARD - with live slider/toggle inline ─────────────────────────────
 
 function GridCard({ item, onClick }: { item: GalleryItem; onClick: () => void }) {
   const isSmart = item.type === "smartfilm";
@@ -560,7 +560,7 @@ function GridCard({ item, onClick }: { item: GalleryItem; onClick: () => void })
         : <BeforeAfterSlider item={item as BeforeAfterItem} defaultPos={50} />
       }
 
-      {/* ── BOTTOM META BAR — always visible ─────────────────────────── */}
+      {/* ── BOTTOM META BAR - always visible ─────────────────────────── */}
       <div
         className="absolute bottom-0 left-0 right-0 z-20 px-4 py-3 flex items-center justify-between gap-2"
         style={{

@@ -15,7 +15,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Why Choose Smart Auto UAE | Best Window Tinting & Protection Films Dubai & Sharjah",
   description:
-    "Why Smart Auto UAE? UAE authorised distributor & applicator of 3M USA, Global USA & Totalgard. 10+ years experience. 4 branches — MotorCity, Al Quoz, Mirdif & Sharjah. 168+ 5-star reviews. Professional window tinting, smart film, surface protection & PPF in Dubai & Sharjah. Free consultation.",
+    "Why Smart Auto UAE? UAE authorised distributor & applicator of 3M USA, Global USA & Totalgard. 10+ years experience. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah. 168+ 5-star reviews. Professional window tinting, smart film, surface protection & PPF in Dubai & Sharjah. Free consultation.",
   keywords: [
     "why choose Smart Auto UAE",
     "best window tinting Dubai",
@@ -62,9 +62,9 @@ const cardBdr  = "rgba(255,255,255,0.06)";
 
 const stats = [
   { value: "10+",  label: "Years Experience",   desc: "Over a decade of professional installations across Dubai & Sharjah" },
-  { value: "4",    label: "Branches",            desc: "MotorCity · Al Quoz · Mirdif · Sharjah — open every day" },
+  { value: "4",    label: "Branches",            desc: "MotorCity · Al Quoz · Mirdif · Sharjah - open every day" },
   { value: "168+", label: "5-Star Reviews",      desc: "Verified Google reviews from real customers across the UAE" },
-  { value: "3",    label: "Authorised Brands",   desc: "3M USA · Global USA · Totalgard — UAE authorised applicator" },
+  { value: "3",    label: "Authorised Brands",   desc: "3M USA · Global USA · Totalgard - UAE authorised applicator" },
 ];
 
 const reasons = [
@@ -72,56 +72,56 @@ const reasons = [
     icon: ShieldCheck,
     number: "01",
     title: "UAE Authorised Distributor & Applicator",
-    desc: "Smart Auto UAE is an official UAE authorised distributor and certified applicator of 3M USA, Global USA, and Totalgard window films and protection products. This means you receive genuine, manufacturer-backed products — not grey-market or counterfeit alternatives — with full product warranties and quality assurance on every installation.",
+    desc: "Smart Auto UAE is an official UAE authorised distributor and certified applicator of 3M USA, Global USA, and Totalgard window films and protection products. This means you receive genuine, manufacturer-backed products - not grey-market or counterfeit alternatives - with full product warranties and quality assurance on every installation.",
     highlight: "3M USA · Global USA · Totalgard",
   },
   {
     icon: Award,
     number: "02",
     title: "Over 10 Years of Professional Experience",
-    desc: "With more than 10 years of professional window film, smart film, surface protection, and PPF installation experience in the UAE market, our team has handled thousands of projects — from individual villa windows to full commercial building facades, construction fit-outs, and fleet vehicle tinting. Experience you can see in every installation.",
+    desc: "With more than 10 years of professional window film, smart film, surface protection, and PPF installation experience in the UAE market, our team has handled thousands of projects - from individual villa windows to full commercial building facades, construction fit-outs, and fleet vehicle tinting. Experience you can see in every installation.",
     highlight: "10+ Years · Thousands of Projects",
   },
   {
     icon: MapPin,
     number: "03",
     title: "4 Branches Across Dubai & Sharjah",
-    desc: "We operate 4 fully staffed branches — MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah — all open every day from 11AM to 9PM. Walk in for a consultation, bring your vehicle, or contact us for an on-site villa or commercial survey. Always near you, always available.",
+    desc: "We operate 4 fully staffed branches - MotorCity Dubai, Al Quoz Dubai, Mirdif (Uptown Mall) Dubai, and Central Mall Sharjah - all open every day from 11AM to 9PM. Walk in for a consultation, bring your vehicle, or contact us for an on-site villa or commercial survey. Always near you, always available.",
     highlight: "MotorCity · Al Quoz · Mirdif · Sharjah",
   },
   {
     icon: Star,
     number: "04",
     title: "168+ Verified 5-Star Reviews",
-    desc: "Over 168 verified 5-star Google reviews from real customers across Dubai and Sharjah. Our reviews reflect consistent feedback on three things: exceptional product quality, professional installation standards, and outstanding customer service. Every review is from a real person with a real experience — not curated or filtered.",
+    desc: "Over 168 verified 5-star Google reviews from real customers across Dubai and Sharjah. Our reviews reflect consistent feedback on three things: exceptional product quality, professional installation standards, and outstanding customer service. Every review is from a real person with a real experience - not curated or filtered.",
     highlight: "168+ Google Reviews · Real Customers",
   },
   {
     icon: Users,
     number: "05",
     title: "Certified, Trained Installation Teams",
-    desc: "Every member of our installation team is professionally trained and certified in the application of window films, smart film, PPF, and surface protection products. We use precision cutting tools, controlled application environments, and strict quality inspection protocols — ensuring every installation meets the highest professional standard.",
+    desc: "Every member of our installation team is professionally trained and certified in the application of window films, smart film, PPF, and surface protection products. We use precision cutting tools, controlled application environments, and strict quality inspection protocols - ensuring every installation meets the highest professional standard.",
     highlight: "Certified Installers · Quality Guaranteed",
   },
   {
     icon: Sparkles,
     number: "06",
-    title: "Premium Products — No Compromises",
-    desc: "We stock and install only premium, professional-grade products from the world's most trusted brands — 3M USA, Global USA, and Totalgard. We do not use unbranded, generic, or low-quality films. Every product we install is backed by manufacturer performance data, tested for the UAE's extreme UV index and solar radiation conditions.",
+    title: "Premium Products - No Compromises",
+    desc: "We stock and install only premium, professional-grade products from the world's most trusted brands - 3M USA, Global USA, and Totalgard. We do not use unbranded, generic, or low-quality films. Every product we install is backed by manufacturer performance data, tested for the UAE's extreme UV index and solar radiation conditions.",
     highlight: "Premium Only · No Generic Films",
   },
   {
     icon: Wrench,
     number: "07",
-    title: "Free Site Visits — Residential & Commercial",
-    desc: "We offer free on-site consultations for all residential, villa, and commercial window tinting, smart film, and surface protection projects across Dubai and Sharjah. Our team visits your property, assesses your requirements, recommends the right solution for each space, and provides a full detailed quote — with zero obligation.",
+    title: "Free Site Visits - Residential & Commercial",
+    desc: "We offer free on-site consultations for all residential, villa, and commercial window tinting, smart film, and surface protection projects across Dubai and Sharjah. Our team visits your property, assesses your requirements, recommends the right solution for each space, and provides a full detailed quote - with zero obligation.",
     highlight: "Free Site Visit · No Obligation",
   },
   {
     icon: Clock,
     number: "08",
-    title: "Open Every Day — 7 Days a Week",
-    desc: "All 4 Smart Auto UAE branches are open 7 days a week, every day from 11AM to 9PM — including weekends and public holidays. We understand that our clients have busy schedules. You can visit us, call us, or contact us on WhatsApp any day of the week to book a consultation or get a quote.",
+    title: "Open Every Day - 7 Days a Week",
+    desc: "All 4 Smart Auto UAE branches are open 7 days a week, every day from 11AM to 9PM - including weekends and public holidays. We understand that our clients have busy schedules. You can visit us, call us, or contact us on WhatsApp any day of the week to book a consultation or get a quote.",
     highlight: "Open 7 Days · 11AM – 9PM",
   },
 ];
@@ -154,7 +154,7 @@ const reviews = [
     name: "Ravi Krishnamurthy",
     location: "Dubai",
     rating: 5,
-    text: "Had the smart switchable film installed in our meeting rooms. Works perfectly — clear during open sessions, frosted with one button for private meetings. Absolutely worth it.",
+    text: "Had the smart switchable film installed in our meeting rooms. Works perfectly - clear during open sessions, frosted with one button for private meetings. Absolutely worth it.",
     service: "Switchable Smart Film",
   },
   {
@@ -168,7 +168,7 @@ const reviews = [
     name: "James Thornton",
     location: "Dubai",
     rating: 5,
-    text: "Surface protection films for our entire villa during renovation. Every marble floor and countertop was protected perfectly — zero damage during 3 months of construction. Came off without a mark.",
+    text: "Surface protection films for our entire villa during renovation. Every marble floor and countertop was protected perfectly - zero damage during 3 months of construction. Came off without a mark.",
     service: "Surface Protection Films",
   },
   {
@@ -213,7 +213,7 @@ export default function WhyUsPage() {
               <span style={{ color: gold }}>Why Us</span>
             </div>
 
-            {/* Hero content — centered */}
+            {/* Hero content - centered */}
             <div className="max-w-4xl mx-auto text-center">
               <div className="inline-flex items-center gap-2.5 border rounded-full px-4 py-1.5 mb-8 text-[10px] tracking-[0.3em] uppercase"
                 style={{ borderColor: "rgba(201,168,76,0.25)", background: "rgba(201,168,76,0.05)", color: gold }}>
@@ -328,7 +328,7 @@ export default function WhyUsPage() {
               </h2>
               <p className="max-w-xl mx-auto text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
                 From authorised brand partnerships and certified installation teams
-                to 4 convenient branches and 168+ verified reviews —
+                to 4 convenient branches and 168+ verified reviews -
                 here's exactly what sets us apart.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
@@ -478,7 +478,7 @@ export default function WhyUsPage() {
               </h2>
               <p className="max-w-lg mx-auto text-sm" style={{ color: "rgba(255,255,255,0.4)" }}>
                 From automotive window tinting and villa glass films to smart switchable film,
-                surface protection, and paint protection — everything under one trusted brand.
+                surface protection, and paint protection - everything under one trusted brand.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>

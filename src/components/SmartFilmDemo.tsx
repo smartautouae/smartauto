@@ -27,7 +27,7 @@ export default function SmartFilmDemo() {
               fontSize: "clamp(1.8rem,3.5vw,2.8rem)",
               color: "#fff",
             }}>
-            Toggle the Glass —{" "}
+            Toggle the Glass -{" "}
             <span
               style={{
                 background: goldGrad,
@@ -40,7 +40,7 @@ export default function SmartFilmDemo() {
           <p
             className="max-w-lg mx-auto text-sm leading-relaxed"
             style={{ color: "rgba(255,255,255,0.4)" }}>
-            Press the button below to switch the smart film between clear and frosted —
+            Press the button below to switch the smart film between clear and frosted -
             exactly as it works in real life, in milliseconds.
           </p>
           <div
@@ -76,7 +76,7 @@ export default function SmartFilmDemo() {
                 className="text-[12px] font-semibold tracking-wide"
                 animate={{ color: isOn ? "#4ade80" : "#f87171" }}
                 transition={{ duration: 0.3 }}>
-                Smart Film — {isOn ? "ON · Clear" : "OFF · Frosted"}
+                Smart Film - {isOn ? "ON · Clear" : "OFF · Frosted"}
               </motion.span>
             </div>
             <div
@@ -96,7 +96,7 @@ export default function SmartFilmDemo() {
               transition={{ duration: 0.6, ease: "easeInOut" }}>
               <img
                 src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&q=85"
-                alt="Smart film ON — clear glass — transparent office view"
+                alt="Smart film ON - clear glass - transparent office view"
                 className="w-full h-full object-cover"
               />
               {/* Slight tint overlay to make it look like glass */}
@@ -116,7 +116,7 @@ export default function SmartFilmDemo() {
               transition={{ duration: 0.6, ease: "easeInOut" }}>
               <img
                 src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&q=85"
-                alt="Smart film OFF — frosted glass — opaque privacy"
+                alt="Smart film OFF - frosted glass - opaque privacy"
                 className="w-full h-full object-cover"
                 style={{ filter: "blur(18px) brightness(1.15) saturate(0.3)" }}
               />
@@ -139,7 +139,7 @@ export default function SmartFilmDemo() {
               />
             </motion.div>
 
-            {/* State label overlay — bottom left */}
+            {/* State label overlay - bottom left */}
             <div className="absolute bottom-5 left-6 z-10">
               <AnimatePresence mode="wait">
                 {isOn ? (
@@ -159,7 +159,7 @@ export default function SmartFilmDemo() {
                       style={{ background: "#4ade80", boxShadow: "0 0 6px rgba(74,222,128,0.8)" }}
                     />
                     <span className="text-[12px] font-semibold" style={{ color: "#4ade80" }}>
-                      Power ON — Glass is Clear
+                      Power ON - Glass is Clear
                     </span>
                   </motion.div>
                 ) : (
@@ -179,7 +179,7 @@ export default function SmartFilmDemo() {
                       style={{ background: "#f87171", boxShadow: "0 0 6px rgba(248,113,113,0.8)" }}
                     />
                     <span className="text-[12px] font-semibold" style={{ color: "#f87171" }}>
-                      Power OFF — Glass is Frosted
+                      Power OFF - Glass is Frosted
                     </span>
                   </motion.div>
                 )}
@@ -215,7 +215,7 @@ export default function SmartFilmDemo() {
                     <p
                       className="text-[12px] leading-[1.7]"
                       style={{ color: "rgba(255,255,255,0.4)" }}>
-                      Electric current aligns liquid crystals — glass becomes fully transparent with
+                      Electric current aligns liquid crystals - glass becomes fully transparent with
                       up to 92% optical clarity. Full view, maximum natural light.
                     </p>
                   </motion.div>
@@ -234,7 +234,7 @@ export default function SmartFilmDemo() {
                     <p
                       className="text-[12px] leading-[1.7]"
                       style={{ color: "rgba(255,255,255,0.4)" }}>
-                      No current — liquid crystals scatter randomly, instantly turning
+                      No current - liquid crystals scatter randomly, instantly turning
                       the glass opaque. Complete privacy. Light still diffuses through.
                     </p>
                   </motion.div>
@@ -260,7 +260,7 @@ export default function SmartFilmDemo() {
                     : "0 4px 20px rgba(201,168,76,0.35)",
                 }}>
                 <Zap size={15} />
-                {isOn ? "Turn OFF — Frost Glass" : "Turn ON — Clear Glass"}
+                {isOn ? "Turn OFF - Frost Glass" : "Turn ON - Clear Glass"}
               </button>
 
               {/* Physical toggle switch visual */}

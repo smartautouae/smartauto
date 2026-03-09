@@ -36,7 +36,7 @@
 }
 
 @layer utilities {
-  /* Gold gradient text — can't do with inline styles */
+  /* Gold gradient text - can't do with inline styles */
   .gold-text {
     background: linear-gradient(135deg, #C9A84C, #E8C96A, #A07830);
     -webkit-background-clip: text;

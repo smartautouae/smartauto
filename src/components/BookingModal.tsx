@@ -325,7 +325,7 @@ export default function BookingModal({ branch, serviceName, onClose }: Props) {
               </div>
             </InputField>
 
-            {/* "Others" specify field — conditional */}
+            {/* "Others" specify field - conditional */}
             {form.carType === "Others" && (
               <InputField label="Please Specify">
                 <input

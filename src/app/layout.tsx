@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import ChatbotWrapper from "@/components/ChatbotWrapper";
 
 const inter    = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
@@ -14,18 +15,18 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Smart Auto UAE — Dubai & Sharjah's most trusted car care centre. Premium window tinting, paint protection film (PPF), ceramic coating, car detailing, vinyl wrapping & accessories. Trusted by 50,000+ car owners. Free inspection. Call +971 567 269 666.",
+    "Smart Auto UAE - Dubai & Sharjah's most trusted car care centre. Premium window tinting, paint protection film (PPF), ceramic coating, car detailing, vinyl wrapping & accessories. Trusted by 50,000+ car owners. Free inspection. Call +971 567 269 666.",
 
   keywords: [
-    // Core services — Dubai
+    // Core services - Dubai
     "window tinting Dubai", "car tinting Dubai", "nano ceramic tint Dubai",
-    "paint protection film Dubai", "PPF Dubai", "XPEL PPF Dubai",
+    "paint protection film Dubai", "PPF Dubai",
     "ceramic coating Dubai", "9H ceramic coating Dubai",
     "car detailing Dubai", "car polishing Dubai", "paint correction Dubai",
     "car wrapping Dubai", "vinyl wrap Dubai", "matte wrap Dubai",
     "car accessories Dubai", "car accessories fitting Dubai",
 
-    // Core services — Sharjah
+    // Core services - Sharjah
     "window tinting Sharjah", "car tinting Sharjah",
     "paint protection film Sharjah", "PPF Sharjah",
     "ceramic coating Sharjah", "car detailing Sharjah",
@@ -44,8 +45,8 @@ export const metadata: Metadata = {
 
     // Brand/product terms
     "3M window tint Dubai", "TotalGard tint Dubai",
-    "XPEL paint protection Dubai", "Llumar tint Dubai",
-    "SunTek PPF Dubai", "Gyeon ceramic Dubai", "Gtechniq coating Dubai",
+    "Totalgard paint protection Dubai",
+    "Gyeon ceramic Dubai", "Gtechniq coating Dubai",
 
     // Vehicle-specific (luxury)
     "ceramic coating Tesla Dubai", "PPF Range Rover Dubai",
@@ -56,8 +57,8 @@ export const metadata: Metadata = {
     "Smart Auto UAE", "Smart Auto Dubai", "Smart Auto Sharjah",
   ],
 
-  authors: [{ name: "Smart Auto UAE", url: "https://smartautouae.ae" }],
-  creator:  "Smart Auto UAE",
+  authors:   [{ name: "Smart Auto UAE", url: "https://smartautouae.ae" }],
+  creator:   "Smart Auto UAE",
   publisher: "Smart Auto UAE",
 
   openGraph: {
@@ -72,7 +73,7 @@ export const metadata: Metadata = {
         url:    "/og-image.jpg",
         width:  1200,
         height: 630,
-        alt:    "Smart Auto UAE — Premium Car Care Dubai & Sharjah",
+        alt:    "Smart Auto UAE - Premium Car Care Dubai & Sharjah",
       },
     ],
   },
@@ -85,8 +86,8 @@ export const metadata: Metadata = {
   },
 
   robots: {
-    index:          true,
-    follow:         true,
+    index:  true,
+    follow: true,
     googleBot: {
       index:               true,
       follow:              true,
@@ -101,7 +102,7 @@ export const metadata: Metadata = {
   },
 
   verification: {
-    google: "YOUR_GOOGLE_SEARCH_CONSOLE_ID", // replace when you have it
+    google: "YOUR_GOOGLE_SEARCH_CONSOLE_ID",
   },
 
   category: "automotive",
@@ -111,7 +112,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        {/* Structured Data — Local Business Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -120,7 +120,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {
                 "@context": "https://schema.org",
                 "@type": "AutoRepair",
-                "name": "Smart Auto UAE — Dubai",
+                "name": "Smart Auto UAE - Dubai",
                 "image": "https://smartautouae.ae/og-image.jpg",
                 "description": "Dubai's premier car care centre specialising in window tinting, paint protection film (PPF), ceramic coating, car detailing, vinyl wrapping and accessories fitting.",
                 "url": "https://smartautouae.ae",
@@ -158,12 +158,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   "@type": "OfferCatalog",
                   "name":  "Car Care Services",
                   "itemListElement": [
-                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Window Tinting Dubai",         "description": "Nano ceramic & premium window tinting for all vehicles in Dubai." }},
-                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Paint Protection Film Dubai",  "description": "Self-healing PPF installation by certified technicians in Dubai." }},
-                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ceramic Coating Dubai",        "description": "Professional 9H ceramic coating for long-lasting gloss & protection." }},
-                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Car Detailing Dubai",          "description": "Full interior & exterior car detailing and paint correction." }},
-                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Car Wrapping Dubai",           "description": "Custom vinyl car wrapping — matte, gloss, satin & colour change." }},
-                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Car Accessories Dubai",        "description": "Expert fitting of dashcams, parking sensors, ambient lighting & more." }},
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Window Tinting Dubai",        "description": "Nano ceramic & premium window tinting for all vehicles in Dubai." }},
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Paint Protection Film Dubai", "description": "Self-healing PPF installation by certified technicians in Dubai." }},
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ceramic Coating Dubai",       "description": "Professional 9H ceramic coating for long-lasting gloss & protection." }},
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Car Detailing Dubai",         "description": "Full interior & exterior car detailing and paint correction." }},
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Car Wrapping Dubai",          "description": "Custom vinyl car wrapping - matte, gloss, satin & colour change." }},
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Car Accessories Dubai",       "description": "Expert fitting of dashcams, parking sensors, ambient lighting & more." }},
                   ],
                 },
                 "sameAs": [
@@ -175,7 +175,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {
                 "@context": "https://schema.org",
                 "@type": "AutoRepair",
-                "name": "Smart Auto UAE — Sharjah",
+                "name": "Smart Auto UAE - Sharjah",
                 "image": "https://smartautouae.ae/og-image.jpg",
                 "description": "Sharjah's trusted car care centre for window tinting, PPF, ceramic coating, car detailing and vinyl wrapping.",
                 "url": "https://smartautouae.ae",
@@ -211,7 +211,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   {
                     "@type": "Question",
                     "name":  "What is the best PPF for cars in UAE?",
-                    "acceptedAnswer": { "@type": "Answer", "text": "For UAE's extreme heat and harsh driving conditions, self-healing TPU-based Paint Protection Films like XPEL, SunTek, and TotalGard are the best choice. Smart Auto UAE is an authorised installer for these premium brands." },
+                    "acceptedAnswer": { "@type": "Answer", "text": "For UAE's extreme heat and harsh driving conditions, self-healing TPU-based Paint Protection Films like 3M and TotalGard are the best choice. Smart Auto UAE is an authorised installer for these premium brands." },
                   },
                   {
                     "@type": "Question",
@@ -236,9 +236,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body
         style={{ backgroundColor: "#0A0A0A" }}
-        className={`${inter.variable} ${playfair.variable}`}
-      >
+        className={`${inter.variable} ${playfair.variable}`}>
         {children}
+        <ChatbotWrapper />
       </body>
     </html>
   );

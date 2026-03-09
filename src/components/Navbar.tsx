@@ -2,32 +2,41 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, ChevronDown } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, Car, Home } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const serviceLinks = [
+// ── SERVICE LINKS — 2 groups ───────────────────────────────────────────────
+
+const carServices = [
   { label: "Car Window Tinting",        href: "/services/car-window-tinting-dubai-sharjah" },
   { label: "Paint Protection Film",     href: "/services/paint-protection-film-dubai-sharjah" },
   { label: "Colour PPF",                href: "/services/colour-ppf-dubai-sharjah" },
   { label: "Nano Ceramic Coating",      href: "/services/nano-ceramic-coating-dubai-sharjah" },
   { label: "Car Detailing & Polishing", href: "/services/car-detailing-polishing-dubai-sharjah" },
   { label: "Car Wrapping",              href: "/services/car-wrapping-dubai-sharjah" },
-  { label: "Villa Window Tinting",      href: "/services/villa-window-tinting-dubai-sharjah" },
-  { label: "Commercial Tinting",        href: "/services/commercial-window-tinting-dubai-sharjah" },
-  { label: "Switchable Smart Film",     href: "/services/switchable-smart-glass-film-dubai-sharjah" },
-  { label: "Surface Protection Film",   href: "/services/surface-protection-films-dubai-sharjah" },
 ];
+
+const propertyServices = [
+  { label: "Villa Window Tinting",    href: "/services/villa-window-tinting-dubai-sharjah" },
+  { label: "Commercial Tinting",      href: "/services/commercial-window-tinting-dubai-sharjah" },
+  { label: "Switchable Smart Film",   href: "/services/switchable-smart-glass-film-dubai-sharjah" },
+  { label: "Surface Protection Film", href: "/services/surface-protection-film-dubai-sharjah" },
+];
+
+// ── NAV LINKS ─────────────────────────────────────────────────────────────
 
 const navLinks = [
   { label: "Home",         href: "/" },
-  { label: "Services",     href: "/services",      hasDropdown: true },
+  { label: "Services",     href: "/services",    hasDropdown: true },
   { label: "Why Us",       href: "/why-us" },
   { label: "Gallery",      href: "/gallery" },
   { label: "Testimonials", href: "/testimonials" },
   { label: "Branches",     href: "/branches" },
   { label: "Contact",      href: "/contact" },
 ];
+
+// ── COMPONENT ─────────────────────────────────────────────────────────────
 
 export default function Navbar() {
   const [scrolled,           setScrolled]          = useState(false);
@@ -37,20 +46,17 @@ export default function Navbar() {
   const pathname    = usePathname();
   const dropdownRef = useRef<HTMLLIElement>(null);
 
-  // Scroll listener
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Close mobile menu on route change
   useEffect(() => {
     setMenuOpen(false);
     setMobileServicesOpen(false);
   }, [pathname]);
 
-  // Hover via pointer events on the li ref
   useEffect(() => {
     const el = dropdownRef.current;
     if (!el) return;
@@ -100,7 +106,7 @@ export default function Navbar() {
         </Link>
 
         {/* ── DESKTOP LINKS ── */}
-        <ul className="hidden md:flex items-center gap-8 list-none">
+        <ul className="hidden md:flex items-center gap-8 list-none m-0 p-0">
           {navLinks.map((link) =>
             link.hasDropdown ? (
 
@@ -111,6 +117,7 @@ export default function Navbar() {
                     color: isActive(link.href) ? "#C9A84C" : "rgba(255,255,255,0.7)",
                     background: "none",
                     border: "none",
+                    padding: 0,
                   }}>
                   {link.label}
                   <motion.div
@@ -119,17 +126,21 @@ export default function Navbar() {
                     <ChevronDown size={13} />
                   </motion.div>
                   <span
-                    className="absolute bottom-4 left-0 h-px bg-gold transition-all duration-300"
-                    style={{ width: isActive(link.href) ? "100%" : "0" }}
+                    className="absolute bottom-4 left-0 h-px transition-all duration-300"
+                    style={{
+                      width: isActive(link.href) ? "100%" : "0",
+                      background: "linear-gradient(135deg,#C9A84C,#E8C96A)",
+                    }}
                   />
                 </button>
 
-                {/* Dropdown panel */}
+                {/* ── DROPDOWN — 2 columns ── */}
                 <AnimatePresence>
                   {servicesOpen && (
                     <motion.div
-                      className="absolute top-full left-1/2 -translate-x-1/2 w-72 rounded-2xl overflow-hidden border"
+                      className="absolute top-full left-1/2 -translate-x-1/2 rounded-2xl overflow-hidden border"
                       style={{
+                        width: "540px",
                         background: "rgba(10,10,10,0.97)",
                         backdropFilter: "blur(20px)",
                         borderColor: "rgba(201,168,76,0.15)",
@@ -142,40 +153,88 @@ export default function Navbar() {
 
                       {/* Header */}
                       <div
-                        className="px-4 py-3 border-b"
+                        className="px-5 py-3 border-b flex items-center justify-between"
                         style={{ borderColor: "rgba(201,168,76,0.1)" }}>
+                        <span
+                          className="text-[10px] tracking-[0.25em] uppercase font-semibold"
+                          style={{ color: "rgba(201,168,76,0.6)" }}>
+                          Our Services
+                        </span>
                         <Link
                           href="/services"
-                          className="text-[11px] tracking-[0.2em] uppercase font-semibold no-underline flex items-center justify-between"
+                          className="text-[11px] font-semibold no-underline flex items-center gap-1 transition-colors hover:text-white"
                           style={{ color: "#C9A84C" }}>
-                          All Services
-                          <span style={{ color: "rgba(201,168,76,0.5)", fontSize: "10px" }}>
-                            View All →
-                          </span>
+                          View All Services →
                         </Link>
                       </div>
 
-                      {/* Service links */}
-                      <div className="py-2">
-                        {serviceLinks.map((s) => (
-                          <Link
-                            key={s.href}
-                            href={s.href}
-                            className={`flex items-center gap-2.5 px-4 py-2.5 text-[13px] no-underline transition-all duration-200
-                              hover:bg-[rgba(201,168,76,0.06)]
-                              ${pathname === s.href
-                                ? "text-[#C9A84C]"
-                                : "text-white/60 hover:text-[#C9A84C]"
-                              }`}>
+                      {/* 2-column grid */}
+                      <div className="grid grid-cols-2">
+
+                        {/* Left — Automotive */}
+                        <div className="border-r py-3" style={{ borderColor: "rgba(255,255,255,0.05)" }}>
+                          <div
+                            className="flex items-center gap-2 px-5 pb-2 mb-1"
+                            style={{ borderBottom: "1px solid rgba(255,255,255,0.04)" }}>
+                            <Car size={11} style={{ color: "rgba(201,168,76,0.6)" }} />
                             <span
-                              className={`w-1 h-1 rounded-full flex-shrink-0 transition-colors duration-200
+                              className="text-[10px] tracking-[0.2em] uppercase font-semibold"
+                              style={{ color: "rgba(201,168,76,0.5)" }}>
+                              Automotive
+                            </span>
+                          </div>
+                          {carServices.map((s) => (
+                            <Link
+                              key={s.href}
+                              href={s.href}
+                              className={`flex items-center gap-2.5 px-5 py-2 text-[12.5px] no-underline transition-all duration-200
+                                hover:bg-[rgba(201,168,76,0.05)]
                                 ${pathname === s.href
-                                  ? "bg-[#C9A84C]"
-                                  : "bg-[rgba(201,168,76,0.4)]"}`}
-                            />
-                            {s.label}
-                          </Link>
-                        ))}
+                                  ? "text-[#C9A84C]"
+                                  : "text-white/55 hover:text-[#C9A84C]"}`}>
+                              <span
+                                className={`w-1 h-1 rounded-full flex-shrink-0 transition-colors duration-200
+                                  ${pathname === s.href
+                                    ? "bg-[#C9A84C]"
+                                    : "bg-[rgba(201,168,76,0.35)]"}`}
+                              />
+                              {s.label}
+                            </Link>
+                          ))}
+                        </div>
+
+                        {/* Right — Property & Glass */}
+                        <div className="py-3">
+                          <div
+                            className="flex items-center gap-2 px-5 pb-2 mb-1"
+                            style={{ borderBottom: "1px solid rgba(255,255,255,0.04)" }}>
+                            <Home size={11} style={{ color: "rgba(201,168,76,0.6)" }} />
+                            <span
+                              className="text-[10px] tracking-[0.2em] uppercase font-semibold"
+                              style={{ color: "rgba(201,168,76,0.5)" }}>
+                              Property &amp; Glass
+                            </span>
+                          </div>
+                          {propertyServices.map((s) => (
+                            <Link
+                              key={s.href}
+                              href={s.href}
+                              className={`flex items-center gap-2.5 px-5 py-2 text-[12.5px] no-underline transition-all duration-200
+                                hover:bg-[rgba(201,168,76,0.05)]
+                                ${pathname === s.href
+                                  ? "text-[#C9A84C]"
+                                  : "text-white/55 hover:text-[#C9A84C]"}`}>
+                              <span
+                                className={`w-1 h-1 rounded-full flex-shrink-0 transition-colors duration-200
+                                  ${pathname === s.href
+                                    ? "bg-[#C9A84C]"
+                                    : "bg-[rgba(201,168,76,0.35)]"}`}
+                              />
+                              {s.label}
+                            </Link>
+                          ))}
+                        </div>
+
                       </div>
                     </motion.div>
                   )}
@@ -191,8 +250,11 @@ export default function Navbar() {
                   style={{ color: isActive(link.href) ? "#C9A84C" : "rgba(255,255,255,0.7)" }}>
                   {link.label}
                   <span
-                    className="absolute bottom-0 left-0 h-px bg-gold transition-all duration-300 group-hover:w-full"
-                    style={{ width: isActive(link.href) ? "100%" : "0" }}
+                    className="absolute bottom-0 left-0 h-px transition-all duration-300 group-hover:w-full"
+                    style={{
+                      width: isActive(link.href) ? "100%" : "0",
+                      background: "linear-gradient(135deg,#C9A84C,#E8C96A)",
+                    }}
                   />
                 </Link>
               </li>
@@ -205,7 +267,10 @@ export default function Navbar() {
         <motion.a
           href="tel:+971567269666"
           className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold text-black no-underline"
-          style={{ background: "linear-gradient(135deg,#C9A84C,#E8C96A)", boxShadow: "0 4px 20px rgba(201,168,76,0.3)" }}
+          style={{
+            background: "linear-gradient(135deg,#C9A84C,#E8C96A)",
+            boxShadow: "0 4px 20px rgba(201,168,76,0.3)",
+          }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}>
           <Phone size={14} /> Call Now
@@ -264,28 +329,64 @@ export default function Navbar() {
                           exit={{ height: 0, opacity: 0 }}
                           transition={{ duration: 0.25 }}
                           className="overflow-hidden">
-                          <div className="pl-4 py-2 flex flex-col gap-1">
+                          <div className="py-3 flex flex-col">
+
                             <Link
                               href="/services"
-                              className="py-2 text-[13px] font-semibold no-underline"
+                              className="py-2 px-3 text-[13px] font-semibold no-underline mb-2"
                               style={{ color: "#C9A84C" }}
                               onClick={() => setMenuOpen(false)}>
                               → View All Services
                             </Link>
-                            {serviceLinks.map((s) => (
+
+                            {/* Automotive group */}
+                            <div
+                              className="flex items-center gap-2 px-3 pt-1 pb-2"
+                              style={{ borderTop: "1px solid rgba(255,255,255,0.04)" }}>
+                              <Car size={10} style={{ color: "rgba(201,168,76,0.5)" }} />
+                              <span
+                                className="text-[10px] tracking-[0.2em] uppercase font-semibold"
+                                style={{ color: "rgba(201,168,76,0.45)" }}>
+                                Automotive
+                              </span>
+                            </div>
+                            {carServices.map((s) => (
                               <Link
                                 key={s.href}
                                 href={s.href}
-                                className="py-2 text-[13px] no-underline transition-colors duration-200"
+                                className="py-2 px-5 text-[13px] no-underline transition-colors duration-200"
                                 style={{
-                                  color: pathname === s.href
-                                    ? "#C9A84C"
-                                    : "rgba(255,255,255,0.5)",
+                                  color: pathname === s.href ? "#C9A84C" : "rgba(255,255,255,0.5)",
                                 }}
                                 onClick={() => setMenuOpen(false)}>
                                 {s.label}
                               </Link>
                             ))}
+
+                            {/* Property & Glass group */}
+                            <div
+                              className="flex items-center gap-2 px-3 pt-3 pb-2 mt-2"
+                              style={{ borderTop: "1px solid rgba(255,255,255,0.04)" }}>
+                              <Home size={10} style={{ color: "rgba(201,168,76,0.5)" }} />
+                              <span
+                                className="text-[10px] tracking-[0.2em] uppercase font-semibold"
+                                style={{ color: "rgba(201,168,76,0.45)" }}>
+                                Property &amp; Glass
+                              </span>
+                            </div>
+                            {propertyServices.map((s) => (
+                              <Link
+                                key={s.href}
+                                href={s.href}
+                                className="py-2 px-5 text-[13px] no-underline transition-colors duration-200"
+                                style={{
+                                  color: pathname === s.href ? "#C9A84C" : "rgba(255,255,255,0.5)",
+                                }}
+                                onClick={() => setMenuOpen(false)}>
+                                {s.label}
+                              </Link>
+                            ))}
+
                           </div>
                         </motion.div>
                       )}
@@ -316,6 +417,7 @@ export default function Navbar() {
                 style={{ background: "linear-gradient(135deg,#C9A84C,#E8C96A)" }}>
                 <Phone size={14} /> Call Now
               </a>
+
             </div>
           </motion.div>
         )}

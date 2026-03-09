@@ -11,7 +11,7 @@ import { BRANCHES } from "@/constants/branches";
 export const metadata: Metadata = {
   title: "Customer Reviews & Testimonials | Smart Auto UAE | Window Tinting Dubai & Sharjah",
   description:
-    "168+ verified 5-star customer reviews for Smart Auto UAE. Trusted window tinting, smart film, PPF & surface protection services across Dubai & Sharjah. Read real reviews from real customers — car tinting, villa tinting, commercial tinting, smart film & more.",
+    "168+ verified 5-star customer reviews for Smart Auto UAE. Trusted window tinting, smart film, PPF & surface protection services across Dubai & Sharjah. Read real reviews from real customers - car tinting, villa tinting, commercial tinting, smart film & more.",
   keywords: [
     "Smart Auto UAE reviews",
     "Smart Auto UAE testimonials",
@@ -74,28 +74,28 @@ const reviewCategories = [
         location: "Dubai · MotorCity Branch",
         rating: 5,
         date: "February 2026",
-        text: "Got full 3M tinting on my BMW and the result is absolutely flawless. Dark from outside, crystal clear from inside. The team at MotorCity were professional and efficient — done in under 2 hours. Highly recommend to anyone looking for quality car tinting in Dubai.",
+        text: "Got full 3M tinting on my BMW and the result is absolutely flawless. Dark from outside, crystal clear from inside. The team at MotorCity were professional and efficient - done in under 2 hours. Highly recommend to anyone looking for quality car tinting in Dubai.",
       },
       {
         name: "Ravi Krishnamurthy",
         location: "Dubai · Al Quoz Branch",
         rating: 5,
         date: "January 2026",
-        text: "Third car I've had done with Smart Auto over 5 years. The quality never drops — always perfect installation, always clean, always zero bubbles. They know their products inside out. Won't go anywhere else in Dubai for car tinting.",
+        text: "Third car I've had done with Smart Auto over 5 years. The quality never drops - always perfect installation, always clean, always zero bubbles. They know their products inside out. Won't go anywhere else in Dubai for car tinting.",
       },
       {
         name: "Liam O'Brien",
         location: "Dubai · Mirdif Branch",
         rating: 5,
         date: "December 2025",
-        text: "Brought my Range Rover in for Global USA ceramic tint. The heat rejection is genuinely remarkable — you feel the difference immediately. Great customer service, clean workshop, professional team. Absolutely worth every dirham.",
+        text: "Brought my Range Rover in for Global USA ceramic tint. The heat rejection is genuinely remarkable - you feel the difference immediately. Great customer service, clean workshop, professional team. Absolutely worth every dirham.",
       },
       {
         name: "Priya Nair",
         location: "Sharjah Branch",
         rating: 5,
         date: "November 2025",
-        text: "Smart Auto Sharjah branch is excellent. Quick appointment, clean and professional installation on my sedan. 3M film looks perfect — windows are dark outside but perfectly clear from inside. Staff were helpful and friendly throughout.",
+        text: "Smart Auto Sharjah branch is excellent. Quick appointment, clean and professional installation on my sedan. 3M film looks perfect - windows are dark outside but perfectly clear from inside. Staff were helpful and friendly throughout.",
       },
     ],
   },
@@ -107,24 +107,24 @@ const reviewCategories = [
     reviews: [
       {
         name: "Fatima Al Rashidi",
-        location: "Dubai · Villa — JVC",
+        location: "Dubai · Villa - JVC",
         rating: 5,
         date: "January 2026",
-        text: "Had all windows in our 5-bedroom villa tinted with 3M heat rejection films. The difference in temperature is incredible — rooms that used to be unbearably hot in the afternoon are now completely comfortable. The team came on time, worked neatly, and finished in one day. Outstanding.",
+        text: "Had all windows in our 5-bedroom villa tinted with 3M heat rejection films. The difference in temperature is incredible - rooms that used to be unbearably hot in the afternoon are now completely comfortable. The team came on time, worked neatly, and finished in one day. Outstanding.",
       },
       {
         name: "Marcus Williams",
-        location: "Dubai · Villa — Arabian Ranches",
+        location: "Dubai · Villa - Arabian Ranches",
         rating: 5,
         date: "December 2025",
-        text: "Used Smart Auto for our villa window tinting after getting recommendations from neighbours. The privacy film on the ground floor is perfect — dark from outside, crystal clear from inside. We no longer need curtains in the living room. Professional, clean, and genuinely excellent work.",
+        text: "Used Smart Auto for our villa window tinting after getting recommendations from neighbours. The privacy film on the ground floor is perfect - dark from outside, crystal clear from inside. We no longer need curtains in the living room. Professional, clean, and genuinely excellent work.",
       },
       {
         name: "Nadia Sultana",
         location: "Sharjah · Villa",
         rating: 5,
         date: "October 2025",
-        text: "Totalgard film installed on all villa windows. The heat reduction is significant — our AC bills have dropped noticeably since installation. The team was punctual, courteous, and took great care with all surfaces. Highly recommend Smart Auto for villa tinting in Sharjah.",
+        text: "Totalgard film installed on all villa windows. The heat reduction is significant - our AC bills have dropped noticeably since installation. The team was punctual, courteous, and took great care with all surfaces. Highly recommend Smart Auto for villa tinting in Sharjah.",
       },
     ],
   },
@@ -139,21 +139,21 @@ const reviewCategories = [
         location: "Sharjah · Office Building",
         rating: 5,
         date: "January 2026",
-        text: "Smart Auto handled our entire office building window tinting project across 6 floors. From the initial site survey to final inspection — completely professional throughout. The Totalgard film has made a measurable difference to our energy bills and the glare on screens has been eliminated. Couldn't be happier.",
+        text: "Smart Auto handled our entire office building window tinting project across 6 floors. From the initial site survey to final inspection - completely professional throughout. The Totalgard film has made a measurable difference to our energy bills and the glare on screens has been eliminated. Couldn't be happier.",
       },
       {
         name: "James Thornton",
         location: "Dubai · Retail Showroom",
         rating: 5,
         date: "November 2025",
-        text: "Had privacy and heat rejection films installed across our showroom. The team worked outside business hours to minimise disruption — that kind of consideration means a lot. Result is excellent. Customers regularly comment on how cool and comfortable the showroom feels.",
+        text: "Had privacy and heat rejection films installed across our showroom. The team worked outside business hours to minimise disruption - that kind of consideration means a lot. Result is excellent. Customers regularly comment on how cool and comfortable the showroom feels.",
       },
       {
         name: "Omar Al Farsi",
         location: "Dubai · Restaurant",
         rating: 5,
         date: "September 2025",
-        text: "Installed sun control films on all south-facing windows of our restaurant. Massive difference in ambient temperature for guests — especially during afternoon service. The team were fast, professional, and left no mess whatsoever. Exceptional service.",
+        text: "Installed sun control films on all south-facing windows of our restaurant. Massive difference in ambient temperature for guests - especially during afternoon service. The team were fast, professional, and left no mess whatsoever. Exceptional service.",
       },
     ],
   },
@@ -165,24 +165,24 @@ const reviewCategories = [
     reviews: [
       {
         name: "Daniel Park",
-        location: "Dubai · Office — DIFC",
+        location: "Dubai · Office - DIFC",
         rating: 5,
         date: "February 2026",
-        text: "Smart film installed across three meeting rooms. Works perfectly — one button and the glass goes from completely transparent to fully frosted. The installation was seamless, the control setup was clearly explained. Clients are always impressed when they see it. Worth every penny.",
+        text: "Smart film installed across three meeting rooms. Works perfectly - one button and the glass goes from completely transparent to fully frosted. The installation was seamless, the control setup was clearly explained. Clients are always impressed when they see it. Worth every penny.",
       },
       {
         name: "Aisha Bint Mohammed",
         location: "Dubai · Villa",
         rating: 5,
         date: "December 2025",
-        text: "Had smart film installed on our master bedroom windows and bathroom glass. The privacy on demand is exactly what we wanted — no curtains, no blinds, just clean glass that frosts at the press of a button. Smart Auto's team was knowledgeable and professional throughout.",
+        text: "Had smart film installed on our master bedroom windows and bathroom glass. The privacy on demand is exactly what we wanted - no curtains, no blinds, just clean glass that frosts at the press of a button. Smart Auto's team was knowledgeable and professional throughout.",
       },
       {
         name: "Robert Chen",
         location: "Dubai · Hotel",
         rating: 5,
         date: "October 2025",
-        text: "Smart Auto installed switchable film across 24 hotel suites. The project was large, the team managed it perfectly — minimal disruption to operations, flawless finish in every room. Guests absolutely love the technology. Smart Auto is now our go-to for all film installations.",
+        text: "Smart Auto installed switchable film across 24 hotel suites. The project was large, the team managed it perfectly - minimal disruption to operations, flawless finish in every room. Guests absolutely love the technology. Smart Auto is now our go-to for all film installations.",
       },
     ],
   },
@@ -197,7 +197,7 @@ const reviewCategories = [
         location: "Dubai · Villa Renovation",
         rating: 5,
         date: "January 2026",
-        text: "Used Smart Auto for surface protection across our villa renovation — marble floors, granite countertops, all glass, and aluminium profiles. 4 months of construction and every surface came out perfect underneath. The film came off cleanly with zero residue. Saved us a fortune in potential repairs.",
+        text: "Used Smart Auto for surface protection across our villa renovation - marble floors, granite countertops, all glass, and aluminium profiles. 4 months of construction and every surface came out perfect underneath. The film came off cleanly with zero residue. Saved us a fortune in potential repairs.",
       },
       {
         name: "Hassan Al Blooshi",
@@ -215,7 +215,7 @@ const featuredReview = {
   location: "Dubai",
   rating: 5,
   service: "Full Villa & Fleet Tinting",
-  text: "I have been using Smart Auto UAE for over 6 years — for my cars, my villa, and our company fleet. The consistency of quality and service across every single job is what keeps me coming back. They use genuine 3M and Totalgard products, the team is always professional and knowledgeable, and the results speak for themselves. If you want the best window tinting in Dubai, Smart Auto is the only answer.",
+  text: "I have been using Smart Auto UAE for over 6 years - for my cars, my villa, and our company fleet. The consistency of quality and service across every single job is what keeps me coming back. They use genuine 3M and Totalgard products, the team is always professional and knowledgeable, and the results speak for themselves. If you want the best window tinting in Dubai, Smart Auto is the only answer.",
 };
 
 // ── PAGE ───────────────────────────────────────────────────────────────────
@@ -279,7 +279,7 @@ export default function TestimonialsPage() {
                 Over{" "}
                 <strong style={{ color: "rgba(255,255,255,0.8)" }}>168 verified 5-star Google reviews</strong>{" "}
                 from real customers across Dubai and Sharjah. Car tinting, villa tinting,
-                commercial window films, smart film, and surface protection —
+                commercial window films, smart film, and surface protection -
                 read what our customers say about every service we offer.
               </p>
 
@@ -476,7 +476,7 @@ export default function TestimonialsPage() {
                 <p className="mb-8 max-w-lg mx-auto text-sm leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.4)" }}>
                   Join hundreds of happy customers across Dubai and Sharjah.
-                  Free consultation for all services — automotive, villa, commercial,
+                  Free consultation for all services - automotive, villa, commercial,
                   smart film &amp; surface protection.
                   Open every day 11AM – 9PM.
                 </p>

@@ -56,7 +56,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-white/5 py-5 flex items-center justify-between flex-wrap gap-3">
-          <p className="text-[12px] text-white/25">© {new Date().getFullYear()} Smart Auto UAE — All rights reserved.</p>
+          <p className="text-[12px] text-white/25">© {new Date().getFullYear()} Smart Auto UAE - All rights reserved.</p>
           <div className="flex gap-6">
             {["Privacy Policy", "Terms of Service"].map((l) => (
               <a key={l} href="#" className="text-[12px] text-white/25 hover:text-gold transition-colors duration-300 no-underline">{l}</a>

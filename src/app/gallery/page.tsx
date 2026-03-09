@@ -94,7 +94,7 @@ export default function GalleryPage() {
               <p className="mb-10 leading-[1.9] max-w-2xl mx-auto"
                 style={{ color: "rgba(255,255,255,0.5)", fontSize: "clamp(0.95rem,1.3vw,1.05rem)" }}>
                 Browse our portfolio of professional installations across{" "}
-                <strong style={{ color: "rgba(255,255,255,0.8)" }}>Dubai and Sharjah</strong> —
+                <strong style={{ color: "rgba(255,255,255,0.8)" }}>Dubai and Sharjah</strong> -
                 car window tinting, villa &amp; residential films, commercial buildings,
                 switchable smart film, PPF, and surface protection.
                 Every image is a real Smart Auto UAE project.
@@ -194,7 +194,7 @@ export default function GalleryPage() {
                 </h2>
                 <p className="mb-8 max-w-lg mx-auto text-sm leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.4)" }}>
-                  Get a free consultation for any of our services —
+                  Get a free consultation for any of our services -
                   car tinting, villa &amp; commercial window films, smart film, PPF &amp; surface protection.
                   Open every day 11AM – 9PM across 4 branches in Dubai &amp; Sharjah.
                 </p>

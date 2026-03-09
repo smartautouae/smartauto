@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Our Branches | Smart Auto UAE | Dubai & Sharjah | MotorCity · Al Quoz · Mirdif · Sharjah",
   description:
-    "4 Smart Auto UAE branches across Dubai & Sharjah — MotorCity Dubai, Al Quoz Dubai, Mirdif Uptown Mall Dubai & Central Mall Sharjah. Open every day 11AM–9PM. Window tinting, smart film, PPF & surface protection. Free consultation. Walk in or book online.",
+    "4 Smart Auto UAE branches across Dubai & Sharjah - MotorCity Dubai, Al Quoz Dubai, Mirdif Uptown Mall Dubai & Central Mall Sharjah. Open every day 11AM–9PM. Window tinting, smart film, PPF & surface protection. Free consultation. Walk in or book online.",
   keywords: [
     "Smart Auto UAE branches",
     "Smart Auto MotorCity Dubai",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Our Branches | Smart Auto UAE | Dubai & Sharjah",
     description:
-      "4 branches — MotorCity, Al Quoz, Mirdif & Central Mall Sharjah. Open every day 11AM–9PM. Window tinting, smart film, PPF & surface protection.",
+      "4 branches - MotorCity, Al Quoz, Mirdif & Central Mall Sharjah. Open every day 11AM–9PM. Window tinting, smart film, PPF & surface protection.",
     url: "https://smartautouae.ae/branches",
     siteName: "Smart Auto UAE",
     type: "website",
@@ -71,7 +71,7 @@ const branches = [
     color: "#C9A84C",
     colorBg: "rgba(201,168,76,0.06)",
     colorBdr: "rgba(201,168,76,0.2)",
-    description: "Our main and longest-standing branch — centrally located in MotorCity Dubai. Full service for automotive tinting, villa & residential window films, smart film, PPF, and surface protection. Walk-in welcome.",
+    description: "Our main and longest-standing branch - centrally located in MotorCity Dubai. Full service for automotive tinting, villa & residential window films, smart film, PPF, and surface protection. Walk-in welcome.",
     nearbyAreas: ["Motor City", "Sports City", "Arabian Ranches", "Jumeirah Village Circle", "Al Barsha"],
     services: ["Car Window Tinting", "Villa Tinting", "Smart Film", "PPF", "Surface Protection"],
     image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=80",
@@ -90,7 +90,7 @@ const branches = [
     color: "#60a5fa",
     colorBg: "rgba(96,165,250,0.06)",
     colorBdr: "rgba(96,165,250,0.2)",
-    description: "Strategically located in Al Quoz — Dubai's industrial and auto services hub. Ideal for vehicles, commercial projects, and large-scale residential and building window film installations from central Dubai.",
+    description: "Strategically located in Al Quoz - Dubai's industrial and auto services hub. Ideal for vehicles, commercial projects, and large-scale residential and building window film installations from central Dubai.",
     nearbyAreas: ["Al Quoz", "Sheikh Zayed Road", "Downtown Dubai", "Business Bay", "Al Safa"],
     services: ["Car Window Tinting", "Commercial Tinting", "Smart Film", "PPF", "Surface Protection"],
     image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=900&q=80",
@@ -109,7 +109,7 @@ const branches = [
     color: "#a78bfa",
     colorBg: "rgba(167,139,250,0.06)",
     colorBdr: "rgba(167,139,250,0.2)",
-    description: "Located inside Uptown Mall Mirdif — convenient for residents of east Dubai and the surrounding communities. Full service available for automotive tinting, villa window films, and smart film installations.",
+    description: "Located inside Uptown Mall Mirdif - convenient for residents of east Dubai and the surrounding communities. Full service available for automotive tinting, villa window films, and smart film installations.",
     nearbyAreas: ["Mirdif", "Rashidiya", "Muhaisnah", "Al Qusais", "Deira", "Garhoud"],
     services: ["Car Window Tinting", "Villa Tinting", "Smart Film", "PPF", "Surface Protection"],
     image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80",
@@ -128,7 +128,7 @@ const branches = [
     color: "#34d399",
     colorBg: "rgba(52,211,153,0.06)",
     colorBdr: "rgba(52,211,153,0.2)",
-    description: "Our Sharjah branch — located inside Central Mall, serving all of Sharjah and the surrounding Northern Emirates. Full automotive tinting, villa, and commercial window film services available on-site.",
+    description: "Our Sharjah branch - located inside Central Mall, serving all of Sharjah and the surrounding Northern Emirates. Full automotive tinting, villa, and commercial window film services available on-site.",
     nearbyAreas: ["Sharjah City Centre", "Al Nahda", "Al Khan", "Al Majaz", "Al Qasimia", "Ajman"],
     services: ["Car Window Tinting", "Villa Tinting", "Commercial Tinting", "Smart Film", "PPF"],
     image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900&q=80",
@@ -195,7 +195,7 @@ export default function BranchesPage() {
                 style={{ color: "rgba(255,255,255,0.5)", fontSize: "clamp(0.95rem,1.3vw,1.05rem)" }}>
                 Smart Auto UAE operates{" "}
                 <strong style={{ color: "rgba(255,255,255,0.8)" }}>4 branches</strong> across{" "}
-                <strong style={{ color: "rgba(255,255,255,0.8)" }}>Dubai and Sharjah</strong> —
+                <strong style={{ color: "rgba(255,255,255,0.8)" }}>Dubai and Sharjah</strong> -
                 MotorCity, Al Quoz, Mirdif, and Central Mall Sharjah.
                 All open{" "}
                 <strong style={{ color: "rgba(255,255,255,0.8)" }}>every day from 11AM to 9PM</strong>.
@@ -265,7 +265,7 @@ export default function BranchesPage() {
                     style={{ border: `1px solid ${branch.colorBdr}`, height: "420px" }}>
                     <img
                       src={branch.image}
-                      alt={`Smart Auto UAE — ${branch.name} ${branch.city} — window tinting near me`}
+                      alt={`Smart Auto UAE - ${branch.name} ${branch.city} - window tinting near me`}
                       className="w-full h-full object-cover"
                       style={{ opacity: 0.75 }}
                     />
@@ -470,7 +470,7 @@ export default function BranchesPage() {
                 </p>
                 <h2 className="font-bold mb-4"
                   style={{ fontFamily: "var(--font-playfair),serif", fontSize: "clamp(1.8rem,3.5vw,2.8rem)", color: "#fff" }}>
-                  Visit Us Today — No Appointment Needed.
+                  Visit Us Today - No Appointment Needed.
                 </h2>
                 <p className="mb-8 max-w-lg mx-auto text-sm leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.4)" }}>

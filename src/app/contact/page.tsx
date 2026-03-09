@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Contact Smart Auto UAE | Window Tinting Dubai & Sharjah | 4 Branches",
   description:
-    "Contact Smart Auto UAE for window tinting, smart film, PPF & surface protection in Dubai & Sharjah. 4 branches — MotorCity, Al Quoz, Mirdif & Central Mall Sharjah. Open every day 11AM–9PM. Call, WhatsApp or visit us for a free consultation.",
+    "Contact Smart Auto UAE for window tinting, smart film, PPF & surface protection in Dubai & Sharjah. 4 branches - MotorCity, Al Quoz, Mirdif & Central Mall Sharjah. Open every day 11AM–9PM. Call, WhatsApp or visit us for a free consultation.",
   keywords: [
     "contact Smart Auto UAE",
     "Smart Auto UAE phone number",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://smartautouae.ae/contact" },
   openGraph: {
-    title: "Contact Smart Auto UAE | 4 Branches — Dubai & Sharjah",
+    title: "Contact Smart Auto UAE | 4 Branches - Dubai & Sharjah",
     description:
       "4 branches across Dubai & Sharjah. Open every day 11AM–9PM. Call, WhatsApp or visit for a free consultation on window tinting, smart film & more.",
     url: "https://smartautouae.ae/contact",
@@ -116,7 +116,7 @@ const contactChannels = [
     icon: MessageCircle,
     label: "WhatsApp",
     value: "+971 55 555 9424",
-    desc: "Chat with us instantly — fastest response",
+    desc: "Chat with us instantly - fastest response",
     href: "https://wa.me/971555559424",
     cta: "Message on WhatsApp",
     color: "#4ade80",
@@ -127,7 +127,7 @@ const contactChannels = [
     icon: Phone,
     label: "Phone",
     value: "+971 55 555 9424",
-    desc: "Call us directly — any day 11AM–9PM",
+    desc: "Call us directly - any day 11AM–9PM",
     href: "tel:+971555559424",
     cta: "Call Now",
     color: "#60a5fa",
@@ -172,12 +172,16 @@ const socialLinks = [
 ];
 
 const services = [
-  "Automotive Window Tinting",
+  "Car Window Tinting",
+  "Paint Protection Film (PPF)",
+  "Color PPF",
+  "Nano Ceramic Coating",
+  "Car Detailing and Polishing",
+  "Car Wrapping",
   "Villa Window Tinting",
   "Commercial Window Tinting",
   "Switchable Smart Film",
   "Surface Protection Films",
-  "Paint Protection Film (PPF)",
 ];
 
 // ── PAGE ───────────────────────────────────────────────────────────────────
@@ -302,7 +306,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <div className="font-bold text-[15px]" style={{ color: "#fff" }}>
-                    Open Every Day — 11:00 AM to 9:00 PM
+                    Open Every Day - 11:00 AM to 9:00 PM
                   </div>
                   <div className="text-[12px]" style={{ color: "rgba(255,255,255,0.4)" }}>
                     All 4 branches · 7 days a week · Including weekends & public holidays
@@ -355,7 +359,7 @@ export default function ContactPage() {
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title={`Smart Auto UAE — ${branch.name} ${branch.city}`}
+                      title={`Smart Auto UAE - ${branch.name} ${branch.city}`}
                     />
                     {/* Branch name overlay */}
                     <div className="absolute top-3 left-3">
@@ -437,7 +441,7 @@ export default function ContactPage() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
-              {/* Left — info */}
+              {/* Left - info */}
               <div>
                 <span className="text-[11px] tracking-[0.35em] uppercase mb-4 block" style={{ color: gold }}>
                   Free Consultation
@@ -450,7 +454,7 @@ export default function ContactPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  Fill in the form and our team will get back to you within a few hours —
+                  Fill in the form and our team will get back to you within a few hours -
                   or contact us directly on{" "}
                   <a href="https://wa.me/971555559424" target="_blank" rel="noopener noreferrer"
                     className="no-underline font-semibold" style={{ color: gold }}>
@@ -493,7 +497,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Right — form */}
+              {/* Right - form */}
               <div className="rounded-2xl border p-8"
                 style={{ border: `1px solid ${cardBdr}`, background: cardBg }}>
                 <form
@@ -619,7 +623,7 @@ export default function ContactPage() {
                     <textarea
                       name="message"
                       rows={4}
-                      placeholder="Tell us about your project — number of windows, car model, property type, etc."
+                      placeholder="Tell us about your project - number of windows, car model, property type, etc."
                       className="w-full rounded-xl px-4 py-3 text-[13px] outline-none resize-none transition-all duration-200 focus:border-[rgba(201,168,76,0.5)] placeholder:text-[rgba(255,255,255,0.18)]"
                       style={{
                         background: "rgba(255,255,255,0.03)",
