@@ -213,42 +213,31 @@ export default function Footer() {
           </div>
 
           {/* Find Us — icon buttons */}
-          <div className="col-span-2 md:col-span-2 flex flex-col justify-start">
-            <h4 className="text-[10px] uppercase tracking-[0.25em] font-semibold mb-4"
-              style={{ color: "#C9A84C" }}>
-              Find Us
-            </h4>
-            <div className="flex items-center gap-3">
-              {socialLinks.map(({ label, href, Icon }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  title={label}
-                  className="w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-300 hover:-translate-y-0.5"
-                  style={{
-                    background: "rgba(255,255,255,0.04)",
-                    border: "1px solid rgba(255,255,255,0.08)",
-                    color: "rgba(255,255,255,0.45)",
-                  }}
-                  onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLAnchorElement).style.color = "#C9A84C";
-                    (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(201,168,76,0.35)";
-                    (e.currentTarget as HTMLAnchorElement).style.background = "rgba(201,168,76,0.07)";
-                  }}
-                  onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLAnchorElement).style.color = "rgba(255,255,255,0.45)";
-                    (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(255,255,255,0.08)";
-                    (e.currentTarget as HTMLAnchorElement).style.background = "rgba(255,255,255,0.04)";
-                  }}>
-                  <Icon />
-                </a>
-              ))}
-            </div>
-          </div>
-
+<div className="col-span-2 md:col-span-2 flex flex-col justify-start">
+  <h4 className="text-[10px] uppercase tracking-[0.25em] font-semibold mb-4"
+    style={{ color: "#C9A84C" }}>
+    Find Us
+  </h4>
+  <div className="flex items-center gap-3">
+    {socialLinks.map(({ label, href, Icon }) => (
+      <a
+        key={label}
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={label}
+        title={label}
+        className="w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-300 hover:-translate-y-0.5 hover:text-[#C9A84C] hover:border-[rgba(201,168,76,0.35)] hover:bg-[rgba(201,168,76,0.07)]"
+        style={{
+          background: "rgba(255,255,255,0.04)",
+          border: "1px solid rgba(255,255,255,0.08)",
+          color: "rgba(255,255,255,0.45)",
+        }}>
+        <Icon />
+      </a>
+    ))}
+  </div>
+</div>
         </div>
 
         {/* ── BOTTOM BAR ── */}
