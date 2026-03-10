@@ -364,7 +364,7 @@ export default function ColourPpfPage() {
                 <div className="relative rounded-3xl overflow-hidden border"
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
-                    src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&q=80"
+                    src="/images/color-ppf.webp"
                     alt="Colour PPF Dubai Sharjah - coloured paint protection film - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
@@ -683,7 +683,7 @@ export default function ColourPpfPage() {
               <div className="relative rounded-3xl overflow-hidden border order-2 lg:order-1"
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
-                  src="https://images.unsplash.com/photo-1600705722908-bbeb1e6c2e71?w=900&q=80"
+                  src="/images/color-ppf-2.webp"
                   alt="Smart Auto UAE - best colour PPF near me Dubai Sharjah"
                   className="w-full h-full object-cover"
                 />

@@ -505,7 +505,7 @@ export default function CarDetailingPage() {
                 <div className="relative rounded-3xl overflow-hidden border"
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
-                    src="https://images.unsplash.com/photo-1620060710473-b3d9a8d778c3?w=900&q=80"
+                    src="/images/detailing.webp"
                     alt="Car detailing and polishing Dubai Sharjah - 3M SIRIUS Polytop - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
@@ -897,7 +897,7 @@ export default function CarDetailingPage() {
               <div className="relative rounded-3xl overflow-hidden border order-2 lg:order-1"
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
-                  src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=900&q=80"
+                  src="/images/detailing-2.webp"
                   alt="Smart Auto UAE - best car detailing near me Dubai Sharjah 3M SIRIUS Polytop"
                   className="w-full h-full object-cover"
                 />

@@ -308,7 +308,7 @@ export default function CarWindowTintingPage() {
                 <div className="relative rounded-3xl overflow-hidden border"
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
-                    src="https://images.unsplash.com/photo-1614026480418-bd11fdb9fa0e?w=900&q=80"
+                    src="/images/car-window-tinting.webp"
                     alt="Nano ceramic car window tinting Dubai Sharjah - dark outside clear inside - TotalGard 3M - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
@@ -578,7 +578,7 @@ export default function CarWindowTintingPage() {
               <div className="relative rounded-3xl overflow-hidden border order-2 lg:order-1"
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
-                  src="https://images.unsplash.com/photo-1617531653332-bd46c16f7d5e?w=900&q=80"
+                  src="/images/car-window-tint-2.webp"
                   alt="Smart Auto UAE - nano ceramic window tinting near me Dubai Sharjah"
                   className="w-full h-full object-cover"
                 />

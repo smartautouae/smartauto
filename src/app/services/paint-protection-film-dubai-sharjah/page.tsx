@@ -384,7 +384,7 @@ export default function PPFPage() {
                 <div className="relative rounded-3xl overflow-hidden border"
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
-                    src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&q=80"
+                    src="/images/ppf-2.webp"
                     alt="Paint protection film PPF installation Dubai Sharjah - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
@@ -623,7 +623,7 @@ export default function PPFPage() {
               <div className="relative rounded-3xl overflow-hidden border order-2 lg:order-1"
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
-                  src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=900&q=80"
+                  src="/images/ppf.webp"
                   alt="Smart Auto UAE - best PPF installer near me Dubai Sharjah"
                   className="w-full h-full object-cover"
                 />

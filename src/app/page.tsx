@@ -19,7 +19,7 @@ const services = [
     icon: Sun,
     title: "Car Window Tinting",
     href: "/car-window-tinting-dubai/",
-    image: "https://images.unsplash.com/photo-1614026480418-bd11fdb9fa0e?w=600&q=80",
+    image: "/images/car-window-tinting.webp",
     description:
       "Premium nano ceramic & carbon window tints for Dubai & Sharjah and across UAE - blocks 99% UV rays and heat, keeping your car cool in UAE's extreme climate. 3M,  &  films. UAE RTA law compliant. upto 15-year warranty.",
     features: ["Nano ceramic & carbon films", "UAE RTA compliant VLT", "99% UV & heat rejection", "3M, TotalGard & Global USA "],
@@ -28,7 +28,7 @@ const services = [
     icon: Building2,
     title: "Villa Window Tinting",
     href: "/villa-window-tinting/",
-    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&q=80",
+    image: "/images/villa-window-tinting.webp",
     description:
       "Residential window tinting for villas and apartments in Dubai & Sharjah and across UAE - heat control window film that enhances privacy, blocks UV rays, and adds a sleek modern aesthetic to your home.",
     features: ["Privacy window film", "Heat control window film", "UV & glare reduction", "Upto 99.9% Infrared rejection" ],
@@ -37,7 +37,7 @@ const services = [
     icon: Building2,
     title: "Office & Commercial Window Tinting",
     href: "/commercial/",
-    image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80",
+    image: "/images/office-commercial-window-tinting.webp",
     description:
       "Commercial window tinting for offices and buildings across Dubai & Sharjah and across UAE - energy saving window film that reduces cooling costs, blocks UV, enhances privacy, and improves workplace comfort.",
     features: ["Energy saving window film", "UV & heat blocking", "Office privacy tinting", "Glare reduction"],
@@ -46,7 +46,7 @@ const services = [
     icon: Shield,
     title: "Paint Protection Film (PPF)",
     href: "/paint-protection-films/",
-    image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600&q=80",
+    image: "images/ppf.webp",
     description:
       "Self-healing PPF in Dubai & Sharjah and across UAE - invisible TPU film that shields your car from scratches, stone chips, and UAE road hazards. TotalGard &  installer. 10-year warranty.",
     features: ["3M, TotalGard & Global USA ", "Self-healing clear PPF", "Gloss & matte PPF Dubai", "10-year warranty"],
@@ -55,7 +55,7 @@ const services = [
     icon: Droplets,
     title: "Nano Ceramic Coating",
     href: "/nano-ceramic-coating/",
-    image: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80",
+    image: "/images/nano-ceramic.webp",
     description:
       "9H & 10H nano ceramic coating in Dubai & Sharjah and across UAE - hydrophobic, scratch-resistant shield built for UAE's intense heat, sand, and UV exposure. Gyeon, Gtechniq & IGL coatings. Ideal for luxury cars.",
     features: ["9H hardness ceramic coating", "Hydrophobic mirror gloss", "Sirus USA, Gyeon, Jade, Puris", "2–5 year protection", "Free yearly maintenance"],
@@ -64,7 +64,7 @@ const services = [
     icon: Sparkles,
     title: "Car Detailing & Polishing",
     href: "/car-detailing/",
-    image: "https://images.unsplash.com/photo-1616455579100-2ceaa4ec2d50?w=600&q=80",
+    image: "/images/detailing.webp",
     description:
       "Professional car detailing in Dubai & Sharjah and across UAE - interior deep clean, exterior polishing, car interior deep clean, engine bay wash, and odor elimination for a showroom-quality finish at all 4 branches.",
     features: ["Interior deep clean", "Engine bay cleaning", "Full car detailing","Odor removal", "Car polishing"],
@@ -73,7 +73,7 @@ const services = [
     icon: Car,
     title: "Car Wrapping",
     href: "/car-wrapping/",
-    image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&q=80",
+    image: "images/car-wrapping.webp",
     description:
       "Vinyl car wrapping in Dubai & Sharjah and across UAE - colour change car wrap, matte, gloss, satin, chrome wrap, and bespoke custom designs. Full & partial wraps with paint-safe removal guaranteed.",
     features: ["Colour change car wrap", "Matte & chrome wrap Dubai", "Full & partial vinyl wrap", "Paint-safe removal"],
@@ -82,7 +82,7 @@ const services = [
     icon: Zap,
     title: "Smart Film",
     href: "/switchable-smart-film/",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    image: "images/smart-film.webp",
     description:
       "Electric smart film for offices, villas in Dubai & Sharjah and across UAE- switchable smart glass that switches from transparent to fully private at a touch. Energy efficient privacy glass UAE.",
     features: ["Instant on/off control", "Smart film for offices", "Smart film for villas"],
@@ -91,7 +91,7 @@ const services = [
     icon: Film,
     title: "Marble & Surface Protection Film",
     href: "/stone-protection-film/",
-    image: "https://img.kwcdn.com/product/fancy/df615e07-b68c-4e53-8476-814ebe037342.jpg?imageView2/2/w/800/q/70/format/avif",
+    image: "images/marble-and-surface-protection.webp",
     description:
       "Invisible marble protection film and surface protection film for Dubai & Sharjah and across UAE- guards stone, panels, door edges, and trims from chips, scratches, and daily wear. Crystal clear finish.",
     features: ["Marble protection film Dubai", "Stone protection film UAE", "Premium furniture protection", "Impact resistant · Easy removal"],

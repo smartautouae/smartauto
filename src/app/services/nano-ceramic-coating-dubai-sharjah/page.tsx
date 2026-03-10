@@ -414,7 +414,7 @@ export default function NanoCeramicCoatingPage() {
                 <div className="relative rounded-3xl overflow-hidden border"
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
-                    src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=900&q=80"
+                    src="/images/nano-ceramic-2.webp"
                     alt="Nano ceramic coating Dubai Sharjah - 9H hardness showroom gloss - SIRIUS GYEON - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
@@ -767,7 +767,7 @@ export default function NanoCeramicCoatingPage() {
               <div className="relative rounded-3xl overflow-hidden border order-2 lg:order-1"
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
-                  src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=900&q=80"
+                  src="/images/nano-ceramic.webp"
                   alt="Smart Auto UAE - best nano ceramic coating near me Dubai Sharjah"
                   className="w-full h-full object-cover"
                 />
