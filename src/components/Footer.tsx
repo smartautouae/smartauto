@@ -13,7 +13,7 @@ const carServices = [
 const propertyServices = [
   { label: "Villa Window Tinting",    href: "/services/villa-window-tinting-dubai-sharjah" },
   { label: "Commercial Tinting",      href: "/services/commercial-window-tinting-dubai-sharjah" },
-  { label: "Switchable Smart Film",   href: "/services/switchable-smart-film-dubai-sharjah" },
+  { label: "Switchable Smart Film",   href: "/services/switchable-smart-glass-film-dubai-sharjah" },
   { label: "Surface Protection Film", href: "/services/surface-protection-film-dubai-sharjah" },
 ];
 

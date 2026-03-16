@@ -49,12 +49,12 @@ export const metadata: Metadata = {
     "smart home glass film Dubai",
     "smart film retrofit Dubai",
   ],
-  alternates: { canonical: "https://smartautouae.ae/services/switchable-smart-film-dubai-sharjah" },
+  alternates: { canonical: "https://smartautouae.ae/services/switchable-smart-glass-film-dubai-sharjah" },
   openGraph: {
     title: "Switchable Smart Film Dubai & Sharjah | Smart Glass Film | PDLC Film | Smart Auto UAE",
     description:
       "PDLC switchable smart film in Dubai & Sharjah. Clear to frosted in milliseconds - at the touch of a button. Offices, villas, hotels, meeting rooms. Remote, wall switch & smart home control. Free site visit.",
-    url: "https://smartautouae.ae/services/switchable-smart-film-dubai-sharjah",
+    url: "https://smartautouae.ae/services/switchable-smart-glass-film-dubai-sharjah",
     siteName: "Smart Auto UAE",
     type: "website",
   },

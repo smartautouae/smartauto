@@ -139,7 +139,7 @@ const allServices = [
   { label: "Car Window Tinting",        href: "/services/car-window-tinting-dubai-sharjah" },
   { label: "Villa Window Tinting",      href: "/services/villa-window-tinting-dubai-sharjah" },
   { label: "Commercial Tinting",        href: "/services/commercial-window-tinting-dubai-sharjah" },
-  { label: "Switchable Smart Film",     href: "/services/switchable-smart-film-dubai-sharjah" },
+  { label: "Switchable Smart Film",     href: "/services/switchable-smart-glass-film-dubai-sharjah" },
   { label: "Surface Protection Films",  href: "/services/surface-protection-films-dubai-sharjah" },
 ];
 
