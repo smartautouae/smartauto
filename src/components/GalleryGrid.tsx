@@ -41,7 +41,7 @@ type GalleryItem = BeforeAfterItem | SmartFilmItem;
 
 // ── DATA ───────────────────────────────────────────────────────────────────
 
-const items: GalleryItem[] = [
+export const galleryItems: GalleryItem[] = [
   // ── CAR TINTING ────────────────────────────────────────────────────────
   {
     id: 1,
@@ -602,18 +602,16 @@ export default function GalleryGrid() {
   const [active,   setActive]   = useState("all");
   const [lightbox, setLightbox] = useState<GalleryItem | null>(null);
 
-  const filtered = active === "all" ? items : items.filter(i => i.category === active);
-
+const filtered = active === "all" ? galleryItems : galleryItems.filter(i => i.category === active);
   const openLightbox  = useCallback((item: GalleryItem) => setLightbox(item), []);
   const closeLightbox = useCallback(() => setLightbox(null), []);
 
   const counts: Record<string, number> = {
-    all:        items.length,
-    car:        items.filter(i => i.category === "car").length,
-    villa:      items.filter(i => i.category === "villa").length,
-    commercial: items.filter(i => i.category === "commercial").length,
-    smart:      items.filter(i => i.category === "smart").length,
-    surface:    items.filter(i => i.category === "surface").length,
+  all:        galleryItems.length,
+  car:        galleryItems.filter(i => i.category === "car").length,
+    commercial: galleryItems.filter(i => i.category === "commercial").length,
+    smart:      galleryItems.filter(i => i.category === "smart").length,
+    surface:    galleryItems.filter(i => i.category === "surface").length,
   };
 
   return (

@@ -112,15 +112,24 @@ export default function FloatingChatbot() {
   const [selectedService, setSelectedService] = useState<string | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
 
-  // Auto-open after 5 seconds
-  useEffect(() => {
-    const t = setTimeout(() => {
-      if (!dismissed) setVisible(true);
-    }, 5000);
-    return () => clearTimeout(t);
-  }, [dismissed]);
+  // Show bubble after 5 seconds
+useEffect(() => {
+  const t = setTimeout(() => {
+    if (!dismissed) setVisible(true);
+  }, 5000);
+  return () => clearTimeout(t);
+}, [dismissed]);
 
-  // Scroll to bottom on new message
+// Hide bubble after 5 seconds of being visible (only if chat not opened)
+useEffect(() => {
+  if (!visible || open) return;
+  const t = setTimeout(() => {
+    setVisible(false);
+  }, 5000);
+  return () => clearTimeout(t);
+}, [visible, open]);
+
+// Scroll to bottom on new message
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [msgs, typing]);

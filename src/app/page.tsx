@@ -11,6 +11,8 @@ import {
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { galleryItems } from "@/components/GalleryGrid";
+
 
 // ── DATA ───────────────────────────────────────────────────────────────────
 
@@ -121,6 +123,9 @@ const testimonials = [
   { name: "Jesto Joseph",            role: "Verified Google Review", date: "Oct 2025", rating: 5, text: "Excellent work in tinting - it's crystal clear from inside. I can drive my car now with much more safety and comfort. Highly recommended!" },
 ];
 
+const goldGrad = "linear-gradient(135deg,#C9A84C,#E8C96A)";
+
+
 const brands = ["TotalGard", "3M", "Sirus USA", "Global USA"];
 
 const branches = [
@@ -168,14 +173,6 @@ const stripItems = [
   "Car Detailing Dubai", "Villa Tinting Sharjah", "Car Wrapping Dubai",
   "Smart Film Dubai", "Commercial Tinting Sharjah", "Marble Protection Film UAE",
   "Al Quoz · MotorCity · Mirdif · Sharjah",
-];
-
-const galleryItems = [
-  { category: "Ceramic Coating", before: "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&q=80",  after: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=800&q=80",  label: "BMW 5 Series - Nano Ceramic Coating · Al Quoz Dubai" },
-  { category: "PPF",             before: "https://images.unsplash.com/photo-1567449303183-ae0d6ed1498e?w=800&q=80",  after: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=80",  label: "Range Rover - TotalGard PPF · MotorCity Dubai" },
-  { category: "Window Tinting",  before: "https://images.unsplash.com/photo-1548538713-3e1d57b6e562?w=800&q=80",    after: "https://images.unsplash.com/photo-1614026480418-bd11fdb9fa0e?w=800&q=80",    label: "Mercedes C-Class - Nano Ceramic Tint · Mirdif Dubai" },
-  { category: "Car Wrap",        before: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80",  after: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80",  label: "Porsche Cayenne - Matte Black Wrap · Dubai" },
-  { category: "Detailing",       before: "https://images.unsplash.com/photo-1520390138845-fd2d229dd553?w=800&q=80", after: "https://images.unsplash.com/photo-1616455579100-2ceaa4ec2d50?w=800&q=80", label: "Toyota Camry - Full Detailing & Polishing · Sharjah Branch" },
 ];
 
 const allCategories = ["All", ...Array.from(new Set(galleryItems.map((g) => g.category)))];
@@ -462,24 +459,25 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
 
 function BeforeAfterGallery() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [activeTab,   setActiveTab]   = useState("All");
   const [sliderPos,   setSliderPos]   = useState(50);
   const [isDragging,  setIsDragging]  = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const ref          = useRef(null);
   const isInView     = useInView(ref, { once: true, margin: "-80px" });
 
-  const filtered = activeTab === "All" ? galleryItems : galleryItems.filter((g) => g.category === activeTab);
-  const current  = filtered[activeIndex] ?? filtered[0];
+  const sliderItems = galleryItems.slice(0, 3).filter(
+    (i): i is typeof galleryItems[0] & { type: "beforeafter"; before: string; after: string } =>
+      i.type === "beforeafter"
+  );
+  const current = sliderItems[activeIndex] ?? sliderItems[0];
 
-  const handleTabChange = (tab: string) => { setActiveTab(tab); setActiveIndex(0); setSliderPos(50); };
   const handleSlide = (clientX: number) => {
     if (!containerRef.current) return;
     const rect = containerRef.current.getBoundingClientRect();
     setSliderPos(Math.min(95, Math.max(5, ((clientX - rect.left) / rect.width) * 100)));
   };
-  const prev = () => { setActiveIndex((i) => (i - 1 + filtered.length) % filtered.length); setSliderPos(50); };
-  const next = () => { setActiveIndex((i) => (i + 1) % filtered.length); setSliderPos(50); };
+  const prev = () => { setActiveIndex((i) => (i - 1 + sliderItems.length) % sliderItems.length); setSliderPos(50); };
+  const next = () => { setActiveIndex((i) => (i + 1) % sliderItems.length); setSliderPos(50); };
 
   return (
     <section id="gallery" className="py-24" style={{ background: "linear-gradient(180deg,#060606 0%,#0A0A0A 100%)" }}>
@@ -489,21 +487,6 @@ function BeforeAfterGallery() {
           <p className="text-center text-white/35 text-[13px] -mt-10 mb-12">
             Drag the slider to reveal the transformation - PPF, ceramic coating, window tinting & more
           </p>
-        </motion.div>
-
-        <motion.div className="flex items-center justify-center gap-2.5 mb-12 flex-wrap"
-          initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.2 }}>
-          {allCategories.map((tab) => (
-            <button key={tab} onClick={() => handleTabChange(tab)}
-              className="px-5 py-2 rounded-full text-[13px] font-medium tracking-wide border transition-all duration-300 cursor-pointer"
-              style={{
-                borderColor: activeTab === tab ? "rgba(201,168,76,0.5)" : "rgba(201,168,76,0.2)",
-                background:  activeTab === tab ? "rgba(201,168,76,0.1)" : "rgba(255,255,255,0.02)",
-                color:       activeTab === tab ? "#C9A84C"              : "rgba(255,255,255,0.5)",
-              }}>
-              {tab}
-            </button>
-          ))}
         </motion.div>
 
         <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.3 }}>
@@ -516,9 +499,11 @@ function BeforeAfterGallery() {
             onMouseLeave={() => setIsDragging(false)}
             onTouchMove={(e) => handleSlide(e.touches[0].clientX)}>
             <div className="relative w-full h-[420px] md:h-[500px]">
-              <img src={current.before} alt="Before" draggable={false} className="absolute inset-0 w-full h-full object-cover" />
-              <img src={current.after}  alt="After"  draggable={false} className="absolute inset-0 w-full h-full object-cover"
+              <img src={current.before} alt={current.beforeAlt} draggable={false} className="absolute inset-0 w-full h-full object-cover" />
+              <img src={current.after}  alt={current.afterAlt}  draggable={false} className="absolute inset-0 w-full h-full object-cover"
                 style={{ clipPath: `inset(0 0 0 ${sliderPos}%)` }} />
+
+              {/* Divider */}
               <div className="absolute top-0 bottom-0 w-0.5 z-10 pointer-events-none"
                 style={{ left: `${sliderPos}%`, background: "#C9A84C", boxShadow: "0 0 12px rgba(201,168,76,0.6)", transform: "translateX(-50%)" }}>
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-11 h-11 rounded-full flex items-center justify-center"
@@ -528,16 +513,29 @@ function BeforeAfterGallery() {
                   </svg>
                 </div>
               </div>
-              <span className="absolute bottom-4 left-4 z-10 px-3 py-1 rounded-md text-[11px] font-semibold tracking-widest uppercase backdrop-blur-md text-white/70 border border-white/10 bg-black/70">Before</span>
-              <span className="absolute bottom-4 right-4 z-10 px-3 py-1 rounded-md text-[11px] font-semibold tracking-widest uppercase backdrop-blur-md text-gold border border-gold/40 bg-gold/20">After</span>
-              <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 px-4 py-1.5 rounded-lg text-[12px] text-white/70 whitespace-nowrap backdrop-blur-md border border-gold/20 bg-black/75 tracking-wide">
-                {current.label}
+
+              {/* Before / After labels */}
+              <span className="absolute bottom-4 left-4 z-10 px-3 py-1 rounded-md text-[11px] font-semibold tracking-widest uppercase backdrop-blur-md text-white/70 border border-white/10 bg-black/70">
+                {current.beforeLabel ?? "Before"}
+              </span>
+              <span className="absolute bottom-4 right-4 z-10 px-3 py-1 rounded-md text-[11px] font-semibold tracking-widest uppercase backdrop-blur-md text-gold border border-gold/40 bg-gold/20">
+                {current.afterLabel ?? "After"}
+              </span>
+
+              {/* Tag + location pill - top center */}
+              <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 flex items-center gap-2 px-4 py-1.5 rounded-lg backdrop-blur-md border border-gold/20 bg-black/75 whitespace-nowrap">
+                <span className="px-2 py-0.5 rounded-full text-[9px] font-bold"
+                  style={{ background: goldGrad, color: "#000" }}>
+                  {current.tag}
+                </span>
+                <span className="text-[12px] text-white/60">{current.location}</span>
               </div>
             </div>
           </div>
 
+          {/* Thumbnails */}
           <div className="flex gap-3 mt-5 justify-center flex-wrap">
-            {filtered.map((item, i) => (
+            {sliderItems.map((item, i) => (
               <div key={i} onClick={() => { setActiveIndex(i); setSliderPos(50); }}
                 className="w-20 h-14 rounded-xl overflow-hidden cursor-pointer transition-all duration-300"
                 style={{
@@ -545,11 +543,12 @@ function BeforeAfterGallery() {
                   opacity:   i === activeIndex ? 1                               : 0.5,
                   boxShadow: i === activeIndex ? "0 0 12px rgba(201,168,76,0.3)" : "none",
                 }}>
-                <img src={item.after} alt={item.label} className="w-full h-full object-cover" />
+                <img src={item.after} alt={item.afterAlt} className="w-full h-full object-cover" />
               </div>
             ))}
           </div>
 
+          {/* Prev / dots / next */}
           <div className="flex items-center justify-center gap-4 mt-8">
             <button onClick={prev}
               className="w-12 h-12 rounded-full flex items-center justify-center text-gold border border-gold/20 bg-white/[0.04] hover:bg-gold/12 hover:border-gold/50 transition-all duration-300 cursor-pointer">
@@ -558,7 +557,7 @@ function BeforeAfterGallery() {
               </svg>
             </button>
             <div className="flex gap-2 items-center">
-              {filtered.map((_, i) => (
+              {sliderItems.map((_, i) => (
                 <div key={i} onClick={() => { setActiveIndex(i); setSliderPos(50); }}
                   className="h-2 rounded-full cursor-pointer transition-all duration-300"
                   style={{ width: i === activeIndex ? "24px" : "8px", background: i === activeIndex ? "#C9A84C" : "rgba(255,255,255,0.15)" }} />
@@ -576,6 +575,7 @@ function BeforeAfterGallery() {
     </section>
   );
 }
+
 
 // ── PAGE ───────────────────────────────────────────────────────────────────
 
@@ -820,15 +820,15 @@ export default function Home() {
             <motion.div variants={fadeRight} initial="hidden" animate={wInView ? "show" : "hidden"}>
               <div className="grid grid-cols-2 gap-3.5" style={{ gridTemplateRows: "260px 260px" }}>
                 <div className="rounded-2xl overflow-hidden border border-gold/10 relative row-span-2 group">
-                  <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=80" alt="Best PPF installer Dubai - 3M, TotalGard" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src="/images/services/PPF-1.webp" alt="Best PPF installer Dubai - 3M, TotalGard" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                   <span className="absolute bottom-3.5 left-3.5 text-[10px] tracking-[0.15em] uppercase text-gold px-3 py-1 rounded-md border border-gold/20 bg-black/80 backdrop-blur-sm">TotalGard PPF </span>
                 </div>
                 <div className="rounded-2xl overflow-hidden border border-gold/10 relative group">
-                  <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80" alt="9H nano ceramic coating Dubai Sharjah" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src="/images/services/ceramic-coating-1.webp" alt="9H nano ceramic coating Dubai Sharjah" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                   <span className="absolute bottom-3.5 left-3.5 text-[10px] tracking-[0.15em] uppercase text-gold px-3 py-1 rounded-md border border-gold/20 bg-black/80 backdrop-blur-sm">Ceramic Coating </span>
                 </div>
                 <div className="rounded-2xl overflow-hidden border border-gold/10 relative group">
-                  <img src="https://images.unsplash.com/photo-1617531653332-bd46c16f7d5e?w=600&q=80" alt="Car window tinting Dubai - 3M  " className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src="/images/services/window-tinting-1.webp" alt="Car window tinting Dubai - 3M  " className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                   <span className="absolute bottom-3.5 left-3.5 text-[10px] tracking-[0.15em] uppercase text-gold px-3 py-1 rounded-md border border-gold/20 bg-black/80 backdrop-blur-sm">Window Tinting </span>
                 </div>
               </div>
