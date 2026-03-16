@@ -28,34 +28,22 @@ export default function SmartFilmDemo() {
               color: "#fff",
             }}>
             Toggle the Glass -{" "}
-            <span
-              style={{
-                background: goldGrad,
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-              }}>
+            <span style={{ background: goldGrad, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
               See the Difference
             </span>
           </h2>
-          <p
-            className="max-w-lg mx-auto text-sm leading-relaxed"
+          <p className="max-w-lg mx-auto text-sm leading-relaxed"
             style={{ color: "rgba(255,255,255,0.4)" }}>
             Press the button below to switch the smart film between clear and frosted -
             exactly as it works in real life, in milliseconds.
           </p>
-          <div
-            className="w-14 h-0.5 mx-auto mt-5 rounded-full"
-            style={{ background: goldGrad }}
-          />
+          <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
         </div>
 
         {/* Demo card */}
         <div
           className="rounded-3xl border overflow-hidden"
-          style={{
-            border: "1px solid rgba(201,168,76,0.18)",
-            background: "rgba(255,255,255,0.015)",
-          }}>
+          style={{ border: "1px solid rgba(201,168,76,0.18)", background: "rgba(255,255,255,0.015)" }}>
 
           {/* Status bar */}
           <div
@@ -79,14 +67,13 @@ export default function SmartFilmDemo() {
                 Smart Film - {isOn ? "ON · Clear" : "OFF · Frosted"}
               </motion.span>
             </div>
-            <div
-              className="text-[10px] tracking-[0.2em] uppercase"
+            <div className="text-[10px] tracking-[0.2em] uppercase"
               style={{ color: "rgba(255,255,255,0.2)" }}>
               PDLC Smart Film · Live Demo
             </div>
           </div>
 
-          {/* Image area */}
+          {/* Image area — clean, no overlays */}
           <div className="relative overflow-hidden" style={{ height: "420px" }}>
 
             {/* Clear image */}
@@ -95,17 +82,9 @@ export default function SmartFilmDemo() {
               animate={{ opacity: isOn ? 1 : 0 }}
               transition={{ duration: 0.6, ease: "easeInOut" }}>
               <img
-                src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&q=85"
+                src="/images/gallery/smart-film-before.webp"
                 alt="Smart film ON - clear glass - transparent office view"
                 className="w-full h-full object-cover"
-              />
-              {/* Slight tint overlay to make it look like glass */}
-              <div
-                className="absolute inset-0"
-                style={{
-                  background:
-                    "linear-gradient(135deg,rgba(96,165,250,0.04) 0%,rgba(255,255,255,0.06) 100%)",
-                }}
               />
             </motion.div>
 
@@ -115,81 +94,12 @@ export default function SmartFilmDemo() {
               animate={{ opacity: isOn ? 0 : 1 }}
               transition={{ duration: 0.6, ease: "easeInOut" }}>
               <img
-                src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&q=85"
+                src="/images/gallery/smart-film-after.webp"
                 alt="Smart film OFF - frosted glass - opaque privacy"
                 className="w-full h-full object-cover"
-                style={{ filter: "blur(18px) brightness(1.15) saturate(0.3)" }}
-              />
-              {/* Frosted glass white overlay */}
-              <div
-                className="absolute inset-0"
-                style={{
-                  background:
-                    "linear-gradient(135deg,rgba(255,255,255,0.28) 0%,rgba(255,255,255,0.18) 100%)",
-                  backdropFilter: "blur(2px)",
-                }}
-              />
-              {/* Subtle frosted texture lines */}
-              <div
-                className="absolute inset-0"
-                style={{
-                  backgroundImage:
-                    "repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(255,255,255,0.015) 3px,rgba(255,255,255,0.015) 4px)",
-                }}
               />
             </motion.div>
 
-            {/* State label overlay - bottom left */}
-            <div className="absolute bottom-5 left-6 z-10">
-              <AnimatePresence mode="wait">
-                {isOn ? (
-                  <motion.div
-                    key="on-label"
-                    className="flex items-center gap-2 px-4 py-2 rounded-full border backdrop-blur-md"
-                    style={{
-                      background: "rgba(0,0,0,0.7)",
-                      border: "1px solid rgba(74,222,128,0.3)",
-                    }}
-                    initial={{ opacity: 0, y: 8 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 8 }}
-                    transition={{ duration: 0.25 }}>
-                    <div
-                      className="w-1.5 h-1.5 rounded-full"
-                      style={{ background: "#4ade80", boxShadow: "0 0 6px rgba(74,222,128,0.8)" }}
-                    />
-                    <span className="text-[12px] font-semibold" style={{ color: "#4ade80" }}>
-                      Power ON - Glass is Clear
-                    </span>
-                  </motion.div>
-                ) : (
-                  <motion.div
-                    key="off-label"
-                    className="flex items-center gap-2 px-4 py-2 rounded-full border backdrop-blur-md"
-                    style={{
-                      background: "rgba(0,0,0,0.7)",
-                      border: "1px solid rgba(248,113,113,0.3)",
-                    }}
-                    initial={{ opacity: 0, y: 8 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 8 }}
-                    transition={{ duration: 0.25 }}>
-                    <div
-                      className="w-1.5 h-1.5 rounded-full"
-                      style={{ background: "#f87171", boxShadow: "0 0 6px rgba(248,113,113,0.8)" }}
-                    />
-                    <span className="text-[12px] font-semibold" style={{ color: "#f87171" }}>
-                      Power OFF - Glass is Frosted
-                    </span>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-
-            {/* Electricity pulse effect on switch */}
-            <AnimatePresence>
-              {/* Flash on toggle */}
-            </AnimatePresence>
           </div>
 
           {/* Toggle button bar */}
@@ -207,14 +117,10 @@ export default function SmartFilmDemo() {
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: 10 }}
                     transition={{ duration: 0.25 }}>
-                    <div
-                      className="font-semibold text-[14px] mb-1"
-                      style={{ color: "#fff" }}>
+                    <div className="font-semibold text-[14px] mb-1" style={{ color: "#fff" }}>
                       Power ON &mdash; Crystal Clear
                     </div>
-                    <p
-                      className="text-[12px] leading-[1.7]"
-                      style={{ color: "rgba(255,255,255,0.4)" }}>
+                    <p className="text-[12px] leading-[1.7]" style={{ color: "rgba(255,255,255,0.4)" }}>
                       Electric current aligns liquid crystals - glass becomes fully transparent with
                       up to 92% optical clarity. Full view, maximum natural light.
                     </p>
@@ -226,14 +132,10 @@ export default function SmartFilmDemo() {
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: 10 }}
                     transition={{ duration: 0.25 }}>
-                    <div
-                      className="font-semibold text-[14px] mb-1"
-                      style={{ color: "#fff" }}>
+                    <div className="font-semibold text-[14px] mb-1" style={{ color: "#fff" }}>
                       Power OFF &mdash; Fully Frosted
                     </div>
-                    <p
-                      className="text-[12px] leading-[1.7]"
-                      style={{ color: "rgba(255,255,255,0.4)" }}>
+                    <p className="text-[12px] leading-[1.7]" style={{ color: "rgba(255,255,255,0.4)" }}>
                       No current - liquid crystals scatter randomly, instantly turning
                       the glass opaque. Complete privacy. Light still diffuses through.
                     </p>
@@ -248,16 +150,10 @@ export default function SmartFilmDemo() {
                 onClick={() => setIsOn(!isOn)}
                 className="relative flex items-center gap-3 px-7 py-3.5 rounded-full font-bold text-[14px] cursor-pointer transition-all duration-300"
                 style={{
-                  background: isOn
-                    ? "rgba(248,113,113,0.1)"
-                    : goldGrad,
-                  border: isOn
-                    ? "1px solid rgba(248,113,113,0.35)"
-                    : "none",
+                  background: isOn ? "rgba(248,113,113,0.1)" : goldGrad,
+                  border: isOn ? "1px solid rgba(248,113,113,0.35)" : "none",
                   color: isOn ? "#f87171" : "#000",
-                  boxShadow: isOn
-                    ? "none"
-                    : "0 4px 20px rgba(201,168,76,0.35)",
+                  boxShadow: isOn ? "none" : "0 4px 20px rgba(201,168,76,0.35)",
                 }}>
                 <Zap size={15} />
                 {isOn ? "Turn OFF - Frost Glass" : "Turn ON - Clear Glass"}
@@ -272,12 +168,8 @@ export default function SmartFilmDemo() {
                 <motion.div
                   className="absolute inset-0 rounded-full"
                   animate={{
-                    backgroundColor: isOn
-                      ? "rgba(74,222,128,0.25)"
-                      : "rgba(248,113,113,0.15)",
-                    borderColor: isOn
-                      ? "rgba(74,222,128,0.5)"
-                      : "rgba(248,113,113,0.4)",
+                    backgroundColor: isOn ? "rgba(74,222,128,0.25)" : "rgba(248,113,113,0.15)",
+                    borderColor: isOn ? "rgba(74,222,128,0.5)" : "rgba(248,113,113,0.4)",
                   }}
                   style={{ border: "1px solid" }}
                   transition={{ duration: 0.3 }}
@@ -295,8 +187,7 @@ export default function SmartFilmDemo() {
                 />
               </button>
 
-              <span
-                className="text-[10px] tracking-[0.15em] uppercase"
+              <span className="text-[10px] tracking-[0.15em] uppercase"
                 style={{ color: "rgba(255,255,255,0.25)" }}>
                 {isOn ? "ON" : "OFF"}
               </span>
@@ -305,9 +196,7 @@ export default function SmartFilmDemo() {
         </div>
 
         {/* Bottom note */}
-        <p
-          className="text-center text-[11px] mt-5"
-          style={{ color: "rgba(255,255,255,0.2)" }}>
+        <p className="text-center text-[11px] mt-5" style={{ color: "rgba(255,255,255,0.2)" }}>
           In real life, the switch happens in milliseconds.
           Controllable via remote, wall switch, app, or voice.
         </p>

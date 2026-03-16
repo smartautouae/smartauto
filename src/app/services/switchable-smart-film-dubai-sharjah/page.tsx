@@ -380,7 +380,7 @@ export default function SwitchableSmartFilmPage() {
                 <div className="relative rounded-3xl overflow-hidden border"
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
-                    src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900&q=80"
+                    src="/images/smart-glass.webp"
                     alt="Switchable smart film Dubai Sharjah - PDLC smart glass film - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
@@ -673,9 +673,9 @@ export default function SwitchableSmartFilmPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
               <div className="relative rounded-3xl overflow-hidden border order-2 lg:order-1"
-                style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
+                style={{ border: "1px solid rgba(201,168,76,0.12)", height: "495px" }}>
                 <img
-                  src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=900&q=80"
+                  src="/images/smart-glass-1.webp"
                   alt="Smart Auto UAE - switchable smart glass film near me Dubai Sharjah"
                   className="w-full h-full object-cover"
                 />

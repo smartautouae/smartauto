@@ -398,7 +398,7 @@ export default function CommercialWindowTintingPage() {
                 <div className="relative rounded-3xl overflow-hidden border"
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
-                    src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=80"
+                    src="/images/commercial-tint.webp"
                     alt="Commercial window tinting Dubai Sharjah - office building window film - 3M Global Totalgard - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
@@ -705,7 +705,7 @@ export default function CommercialWindowTintingPage() {
               <div className="relative rounded-3xl overflow-hidden border order-2 lg:order-1"
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
-                  src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80"
+                  src="/images/commercial-tint-1.webp"
                   alt="Smart Auto UAE - commercial office building window tinting near me Dubai Sharjah"
                   className="w-full h-full object-cover"
                 />

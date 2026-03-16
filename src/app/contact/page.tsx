@@ -59,7 +59,7 @@ const branches = [
     city: "Dubai",
     address: "MotorCity, Dubai, UAE",
     phone: "+971 56 726 9666",
-    hours: "11:00 AM – 9:00 PM · Every Day",
+    hours: "11:00 AM – 9:00 PM",       // ← updated
     mapsUrl: "https://maps.app.goo.gl/S1GYhMkPCPnLJyQYA",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.63049266578!2d55.24183177553462!3d25.046610937783374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6f43dbff2cc7%3A0x73ad529a52d1477d!2sSmart%20Auto%20Motorcity!5e0!3m2!1sen!2sae!4v1773157307773!5m2!1sen!2sae",
     color: "#60a5fa",
@@ -73,7 +73,7 @@ const branches = [
     city: "Dubai",
     address: "Al Quoz, Dubai, UAE",
     phone: "+971 56 726 9666",
-    hours: "11:00 AM – 9:30 PM · Every Day",
+    hours: "11:00 AM – 9:30 PM",       // ← updated
     mapsUrl: "https://maps.app.goo.gl/nxeHGMRVwp7G1o8u5",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.7793751533354!2d55.2221028755363!3d25.10932863525395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6bed89a4b123%3A0x9a47cac14e6217de!2sSmart%20Auto%20Accessories%20Fitting%20LLC!5e0!3m2!1sen!2sae!4v1773157404150!5m2!1sen!2sae",
     color: "#34d399",
@@ -87,7 +87,7 @@ const branches = [
     city: "Dubai",
     address: "Uptown Mall, Mirdif, Dubai, UAE",
     phone: "+971 55 782 3731",
-    hours: "11:00 AM – 9:00 PM · Every Day",
+    hours: "11:00 AM – 10:00 PM",      // ← updated
     mapsUrl: "https://maps.app.goo.gl/LpNiSaMwZV8DAt2W9",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.385589712929!2d55.42180467553928!3d25.223934630616956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6097cebfd409%3A0x309d624d599b7c42!2sSmart%20Auto%20Mirdif%20%7C%20Window%20Tinting%2C%20Car%20Detailing%2C%20Nano%20Ceramic%20Coating%2C%20Paint%20Protection%20Film%2C%20Car%20Polishing!5e0!3m2!1sen!2sae!4v1773157457465!5m2!1sen!2sae",
     color: "#a78bfa",
@@ -101,7 +101,7 @@ const branches = [
     city: "Sharjah",
     address: "Central Mall, Sharjah, UAE",
     phone: "+971 56 425 5770",
-    hours: "11:00 AM – 9:00 PM · Every Day",
+    hours: "10:00 AM – 10:00 PM",      // ← updated
     mapsUrl: "https://maps.app.goo.gl/11HqtjsP4gbsSyaRA",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.9518525218955!2d55.41463777554239!3d25.339396625926117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f599640e3e9b3%3A0xacb155b55f797862!2sSmart%20Auto%20Sharjah%20-%20Window%20Tinting%2C%20Car%20Paint%20Protection%20Film!5e0!3m2!1sen!2sae!4v1773157505231!5m2!1sen!2sae",
     color: "#f97316",
@@ -236,9 +236,7 @@ export default function ContactPage() {
                 style={{ color: "rgba(255,255,255,0.5)", fontSize: "clamp(0.95rem,1.3vw,1.05rem)" }}>
                 4 branches across{" "}
                 <strong style={{ color: "rgba(255,255,255,0.8)" }}>Dubai and Sharjah</strong>,
-                open every day from{" "}
-                <strong style={{ color: "rgba(255,255,255,0.8)" }}>11AM to 9PM</strong>.
-                Call, WhatsApp, or visit us for a free consultation on
+                open every day. Call, WhatsApp, or visit us for a free consultation on
                 window tinting, smart film, surface protection, and PPF.
               </p>
 
@@ -297,28 +295,49 @@ export default function ContactPage() {
         {/* ── OPENING HOURS BANNER ──────────────────────────────────────── */}
         <section className="py-8" style={{ backgroundColor: "#0A0A0A" }}>
           <div className="max-w-5xl mx-auto px-6">
-            <div className="rounded-2xl border px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4"
-              style={{ border: "1px solid rgba(201,168,76,0.2)", background: "rgba(201,168,76,0.03)" }}>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl flex items-center justify-center"
-                  style={{ background: "rgba(201,168,76,0.1)", border: "1px solid rgba(201,168,76,0.2)", color: gold }}>
-                  <Clock size={18} />
-                </div>
-                <div>
-                  <div className="font-bold text-[15px]" style={{ color: "#fff" }}>
-                    Open Every Day - 10:00 AM to 10:00 PM
-                  </div>
-                  <div className="text-[12px]" style={{ color: "rgba(255,255,255,0.4)" }}>
-                    All 4 branches · 7 days a week · Including weekends & public holidays
-                  </div>
+
+            {/* Header row */}
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0"
+                style={{ background: "rgba(201,168,76,0.1)", border: "1px solid rgba(201,168,76,0.2)", color: gold }}>
+                <Clock size={16} />
+              </div>
+              <div>
+                <div className="font-bold text-[14px]" style={{ color: "#fff" }}>Opening Hours</div>
+                <div className="text-[11px]" style={{ color: "rgba(255,255,255,0.35)" }}>
+                  All branches open 7 days a week · Including weekends &amp; public holidays
                 </div>
               </div>
-              <div className="flex items-center gap-2 flex-shrink-0">
-                <div className="w-2 h-2 rounded-full"
+              <div className="flex items-center gap-2 ml-auto flex-shrink-0">
+                <div className="w-2 h-2 rounded-full animate-pulse"
                   style={{ background: "#4ade80", boxShadow: "0 0 6px rgba(74,222,128,0.7)" }} />
-                <span className="text-[13px] font-semibold" style={{ color: "#4ade80" }}>Open Now</span>
+                <span className="text-[12px] font-semibold" style={{ color: "#4ade80" }}>Open Now</span>
               </div>
             </div>
+
+            {/* Per-branch hours grid */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              {branches.map((branch) => (
+                <div key={branch.id}
+                  className="rounded-xl px-4 py-3.5 flex flex-col gap-1"
+                  style={{ background: branch.colorBg, border: `1px solid ${branch.colorBdr}` }}>
+                  <div className="flex items-center gap-1.5 mb-0.5">
+                    <div className="w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ background: branch.color }} />
+                    <div className="text-[10px] font-bold tracking-[0.12em] uppercase truncate"
+                      style={{ color: branch.color }}>
+                      {branch.name}
+                    </div>
+                  </div>
+                  <div className="text-[13px] font-semibold" style={{ color: "#fff" }}>
+                    {branch.hours}
+                  </div>
+                  <div className="text-[10px]" style={{ color: "rgba(255,255,255,0.3)" }}>
+                    Every Day
+                  </div>
+                </div>
+              ))}
+            </div>
+
           </div>
         </section>
 
@@ -338,7 +357,7 @@ export default function ContactPage() {
               </h2>
               <p className="max-w-xl mx-auto text-sm" style={{ color: "rgba(255,255,255,0.4)" }}>
                 Walk in, call ahead, or book a free on-site consultation.
-                All branches are open every day from 10AM to 10PM.
+                Hours vary per branch — check below.
               </p>
               <div className="w-14 h-0.5 mx-auto mt-5 rounded-full" style={{ background: goldGrad }} />
             </div>
@@ -363,7 +382,7 @@ export default function ContactPage() {
                     />
                     {/* Branch name overlay */}
                     <div className="absolute top-3 left-3">
-                      <div className="flex items-center gap-2 px-3 py-1.5 rounded-full backdrop-blur-md border"
+                      <div className="flex items-center gap-2 px-3 py-1.5 rounded-full backdrop-blur-md"
                         style={{ background: "rgba(0,0,0,0.8)", border: `1px solid ${branch.colorBdr}` }}>
                         <div className="w-1.5 h-1.5 rounded-full" style={{ background: branch.color }} />
                         <span className="text-[11px] font-semibold" style={{ color: branch.color }}>
@@ -413,7 +432,9 @@ export default function ContactPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <Clock size={14} style={{ color: gold, flexShrink: 0 }} />
-                        <span className="text-[13px]" style={{ color: "rgba(255,255,255,0.5)" }}>{branch.hours}</span>
+                        <span className="text-[13px]" style={{ color: "rgba(255,255,255,0.5)" }}>
+                          {branch.hours} · Every Day
+                        </span>
                       </div>
                     </div>
 
@@ -460,9 +481,8 @@ export default function ContactPage() {
                     className="no-underline font-semibold" style={{ color: gold }}>
                     WhatsApp
                   </a>{" "}
-                  for an instant response.
-                  We offer free on-site consultations and free quotes for all services
-                  across Dubai and Sharjah.
+                  for an instant response. We offer free on-site consultations and free
+                  quotes for all services across Dubai and Sharjah.
                 </p>
 
                 {/* Service list */}
@@ -518,11 +538,7 @@ export default function ContactPage() {
                         required
                         placeholder="Your name"
                         className="w-full rounded-xl px-4 py-3 text-[13px] outline-none transition-all duration-200 focus:border-[rgba(201,168,76,0.5)] placeholder:text-[rgba(255,255,255,0.18)]"
-                        style={{
-                          background: "rgba(255,255,255,0.03)",
-                          border: "1px solid rgba(255,255,255,0.08)",
-                          color: "#fff",
-                        }}
+                        style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", color: "#fff" }}
                       />
                     </div>
                     <div className="flex flex-col gap-2">
@@ -536,11 +552,7 @@ export default function ContactPage() {
                         required
                         placeholder="+971 5X XXX XXXX"
                         className="w-full rounded-xl px-4 py-3 text-[13px] outline-none transition-all duration-200 focus:border-[rgba(201,168,76,0.5)] placeholder:text-[rgba(255,255,255,0.18)]"
-                        style={{
-                          background: "rgba(255,255,255,0.03)",
-                          border: "1px solid rgba(255,255,255,0.08)",
-                          color: "#fff",
-                        }}
+                        style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", color: "#fff" }}
                       />
                     </div>
                   </div>
@@ -556,11 +568,7 @@ export default function ContactPage() {
                       name="email"
                       placeholder="your@email.com"
                       className="w-full rounded-xl px-4 py-3 text-[13px] outline-none transition-all duration-200 focus:border-[rgba(201,168,76,0.5)] placeholder:text-[rgba(255,255,255,0.18)]"
-                      style={{
-                        background: "rgba(255,255,255,0.03)",
-                        border: "1px solid rgba(255,255,255,0.08)",
-                        color: "#fff",
-                      }}
+                      style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", color: "#fff" }}
                     />
                   </div>
 
@@ -575,12 +583,7 @@ export default function ContactPage() {
                       required
                       defaultValue=""
                       className="w-full rounded-xl px-4 py-3 text-[13px] outline-none transition-all duration-200"
-                      style={{
-                        background: "rgba(255,255,255,0.03)",
-                        border: "1px solid rgba(255,255,255,0.08)",
-                        color: "rgba(255,255,255,0.7)",
-                        appearance: "none",
-                      }}>
+                      style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", color: "rgba(255,255,255,0.7)", appearance: "none" }}>
                       <option value="" disabled style={{ background: "#111" }}>Select a service…</option>
                       {services.map((s) => (
                         <option key={s} value={s} style={{ background: "#111", color: "#fff" }}>{s}</option>
@@ -599,17 +602,12 @@ export default function ContactPage() {
                       name="branch"
                       defaultValue=""
                       className="w-full rounded-xl px-4 py-3 text-[13px] outline-none"
-                      style={{
-                        background: "rgba(255,255,255,0.03)",
-                        border: "1px solid rgba(255,255,255,0.08)",
-                        color: "rgba(255,255,255,0.7)",
-                        appearance: "none",
-                      }}>
+                      style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", color: "rgba(255,255,255,0.7)", appearance: "none" }}>
                       <option value="" style={{ background: "#111" }}>Select a branch…</option>
-                      <option value="MotorCity" style={{ background: "#111", color: "#fff" }}>MotorCity, Dubai</option>
-                      <option value="Al Quoz" style={{ background: "#111", color: "#fff" }}>Al Quoz, Dubai</option>
-                      <option value="Mirdif" style={{ background: "#111", color: "#fff" }}>Mirdif · Uptown Mall, Dubai</option>
-                      <option value="Sharjah" style={{ background: "#111", color: "#fff" }}>Central Mall, Sharjah</option>
+                      <option value="MotorCity" style={{ background: "#111", color: "#fff" }}>MotorCity, Dubai · 11AM–9PM</option>
+                      <option value="Al Quoz" style={{ background: "#111", color: "#fff" }}>Al Quoz, Dubai · 11AM–9:30PM</option>
+                      <option value="Mirdif" style={{ background: "#111", color: "#fff" }}>Mirdif · Uptown Mall, Dubai · 11AM–10PM</option>
+                      <option value="Sharjah" style={{ background: "#111", color: "#fff" }}>Central Mall, Sharjah · 10AM–10PM</option>
                       <option value="On-Site Visit" style={{ background: "#111", color: "#fff" }}>On-Site Visit (Villa / Commercial)</option>
                     </select>
                   </div>
@@ -625,11 +623,7 @@ export default function ContactPage() {
                       rows={4}
                       placeholder="Tell us about your project - number of windows, car model, property type, etc."
                       className="w-full rounded-xl px-4 py-3 text-[13px] outline-none resize-none transition-all duration-200 focus:border-[rgba(201,168,76,0.5)] placeholder:text-[rgba(255,255,255,0.18)]"
-                      style={{
-                        background: "rgba(255,255,255,0.03)",
-                        border: "1px solid rgba(255,255,255,0.08)",
-                        color: "#fff",
-                      }}
+                      style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", color: "#fff" }}
                     />
                   </div>
 

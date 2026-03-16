@@ -124,11 +124,36 @@ const testimonials = [
 const brands = ["TotalGard", "3M", "Sirus USA", "Global USA"];
 
 const branches = [
-  { city: "MotorCity Branch",  address: "Detroit Line, Uptown Buildings Foxhill Parking 5, Spinneys Exit, Behind KFC - Dubai, UAE",       mapHref: "https://maps.app.goo.gl/smd7UDESbcqYXq4h7", phone: "+971 55 782 3731" },
-  { city: "Al Quoz Branch",    address: "D16 Road, Al Quoz 4, Warehouse No. 6 / Behind JOTUN Warehouse - Dubai, UAE",                    mapHref: "https://maps.app.goo.gl/iTvk9uV3U27XbzUd7", phone: "+971 54 701 1800" },
-  { city: "Mirdif Branch",     address: "Uptown Mall, Algeria 47 Street Basement Parking, Near Spinneys Apple Parking - Dubai, UAE",      mapHref: "https://maps.app.goo.gl/kcZJj1x3t3wyMRoy9", phone: "+971 55 555 9424" },
-  { city: "Sharjah Branch",    address: "Central Mall, Basement Level 1, Samnan, Halwan - Sharjah, UAE",                                 mapHref: "https://maps.app.goo.gl/un6Gnywt5TdPJSbk7", phone: "+971 55 555 9424" },
+  {
+    city: "MotorCity Branch",
+    address: "Detroit Line, Uptown Buildings Foxhill Parking 5, Spinneys Exit, Behind KFC - Dubai, UAE",
+    mapHref: "https://maps.app.goo.gl/smd7UDESbcqYXq4h7",
+    phone: "+971 55 782 3731",
+    hours: "11:00 AM – 9:00 PM",
+  },
+  {
+    city: "Al Quoz Branch",
+    address: "D16 Road, Al Quoz 4, Warehouse No. 6 Behind JOTUN Warehouse - Dubai, UAE",
+    mapHref: "https://maps.app.goo.gl/iTvk9uV3U27XbzUd7",
+    phone: "+971 54 701 1800",
+    hours: "11:00 AM – 9:30 PM",
+  },
+  {
+    city: "Mirdif Branch",
+    address: "Uptown Mall, Algeria 47 Street Basement Parking, Near Spinneys & Apple Parking - Dubai, UAE",
+    mapHref: "https://maps.app.goo.gl/kcZJj1x3t3wyMRoy9",
+    phone: "+971 55 555 9424",
+    hours: "11:00 AM – 10:00 PM",
+  },
+  {
+    city: "Sharjah Branch",
+    address: "Central Mall, Basement Level 1, Samnan, Halwan - Sharjah, UAE",
+    mapHref: "https://maps.app.goo.gl/un6Gnywt5TdPJSbk7",
+    phone: "+971 55 555 9424",
+    hours: "10:00 AM – 10:00 PM",
+  },
 ];
+
 
 const contactItems = [
   { icon: Phone,     label: "Phone / WhatsApp", value: "+971 55 555 9424",     href: "tel:+971524403677" },
@@ -212,36 +237,77 @@ const fadeRight: Variants = {
 
 // ── OPEN STATUS HOOK ───────────────────────────────────────────────────────
 
-function useOpenStatus() {
-  const [status, setStatus] = useState({ isOpen: false, label: "Open Now", sublabel: "", timeStr: "" });
+function parseHours(hours: string) {
+  const [openStr, closeStr] = hours.split("–").map((s) => s.trim());
+
+  const parse = (str: string) => {
+    const [time, meridiem] = str.split(" ");
+    let [h, m] = time.split(":").map(Number);
+    if (meridiem === "PM" && h !== 12) h += 12;
+    if (meridiem === "AM" && h === 12) h = 0;
+    return { h, m };
+  };
+
+  const open  = parse(openStr);
+  const close = parse(closeStr);
+  return { openH: open.h, openM: open.m, closeH: close.h, closeM: close.m };
+}
+
+function useOpenStatus(hours?: string) {
+  const [status, setStatus] = useState({
+    isOpen: false,
+    label: "Open Now",
+    sublabel: "",
+    timeStr: "",
+  });
+
   useEffect(() => {
     const compute = () => {
-      const now   = new Date();
-      const uae   = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Dubai" }));
-      const hours = uae.getHours();
-      const mins  = uae.getMinutes();
-      const total = hours * 60 + mins;
-      const OPEN  = 11 * 60;
-      const CLOSE = 21 * 60;
+      const now  = new Date();
+      const uae  = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Dubai" }));
+      const h    = uae.getHours();
+      const mins = uae.getMinutes();
+      const total = h * 60 + mins;
+
+      let OPEN  = 11 * 60;       // default 11:00 AM
+      let CLOSE = 21 * 60;       // default  9:00 PM
+
+      if (hours) {
+        const parsed = parseHours(hours);
+        OPEN  = parsed.openH  * 60 + parsed.openM;
+        CLOSE = parsed.closeH * 60 + parsed.closeM;
+      }
+
       const isOpen = total >= OPEN && total < CLOSE;
+
       let sublabel = "";
       if (isOpen) {
         const minsLeft = CLOSE - total;
-        const hLeft = Math.floor(minsLeft / 60);
-        const mLeft = minsLeft % 60;
-        sublabel = hLeft > 0 ? `Closes in ${hLeft}h${mLeft > 0 ? ` ${mLeft}m` : ""}` : `Closes in ${mLeft}m`;
+        const hLeft    = Math.floor(minsLeft / 60);
+        const mLeft    = minsLeft % 60;
+        sublabel = hLeft > 0
+          ? `Closes in ${hLeft}h${mLeft > 0 ? ` ${mLeft}m` : ""}`
+          : `Closes in ${mLeft}m`;
       } else {
-        sublabel = "Reopens tomorrow at 11:00 AM";
+        const openH12 = OPEN / 60;
+        const openHDisplay = openH12 > 12 ? openH12 - 12 : openH12;
+        const openMDisplay = OPEN % 60 === 0 ? "00" : String(OPEN % 60).padStart(2, "0");
+        const openAMPM = OPEN >= 12 * 60 ? "PM" : "AM";
+        sublabel = `Reopens at ${openHDisplay}:${openMDisplay} ${openAMPM}`;
       }
-      const h = hours % 12 || 12;
-      const m = String(mins).padStart(2, "0");
-      const ampm = hours >= 12 ? "PM" : "AM";
-      setStatus({ isOpen, label: isOpen ? "Open Now" : "Closed", sublabel, timeStr: `${h}:${m} ${ampm} UAE` });
+
+      const hh   = h % 12 || 12;
+      const mm   = String(mins).padStart(2, "0");
+      const ampm = h >= 12 ? "PM" : "AM";
+
+      setStatus({ isOpen, label: isOpen ? "Open Now" : "Closed", sublabel, timeStr: `${hh}:${mm} ${ampm} UAE` });
     };
+
     compute();
-    const id = setInterval(compute, 60_000);
+    const id = setInterval(compute, 60000);
     return () => clearInterval(id);
-  }, []);
+  }, [hours]);
+
   return status;
 }
 
@@ -292,8 +358,8 @@ const GlassCard = ({ children, className = "", ...props }: React.HTMLAttributes<
 
 // ── STATUS BADGE ───────────────────────────────────────────────────────────
 
-function StatusBadge({ size = "md" }: { size?: "sm" | "md" }) {
-  const { isOpen, label, sublabel } = useOpenStatus();
+function StatusBadge({ size = "md", hours }: { size?: "sm" | "md"; hours?: string }) {
+  const { isOpen, label, sublabel } = useOpenStatus(hours);
   const hex = isOpen ? "#4ade80" : "#f87171";
   const col = isOpen ? "rgba(74,222,128," : "rgba(248,113,113,";
   return (
@@ -318,8 +384,8 @@ function StatusBadge({ size = "md" }: { size?: "sm" | "md" }) {
 
 // ── BRANCH CARD ────────────────────────────────────────────────────────────
 
-function BranchCard({ branch }: { branch: (typeof branches)[0] }) {
-  const { isOpen, label, sublabel } = useOpenStatus();
+function BranchCard({ branch }: { branch: typeof branches[0] }) {
+  const { isOpen, label, sublabel } = useOpenStatus(branch.hours);
   const hex = isOpen ? "#4ade80" : "#f87171";
   const col = isOpen ? "rgba(74,222,128," : "rgba(248,113,113,";
   return (
@@ -345,9 +411,9 @@ function BranchCard({ branch }: { branch: (typeof branches)[0] }) {
       </div>
       <div className="flex flex-col gap-3 mb-6">
         <div className="flex items-center gap-3 text-sm text-white/50">
-          <Clock size={14} className="text-gold flex-shrink-0" />
-          Every Day: 11:00 AM – 9:30 PM
-        </div>
+  <Clock size={14} className="text-gold flex-shrink-0" />
+  Every Day · {branch.hours}
+</div>
         <div className="flex items-center gap-3 text-sm text-white/50">
           <Phone size={14} className="text-gold flex-shrink-0" />
           <a href={`tel:${branch.phone.replace(/\s/g, "")}`} className="hover:text-gold transition-colors no-underline">
@@ -888,7 +954,7 @@ export default function Home() {
 
           <motion.div className="flex justify-center mb-10"
             initial={{ opacity: 0, y: 10 }} animate={brInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.2 }}>
-            <StatusBadge size="md" />
+<StatusBadge size="md" hours="10:00 AM – 10:00 PM" />
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -939,7 +1005,7 @@ export default function Home() {
               4 branches across Dubai &amp; Sharjah. Free inspection. No hidden charges.
             </p>
             <div className="flex justify-center mb-9 relative z-10">
-              <StatusBadge size="md" />
+<StatusBadge size="md" hours="10:00 AM – 10:00 PM" />
             </div>
             <div className="flex gap-4 justify-center flex-wrap relative z-10">
               <GoldBtn href="https://wa.me/971524403677">Book on WhatsApp <ArrowRight size={16} /></GoldBtn>

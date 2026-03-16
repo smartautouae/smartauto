@@ -372,7 +372,7 @@ export default function CarWrappingPage() {
                 <div className="relative rounded-3xl overflow-hidden border"
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
-                    src="https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=900&q=80"
+                    src="/images/car-wrap.webp"
                     alt="Car wrapping Dubai Sharjah - 100+ colours chrome matte carbon - Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
@@ -664,7 +664,7 @@ export default function CarWrappingPage() {
               <div className="relative rounded-3xl overflow-hidden border order-2 lg:order-1"
                 style={{ border: "1px solid rgba(201,168,76,0.12)", height: "460px" }}>
                 <img
-                  src="https://images.unsplash.com/photo-1600706432502-77a0e2e32790?w=900&q=80"
+                  src="/images/car-wrap-1.webp"
                   alt="Smart Auto UAE - best car wrapping near me Dubai Sharjah 400 colours"
                   className="w-full h-full object-cover"
                 />

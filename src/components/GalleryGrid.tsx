@@ -47,29 +47,29 @@ const items: GalleryItem[] = [
     id: 1,
     type: "beforeafter",
     category: "car",
-    tag: "Car Tinting",
+    tag: "Color PPF",
     location: "MotorCity, Dubai",
     size: "wide",
-    before: "https://images.unsplash.com/photo-1542362567-b07e54358753?w=900&q=80",
-    after:  "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&q=80",
+    before: "/images/gallery/color-ppf-before.webp",
+    after:  "/images/gallery/color-ppf-after.webp",
     beforeAlt: "Car window before tinting - clear glass - Smart Auto UAE",
     afterAlt:  "Car window after tinting - 3M ceramic film - Smart Auto UAE",
     beforeLabel: "Before",
-    afterLabel:  "After - 3M Ceramic",
+    afterLabel:  "After",
   },
   {
     id: 2,
     type: "beforeafter",
     category: "car",
-    tag: "Car Tinting",
+    tag: "Ceramic Coating",
     location: "Al Quoz, Dubai",
     size: "normal",
-    before: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80",
-    after:  "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80",
+    before: "/images/gallery/ceramic-coating-before-1.webp",
+    after:  "/images/gallery/ceramic-coating-after-1.webp",
     beforeAlt: "Sedan before tinting Dubai",
     afterAlt:  "Sedan after tinting Dubai - Global USA film",
     beforeLabel: "Before",
-    afterLabel:  "After - Global USA",
+    afterLabel:  "After",
   },
   {
     id: 3,
@@ -567,7 +567,7 @@ function GridCard({ item, onClick }: { item: GalleryItem; onClick: () => void })
           paddingTop: "28px",
         }}>
         <div className="flex items-center gap-2">
-          <div className="px-2.5 py-1 rounded-full text-[10px] font-bold"
+          <div className="px-2.5 py-1 rounded-full text-[9px] font-bold"
             style={{ background: goldGrad, color: "#000" }}>
             {item.tag}
           </div>

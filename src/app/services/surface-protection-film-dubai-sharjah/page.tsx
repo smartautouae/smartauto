@@ -413,7 +413,7 @@ in UAE                  </span>
                 <div className="relative rounded-3xl overflow-hidden border"
                   style={{ border: "1px solid rgba(201,168,76,0.15)", height: "480px" }}>
                   <img
-                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80"
+                    src="/images/surface-protection.webp"
                     alt="Surface protection film Dubai Sharjah — marble glass floor lift protection — Smart Auto UAE"
                     className="w-full h-full object-cover"
                   />
