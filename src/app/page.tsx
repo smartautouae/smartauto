@@ -606,8 +606,10 @@ export default function Home() {
       <section id="home" className="relative min-h-screen flex items-center justify-center text-center overflow-hidden"
         style={{ background: "#050505" }}>
 
-        <div className="absolute inset-0 bg-cover bg-center pointer-events-none"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1800&q=85')", opacity: 0.18 }} />
+        <div
+  className="absolute inset-0 bg-cover bg-center pointer-events-none"
+  style={{ backgroundImage: "url('/images/nano-ceramic-2.webp')", opacity: 0.18 }}
+/>
         <div className="absolute inset-0 pointer-events-none"
           style={{ background: "radial-gradient(ellipse at center,transparent 20%,rgba(0,0,0,0.85) 100%)" }} />
         <div className="absolute inset-0 pointer-events-none"
