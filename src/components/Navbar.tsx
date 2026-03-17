@@ -22,6 +22,7 @@ const propertyServices = [
   { label: "Commercial Tinting",      href: "/services/commercial-window-tinting-dubai-sharjah" },
   { label: "Switchable Smart Film",   href: "/services/switchable-smart-glass-film-dubai-sharjah" },
   { label: "Surface Protection Film", href: "/services/surface-protection-film-dubai-sharjah" },
+  { label: "Anti-Shatter Safety Film", href: "/services/anti-shatter-film-safety-film" },
 ];
 
 // ── NAV LINKS ─────────────────────────────────────────────────────────────
