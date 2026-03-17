@@ -475,7 +475,7 @@ export default function AntiShatterFilmPage() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }}>
             Protect your villa or office from shattered glass injuries, forced entry, and blast impact.
             Invisible safety film installed by certified technicians across{" "}
-            <strong className="text-white/80">Dubai, Sharjah & Abu Dhabi</strong> — same-week availability.
+            <strong className="text-white/80">Dubai, Sharjah & Abu Dhabi</strong>.
           </motion.p>
 
           <motion.div className="flex items-center justify-center gap-6 mb-10 flex-wrap"
