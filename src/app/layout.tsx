@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import ChatbotWrapper from "@/components/ChatbotWrapper";
 
@@ -18,42 +19,29 @@ export const metadata: Metadata = {
     "Smart Auto UAE - Dubai & Sharjah's most trusted Car Protection centre. Premium window tinting, paint protection film (PPF), ceramic coating, car detailing, vinyl wrapping & accessories. Trusted by 50,000+ car owners. Free inspection. Call +971 567 269 666.",
 
   keywords: [
-    // Core services - Dubai
     "window tinting Dubai", "car tinting Dubai", "nano ceramic tint Dubai",
     "paint protection film Dubai", "PPF Dubai",
     "ceramic coating Dubai", "9H ceramic coating Dubai",
     "car detailing Dubai", "car polishing Dubai", "paint correction Dubai",
     "car wrapping Dubai", "vinyl wrap Dubai", "matte wrap Dubai",
     "car accessories Dubai", "car accessories fitting Dubai",
-
-    // Core services - Sharjah
     "window tinting Sharjah", "car tinting Sharjah",
     "paint protection film Sharjah", "PPF Sharjah",
     "ceramic coating Sharjah", "car detailing Sharjah",
     "car wrapping Sharjah", "car polishing Sharjah",
-
-    // UAE general
     "car tinting UAE", "PPF UAE", "ceramic coating UAE",
     "best car detailing UAE", "Car Protection  UAE",
     "window film UAE", "Car Protection UAE",
-
-    // High-intent buyer terms
     "best window tinting Dubai", "cheapest PPF Dubai",
     "best ceramic coating Dubai", "luxury car detailing Dubai",
     "car tinting near me Dubai", "PPF installer Dubai",
     "ceramic coating price Dubai", "car wrap near me Dubai",
-
-    // Brand/product terms
     "3M window tint Dubai", "TotalGard tint Dubai",
     "Totalgard paint protection Dubai",
     "Gyeon ceramic Dubai", "Gtechniq coating Dubai",
-
-    // Vehicle-specific (luxury)
     "ceramic coating Tesla Dubai", "PPF Range Rover Dubai",
     "ceramic coating BMW Dubai", "PPF Mercedes Dubai",
     "car tinting Land Cruiser Dubai",
-
-    // Brand
     "Smart Auto UAE", "Smart Auto Dubai", "Smart Auto Sharjah",
   ],
 
@@ -112,11 +100,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        {/* ── Google Tag Manager (head) ── */}
+        <Script
+          id="gtm-head"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-537ZKNVG');`,
+          }}
+        />
+
+        {/* ── Structured Data ── */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify([
-              // ── Dubai Branch ──────────────────────────────
               {
                 "@context": "https://schema.org",
                 "@type": "AutoRepair",
@@ -171,7 +172,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   "https://wa.me/971567269666",
                 ],
               },
-              // ── Sharjah Branch ────────────────────────────
               {
                 "@context": "https://schema.org",
                 "@type": "AutoRepair",
@@ -198,7 +198,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "priceRange": "$$",
                 "areaServed": ["Sharjah", "UAE"],
               },
-              // ── FAQ Schema ────────────────────────────────
               {
                 "@context": "https://schema.org",
                 "@type": "FAQPage",
@@ -237,6 +236,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body
         style={{ backgroundColor: "#0A0A0A" }}
         className={`${inter.variable} ${playfair.variable}`}>
+
+        {/* ── Google Tag Manager (noscript) ── */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-537ZKNVG"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+
         {children}
         <ChatbotWrapper />
       </body>
