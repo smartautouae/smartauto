@@ -24,25 +24,25 @@ const benefits = [
     icon: Shield,
     title: "Shatter-Resistant Protection",
     desc: "Holds broken glass fragments together on impact — preventing dangerous flying shards that cause serious injuries.",
-    img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    img: "/landing-pages/shatter-resistant.webp",
   },
   {
     icon: Lock,
     title: "Forced Entry Deterrent",
     desc: "Makes windows significantly harder to smash through — delaying intruders and protecting your family or staff.",
-    img: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&q=80",
+    img: "/landing-pages/forced-entry.webp",
   },
   {
     icon: AlertTriangle,
     title: "Blast & Explosion Protection",
     desc: "Approved for blast mitigation. Critical for commercial buildings and high-risk areas in the UAE.",
-    img: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80",
+    img: "/landing-pages/commercial-building.webp",
   },
   {
     icon: Zap,
     title: "Storm & Impact Resistance",
     desc: "Protects against sandstorms, high winds, and accidental impacts — essential in the UAE climate.",
-    img: "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=600&q=80",
+    img: "/landing-pages/sand-storm.webp",
   },
   {
     icon: Home,
@@ -175,8 +175,8 @@ const scenarios = [
     label: "Forced Entry",
     title: "Intruder Trying to Break In",
     desc: "A burglar attempts to smash through a villa window. Without film, glass shatters instantly giving access in seconds. With anti-shatter film, glass holds together — delaying entry by minutes and triggering alarm response time.",
-    withoutImg:    "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80",
-    withImg:       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    withoutImg:    "/landing-pages/intruder-without-safety-film.webp",
+    withImg:       "/landing-pages/intruder-with-safety-film.webp",
     withoutLabel:  "Without Film - Glass Shatters",
     withLabel:     "With Film — Glass Holds",
     withoutPoints: [
@@ -193,38 +193,15 @@ const scenarios = [
     ],
   },
   {
-    id: "blast",
-    icon: "💥",
-    label: "Blast / Explosion",
-    title: "Nearby Blast or Explosion",
-    desc: "A blast wave from a nearby explosion sends lethal glass shards across a room at high velocity. Anti-shatter film absorbs the energy and holds fragments in place — the single most critical protection in blast-risk zones.",
-    withoutImg:    "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=800&q=80",
-    withImg:       "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80",
-    withoutLabel:  "❌ Without Film — Lethal Shards",
-    withLabel:     "✅ With Film — Fragments Contained",
-    withoutPoints: [
-      "Glass becomes high-velocity projectiles",
-      "Majority of blast injuries are from glass",
-      "Entire pane disintegrates",
-      "Critical injury risk to all occupants",
-    ],
-    withPoints: [
-      "Fragments stay bonded to film",
-      "Blast energy absorbed by polyester layers",
-      "Pane may bow but won't shatter freely",
-      "Dramatically reduces injury risk",
-    ],
-  },
-  {
     id: "stone",
     icon: "🪨",
     label: "Stone / Impact",
     title: "Stone or Object Hitting Glass",
     desc: "A stone thrown by a lawnmower, a child's ball, or vandalism. Without film, the pane shatters sending sharp fragments across the room. With film, the glass cracks in place — no fragments, no injury.",
-    withoutImg:    "https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800&q=80",
-    withImg:       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
-    withoutLabel:  "❌ Without Film — Glass Everywhere",
-    withLabel:     "✅ With Film — Cracks, Doesn't Shatter",
+    withoutImg:    "/landing-pages/stone-without-film.webp",
+    withImg:       "/landing-pages/stone-with-film.webp",
+    withoutLabel:  "Without Film — Glass Everywhere",
+    withLabel:     "With Film — Cracks, Doesn't Shatter",
     withoutPoints: [
       "Pane explodes inward on impact",
       "Sharp fragments scatter across floor",
@@ -319,7 +296,7 @@ function InteractiveDemo() {
           style={{ borderColor: "rgba(201,168,76,0.15)", background: "rgba(255,255,255,0.02)" }}>
 
           {/* Image area */}
-          <div className="relative h-[300px] md:h-[420px] overflow-hidden">
+          <div className="relative h-[300px] md:h-[550px] overflow-hidden">
             <motion.img
               key={`${activeScenario.id}-${showWith}`}
               src={showWith ? activeScenario.withImg : activeScenario.withoutImg}
