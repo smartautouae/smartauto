@@ -137,9 +137,9 @@ const contactChannels = [
   {
     icon: Mail,
     label: "Email",
-    value: "info@smartautouae.ae",
+    value: "info@smartautouae.com",
     desc: "For quotes, projects & partnerships",
-    href: "mailto:info@smartautouae.ae",
+    href: "mailto:info@smartautouae.com",
     cta: "Send Email",
     color: gold,
     colorBg: "rgba(201,168,76,0.06)",
@@ -252,7 +252,7 @@ export default function ContactPage() {
                   style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
                   <Phone size={14} /> +971 55 555 9424
                 </a>
-                <a href="mailto:info@smartautouae.ae"
+                <a href="mailto:info@smartautouae.com"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm no-underline border"
                   style={{ borderColor: "rgba(255,255,255,0.1)", color: "rgba(255,255,255,0.5)", background: "transparent" }}>
                   <Mail size={14} /> Email Us

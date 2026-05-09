@@ -73,7 +73,7 @@ const socialLinks = [
   { label: "Instagram", href: "https://instagram.com/smartautouae", Icon: IconInstagram },
   { label: "WhatsApp",  href: "https://wa.me/971567269666",         Icon: IconWhatsApp },
   { label: "Facebook",  href: "#",                                  Icon: IconFacebook },
-  { label: "Email",     href: "mailto:info@smartautouae.ae",        Icon: IconEmail },
+  { label: "Email",     href: "mailto:info@smartautouae.com",        Icon: IconEmail },
 ];
 
 // ── COMPONENT ─────────────────────────────────────────────────────────────

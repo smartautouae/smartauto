@@ -163,7 +163,7 @@ const branches = [
 const contactItems = [
   { icon: Phone,     label: "Phone / WhatsApp", value: "+971 55 555 9424",     href: "tel:+971524403677" },
   { icon: Phone,     label: "Phone 2",          value: "+971 55 782 3731",     href: "tel:+971557823731" },
-  { icon: Mail,      label: "Email",            value: "info@smartautouae.ae", href: "mailto:info@smartautouae.ae" },
+  { icon: Mail,      label: "Email",            value: "info@smartautouae.com", href: "mailto:info@smartautouae.com" },
   { icon: MapPin,    label: "Branches",         value: "4 Locations - Dubai & Sharjah", href: "#branches" },
   { icon: Instagram, label: "Instagram",        value: "@smartautouae",        href: "https://instagram.com/smartautouae" },
 ];

@@ -126,7 +126,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 "description": "Dubai's premier Car Protection centre specialising in window tinting, paint protection film (PPF), ceramic coating, car detailing, vinyl wrapping and accessories fitting.",
                 "url": "https://smartautouae.ae",
                 "telephone": "+971567269666",
-                "email": "info@smartautouae.ae",
+                "email": "info@smartautouae.com",
                 "address": {
                   "@type": "PostalAddress",
                   "addressLocality": "Dubai",
@@ -180,7 +180,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 "description": "Sharjah's trusted Car Protection centre for window tinting, PPF, ceramic coating, car detailing and vinyl wrapping.",
                 "url": "https://smartautouae.ae",
                 "telephone": "+971567269666",
-                "email": "info@smartautouae.ae",
+                "email": "info@smartautouae.com",
                 "address": {
                   "@type": "PostalAddress",
                   "addressLocality": "Sharjah",
