@@ -9,42 +9,15 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
-import { getSeoForRoute } from '@/lib/seo'
-
-// ── SEO METADATA ───────────────────────────────────────────────────────────
-
-
-const ROUTE = '/services/surface-protection-films-dubai-sharjah'
-const BASE_URL = 'https://smartautouae.ae'
+import { buildMetadata } from "@/lib/metadata";
 
 export const dynamic = 'force-dynamic'
 
 export async function generateMetadata(): Promise<Metadata> {
-  const seo = await getSeoForRoute(ROUTE)
-
-  return {
-    title:       seo?.title       || 'Surface Protection Films Dubai & Sharjah | Smart Auto UAE',
-    description: seo?.description || 'Professional surface protection film in Dubai & Sharjah.',
-    keywords:    seo?.keywords    || undefined,
-    alternates: {
-      canonical: seo?.canonical   || `${BASE_URL}${ROUTE}`,
-    },
-    openGraph: {
-      title:       seo?.og_title       || seo?.title       || undefined,
-      description: seo?.og_description || seo?.description || undefined,
-      url:         seo?.canonical      || `${BASE_URL}${ROUTE}`,
-      siteName:    'Smart Auto UAE',
-      type:        (seo?.og_type as 'website' | 'article') || 'website',
-      images:      seo?.og_image ? [{ url: seo.og_image }] : undefined,
-    },
-    twitter: {
-      card:        (seo?.twitter_card as 'summary_large_image' | 'summary') || 'summary_large_image',
-      title:       seo?.twitter_title       || seo?.og_title       || seo?.title       || undefined,
-      description: seo?.twitter_description || seo?.og_description || seo?.description || undefined,
-      images:      seo?.twitter_image ? [seo.twitter_image] : seo?.og_image ? [seo.og_image] : undefined,
-    },
-    robots: seo?.robots || 'index, follow',
-  }
+  return buildMetadata('/services/surface-protection-film-dubai-sharjah', {
+    title: 'Surface Protection Films Dubai & Sharjah | Smart Auto UAE',
+    description: 'Professional surface protection film in Dubai & Sharjah.',
+  })
 }
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────

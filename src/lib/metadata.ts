@@ -1,47 +1,72 @@
-import { createClient } from '@supabase/supabase-js'
 import type { Metadata } from 'next'
+import { getSeoForRoute } from './seo'
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
+const SITE_URL       = 'https://smartautouae.ae'   // ← .ae not .com
+const SITE_NAME      = 'Smart Auto UAE'
+const DEFAULT_OG_IMAGE = '/og-image.jpg'
 
 export async function buildMetadata(
   route: string,
-  fallback: { title: string; description: string }
+  fallback?: Partial<Metadata>
 ): Promise<Metadata> {
-  // Fetch from Supabase first
-  const { data } = await supabase
-    .from('seo_pages')
-    .select('*')
-    .eq('route', route)
-    .single()
+  const seo = await getSeoForRoute(route)
 
-  const title       = data?.title       || fallback.title
-  const description = data?.description || fallback.description
-  const canonical   = data?.canonical   || `https://smartautouae.ae${route}`
-  const robots      = data?.robots      || 'index, follow'
-  const ogImage     = data?.og_image    || '/images/og-default.jpg'
+  const title       = seo?.title       ?? fallback?.title as string       ?? SITE_NAME
+  const description = seo?.description ?? fallback?.description as string ?? ''
+  const canonical   = seo?.canonical   ?? `${SITE_URL}${route}`
+  const ogImage     = seo?.og_image    ?? DEFAULT_OG_IMAGE
+  const robots      = seo?.robots      ?? 'index, follow'
 
   return {
     title,
     description,
-    keywords:  data?.keywords  || undefined,
+    keywords:   seo?.keywords ?? undefined,
     robots,
     alternates: { canonical },
     openGraph: {
-      title:       data?.og_title       || title,
-      description: data?.og_description || description,
+      title:       seo?.og_title       ?? title,
+      description: seo?.og_description ?? description,
+      images:      [{ url: ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage}`, width: 1200, height: 630 }],
+      type:        (seo?.og_type ?? 'website') as 'website' | 'article',
+      siteName:    SITE_NAME,
       url:         canonical,
-      type:        (data?.og_type as 'website' | 'article') || 'website',
-      images:      [{ url: ogImage, width: 1200, height: 630 }],
-      siteName:    'Smart Auto UAE',
     },
     twitter: {
-      card:        (data?.twitter_card as 'summary_large_image' | 'summary') || 'summary_large_image',
-      title:       data?.twitter_title       || data?.og_title       || title,
-      description: data?.twitter_description || data?.og_description || description,
-      images:      [data?.twitter_image || ogImage],
+      card:        (seo?.twitter_card ?? 'summary_large_image') as 'summary_large_image' | 'summary',
+      title:       seo?.twitter_title       ?? title,
+      description: seo?.twitter_description ?? description,
+      images:      [seo?.twitter_image ?? ogImage],
     },
   }
+}
+
+export async function getStructuredData(route: string): Promise<Record<string, unknown> | null> {
+  const seo = await getSeoForRoute(route)
+  if (seo?.structured_data) return seo.structured_data
+
+  if (route === '/') {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'AutoRepair',
+      name: 'Smart Auto UAE',
+      url: SITE_URL,
+      logo: `${SITE_URL}/images/logo.png`,
+      image: `${SITE_URL}/og-image.jpg`,
+      description: 'Premium car window tinting, PPF, ceramic coating, detailing and car wrapping in Dubai and Sharjah UAE.',
+      telephone: '+971567269666',
+      email: 'info@smartautouae.com',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Dubai',
+        addressCountry: 'AE',
+      },
+      geo: { '@type': 'GeoCoordinates', latitude: 25.2048, longitude: 55.2708 },
+      openingHoursSpecification: [
+        { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '21:00' },
+      ],
+      priceRange: '$$',
+      sameAs: ['https://instagram.com/smartautouae'],
+    }
+  }
+  return null
 }
