@@ -17,6 +17,8 @@ import { getSeoForRoute } from '@/lib/seo'
 const ROUTE = '/services/surface-protection-films-dubai-sharjah'
 const BASE_URL = 'https://smartautouae.ae'
 
+export const revalidate = 60
+
 export async function generateMetadata(): Promise<Metadata> {
   const seo = await getSeoForRoute(ROUTE)
 

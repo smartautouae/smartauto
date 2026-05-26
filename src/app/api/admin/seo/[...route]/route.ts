@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { createServerClient } from '@supabase/ssr'
 import { cookies } from 'next/headers'
+import { revalidateTag } from 'next/cache'
 import { getSeoForRoute } from '@/lib/seo'
 
 const supabaseAdmin = createClient(
@@ -41,7 +42,6 @@ async function isAuthorized(req: NextRequest): Promise<boolean> {
   return !!user
 }
 
-// ── Shared route decoder ──────────────────────────────────────────────────────
 // [...route] gives string[] e.g. ['services', 'ceramic-coating']
 // Join and prepend slash → '/services/ceramic-coating'
 function decodeRoute(segments: string[]): string {
@@ -87,6 +87,10 @@ export async function PUT(
     console.error('Supabase upsert error:', error)
     return NextResponse.json({ error: error.message }, { status: 500 })
   }
+
+  // ── Bust the cache immediately so next page load gets fresh metadata ──
+revalidateTag('seo-pages', 'max')
+  console.log('✅ Cache revalidated for tag: seo-pages')
 
   return NextResponse.json({ success: true })
 }
