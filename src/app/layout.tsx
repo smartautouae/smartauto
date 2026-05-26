@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import Script from "next/script";
+import "./globals.css";
 import ChatbotWrapper from "@/components/ChatbotWrapper";
 
 const inter    = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -8,16 +9,6 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://smartautouae.ae"),
-
-manifest: '/manifest.webmanifest',
-  appleWebApp: {
-    capable: true,
-    statusBarStyle: 'black-translucent',
-    title: 'Smart Auto UAE',
-  },
-  other: {
-    'mobile-web-app-capable': 'yes',
-  },
 
   title: {
     default:  "Smart Auto UAE | #1 Window Tinting, PPF & Ceramic Coating in Dubai & Sharjah",
@@ -255,24 +246,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
-
-
-        {/* PWA service worker registration */}
-<Script
-  id="sw-register"
-  strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: `
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
-            .then(r => console.log('SW registered:', r.scope))
-            .catch(e => console.log('SW error:', e))
-        })
-      }
-    `,
-  }}
-/>
 
         {children}
         <ChatbotWrapper />
