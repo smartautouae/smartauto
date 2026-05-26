@@ -9,56 +9,41 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
+import { getSeoForRoute } from '@/lib/seo'
 
 // ── SEO METADATA ───────────────────────────────────────────────────────────
 
-export const metadata: Metadata = {
-  title: "Surface Protection Films Dubai & Sharjah | Marble, Glass & Floor Protection | Smart Auto UAE",
-  description:
-    "Professional surface protection film installation in Dubai & Sharjah. Protect marble, granite, glass, floors, lifts, aluminium, wood, stainless steel & countertops from scratches, stains & damage. Residential & commercial. 3M & premium films. 4 branches — MotorCity, Al Quoz, Mirdif & Sharjah. Free site visit.",
-  keywords: [
-    "surface protection film Dubai",
-    "surface protection film Sharjah",
-    "marble protection film Dubai",
-    "marble protection film Sharjah",
-    "floor protection film Dubai",
-    "glass protection film Dubai",
-    "granite protection film Dubai",
-    "countertop protection film Dubai",
-    "surface protection film UAE",
-    "protective film for marble Dubai",
-    "protective film for glass Dubai",
-    "protective film for floors Dubai",
-    "aluminium surface protection film UAE",
-    "stainless steel protection film Dubai",
-    "wood surface protection film Dubai",
-    "lift protection film Dubai",
-    "elevator cab protection film Dubai",
-    "lift interior protection film UAE",
-    "elevator surface protection film Dubai",
-    "anti scratch film Dubai",
-    "anti scratch film Sharjah",
-    "surface protection film installation Dubai",
-    "surface protection film near me Dubai",
-    "Smart Auto UAE surface protection",
-    "3M surface protection film Dubai",
-    "Totalgard surface protection UAE",
-    "villa surface protection film Dubai",
-    "commercial surface protection Dubai",
-    "kitchen countertop protection film Dubai",
-    "bathroom surface protection film Dubai",
-    "surface protection film MotorCity Dubai",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/services/surface-protection-films-dubai-sharjah" },
-  openGraph: {
-    title: "Surface Protection Films Dubai & Sharjah | Marble, Glass & Floor Protection | Smart Auto UAE",
-    description:
-      "Surface protection film in Dubai & Sharjah. Protect marble, granite, glass, floors, lifts, aluminium & countertops from scratches, stains & damage. Residential & commercial. Free site visit.",
-    url: "https://smartautouae.ae/services/surface-protection-films-dubai-sharjah",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+
+const ROUTE = '/services/surface-protection-films-dubai-sharjah'
+const BASE_URL = 'https://smartautouae.ae'
+
+export async function generateMetadata(): Promise<Metadata> {
+  const seo = await getSeoForRoute(ROUTE)
+
+  return {
+    title:       seo?.title       || 'Surface Protection Films Dubai & Sharjah | Smart Auto UAE',
+    description: seo?.description || 'Professional surface protection film in Dubai & Sharjah.',
+    keywords:    seo?.keywords    || undefined,
+    alternates: {
+      canonical: seo?.canonical   || `${BASE_URL}${ROUTE}`,
+    },
+    openGraph: {
+      title:       seo?.og_title       || seo?.title       || undefined,
+      description: seo?.og_description || seo?.description || undefined,
+      url:         seo?.canonical      || `${BASE_URL}${ROUTE}`,
+      siteName:    'Smart Auto UAE',
+      type:        (seo?.og_type as 'website' | 'article') || 'website',
+      images:      seo?.og_image ? [{ url: seo.og_image }] : undefined,
+    },
+    twitter: {
+      card:        (seo?.twitter_card as 'summary_large_image' | 'summary') || 'summary_large_image',
+      title:       seo?.twitter_title       || seo?.og_title       || seo?.title       || undefined,
+      description: seo?.twitter_description || seo?.og_description || seo?.description || undefined,
+      images:      seo?.twitter_image ? [seo.twitter_image] : seo?.og_image ? [seo.og_image] : undefined,
+    },
+    robots: seo?.robots || 'index, follow',
+  }
+}
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 
