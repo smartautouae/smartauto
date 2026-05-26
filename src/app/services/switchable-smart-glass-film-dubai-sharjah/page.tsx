@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import {
   CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
   Star, Shield, Sparkles, Clock, Award, ShieldCheck,
-  Car, Wind, Lightbulb, Layers,
+  Car, Wind, Lightbulb, Layers, Building2, Eye, Zap, Home, Wifi,
 } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
 import { buildMetadata } from "@/lib/metadata";
+import SmartFilmDemo from "@/components/SmartFilmDemo";
 
 export const dynamic = 'force-dynamic'
 

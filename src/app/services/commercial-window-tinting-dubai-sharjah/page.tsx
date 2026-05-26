@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import {
   CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
-  Star, Shield, Sparkles, Clock, Award, ShieldCheck,
-  Car, Wind, Lightbulb, Layers,
-} from "lucide-react";
+  Star, Shield, Sparkles, Clock, Award, ShieldCheck, Sun, Zap, Thermometer, Eye,
+  Car, Wind, Lightbulb, Layers, Building2, Store, Hotel, Droplets,} from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";

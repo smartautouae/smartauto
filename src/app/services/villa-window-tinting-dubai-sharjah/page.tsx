@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import {
   CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
   Star, Shield, Sparkles, Clock, Award, ShieldCheck,
-  Car, Wind, Lightbulb, Layers,
+  Car, Wind, Lightbulb, Layers, Sun, Zap, Thermometer, Eye,
 } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
