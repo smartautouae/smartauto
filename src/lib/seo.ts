@@ -1,14 +1,16 @@
+import 'server-only'
 import { createClient } from '@supabase/supabase-js'
-import { unstable_cache } from 'next/cache'
 
-// ── Anon client — browser-safe, for client components only ───────────────────
-import { supabase } from './supabase'
+function getAdminClient() {
+  return createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.SUPABASE_SERVICE_ROLE_KEY!
+  )
+}
 
-// ── Admin client — service role, server-side only ────────────────────────────
-const supabaseAdmin = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
+// ── Client-side read — for admin UI only (keep this import separate) ─────────
+// Don't import supabase anon client here since this file is server-only.
+// Use getSeoForRouteClient in a separate client-safe file if needed.
 
 export type SeoPage = {
   id:                  string
@@ -32,31 +34,24 @@ export type SeoPage = {
   updated_at:          string
 }
 
-// ── Server-side read — cached, used in generateMetadata ──────────────────────
-export const getSeoForRoute = unstable_cache(
-  async (route: string): Promise<SeoPage | null> => {
-    const { data, error } = await supabaseAdmin
-      .from('seo_pages')
-      .select('*')
-      .eq('route', route)
-      .single()
+// ── Server-side read — used in generateMetadata ───────────────────────────────
+export async function getSeoForRoute(route: string): Promise<SeoPage | null> {
+  const { data, error } = await getAdminClient()
+    .from('seo_pages')
+    .select('*')
+    .eq('route', route)
+    .single()
 
-    if (error && error.code !== 'PGRST116') {
-      console.error(`getSeoForRoute(${route}):`, error.message)
-    }
-
-    return data ?? null
-  },
-  ['seo-route'],
-  {
-    revalidate: 60,           // fallback: refresh every 60s even without on-demand revalidation
-    tags: ['seo-pages'],      // used by revalidateTag() in the PUT API route
+  if (error && error.code !== 'PGRST116') {
+    console.error(`getSeoForRoute(${route}):`, error.message)
   }
-)
+
+  return data ?? null
+}
 
 // ── Admin read all — used in admin dashboard list ─────────────────────────────
 export async function getAllSeoPages(): Promise<SeoPage[]> {
-  const { data, error } = await supabaseAdmin
+  const { data, error } = await getAdminClient()
     .from('seo_pages')
     .select('*')
     .order('page_label')
@@ -70,21 +65,10 @@ export async function upsertSeoPage(
   route: string,
   payload: Partial<SeoPage>
 ): Promise<{ ok: boolean; error?: string }> {
-  const { error } = await supabaseAdmin
+  const { error } = await getAdminClient()
     .from('seo_pages')
     .upsert({ route, ...payload }, { onConflict: 'route' })
 
   if (error) console.error(`upsertSeoPage(${route}):`, error.message)
   return error ? { ok: false, error: error.message } : { ok: true }
-}
-
-// ── Client-side read — for admin UI dropdowns, previews etc ──────────────────
-export async function getSeoForRouteClient(route: string): Promise<SeoPage | null> {
-  const { data } = await supabase
-    .from('seo_pages')
-    .select('*')
-    .eq('route', route)
-    .single()
-
-  return data ?? null
 }
