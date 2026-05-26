@@ -1,64 +1,24 @@
 import type { Metadata } from "next";
 import {
   CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
-  Star, Shield, Sparkles, Sun, Zap, Eye, ShieldCheck,
-  Layers, Clock, Award, Building2, Store, Hotel,
+  Star, Shield, Sparkles, Clock, Award, ShieldCheck,
+  Car, Wind, Lightbulb, Layers,
 } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
+import { buildMetadata } from "@/lib/metadata";
 
-// ── SEO METADATA ───────────────────────────────────────────────────────────
+export const dynamic = 'force-dynamic'
 
-export const metadata: Metadata = {
-  title: "Commercial Window Tinting Dubai & Sharjah | Office Building Window Film | Smart Auto UAE",
-  description:
-    "Professional commercial window tinting in Dubai & Sharjah. UAE's trusted applicator of 3M USA, Global USA & Totalgard films. Office window tinting, building window tinting, shop window tinting, privacy films, safety films. Block 90% heat, 99% UV, 95% glare. Free site visit. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
-  keywords: [
-    "commercial window tinting Dubai",
-    "commercial window tinting Sharjah",
-    "commercial window tinting UAE",
-    "office window tinting Dubai",
-    "office window tinting Sharjah",
-    "building window tinting Dubai",
-    "building window tinting Sharjah",
-    "building window film installation Dubai",
-    "building window tinting near me Dubai",
-    "office building window tinting Dubai",
-    "office building privacy tinting Dubai",
-    "shop window tinting Dubai",
-    "shop window tinting Sharjah",
-    "window tinting services Dubai",
-    "decorative window film Dubai",
-    "commercial window film Dubai",
-    "3M commercial window tinting Dubai",
-    "Totalgard commercial window film Dubai",
-    "Global USA commercial window film UAE",
-    "heat rejection window film commercial Dubai",
-    "privacy window film office Dubai",
-    "safety window film commercial UAE",
-    "energy saving window film office Dubai",
-    "sun control window film commercial UAE",
-    "anti glare window film office Dubai",
-    "commercial tinting near me Dubai",
-    "Smart Auto UAE commercial tinting",
-    "UAE authorised window film applicator",
-    "office glass tinting Dubai",
-    "commercial glass film Sharjah",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/services/commercial-window-tinting-dubai-sharjah" },
-  openGraph: {
-    title: "Commercial Window Tinting Dubai & Sharjah | Office Building Window Film | Smart Auto UAE",
-    description:
-      "UAE authorised commercial window tinting in Dubai & Sharjah. 3M USA, Global USA & Totalgard films. Office tinting, building tinting, shop tinting, privacy & safety films. Block 90% heat, 99% UV. Free site visit.",
-    url: "https://smartautouae.ae/services/commercial-window-tinting-dubai-sharjah",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
-
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/services/commercial-window-tinting-dubai-sharjah', {
+    title: 'Commercial Window Tinting Dubai & Sharjah | Smart Auto UAE',
+    description: 'Professional commercial window tinting for offices and buildings in Dubai & Sharjah. Smart Auto UAE.',
+  })
+}
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 
 const gold     = "#C9A84C";

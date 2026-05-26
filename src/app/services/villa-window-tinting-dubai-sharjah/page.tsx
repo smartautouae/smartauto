@@ -1,62 +1,24 @@
 import type { Metadata } from "next";
 import {
   CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
-  Star, Shield, Sparkles, Sun, Zap, Eye, ShieldCheck, Layers, Clock, Award,
+  Star, Shield, Sparkles, Clock, Award, ShieldCheck,
+  Car, Wind, Lightbulb, Layers,
 } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
+import { buildMetadata } from "@/lib/metadata";
 
-// ── SEO METADATA ───────────────────────────────────────────────────────────
+export const dynamic = 'force-dynamic'
 
-export const metadata: Metadata = {
-  title: "Villa Window Tinting Dubai & Sharjah | Residential Window Tinting | Smart Auto UAE",
-  description:
-    "Professional villa and residential window tinting in Dubai & Sharjah. 3M, Global USA & Totalgard films - block up to 90% heat, 99% UV rays, 95% glare. Heat rejection, privacy & decorative films. Home window tinting, flat glass tinting, villa glass tinting. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah. Free site visit. Get a quote.",
-  keywords: [
-    "villa window tinting Dubai",
-    "villa window tinting Sharjah",
-    "residential window tinting Dubai",
-    "residential window tinting Sharjah",
-    "home window tinting Dubai",
-    "home window tinting Sharjah",
-    "flat glass tinting Dubai",
-    "flat window tinting Dubai",
-    "home glass tinting Dubai",
-    "villa glass tinting Dubai",
-    "house window tinting Dubai",
-    "window tinting near me Dubai",
-    "3M window film villa Dubai",
-    "3M residential window tinting Dubai",
-    "Totalgard window film Dubai",
-    "Global USA window film Dubai",
-    "heat rejection window film villa Dubai",
-    "privacy window film villa Dubai",
-    "UV protection window film Dubai",
-    "energy saving window film Dubai",
-    "villa window tinting MotorCity",
-    "villa window tinting Al Quoz",
-    "villa window tinting Mirdif",
-    "villa window tinting Sharjah",
-    "Smart Auto UAE villa tinting",
-    "sun control window film Dubai",
-    "anti glare window film villa Dubai",
-    "window film installation Dubai",
-    "residential tinting near me Dubai",
-    "villa tinting service UAE",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/services/villa-window-tinting-dubai-sharjah" },
-  openGraph: {
-    title: "Villa Window Tinting Dubai & Sharjah | Residential Window Tinting | Smart Auto UAE",
-    description:
-      "Professional villa & residential window tinting in Dubai & Sharjah. 3M, Global USA & Totalgard films. Block 90% heat, 99% UV, 95% glare. Privacy films, heat rejection films. 4 branches.",
-    url: "https://smartautouae.ae/services/villa-window-tinting-dubai-sharjah",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/services/villa-window-tinting-dubai-sharjah', {
+    title: 'Villa Window Tinting Dubai & Sharjah | Smart Auto UAE',
+    description: 'Professional villa and residential window tinting in Dubai & Sharjah. Smart Auto UAE.',
+  })
+}
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 

@@ -1,56 +1,24 @@
 import type { Metadata } from "next";
 import {
   CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
-  Star, Shield, Sparkles, Clock, Award, ShieldCheck, Palette, Layers,
+  Star, Shield, Sparkles, Clock, Award, ShieldCheck,
+  Car, Wind, Lightbulb, Layers,
 } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
+import { buildMetadata } from "@/lib/metadata";
 
-// ── SEO METADATA ───────────────────────────────────────────────────────────
+export const dynamic = 'force-dynamic'
 
-export const metadata: Metadata = {
-  title: "Car Wrapping Dubai & Sharjah | 100+ Colours, Chrome, Matte, Carbon | Smart Auto UAE",
-  description:
-    "Professional car wrapping in Dubai & Sharjah. 100+ vinyl colours and finishes - full body wraps, colour change, chrome, matte, carbon fibre, chameleon & custom designs. Vinyl wraps protect original paint. Removable, residue-free. Boats, bikes & commercial vehicles. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
-  keywords: [
-    "car wrapping Dubai",
-    "car wrapping Sharjah",
-    "car wrapping near me Dubai",
-    "car colour change Dubai",
-    "vinyl wrap Dubai",
-    "car foiling Dubai",
-    "chrome wrap Dubai",
-    "matte wrap Dubai",
-    "carbon fibre wrap Dubai",
-    "chameleon wrap Dubai",
-    "full body wrap Dubai",
-    "car branding Dubai",
-    "400 colour car wrap Dubai",
-    "car wrapping MotorCity Dubai",
-    "car wrapping Al Quoz Dubai",
-    "car wrapping Mirdif Dubai",
-    "car wrapping Sharjah",
-    "car wrapping price Dubai",
-    "colour change wrap UAE",
-    "Smart Auto UAE car wrapping",
-    "commercial vehicle wrapping Dubai",
-    "boat wrapping Dubai",
-    "motorcycle wrapping Dubai",
-    "custom car wrap Dubai",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/services/car-wrapping-dubai-sharjah" },
-  openGraph: {
-    title: "Car Wrapping Dubai & Sharjah | 100+ Colours, Chrome, Matte, Carbon | Smart Auto UAE",
-    description:
-      "Professional car wrapping in Dubai & Sharjah. 100+ vinyl colours - full body wraps, colour change, chrome, matte, carbon, chameleon & custom designs. Removable, residue-free. 4 branches.",
-    url: "https://smartautouae.ae/services/car-wrapping-dubai-sharjah",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/services/car-wrapping-dubai-sharjah', {
+    title: 'Car Wrapping Dubai & Sharjah | Smart Auto UAE',
+    description: 'Professional vinyl car wrapping in Dubai & Sharjah. Matte, gloss, satin & colour change wraps. Smart Auto UAE.',
+  })
+}
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 

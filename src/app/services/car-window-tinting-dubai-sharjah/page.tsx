@@ -1,56 +1,24 @@
 import type { Metadata } from "next";
 import {
-  Sun, CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
-  Star, Shield, Zap, Eye, Thermometer, Clock, Award, ShieldCheck,
+  CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
+  Star, Shield, Sparkles, Clock, Award, ShieldCheck,
+  Car, Wind, Lightbulb, Layers,
 } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
+import { buildMetadata } from "@/lib/metadata";
 
-// ── SEO METADATA ───────────────────────────────────────────────────────────
+export const dynamic = 'force-dynamic'
 
-export const metadata: Metadata = {
-  title: "Car Window Tinting Dubai & Sharjah | TotalGard & 3M Nano Ceramic | Smart Auto UAE",
-  description:
-    "Professional nano ceramic car window tinting in Dubai & Sharjah. Dark from outside, clear from inside. TotalGard & 3M films. UAE RTA compliant. 99% UV & heat rejection. Maximum privacy. 5-year warranty. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
-  keywords: [
-    "car window tinting Dubai",
-    "car window tinting Sharjah",
-    "nano ceramic window tinting Dubai",
-    "nano ceramic window tint Sharjah",
-    "window tinting Dubai UAE",
-    "dark window tint Dubai",
-    "privacy window tint Dubai",
-    "car tinting near me Dubai",
-    "car tinting near me Sharjah",
-    "legal car tint Dubai",
-    "heat rejection window tint UAE",
-    "3M nano ceramic tint Dubai",
-    "TotalGard nano ceramic window tint Dubai",
-    "TotalGard window tint Sharjah",
-    "window tinting MotorCity",
-    "window tinting Al Quoz",
-    "window tinting Mirdif",
-    "car tinting Sharjah",
-    "RTA compliant window tint Dubai",
-    "UV blocking car tint UAE",
-    "best window tint for Dubai heat",
-    "legal window tint percentage Dubai",
-    "Smart Auto UAE window tinting",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/services/car-window-tinting-dubai-sharjah" },
-  openGraph: {
-    title: "Car Window Tinting Dubai & Sharjah | TotalGard & 3M Nano Ceramic | Smart Auto UAE",
-    description:
-      "Nano ceramic window tinting in Dubai & Sharjah. Dark from outside, clear from inside. TotalGard & 3M. UAE RTA compliant. 5-year warranty. 4 branches.",
-    url: "https://smartautouae.ae/services/car-window-tinting-dubai-sharjah",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
-
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/services/car-window-tinting-dubai-sharjah', {
+    title: 'Car Window Tinting Dubai & Sharjah | Smart Auto UAE',
+    description: 'Premium car window tinting in Dubai & Sharjah. 3M & TotalGard films. RTA compliant. Smart Auto UAE.',
+  })
+}
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 
 const gold     = "#C9A84C";

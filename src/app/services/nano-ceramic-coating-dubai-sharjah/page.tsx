@@ -1,56 +1,24 @@
 import type { Metadata } from "next";
 import {
   CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
-  Star, Shield, Zap, Droplets, Clock, Award, ShieldCheck, Sparkles,
+  Star, Shield, Sparkles, Clock, Award, ShieldCheck,
+  Car, Wind, Lightbulb, Layers,
 } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
+import { buildMetadata } from "@/lib/metadata";
 
-// ── SEO METADATA ───────────────────────────────────────────────────────────
+export const dynamic = 'force-dynamic'
 
-export const metadata: Metadata = {
-  title: "Nano Ceramic Coating Dubai & Sharjah | SIRIUS, GYEON, JADE, ONYX | Smart Auto UAE",
-  description:
-    "Professional nano ceramic coating in Dubai & Sharjah. Bronze, Silver & Diamond packages from AED 1000. SIRIUS USA, GYEON, JADE & ONYX ceramic coatings. 9H hardness, self-cleaning, UV resistant. Up to 5-year warranty. Free annual service. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
-  keywords: [
-    "nano ceramic coating Dubai",
-    "ceramic coating Dubai",
-    "nano ceramic coating Sharjah",
-    "ceramic coating Sharjah",
-    "car ceramic coating Dubai UAE",
-    "9H ceramic coating Dubai",
-    "SIRIUS ceramic coating Dubai",
-    "GYEON ceramic coating Dubai",
-    "ceramic coating near me Dubai",
-    "ceramic coating near me Sharjah",
-    "car paint protection coating Dubai",
-    "hydrophobic coating Dubai",
-    "ceramic coating packages Dubai",
-    "best ceramic coating Dubai",
-    "ceramic coating MotorCity Dubai",
-    "ceramic coating Al Quoz Dubai",
-    "ceramic coating Mirdif Dubai",
-    "ceramic coating Sharjah",
-    "UV protection ceramic coating UAE",
-    "Smart Auto UAE ceramic coating",
-    "doorstep ceramic coating Dubai",
-    "ceramic coating price Dubai",
-    "scratch resistant coating Dubai",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/services/nano-ceramic-coating-dubai-sharjah" },
-  openGraph: {
-    title: "Nano Ceramic Coating Dubai & Sharjah | SIRIUS, GYEON, JADE, ONYX | Smart Auto UAE",
-    description:
-      "Nano ceramic coating in Dubai & Sharjah. Bronze from AED 1000, Silver from AED 1300, Diamond from AED 1800. SIRIUS USA, GYEON, JADE, ONYX. Up to 5-year warranty. 4 branches.",
-    url: "https://smartautouae.ae/services/nano-ceramic-coating-dubai-sharjah",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
-
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/services/nano-ceramic-coating-dubai-sharjah', {
+    title: 'Nano Ceramic Coating Dubai & Sharjah | Smart Auto UAE',
+    description: 'Professional nano ceramic coating in Dubai & Sharjah. 9H hardness, long-lasting gloss & protection. Smart Auto UAE.',
+  })
+}
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 
 const gold     = "#C9A84C";

@@ -1,52 +1,24 @@
 import type { Metadata } from "next";
 import {
   CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
-  Star, Shield, Sparkles, Clock, Award, ShieldCheck, Palette, Layers,
+  Star, Shield, Sparkles, Clock, Award, ShieldCheck,
+  Car, Wind, Lightbulb, Layers,
 } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
+import { buildMetadata } from "@/lib/metadata";
 
-// ── SEO METADATA ───────────────────────────────────────────────────────────
+export const dynamic = 'force-dynamic'
 
-export const metadata: Metadata = {
-  title: "Colour PPF Dubai & Sharjah | Coloured Paint Protection Film | Smart Auto UAE",
-  description:
-    "Colour PPF in Dubai & Sharjah - coloured paint protection film that changes your car's colour while protecting the original paint. Self-healing, stone chip resistant, removable. 100+ colour options. MotorCity, Al Quoz, Mirdif & Sharjah branches. Smart Auto UAE.",
-  keywords: [
-    "colour PPF Dubai",
-    "colour PPF Sharjah",
-    "coloured paint protection film Dubai",
-    "colour change PPF Dubai",
-    "PPF colour wrap Dubai",
-    "paint protection film colour change UAE",
-    "self healing colour PPF Dubai",
-    "colour PPF near me Dubai",
-    "colour PPF MotorCity Dubai",
-    "colour PPF Al Quoz Dubai",
-    "colour PPF Mirdif Dubai",
-    "colour PPF Sharjah",
-    "matte colour PPF Dubai",
-    "gloss colour PPF Dubai",
-    "satin colour PPF Dubai",
-    "Smart Auto UAE colour PPF",
-    "best PPF Dubai",
-    "stone chip protection colour change Dubai",
-    "colour PPF vs vinyl wrap Dubai",
-    "PPF wrap UAE",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/services/colour-ppf-dubai-sharjah" },
-  openGraph: {
-    title: "Colour PPF Dubai & Sharjah | Coloured Paint Protection Film | Smart Auto UAE",
-    description:
-      "Colour PPF in Dubai & Sharjah - change your car's colour and protect the original paint simultaneously. Self-healing, stone chip resistant, removable. 100+ colour options. 4 branches.",
-    url: "https://smartautouae.ae/services/colour-ppf-dubai-sharjah",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/services/colour-ppf-dubai-sharjah', {
+    title: 'Colour PPF Dubai & Sharjah | Smart Auto UAE',
+    description: 'Colour paint protection film installation in Dubai & Sharjah. Style and protection in one. Smart Auto UAE.',
+  })
+}
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 

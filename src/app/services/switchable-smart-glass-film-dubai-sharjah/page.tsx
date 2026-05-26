@@ -1,64 +1,24 @@
 import type { Metadata } from "next";
 import {
-  CheckCircle, ArrowRight, Phone, ChevronRight,
-  Star, Shield, Sparkles, Eye, Zap, ShieldCheck,
-  Clock, Award, Building2, Home, Wifi,
+  CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
+  Star, Shield, Sparkles, Clock, Award, ShieldCheck,
+  Car, Wind, Lightbulb, Layers,
 } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
-import SmartFilmDemo from "../../../components/SmartFilmDemo";
+import { buildMetadata } from "@/lib/metadata";
 
-// ── SEO METADATA ───────────────────────────────────────────────────────────
+export const dynamic = 'force-dynamic'
 
-export const metadata: Metadata = {
-  title: "Switchable Smart Film Dubai & Sharjah | Smart Glass Film | PDLC Film | Smart Auto UAE",
-  description:
-    "Switchable smart glass film installation in Dubai & Sharjah. PDLC smart film transforms any existing glass from clear to frosted instantly - at the touch of a button. Privacy on demand for offices, villas, hotels, meeting rooms & partitions. Remote, wall switch & smart home control. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah. Free site visit.",
-  keywords: [
-    "switchable smart film Dubai",
-    "switchable smart film Sharjah",
-    "smart glass film Dubai",
-    "smart glass film Sharjah",
-    "PDLC film Dubai",
-    "PDLC smart film UAE",
-    "switchable smart glass Dubai",
-    "smart glass Dubai",
-    "smart film installation Dubai",
-    "smart film installation Sharjah",
-    "privacy glass film Dubai",
-    "smart glass film office Dubai",
-    "smart glass film villa Dubai",
-    "smart switchable glass film UAE",
-    "office smart glass film Dubai",
-    "meeting room privacy film Dubai",
-    "smart glass partition Dubai",
-    "smart glass near me Dubai",
-    "smart glass near me Sharjah",
-    "electrochromic film Dubai",
-    "smart window film Dubai",
-    "smart glass film MotorCity Dubai",
-    "smart glass film Al Quoz Dubai",
-    "smart glass film Mirdif Dubai",
-    "smart glass film Sharjah",
-    "privacy on demand glass Dubai",
-    "frosted glass film switchable Dubai",
-    "Smart Auto UAE smart film",
-    "smart home glass film Dubai",
-    "smart film retrofit Dubai",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/services/switchable-smart-glass-film-dubai-sharjah" },
-  openGraph: {
-    title: "Switchable Smart Film Dubai & Sharjah | Smart Glass Film | PDLC Film | Smart Auto UAE",
-    description:
-      "PDLC switchable smart film in Dubai & Sharjah. Clear to frosted in milliseconds - at the touch of a button. Offices, villas, hotels, meeting rooms. Remote, wall switch & smart home control. Free site visit.",
-    url: "https://smartautouae.ae/services/switchable-smart-glass-film-dubai-sharjah",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/services/switchable-smart-glass-film-dubai-sharjah', {
+    title: 'Switchable Smart Glass Film Dubai & Sharjah | Smart Auto UAE',
+    description: 'Switchable smart glass film installation in Dubai & Sharjah. Privacy on demand. Smart Auto UAE.',
+  })
+}
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 

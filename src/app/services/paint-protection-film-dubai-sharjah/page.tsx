@@ -1,57 +1,24 @@
 import type { Metadata } from "next";
 import {
   CheckCircle, ArrowRight, Phone, MapPin, ChevronRight,
-  Star, Shield, Zap, Droplets, Clock, Award, ShieldCheck, Sparkles,
+  Star, Shield, Sparkles, Clock, Award, ShieldCheck,
+  Car, Wind, Lightbulb, Layers,
 } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
+import { buildMetadata } from "@/lib/metadata";
 
-// ── SEO METADATA ───────────────────────────────────────────────────────────
+export const dynamic = 'force-dynamic'
 
-export const metadata: Metadata = {
-  title: "Paint Protection Film Dubai & Sharjah | PPF TotalGard, 3M, SIRIUS, GLOBAL | Smart Auto UAE",
-  description:
-    "Professional Paint Protection Film (PPF) installation in Dubai & Sharjah. TotalGard, SIRIUS USA, GLOBAL USA, 3M & Smart Pro PPF. Self-healing, scratch-proof, UV resistant. Full body & partial PPF available. 5-year warranty. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
-  keywords: [
-    "paint protection film Dubai",
-    "paint protection film Sharjah",
-    "PPF Dubai",
-    "PPF Sharjah",
-    "PPF installation Dubai UAE",
-    "car PPF near me Dubai",
-    "TotalGard PPF Dubai",
-    "3M PPF Dubai",
-    "SIRIUS PPF Dubai",
-    "GLOBAL PPF Dubai",
-    "Smart Pro PPF UAE",
-    "self healing PPF Dubai",
-    "clear bra Dubai",
-    "full body PPF Dubai",
-    "partial PPF Dubai",
-    "scratch proof car film Dubai",
-    "car paint protection Dubai",
-    "car paint protection Sharjah",
-    "PPF MotorCity Dubai",
-    "PPF Al Quoz Dubai",
-    "PPF Mirdif Dubai",
-    "PPF Sharjah",
-    "Smart Auto UAE PPF",
-    "best PPF Dubai",
-    "UV protection car film UAE",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/services/paint-protection-film-dubai-sharjah" },
-  openGraph: {
-    title: "Paint Protection Film Dubai & Sharjah | PPF TotalGard, 3M, SIRIUS, GLOBAL | Smart Auto UAE",
-    description:
-      "Professional PPF installation in Dubai & Sharjah. TotalGard, SIRIUS USA, GLOBAL USA, 3M & Smart Pro. Self-healing. 5-year warranty. 4 branches.",
-    url: "https://smartautouae.ae/services/paint-protection-film-dubai-sharjah",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/services/paint-protection-film-dubai-sharjah', {
+    title: 'Paint Protection Film Dubai & Sharjah | Smart Auto UAE',
+    description: 'Self-healing PPF installation in Dubai & Sharjah. 3M & TotalGard certified. Smart Auto UAE.',
+  })
+}
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 
