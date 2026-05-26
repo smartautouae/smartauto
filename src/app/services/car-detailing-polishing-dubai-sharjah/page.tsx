@@ -9,51 +9,16 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
+import { buildMetadata } from "@/lib/metadata";
 
-// ── SEO METADATA ───────────────────────────────────────────────────────────
+export const dynamic = 'force-dynamic'
 
-export const metadata: Metadata = {
-  title: "Car Detailing & Polishing Dubai & Sharjah | 3M, SIRIUS, Polytop | Smart Auto UAE",
-  description:
-    "Professional car detailing and polishing in Dubai & Sharjah using 3M, SIRIUS USA & Polytop Germany products. Silver from AED 299, Gold AED 450, Diamond AED 600, Premium AED 1000. Interior detailing, exterior detailing, 6-step polishing, swirl mark removal, engine bay cleaning & headlight restoration. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah.",
-  keywords: [
-    "car detailing Dubai",
-    "car detailing Sharjah",
-    "car detailing near me Dubai",
-    "car polishing Dubai",
-    "car polishing Sharjah",
-    "3M car detailing Dubai",
-    "Polytop car detailing Dubai",
-    "SIRIUS car detailing Dubai",
-    "interior car detailing Dubai",
-    "exterior car detailing Dubai",
-    "car detailing price Dubai",
-    "car detailing packages Dubai",
-    "swirl mark removal Dubai",
-    "engine bay cleaning Dubai",
-    "headlight restoration Dubai",
-    "car detailing MotorCity Dubai",
-    "car detailing Al Quoz Dubai",
-    "car detailing Mirdif Dubai",
-    "car detailing Sharjah",
-    "car detailing centre near me",
-    "car detailing offers Dubai",
-    "6 step car polishing Dubai",
-    "Smart Auto UAE car detailing",
-    "car wash and detailing Dubai",
-    "ceramic sealant car Dubai",
-    "paint correction Dubai",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/services/car-detailing-polishing-dubai-sharjah" },
-  openGraph: {
-    title: "Car Detailing & Polishing Dubai & Sharjah | 3M, SIRIUS, Polytop | Smart Auto UAE",
-    description:
-      "Professional car detailing in Dubai & Sharjah using 3M, SIRIUS USA & Polytop Germany. Silver from AED 299, Gold AED 450, Diamond AED 600, Premium AED 1,000. Interior, exterior, polishing, engine bay & headlight restoration. 4 branches.",
-    url: "https://smartautouae.ae/services/car-detailing-polishing-dubai-sharjah",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/services/car-detailing-polishing-dubai-sharjah', {
+    title: 'Car Detailing & Polishing Dubai & Sharjah- Smart Auto',
+    description: 'Professional car detailing and polishing in Dubai & Sharjah. 3M, SIRIUS & Polytop products. Smart Auto UAE.',
+  })
+}
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 
