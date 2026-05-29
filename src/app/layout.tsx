@@ -11,8 +11,8 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 const BASE_URL = "https://smartautouae.ae";
 
 const FALLBACK = {
-  title:       "Smart Auto UAE | #1 Window Tinting, PPF & Ceramic Coating in Dubai & Sharjah",
-  description: "Smart Auto UAE - Dubai & Sharjah's most trusted Car Protection centre. Premium window tinting, PPF, ceramic coating, car detailing & vinyl wrapping. 50,000+ happy clients. Free inspection.",
+  title:       "Window Tinting, PPF & Ceramic Coating in Dubai & Sharjah",
+  description: "Dubai & Sharjah's most trusted Car Protection centre. Premium window tinting, PPF, ceramic coating, car detailing & vinyl wrapping. 50,000+ happy clients. Free inspection.",
 };
 
 export async function generateMetadata(): Promise<Metadata> {

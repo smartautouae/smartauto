@@ -8,10 +8,6 @@ function getAdminClient() {
   )
 }
 
-// ── Client-side read — for admin UI only (keep this import separate) ─────────
-// Don't import supabase anon client here since this file is server-only.
-// Use getSeoForRouteClient in a separate client-safe file if needed.
-
 export type SeoPage = {
   id:                  string
   route:               string

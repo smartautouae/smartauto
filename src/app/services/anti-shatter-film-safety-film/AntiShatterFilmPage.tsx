@@ -1,13 +1,13 @@
-"use client";
+'use client'
 
-import { useState, useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import { useState, useRef } from 'react'
+import { motion, useInView } from 'framer-motion'
 import {
   Shield, CheckCircle, Phone, MapPin,
   Star, Zap, Building2, Home, AlertTriangle, Lock
-} from "lucide-react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+} from 'lucide-react'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 const gold     = "#C9A84C";
 const goldGrad = "linear-gradient(135deg,#C9A84C,#E8C96A)";
