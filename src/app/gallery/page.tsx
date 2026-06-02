@@ -4,38 +4,16 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import GalleryGrid from "@/components/GalleryGrid";
+import { buildMetadata } from "@/lib/metadata";
 
 // ── SEO METADATA ───────────────────────────────────────────────────────────
 
-export const metadata: Metadata = {
-  title: "Gallery | Smart Auto UAE | Window Tinting & Protection Films Dubai & Sharjah",
-  description:
-    "Browse Smart Auto UAE's gallery of professional window tinting, smart film, PPF & surface protection installations across Dubai & Sharjah. Car tinting, villa tinting, commercial tinting, switchable smart film & surface protection films. Real projects. Real results.",
-  keywords: [
-    "Smart Auto UAE gallery",
-    "window tinting gallery Dubai",
-    "window tinting photos Dubai",
-    "car tinting photos Dubai",
-    "villa tinting photos Dubai",
-    "commercial tinting photos Dubai",
-    "smart film gallery Dubai",
-    "PPF gallery Dubai",
-    "surface protection film gallery Dubai",
-    "window tinting before after Dubai",
-    "Smart Auto UAE projects",
-    "3M tinting photos Dubai",
-    "window film installation gallery UAE",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/gallery" },
-  openGraph: {
-    title: "Gallery | Smart Auto UAE | Window Tinting Dubai & Sharjah",
-    description:
-      "Professional window tinting, smart film, PPF & surface protection gallery. Real installations across Dubai & Sharjah.",
-    url: "https://smartautouae.ae/gallery",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/gallery', {
+    title: 'Gallery | Smart Auto UAE | Window Tinting & PPF Dubai',
+    description: 'Browse our gallery of window tinting, PPF, smart film and ceramic coating projects across Dubai and Sharjah.',
+  })
+}
 
 export default function GalleryPage() {
   return (

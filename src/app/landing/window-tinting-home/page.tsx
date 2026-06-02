@@ -23,6 +23,15 @@ import {
   Home,
   Package,
 } from "lucide-react";
+import { buildMetadata } from "@/lib/metadata";
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/landing/window-tinting-home', {
+    title: 'Home Window Tinting Dubai | Free Quote | Smart Auto UAE',
+    description: 'Residential window tinting in Dubai. Reduce heat by up to 80%. Free on-site consultation. Same week installation.',
+  })
+}
 
 // ─── CONFIG ────────────────────────────────────────────────────────────────────
 const phoneNumber = "+971547011800";

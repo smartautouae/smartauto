@@ -2,12 +2,16 @@ import { getPublishedPosts } from '@/lib/actions/blog'
 import Link from 'next/link'
 import { Calendar, Tag } from 'lucide-react'
 import type { Metadata } from 'next'
+import { buildMetadata } from "@/lib/metadata";
 
 export const revalidate = 0
 
-export const metadata: Metadata = {
-  title: 'Blog | Smart Auto UAE',
-  description: 'Read our latest articles on window tinting, PPF, ceramic coating and more.',
+// SEO
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/blog', {
+    title: 'Blog | Smart Auto UAE | Window Tinting Tips & Guides Dubai',
+    description: 'Window tinting tips, PPF guides, ceramic coating advice and car care news from the Smart Auto UAE team in Dubai.',
+  })
 }
 
 export default async function BlogPage() {

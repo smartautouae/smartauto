@@ -9,34 +9,12 @@ import Footer from "@/components/Footer";
 
 // ── SEO METADATA ───────────────────────────────────────────────────────────
 
-export const metadata: Metadata = {
-  title: "Car Protection Services Dubai & Sharjah | Window Tinting, PPF, Ceramic Coating | Smart Auto UAE",
-  description:
-    "Smart Auto UAE offers Premium Car Protection  services in Dubai & Sharjah - Window Tinting, Paint Protection Film (PPF), Nano Ceramic Coating, Car Detailing, Car Wrapping, Villa Tinting & more. 4 branches across MotorCity, Al Quoz, Mirdif & Sharjah.",
-  keywords: [
-    "Car Protection services Dubai", "Car Protection services Sharjah",
-    "window tinting Dubai", "window tinting Sharjah",
-    "PPF Dubai", "PPF Sharjah",
-    "paint protection film Dubai", "paint protection film Sharjah",
-    "nano ceramic coating Dubai", "ceramic coating Sharjah",
-    "car detailing Dubai", "car detailing Sharjah",
-    "car wrapping Dubai", "car wrapping Sharjah",
-    "villa window tinting Dubai", "villa window tinting Sharjah",
-    "commercial window tinting Dubai", "commercial window tinting Sharjah",
-    "smart glass film Dubai", "surface protection film Dubai",
-    "Smart Auto UAE", "auto care Dubai", "auto care Sharjah",
-    "Car Protection  UAE", "best Car Protection Dubai", "best Car Protection Sharjah",
-    "car tinting near me Dubai", "ceramic coating near me Sharjah",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/services" },
-  openGraph: {
-    title: "Car Protection Services Dubai & Sharjah | Smart Auto UAE",
-    description: "Premium window tinting, PPF, ceramic coating, car detailing & wrapping across 4 branches in Dubai & Sharjah.",
-    url: "https://smartautouae.ae/services",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/services', {
+    title: 'Our Services | Smart Auto UAE | Dubai & Sharjah',
+    description: 'Car window tinting, villa tinting, PPF, ceramic coating, smart film, car wrapping and surface protection. Available at 4 branches across Dubai & Sharjah.',
+  })
+}
 
 // ── DATA ───────────────────────────────────────────────────────────────────
 

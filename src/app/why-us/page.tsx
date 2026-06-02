@@ -9,47 +9,16 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
+import { buildMetadata } from "@/lib/metadata";
 
 // ── SEO METADATA ───────────────────────────────────────────────────────────
 
-export const metadata: Metadata = {
-  title: "Why Choose Smart Auto UAE | Best Window Tinting & Protection Films Dubai & Sharjah",
-  description:
-    "Why Smart Auto UAE? UAE authorised distributor & applicator of 3M USA, Global USA & Totalgard. 20+ years experience. 4 branches - MotorCity, Al Quoz, Mirdif & Sharjah. 600+ 5-star reviews. Professional window tinting, smart film, surface protection & PPF in Dubai & Sharjah. Free consultation.",
-  keywords: [
-    "why choose Smart Auto UAE",
-    "best window tinting Dubai",
-    "best window tinting Sharjah",
-    "trusted window tinting Dubai",
-    "3M authorised applicator Dubai",
-    "Totalgard authorised applicator UAE",
-    "best car tinting Dubai",
-    "best villa tinting Dubai",
-    "best commercial tinting Dubai",
-    "professional window film Dubai",
-    "window tinting experts Dubai",
-    "Smart Auto UAE reviews",
-    "Smart Auto UAE branches",
-    "window tinting near me Dubai",
-    "window tinting near me Sharjah",
-    "best PPF Dubai",
-    "surface protection film Dubai",
-    "smart film Dubai",
-    "Smart Auto MotorCity",
-    "Smart Auto Al Quoz",
-    "Smart Auto Mirdif",
-    "Smart Auto Sharjah",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/why-us" },
-  openGraph: {
-    title: "Why Choose Smart Auto UAE | Best Window Tinting Dubai & Sharjah",
-    description:
-      "UAE authorised 3M, Global USA & Totalgard applicator. 20+ years. 4 branches. 600+ 5-star reviews. Dubai & Sharjah's most trusted window tinting and protection film experts.",
-    url: "https://smartautouae.ae/why-us",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/why-us', {
+    title: 'Why Choose Smart Auto UAE | 10+ Years · 4 Branches · Dubai',
+    description: 'Discover why Smart Auto UAE is Dubai\'s most trusted window tinting and PPF specialist. 3M certified, RTA compliant, 10+ years experience, 4 branches.',
+  })
+}
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 
