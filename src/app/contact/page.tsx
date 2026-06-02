@@ -7,41 +7,16 @@ import {
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { buildMetadata } from "@/lib/metadata";
 
 // ── SEO METADATA ───────────────────────────────────────────────────────────
 
-export const metadata: Metadata = {
-  title: "Contact Smart Auto UAE | Window Tinting Dubai & Sharjah | 4 Branches",
-  description:
-    "Contact Smart Auto UAE for window tinting, smart film, PPF & surface protection in Dubai & Sharjah. 4 branches - MotorCity, Al Quoz, Mirdif & Central Mall Sharjah. Open every day 11AM–9PM. Call, WhatsApp or visit us for a free consultation.",
-  keywords: [
-    "contact Smart Auto UAE",
-    "Smart Auto UAE phone number",
-    "Smart Auto UAE WhatsApp",
-    "window tinting near me Dubai",
-    "window tinting near me Sharjah",
-    "Smart Auto MotorCity",
-    "Smart Auto Al Quoz",
-    "Smart Auto Mirdif",
-    "Smart Auto Sharjah",
-    "window tinting Dubai contact",
-    "window tinting Sharjah contact",
-    "Smart Auto UAE location",
-    "Smart Auto UAE address",
-    "Smart Auto UAE opening hours",
-    "free window tinting consultation Dubai",
-    "book window tinting Dubai",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/contact" },
-  openGraph: {
-    title: "Contact Smart Auto UAE | 4 Branches - Dubai & Sharjah",
-    description:
-      "4 branches across Dubai & Sharjah. Open every day 11AM–9PM. Call, WhatsApp or visit for a free consultation on window tinting, smart film & more.",
-    url: "https://smartautouae.ae/contact",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/contact', {
+    title: 'Contact Smart Auto UAE | Dubai & Sharjah',
+    description: 'Get in touch with Smart Auto UAE. 4 branches across Dubai and Sharjah. Call, WhatsApp, or walk in. Open every day 11AM–9PM.',
+  })
+}
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 
@@ -250,7 +225,7 @@ export default function ContactPage() {
                 <a href="tel:+971567269666"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm no-underline border"
                   style={{ borderColor: "rgba(201,168,76,0.3)", color: gold, background: "rgba(201,168,76,0.04)" }}>
-                  <Phone size={14} /> +971 55 555 9424
+                  <Phone size={14} /> +971 56 726 9666
                 </a>
                 <a href="mailto:info@smartautouae.com"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm no-underline border"

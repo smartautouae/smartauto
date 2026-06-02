@@ -5,45 +5,16 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BranchCards from "@/components/BranchCards";
 import { BRANCHES } from "@/constants/branches";
+import { buildMetadata } from "@/lib/metadata";
 
 // ── SEO METADATA ───────────────────────────────────────────────────────────
 
-export const metadata: Metadata = {
-  title: "Customer Reviews & Testimonials | Smart Auto UAE | Window Tinting Dubai & Sharjah",
-  description:
-    "600+ verified 5-star customer reviews for Smart Auto UAE. Trusted window tinting, smart film, PPF & surface protection services across Dubai & Sharjah. Read real reviews from real customers - car tinting, villa tinting, commercial tinting, smart film & more.",
-  keywords: [
-    "Smart Auto UAE reviews",
-    "Smart Auto UAE testimonials",
-    "window tinting reviews Dubai",
-    "window tinting reviews Sharjah",
-    "car tinting reviews Dubai",
-    "villa tinting reviews Dubai",
-    "commercial tinting reviews Dubai",
-    "3M tinting reviews Dubai",
-    "Totalgard reviews UAE",
-    "best window tinting Dubai reviews",
-    "Smart Auto Google reviews",
-    "window film reviews Dubai",
-    "smart film reviews Dubai",
-    "PPF reviews Dubai",
-    "surface protection film reviews Dubai",
-    "Smart Auto MotorCity reviews",
-    "Smart Auto Al Quoz reviews",
-    "Smart Auto Mirdif reviews",
-    "Smart Auto Sharjah reviews",
-    "trusted window tinting Dubai",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/testimonials" },
-  openGraph: {
-    title: "Customer Reviews & Testimonials | Smart Auto UAE",
-    description:
-      "600+ verified 5-star Google reviews for Smart Auto UAE. Trusted window tinting, smart film & PPF in Dubai & Sharjah. Real reviews from real customers.",
-    url: "https://smartautouae.ae/testimonials",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/testimonials', {
+    title: 'Customer Reviews | Smart Auto UAE | Dubai & Sharjah',
+    description: 'See what our customers say about Smart Auto UAE. Hundreds of 5-star reviews for window tinting, PPF, ceramic coating and smart film in Dubai & Sharjah.',
+  })
+}
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 
@@ -489,7 +460,7 @@ export default function TestimonialsPage() {
                   <a href="tel:+971524403677"
                     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold text-sm no-underline border"
                     style={{ borderColor: "rgba(201,168,76,0.35)", color: gold, background: "rgba(201,168,76,0.04)" }}>
-                    <Phone size={15} /> +971 55 555 9424
+                    <Phone size={15} /> +971 56 726 9666
                   </a>
                 </div>
               </div>
