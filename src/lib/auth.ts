@@ -5,6 +5,7 @@ const JWT_SECRET = new TextEncoder().encode(
 )
 
 export async function verifySession(token: string): Promise<boolean> {
+  console.log('verifySession called, token length:', token.length, 'value:', token.slice(0, 20))
   try {
     await jwtVerify(token, JWT_SECRET)
     return true

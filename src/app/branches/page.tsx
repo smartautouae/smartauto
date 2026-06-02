@@ -7,45 +7,17 @@ import {
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { buildMetadata } from "@/lib/metadata";
 
-// ── SEO METADATA ───────────────────────────────────────────────────────────
 
-export const metadata: Metadata = {
-  title: "Our Branches | Smart Auto UAE | Dubai & Sharjah | MotorCity · Al Quoz · Mirdif · Sharjah",
-  description:
-    "4 Smart Auto UAE branches across Dubai & Sharjah - MotorCity Dubai, Al Quoz Dubai, Mirdif Uptown Mall Dubai & Central Mall Sharjah. Open every day 11AM–9PM. Window tinting, smart film, PPF & surface protection. Free consultation. Walk in or book online.",
-  keywords: [
-    "Smart Auto UAE branches",
-    "Smart Auto MotorCity Dubai",
-    "Smart Auto Al Quoz Dubai",
-    "Smart Auto Mirdif Dubai",
-    "Smart Auto Sharjah",
-    "window tinting MotorCity Dubai",
-    "window tinting Al Quoz Dubai",
-    "window tinting Mirdif Dubai",
-    "window tinting Sharjah",
-    "window tinting near me Dubai",
-    "window tinting near me Sharjah",
-    "car tinting near me Dubai",
-    "villa tinting near me Dubai",
-    "Smart Auto UAE location",
-    "Smart Auto UAE opening hours",
-    "Smart Auto UAE address",
-    "tinting shop Dubai",
-    "tinting shop Sharjah",
-    "PPF near me Dubai",
-    "smart film near me Dubai",
-  ],
-  alternates: { canonical: "https://smartautouae.ae/branches" },
-  openGraph: {
-    title: "Our Branches | Smart Auto UAE | Dubai & Sharjah",
+//SEO
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata("/branches", {                           
+    title: "Our Branches | Smart Auto UAE | Dubai & Sharjah | MotorCity · Al Quoz · Mirdif · Sharjah",
     description:
-      "4 branches - MotorCity, Al Quoz, Mirdif & Central Mall Sharjah. Open every day 11AM–9PM. Window tinting, smart film, PPF & surface protection.",
-    url: "https://smartautouae.ae/branches",
-    siteName: "Smart Auto UAE",
-    type: "website",
-  },
-};
+      "4 Smart Auto UAE branches across Dubai & Sharjah - MotorCity Dubai, Al Quoz Dubai, Mirdif Uptown Mall Dubai & Central Mall Sharjah. Open every day 11AM–9PM.",
+  });
+}
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
 

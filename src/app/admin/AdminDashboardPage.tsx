@@ -166,15 +166,22 @@ export default function AdminDashboardPage() {
   const [error,   setError]   = useState('')
 
   const load = async () => {
-    setLoading(true)
-    setError('')
-    try {
-      const [seoRes, blogRes] = await Promise.all([
-        fetch('/api/admin/seo'),
-        fetch('/api/admin/blog?limit=5'),
-      ])
+  setLoading(true)
+  setError('')
+  try {
+    const [seoRes, blogRes] = await Promise.all([
+      fetch('/api/admin/seo',          { credentials: 'include' }), // ← ADD
+      fetch('/api/admin/blog?limit=5', { credentials: 'include' }), // ← ADD for consistency
+    ])
 
-      const seoPages: Record<string, unknown>[] = seoRes.ok ? await seoRes.json() : []
+    // ── ADD THESE 4 LINES ──
+    console.log('SEO status:',  seoRes.status)
+    console.log('Blog status:', blogRes.status)
+    const seoRaw = await seoRes.text()
+    console.log('SEO response:', seoRaw)
+    //
+
+    const seoPages: Record<string, unknown>[] = seoRes.ok ? await seoRes.json() : []
       const blogData = blogRes.ok ? await blogRes.json() : { posts: [], total: 0 }
 
       const complete  = seoPages.filter((p) => p.title && p.description && p.og_image).length
