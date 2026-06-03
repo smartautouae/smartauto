@@ -44,7 +44,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/car-detailing",
-        destination: "/services/car-detailing-polishing-dubai-sharjah-polishing-dubai-sharjah",
+        destination: "/services/car-detailing-polishing-dubai-sharjah",
         permanent: true,
       },
       {

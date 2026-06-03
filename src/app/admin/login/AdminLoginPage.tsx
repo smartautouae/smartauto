@@ -131,7 +131,7 @@ export default function AdminLoginPage() {
                 autoComplete="email"
                 value={email}
                 onChange={(e) => { setEmail(e.target.value); setError('') }}
-                placeholder="admin@smartautouae.ae"
+                placeholder="info@smartautouae.ae"
                 style={inputBase}
                 onFocus={(e) => {
                   e.currentTarget.style.borderColor = 'rgba(201,168,76,0.4)'

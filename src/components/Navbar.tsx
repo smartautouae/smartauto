@@ -13,7 +13,7 @@ const carServices = [
   { label: "Paint Protection Film",     href: "/services/paint-protection-film-dubai-sharjah" },
   { label: "Colour PPF",                href: "/services/colour-ppf-dubai-sharjah" },
   { label: "Nano Ceramic Coating",      href: "/services/nano-ceramic-coating-dubai-sharjah" },
-  { label: "Car Detailing & Polishing", href: "/services/car-detailing-polishing-dubai-sharjah-polishing-dubai-sharjah" },
+  { label: "Car Detailing & Polishing", href: "/services/car-detailing-polishing-dubai-sharjah" },
   { label: "Car Wrapping",              href: "/services/car-wrapping-dubai-sharjah" },
 ];
 

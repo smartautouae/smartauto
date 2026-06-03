@@ -15,7 +15,7 @@ const REAL_PAGES = [
   { route: '/why-us',                                             page_label: 'Why Us' },
   { route: '/services',                                           page_label: 'Services' },
   { route: '/services/anti-shatter-film-safety-film',             page_label: 'Anti-Shatter Film' },
-  { route: '/services/car-detailing-polishing-dubai-sharjah-polishing-dubai-sharjah',     page_label: 'Car Detailing & Polishing' },
+  { route: '/services/car-detailing-polishing-dubai-sharjah',     page_label: 'Car Detailing & Polishing' },
   { route: '/services/car-window-tinting-dubai-sharjah',          page_label: 'Car Window Tinting' },
   { route: '/services/car-wrapping-dubai-sharjah',                page_label: 'Car Wrapping' },
   { route: '/services/colour-ppf-dubai-sharjah',                  page_label: 'Colour PPF' },

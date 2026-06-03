@@ -19,7 +19,7 @@ const services = [
   {
     icon: Sun,
     title: "Car Window Tinting",
-    href: "/services/car-window-tinting-dubai/",
+    href: "/services/car-window-tinting-dubai-sharjah",
     image: "/images/car-window-tinting.webp",
     description:
       "Premium nano ceramic & carbon window tints for Dubai & Sharjah and across UAE - blocks 99% UV rays and heat, keeping your car cool in UAE's extreme climate. 3M,  &  films. UAE RTA law compliant. upto 15-year warranty.",
