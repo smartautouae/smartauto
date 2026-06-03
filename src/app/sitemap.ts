@@ -1,6 +1,6 @@
 // src/app/sitemap.ts
 import { MetadataRoute } from 'next'
-import { getPublishedPosts } from '@/lib/actions/blog' // adjust path if needed
+import { getPublishedPosts } from '@/lib/actions/blog'
 
 const BASE_URL = 'https://smartautouae.ae'
 
