@@ -2,7 +2,7 @@
 import { MetadataRoute } from 'next'
 import { getPublishedPosts } from '@/lib/actions/blog'
 
-const BASE_URL = 'https://smartautouae.ae'
+const BASE_URL = 'https://www.smartautouae.ae'
 
 const staticRoutes: {
   url: string

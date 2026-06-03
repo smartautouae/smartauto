@@ -41,7 +41,7 @@ const services = [
     slug: "/services/paint-protection-film-dubai-sharjah",
     tag: "Premium",
     tagColor: "#a78bfa",
-    image: "/images/services/ppf-1.webp",
+    image: "/images/services/PPF-1.webp",
     description: "Self-healing paint protection film (PPF) shielding your car from scratches, stone chips, and harsh UAE road conditions. Specialized PPF instllaller in Dubai & Sharjah.",
     features: ["Self-healing PPF", "Hydrophobic finish", "Gloss or matte finish", "10-year warranty"],
     price: "From AED 3,499",

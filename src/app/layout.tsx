@@ -8,7 +8,7 @@ import { getSeoForRoute } from "@/lib/seo";
 const inter    = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
-const BASE_URL = "https://smartautouae.ae";
+const BASE_URL = "https://www.smartautouae.ae";
 
 const FALLBACK = {
   title:       "Window Tinting, PPF & Ceramic Coating in Dubai & Sharjah",

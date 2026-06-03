@@ -228,7 +228,7 @@ export default function AdminHeader() {
 
         {/* View site */}
         <a
-          href="https://smartautouae.com"
+          href="https://www.smartautouae.com"
           target="_blank"
           rel="noopener noreferrer"
           style={{

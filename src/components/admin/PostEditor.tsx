@@ -24,7 +24,7 @@ const SCHEMA_TEMPLATES: Record<string, string> = {
   Article: JSON.stringify({
     "@context": "https://schema.org", "@type": "Article", "headline": "", "description": "",
     "author": { "@type": "Organization", "name": "Smart Auto UAE" },
-    "publisher": { "@type": "Organization", "name": "Smart Auto UAE", "logo": { "@type": "ImageObject", "url": "https://smartautouae.com/logo.png" } },
+    "publisher": { "@type": "Organization", "name": "Smart Auto UAE", "logo": { "@type": "ImageObject", "url": "https://www.smartautouae.com/logo.png" } },
     "datePublished": "", "dateModified": "", "image": ""
   }, null, 2),
   BlogPosting: JSON.stringify({
