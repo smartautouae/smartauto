@@ -11,12 +11,12 @@ import { buildMetadata } from "@/lib/metadata";
 
 
 //SEO
+
 export async function generateMetadata(): Promise<Metadata> {
-  return buildMetadata("/branches", {                           
-    title: "Our Branches | Smart Auto UAE | Dubai & Sharjah | MotorCity · Al Quoz · Mirdif · Sharjah",
-    description:
-      "4 Smart Auto UAE branches across Dubai & Sharjah - MotorCity Dubai, Al Quoz Dubai, Mirdif Uptown Mall Dubai & Central Mall Sharjah. Open every day 11AM–9PM.",
-  });
+  return buildMetadata('/services/anti-shatter-film-safety-film', {
+    title: 'Our Branches | Smart Auto UAE | Dubai & Sharjah | MotorCity · Al Quoz · Mirdif · Sharjah',
+    description: '"4 Smart Auto UAE branches across Dubai & Sharjah - MotorCity Dubai, Al Quoz Dubai, Mirdif Uptown Mall Dubai & Central Mall Sharjah.',
+  })
 }
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────

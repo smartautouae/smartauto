@@ -10,8 +10,8 @@ import { buildMetadata } from "@/lib/metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata('/gallery', {
-    title: 'Gallery | Smart Auto UAE | Window Tinting & PPF Dubai',
-    description: 'Browse our gallery of window tinting, PPF, smart film and ceramic coating projects across Dubai and Sharjah.',
+    title: 'Car Tinting, PPF & Wrapping Gallery Dubai Projects',
+    description: 'Browse completed window tinting, PPF, ceramic coating and car wrapping projects across Dubai and Sharjah for inspiration and ideas.',
   })
 }
 
