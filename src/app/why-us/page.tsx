@@ -14,7 +14,7 @@ import { buildMetadata } from "@/lib/metadata";
 // ── SEO METADATA ───────────────────────────────────────────────────────────
 
 export async function generateMetadata(): Promise<Metadata> {
-  return buildMetadata('/services/car-wrapping-dubai-sharjah', {
+  return buildMetadata('/why-us', {
     title: 'Why Choose Smart Auto UAE | 10+ Years · 4 Branches · Dubai',
     description: 'Discover why Smart Auto UAE is Dubai\'s most trusted window tinting and PPF specialist. 3M certified, RTA compliant, 10+ years experience, 4 branches.',
   })
