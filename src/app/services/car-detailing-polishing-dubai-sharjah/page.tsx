@@ -14,7 +14,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const dynamic = 'force-dynamic'
 
 export async function generateMetadata(): Promise<Metadata> {
-  return buildMetadata('/services/car-detailing-polishing-dubai-sharjah', {
+  return buildMetadata('/servicescar-detailing-polishing-dubai-sharjah-polishing-dubai-sharjah', {
     title: 'Car Detailing & Polishing Dubai & Sharjah- Smart Auto',
     description: 'Professional car detailing and polishing in Dubai & Sharjah. 3M, SIRIUS & Polytop products. Smart Auto UAE.',
   })

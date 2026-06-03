@@ -100,7 +100,7 @@ const services = [
   { name: "Villa Window Tinting",         href: "/services/villa-window-tinting-dubai-sharjah" },
   { name: "Commercial Window Tinting",    href: "/services/commercial-window-tinting-dubai-sharjah" },
   { name: "Switchable Smart Film",        href: "/services/switchable-smart-glass-film-dubai-sharjah" },
-  { name: "Surface Protection Films",     href: "/services/surface-protection-films-dubai-sharjah" },
+  { name: "Surface Protection Films",     href: "/services/surface-protection-film-dubai-sharjah" },
   { name: "Paint Protection Film (PPF)",  href: "/services/paint-protection-film-dubai-sharjah" },
 ];
 

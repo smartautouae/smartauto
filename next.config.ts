@@ -43,8 +43,8 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/car-detailing",
-        destination: "/services/car-detailing-polishing-dubai-sharjah",
+        source: "car-detailing-polishing-dubai-sharjah",
+        destination: "/servicescar-detailing-polishing-dubai-sharjah-polishing-dubai-sharjah",
         permanent: true,
       },
       {

@@ -19,7 +19,7 @@ const services = [
   {
     icon: Sun,
     title: "Car Window Tinting",
-    href: "/car-window-tinting-dubai/",
+    href: "/services/car-window-tinting-dubai/",
     image: "/images/car-window-tinting.webp",
     description:
       "Premium nano ceramic & carbon window tints for Dubai & Sharjah and across UAE - blocks 99% UV rays and heat, keeping your car cool in UAE's extreme climate. 3M,  &  films. UAE RTA law compliant. upto 15-year warranty.",
@@ -28,7 +28,7 @@ const services = [
   {
     icon: Building2,
     title: "Villa Window Tinting",
-    href: "/villa-window-tinting/",
+    href: "/services/villa-window-tinting/",
     image: "/images/villa-window-tinting.webp",
     description:
       "Residential window tinting for villas and apartments in Dubai & Sharjah and across UAE - heat control window film that enhances privacy, blocks UV rays, and adds a sleek modern aesthetic to your home.",
@@ -37,7 +37,7 @@ const services = [
   {
     icon: Building2,
     title: "Office & Commercial Window Tinting",
-    href: "/commercial/",
+    href: "/services/commercial/",
     image: "/images/office-commercial-window-tinting.webp",
     description:
       "Commercial window tinting for offices and buildings across Dubai & Sharjah and across UAE - energy saving window film that reduces cooling costs, blocks UV, enhances privacy, and improves workplace comfort.",
@@ -46,7 +46,7 @@ const services = [
   {
     icon: Shield,
     title: "Paint Protection Film (PPF)",
-    href: "/paint-protection-films/",
+    href: "/services/paint-protection-films/",
     image: "images/ppf.webp",
     description:
       "Self-healing PPF in Dubai & Sharjah and across UAE - invisible TPU film that shields your car from scratches, stone chips, and UAE road hazards. TotalGard &  installer. 10-year warranty.",
@@ -55,7 +55,7 @@ const services = [
   {
     icon: Droplets,
     title: "Nano Ceramic Coating",
-    href: "/nano-ceramic-coating/",
+    href: "/services/nano-ceramic-coating/",
     image: "/images/nano-ceramic.webp",
     description:
       "9H & 10H nano ceramic coating in Dubai & Sharjah and across UAE - hydrophobic, scratch-resistant shield built for UAE's intense heat, sand, and UV exposure. Gyeon, Gtechniq & IGL coatings. Ideal for luxury cars.",
@@ -64,7 +64,7 @@ const services = [
   {
     icon: Sparkles,
     title: "Car Detailing & Polishing",
-    href: "/car-detailing/",
+    href: "/servicescar-detailing-polishing-dubai-sharjah/",
     image: "/images/detailing.webp",
     description:
       "Professional car detailing in Dubai & Sharjah and across UAE - interior deep clean, exterior polishing, car interior deep clean, engine bay wash, and odor elimination for a showroom-quality finish at all 4 branches.",
@@ -73,7 +73,7 @@ const services = [
   {
     icon: Car,
     title: "Car Wrapping",
-    href: "/car-wrapping/",
+    href: "/services/car-wrapping/",
     image: "images/car-wrapping.webp",
     description:
       "Vinyl car wrapping in Dubai & Sharjah and across UAE - colour change car wrap, matte, gloss, satin, chrome wrap, and bespoke custom designs. Full & partial wraps with paint-safe removal guaranteed.",
@@ -82,7 +82,7 @@ const services = [
   {
     icon: Zap,
     title: "Smart Film",
-    href: "/switchable-smart-film/",
+    href: "/services/switchable-smart-film/",
     image: "images/smart-film.webp",
     description:
       "Electric smart film for offices, villas in Dubai & Sharjah and across UAE- switchable smart glass that switches from transparent to fully private at a touch. Energy efficient privacy glass UAE.",
@@ -91,7 +91,7 @@ const services = [
   {
     icon: Film,
     title: "Marble & Surface Protection Film",
-    href: "/stone-protection-film/",
+    href: "/services/stone-protection-film/",
     image: "images/marble-and-surface-protection.webp",
     description:
       "Invisible marble protection film and surface protection film for Dubai & Sharjah and across UAE- guards stone, panels, door edges, and trims from chips, scratches, and daily wear. Crystal clear finish.",

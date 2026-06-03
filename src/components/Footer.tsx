@@ -6,7 +6,7 @@ const carServices = [
   { label: "Paint Protection Film",     href: "/services/paint-protection-film-dubai-sharjah" },
   { label: "Colour PPF",                href: "/services/colour-ppf-dubai-sharjah" },
   { label: "Nano Ceramic Coating",      href: "/services/nano-ceramic-coating-dubai-sharjah" },
-  { label: "Car Detailing & Polishing", href: "/services/car-detailing-polishing-dubai-sharjah" },
+  { label: "Car Detailing & Polishing", href: "/servicescar-detailing-polishing-dubai-sharjah-polishing-dubai-sharjah" },
   { label: "Car Wrapping",              href: "/services/car-wrapping-dubai-sharjah" },
 ];
 
@@ -245,20 +245,6 @@ export default function Footer() {
           <p className="text-[12px]" style={{ color: "rgba(255,255,255,0.25)" }}>
             © {new Date().getFullYear()} Smart Auto UAE — All rights reserved.
           </p>
-          <div className="flex gap-6">
-            {[
-              { label: "Privacy Policy",   href: "/privacy-policy" },
-              { label: "Terms of Service", href: "/terms-of-service" },
-            ].map((l) => (
-              <Link
-                key={l.label}
-                href={l.href}
-                className="text-[12px] no-underline transition-colors duration-300 hover:text-[#C9A84C]"
-                style={{ color: "rgba(255,255,255,0.25)" }}>
-                {l.label}
-              </Link>
-            ))}
-          </div>
         </div>
 
       </div>
