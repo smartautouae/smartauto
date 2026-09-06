@@ -672,7 +672,7 @@ export default function CommercialWindowTintingPage() {
                   style={{ background: "linear-gradient(to right,rgba(0,0,0,0.4) 0%,transparent 70%)" }} />
                 <div className="absolute bottom-6 left-6 flex gap-3">
                   {[
-                    { val: "20+",  label: "Yrs Exp." },
+                    { val: "15+",  label: "Yrs Exp." },
                     { val: "4",    label: "Branches" },
                     { val: "600+", label: "Reviews" },
                   ].map((s) => (
@@ -704,7 +704,7 @@ export default function CommercialWindowTintingPage() {
                   <strong style={{ color: "rgba(255,255,255,0.75)" }}>3M USA, Global USA, and Totalgard</strong>{" "}
                   commercial window films, Smart Auto UAE delivers precision commercial installations
                   across offices, buildings, retail spaces, hotels, and schools throughout Dubai and Sharjah.
-                  Over 20 years of experience. Minimal disruption to your business operations.
+                  Over 15 years of experience. Minimal disruption to your business operations.
                   Full compliance with UAE building codes and safety standards.
                 </p>
                 <div className="flex flex-col gap-4 mb-9">

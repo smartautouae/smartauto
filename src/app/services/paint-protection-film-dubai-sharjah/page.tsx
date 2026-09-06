@@ -210,7 +210,7 @@ const faqs = [
   },
   {
     q: "How long does PPF last in UAE?",
-    a: "Premium PPF films from TotalGard, SIRIUS, GLOBAL, 3M, and Smart Pro typically last 5–20 years in UAE conditions when properly maintained. All Smart Auto UAE installations come with a 5-year warranty covering yellowing, peeling, bubbling, and delamination.",
+    a: "Premium PPF films from TotalGard, SIRIUS, GLOBAL, 3M, and Smart Pro typically last 5–15 years in UAE conditions when properly maintained. All Smart Auto UAE installations come with a 5-year warranty covering yellowing, peeling, bubbling, and delamination.",
   },
   {
     q: "Can PPF be applied on a new car?",
@@ -600,7 +600,7 @@ export default function PPFPage() {
                   {[
                     { val: "600+", label: "Google Reviews" },
                     { val: "4",    label: "Branches UAE" },
-                    { val: "20+",  label: "Years Exp." },
+                    { val: "15+",  label: "Years Exp." },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -626,7 +626,7 @@ export default function PPFPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 20 years of experience across Dubai and Sharjah, Smart Auto UAE is the most
+                  With over 15 years of experience across Dubai and Sharjah, Smart Auto UAE is the most
                   trusted destination for professional PPF installation near you. We carry 5 premium brands
                   including our own exclusive Smart Pro PPF - installed by certified technicians using
                   precision cut at all 4 locations.

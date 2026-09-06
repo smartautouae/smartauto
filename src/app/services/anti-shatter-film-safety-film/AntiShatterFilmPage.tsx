@@ -787,7 +787,7 @@ export default function AntiShatterFilmPage() {
             {Array.from({ length: 5 }).map((_, i) => (
               <Star key={i} size={14} fill={gold} strokeWidth={0} style={{ color: gold }} />
             ))}
-            <span className="text-white/35 text-[12px] ml-1">Trusted by 100,000+ customers since 2014</span>
+            <span className="text-white/35 text-[12px] ml-1">Trusted by 100,000+ customers since 2011</span>
           </div>
         </motion.div>
       </section>

@@ -139,7 +139,7 @@ const faqs = [
   },
   {
     q: "How long does nano ceramic window tinting last in UAE?",
-    a: "TotalGard and 3M nano ceramic window tints are engineered for long-term durability and typically last 7–20 years in UAE conditions. All Smart Auto UAE installations come with a 5-year warranty covering peeling, bubbling, and colour fade.",
+    a: "TotalGard and 3M nano ceramic window tints are engineered for long-term durability and typically last 7–15 years in UAE conditions. All Smart Auto UAE installations come with a 5-year warranty covering peeling, bubbling, and colour fade.",
   },
   {
     q: "Where can I get nano ceramic window tinting near me in Dubai or Sharjah?",
@@ -556,7 +556,7 @@ export default function CarWindowTintingPage() {
                   {[
                     { val: "600+", label: "Google Reviews" },
                     { val: "4",    label: "Branches UAE"   },
-                    { val: "20+",  label: "Years Exp."     },
+                    { val: "15+",  label: "Years Exp."     },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -582,7 +582,7 @@ export default function CarWindowTintingPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 20 years serving car owners across Dubai and Sharjah and all over UAE, Smart Auto is the
+                  With over 15 years serving car owners across Dubai and Sharjah and all over UAE, Smart Auto is the
                   most trusted nano ceramic window tinting centre near you. We use only genuine TotalGard
                   and 3M films - delivering that signature dark-from-outside, clear-from-inside finish
                   our customers love, with full UAE RTA compliance guaranteed.

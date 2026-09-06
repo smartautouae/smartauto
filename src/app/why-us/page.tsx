@@ -31,7 +31,7 @@ const cardBdr  = "rgba(255,255,255,0.06)";
 // ── DATA ───────────────────────────────────────────────────────────────────
 
 const stats = [
-  { value: "20+",  label: "Years Experience",   desc: "Over a decade of professional installations across Dubai & Sharjah" },
+  { value: "15+",  label: "Years Experience",   desc: "Over a decade of professional installations across Dubai & Sharjah" },
   { value: "4",    label: "Branches",            desc: "MotorCity · Al Quoz · Mirdif · Sharjah - open every day" },
   { value: "600+", label: "5-Star Reviews",      desc: "Verified Google reviews from real customers across the UAE" },
   { value: "3",    label: "Authorised Brands",   desc: "3M USA · Global USA · Totalgard - UAE authorised applicator" },
@@ -48,9 +48,9 @@ const reasons = [
   {
     icon: Award,
     number: "02",
-    title: "Over 20 years of Professional Experience",
-    desc: "With more than 20 years of professional window film, smart film, surface protection, and PPF installation experience in the UAE market, our team has handled thousands of projects - from individual villa windows to full commercial building facades, construction fit-outs, and fleet vehicle tinting. Experience you can see in every installation.",
-    highlight: "20+ Years · Thousands of Projects",
+    title: "Over 15 years of Professional Experience",
+    desc: "With more than 15 years of professional window film, smart film, surface protection, and PPF installation experience in the UAE market, our team has handled thousands of projects - from individual villa windows to full commercial building facades, construction fit-outs, and fleet vehicle tinting. Experience you can see in every installation.",
+    highlight: "15+ Years · Thousands of Projects",
   },
   {
     icon: MapPin,
@@ -63,7 +63,7 @@ const reasons = [
     icon: Star,
     number: "04",
     title: "600+ Verified 5-Star Reviews",
-    desc: "Over 168 verified 5-star Google reviews from real customers across Dubai and Sharjah. Our reviews reflect consistent feedback on three things: exceptional product quality, professional installation standards, and outstanding customer service. Every review is from a real person with a real experience - not curated or filtered.",
+    desc: "Over 600 verified 5-star Google reviews from real customers across Dubai and Sharjah. Our reviews reflect consistent feedback on three things: exceptional product quality, professional installation standards, and outstanding customer service. Every review is from a real person with a real experience - not curated or filtered.",
     highlight: "600+ Google Reviews · Real Customers",
   },
   {
@@ -188,7 +188,7 @@ export default function WhyUsPage() {
               <div className="inline-flex items-center gap-2.5 border rounded-full px-4 py-1.5 mb-8 text-[10px] tracking-[0.3em] uppercase"
                 style={{ borderColor: "rgba(201,168,76,0.25)", background: "rgba(201,168,76,0.05)", color: gold }}>
                 <Star size={10} fill={gold} strokeWidth={0} />
-                UAE Authorised · 20+ Years · 4 Branches · 600+ 5-Star Reviews
+                UAE Authorised · 15+ Years · 4 Branches · 600+ 5-Star Reviews
               </div>
 
               <h1 className="font-bold leading-[1.05] mb-5"
@@ -204,7 +204,7 @@ export default function WhyUsPage() {
                 UAE authorised distributor and certified applicator of{" "}
                 <strong style={{ color: "rgba(255,255,255,0.8)" }}>3M USA, Global USA &amp; Totalgard</strong>.
                 Over{" "}
-                <strong style={{ color: "rgba(255,255,255,0.8)" }}>20 years</strong> of professional window film,
+                <strong style={{ color: "rgba(255,255,255,0.8)" }}>15 years</strong> of professional window film,
                 smart film, surface protection, and PPF installation across{" "}
                 <strong style={{ color: "rgba(255,255,255,0.8)" }}>Dubai and Sharjah</strong>.
                 Trusted by thousands of homeowners, businesses, and fleet operators across the UAE.
@@ -496,7 +496,7 @@ export default function WhyUsPage() {
                 </h2>
                 <p className="mb-8 max-w-lg mx-auto text-sm leading-[1.9]"
                   style={{ color: "rgba(255,255,255,0.4)" }}>
-                  20+ years · 4 branches · 600+ 5-star reviews · UAE authorised applicator.
+                  15+ years · 4 branches · 600+ 5-star reviews · UAE authorised applicator.
                   Free consultation for all residential, commercial &amp; automotive services.
                   Open every day 11AM – 9PM across Dubai &amp; Sharjah.
                 </p>

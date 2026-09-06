@@ -83,7 +83,7 @@ export default function GalleryPage() {
                 {[
                   { v: "1000+", l: "Projects Completed" },
                   { v: "600+",  l: "5-Star Reviews" },
-                  { v: "20+",   l: "Years Experience" },
+                  { v: "15+",   l: "Years Experience" },
                   { v: "4",     l: "Branches" },
                 ].map((s) => (
                   <div key={s.l}

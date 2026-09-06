@@ -667,7 +667,7 @@ export default function VillaWindowTintingPage() {
                   {[
                     { val: "600+", label: "Reviews" },
                     { val: "4",    label: "Branches" },
-                    { val: "20+",  label: "Yrs Exp." },
+                    { val: "15+",  label: "Yrs Exp." },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -693,7 +693,7 @@ export default function VillaWindowTintingPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 20 years of professional window film installation experience across Dubai and
+                  With over 15 years of professional window film installation experience across Dubai and
                   Sharjah, Smart Auto UAE installs only premium{" "}
                   <strong style={{ color: "rgba(255,255,255,0.75)" }}>3M, Global USA, and Totalgard</strong>{" "}
                   films - ensuring maximum heat rejection, lasting UV protection, and flawless optical clarity

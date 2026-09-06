@@ -28,7 +28,7 @@ const cardBdr  = "rgba(255,255,255,0.06)";
 const overallStats = [
   { value: "600+", label: "5-Star Reviews",    sub: "Verified on Google" },
   { value: "4.9",  label: "Average Rating",    sub: "Out of 5 stars" },
-  { value: "20+",  label: "Years Trusted",     sub: "Dubai & Sharjah" },
+  { value: "15+",  label: "Years Trusted",     sub: "Dubai & Sharjah" },
   { value: "4",    label: "Branches",          sub: "MotorCity · Al Quoz · Mirdif · Sharjah" },
 ];
 

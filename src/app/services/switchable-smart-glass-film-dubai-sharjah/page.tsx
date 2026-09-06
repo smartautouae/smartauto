@@ -644,7 +644,7 @@ export default function SwitchableSmartFilmPage() {
                   style={{ background: "linear-gradient(to right,rgba(0,0,0,0.4) 0%,transparent 70%)" }} />
                 <div className="absolute bottom-6 left-6 flex gap-3">
                   {[
-                    { val: "20+",  label: "Yrs Exp." },
+                    { val: "15+",  label: "Yrs Exp." },
                     { val: "4",    label: "Branches" },
                     { val: "600+", label: "Reviews" },
                   ].map((s) => (
@@ -672,7 +672,7 @@ export default function SwitchableSmartFilmPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 20 years of professional window film installation experience, Smart Auto UAE
+                  With over 15 years of professional window film installation experience, Smart Auto UAE
                   delivers flawless PDLC switchable smart film installations across offices, villas, hotels,
                   healthcare spaces, and commercial properties throughout Dubai and Sharjah. Our certified
                   installers handle every project from free site visit to final control system setup -

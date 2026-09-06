@@ -100,9 +100,9 @@ const services = [
 ];
 
 const whyFeatures = [
-  { icon: Award,    title: "Authorised Installers",    description: "Official installer for, TotalGard, 3M,  &  Global USA trusted by UAE car owners since 2014." },
+  { icon: Award,    title: "Authorised Installers",    description: "Official installer for, TotalGard, 3M,  &  Global USA trusted by UAE car owners since 2011." },
   { icon: Users,    title: "World-Class Products",     description: "Premium PPF, ceramic coatings & window films from globally certified brands - zero compromise on quality." },
-  { icon: Clock,    title: "20+ Years of Expertise",   description: "30+ trained technicians, 100k Above trusted customers" },
+  { icon: Clock,    title: "15 Years of Expertise",   description: "30+ trained technicians, 50k Above trusted customers" },
   { icon: ThumbsUp, title: "4 Branches - Always Near", description: "MotorCity, Al Quoz, Mirdif (Dubai) & Sharjah Central Mall - open every day 11AM to 9PM." },
 ];
 
@@ -132,14 +132,14 @@ const branches = [
     city: "MotorCity Branch",
     address: "Detroit Line, Uptown Buildings Foxhill Parking 5, Spinneys Exit, Behind KFC - Dubai, UAE",
     mapHref: "https://maps.app.goo.gl/smd7UDESbcqYXq4h7",
-    phone: "+971 55 782 3731",
+    phone: "+971 56 726 9666",
     hours: "11:00 AM – 9:00 PM",
   },
   {
     city: "Al Quoz Branch",
     address: "D16 Road, Al Quoz 4, Warehouse No. 6 Behind JOTUN Warehouse - Dubai, UAE",
     mapHref: "https://maps.app.goo.gl/iTvk9uV3U27XbzUd7",
-    phone: "+971 54 701 1800",
+    phone: "+971 56 726 9666",
     hours: "11:00 AM – 9:30 PM",
   },
   {
@@ -663,15 +663,15 @@ export default function Home() {
             <strong className="text-white/75 font-medium">nano ceramic coating</strong>, car detailing, and car
             wrapping - serving car owners across{" "}
             <strong className="text-white/75 font-medium">MotorCity, Al Quoz, Mirdif</strong> and{" "}
-            <strong className="text-white/75 font-medium">Sharjah</strong> since 2014.
+            <strong className="text-white/75 font-medium">Sharjah</strong> since 2011.
           </motion.p>
 
           {/* Trust signals */}
           <motion.div className="flex items-center justify-center gap-6 mb-8 flex-wrap"
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.75 }}>
             {[
-              "3M ·  Dealer",
-              "5-Year Warranty",
+              "3M ·  Applicator",
+              "Upto 15-Year Warranty",
               "RTA Law Compliant",
             ].map((t) => (
               <div key={t} className="flex items-center gap-1.5">
@@ -702,7 +702,7 @@ export default function Home() {
             {[
               { value: "600+", label: "Google Reviews" },
               { value: "4",    label: "Branches" },
-              { value: "20+",  label: "Years in UAE" },
+              { value: "15+",  label: "Years in UAE" },
               { value: "5★",   label: "Avg Rating" },
             ].map((s, i) => (
               <div key={s.label} className={`text-center px-3 ${i !== 3 ? "border-r border-gold/15" : ""}`}>
@@ -790,7 +790,7 @@ export default function Home() {
               </h2>
               <p className="text-white/50 text-base leading-[1.8] mb-7">
                 Smart Auto has been the trusted Car Protection in UAE for thousands of vehicle
-                owners in Dubai, Sharjah and across the UAE since 2014. Whether you need the{" "}
+                owners in Dubai, Sharjah and across the UAE since 2011. Whether you need the{" "}
                 <strong className="text-white/70 font-medium">best PPF installer in Dubai</strong>,{" "}
                 professional <strong className="text-white/70 font-medium">ceramic coating for luxury cars</strong>, or
                 affordable <strong className="text-white/70 font-medium">window tinting</strong> - we deliver

@@ -42,7 +42,7 @@ type DashboardData = {
 const QUICK_LINKS = [
   { label: 'Edit SEO',      href: '/admin/seo',      icon: Search,        desc: 'Manage metadata for all pages' },
   { label: 'New Blog Post', href: '/admin/blog/new',  icon: FileText,      desc: 'Write and publish a new article' },
-  { label: 'View Site',     href: '/',                icon: Globe,         desc: 'Open smartautouae.ae', external: true },
+  { label: 'View Site',     href: '/',                icon: Globe,         desc: 'Open totalgard.ae', external: true },
   { label: 'Services',      href: '/admin/services',  icon: Layers,        desc: 'Manage service pages' },
   { label: 'Reviews',       href: '/admin/reviews',   icon: Star,          desc: 'Customer reviews' },
   { label: 'Messages',      href: '/admin/messages',  icon: MessageSquare, desc: 'Contact form submissions' },
@@ -170,36 +170,35 @@ export default function AdminDashboardPage() {
   setError('')
   try {
     const [seoRes, blogRes] = await Promise.all([
-      fetch('/api/admin/seo',          { credentials: 'include' }), // ← ADD
-      fetch('/api/admin/blog?limit=5', { credentials: 'include' }), // ← ADD for consistency
+      fetch('/api/admin/seo',          { credentials: 'include' }),
+      fetch('/api/admin/blog?limit=5', { credentials: 'include' }),
     ])
 
-    // ── ADD THESE 4 LINES ──
     console.log('SEO status:',  seoRes.status)
     console.log('Blog status:', blogRes.status)
-    const seoRaw = await seoRes.text()
-    console.log('SEO response:', seoRaw)
-    //
 
     const seoPages: Record<string, unknown>[] = seoRes.ok ? await seoRes.json() : []
-      const blogData = blogRes.ok ? await blogRes.json() : { posts: [], total: 0 }
+    const blogData = blogRes.ok ? await blogRes.json() : { posts: [], total: 0 }
 
-      const complete  = seoPages.filter((p) => p.title && p.description && p.og_image).length
-      const noTitle   = seoPages.filter((p) => !p.title).length
-      const noDesc    = seoPages.filter((p) => !p.description).length
-      const noOgImage = seoPages.filter((p) => !p.og_image).length
+    console.log('Blog data:', blogData)
 
-      setData({
-        seo: { total: seoPages.length, complete, incomplete: seoPages.length - complete, noTitle, noDesc, noOgImage },
-        recentPosts: blogData.posts ?? [],
-        totalPosts:  blogData.total ?? 0,
-      })
-    } catch {
-      setError('Failed to load dashboard data.')
-    } finally {
-      setLoading(false)
-    }
+    const complete  = seoPages.filter((p) => p.title && p.description && p.og_image).length
+    const noTitle   = seoPages.filter((p) => !p.title).length
+    const noDesc    = seoPages.filter((p) => !p.description).length
+    const noOgImage = seoPages.filter((p) => !p.og_image).length
+
+    setData({
+      seo: { total: seoPages.length, complete, incomplete: seoPages.length - complete, noTitle, noDesc, noOgImage },
+      recentPosts: blogData.posts ?? [],
+      totalPosts:  blogData.total ?? 0,
+    })
+  } catch (err) {
+    console.error('Dashboard load error:', err)
+    setError(err instanceof Error ? err.message : 'Failed to load dashboard data.')
+  } finally {
+    setLoading(false)
   }
+}
 
   useEffect(() => { load() }, [])
 
@@ -225,7 +224,7 @@ return (
           Dashboard
         </h1>
         <p style={{ fontSize: '0.8rem', color: '#7a7264', marginTop: '0.25rem' }}>
-          smartautouae.ae{dateStr ? ` · ${dateStr}` : ''}
+          totalgard.ae{dateStr ? ` · ${dateStr}` : ''}
         </p>
       </div>
 

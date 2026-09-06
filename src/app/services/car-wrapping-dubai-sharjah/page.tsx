@@ -642,7 +642,7 @@ export default function CarWrappingPage() {
                   {[
                     { val: "100+", label: "Colours" },
                     { val: "4",    label: "Branches" },
-                    { val: "20+",  label: "Yrs Exp." },
+                    { val: "15+",  label: "Yrs Exp." },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -668,7 +668,7 @@ export default function CarWrappingPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 20 years of experience and{" "}
+                  With over 15 years of experience and{" "}
                   <strong style={{ color: "rgba(255,255,255,0.75)" }}>100+ vinyl colours and finishes</strong>{" "}
                   available across our 4 Dubai and Sharjah branches, Smart Auto UAE delivers flawless vinyl
                   wrap installations with premium PVC films, precision panel removal, and heat-formed

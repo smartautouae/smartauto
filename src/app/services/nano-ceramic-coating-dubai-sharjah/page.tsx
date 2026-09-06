@@ -745,7 +745,7 @@ export default function NanoCeramicCoatingPage() {
                   {[
                     { val: "600+", label: "Google Reviews" },
                     { val: "4",    label: "Branches UAE" },
-                    { val: "20+",  label: "Years Exp." },
+                    { val: "15+",  label: "Years Exp." },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -771,7 +771,7 @@ export default function NanoCeramicCoatingPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 20 years of experience, Smart Auto UAE is the most trusted nano ceramic
+                  With over 15 years of experience, Smart Auto UAE is the most trusted nano ceramic
                   coating centre in Dubai and Sharjah. Our certified detailers use SIRIUS USA, GYEON,
                   JADE, and ONYX - applied with professional precision at all 4 branches, backed by
                   transparent package pricing and free annual service for every customer.

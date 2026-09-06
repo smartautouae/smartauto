@@ -197,7 +197,7 @@ export default function BranchesPage() {
                 { value: "4",    label: "Branches",        sub: "Dubai & Sharjah" },
                 { value: "7",    label: "Days a Week",     sub: "Always open" },
                 { value: "10h",  label: "Daily Hours",     sub: "11AM – 9PM" },
-                { value: "20+",  label: "Years Experience",sub: "Trusted since 2014" },
+                { value: "15+",  label: "Years Experience",sub: "Trusted since 2011" },
               ].map((stat) => (
                 <div key={stat.label}
                   className="rounded-2xl p-6 border text-center"

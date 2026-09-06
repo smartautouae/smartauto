@@ -872,7 +872,7 @@ export default function CarDetailingPage() {
                   {[
                     { val: "600+", label: "Reviews" },
                     { val: "4",    label: "Branches" },
-                    { val: "20+",  label: "Yrs Exp." },
+                    { val: "15+",  label: "Yrs Exp." },
                   ].map((s) => (
                     <div key={s.label} className="rounded-xl px-4 py-3 text-center border backdrop-blur-md"
                       style={{ background: "rgba(0,0,0,0.8)", border: "1px solid rgba(201,168,76,0.2)" }}>
@@ -898,7 +898,7 @@ export default function CarDetailingPage() {
                   </span>
                 </h2>
                 <p className="text-[14px] leading-[1.9] mb-8" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  With over 20 years of experience serving car owners across Dubai and Sharjah, Smart Auto
+                  With over 15 years of experience serving car owners across Dubai and Sharjah, Smart Auto
                   UAE delivers professional car detailing using{" "}
                   <strong style={{ color: "rgba(255,255,255,0.75)" }}>3M, SIRIUS USA, and Polytop Germany</strong>{" "}
                   products. From a Silver interior refresh to our full Premium package with German compound
